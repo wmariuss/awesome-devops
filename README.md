@@ -213,8 +213,8 @@ A curated list of awesome DevOps tools, platforms and resources.
 - [Nagios](https://www.nagios.org/) - computer-software application that monitors systems, networks and infrastructure.
 - [Sentry](https://sentry.io/welcome/) - error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
 - [Shinken](http://www.shinken-monitoring.org/) - monitoring framework.
-- [Zabbix](https://www.zabbix.com/) - mature and effortless enterprise-class open source monitoring solution for network monitoring and application monitoring.
-- [Glances](https://github.com/nicolargo/glances) - cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
+- [Zabbix](https://www.zabbix.com/) - mature and effortless monitoring solution for network monitoring and application monitoring.
+- [Glances](https://github.com/nicolargo/glances) - monitoring information through a curses or Web based interface.
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - the system statistics collection daemon.
@@ -225,7 +225,7 @@ A curated list of awesome DevOps tools, platforms and resources.
   - [Netdata](https://www.netdata.cloud/) - instantly diagnose slowdowns and anomalies in your infrastructure.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - an event/change logging/managament app.
-  - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
+  - [Graylog](https://github.com/Graylog2/graylog2-server) - free and open source log management.
   - [Logstash](https://www.elastic.co/products/logstash#) - collect, parse, transform logs.
   - [Fluentd](https://www.fluentd.org/) - data collector for unified logging layer.
   - [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
@@ -236,13 +236,13 @@ A curated list of awesome DevOps tools, platforms and resources.
 
 *Service Discovery, Service Mesh and Failure detection tools.*
 
-- [Consul](https://www.hashicorp.com/products/consul/)
-- [Serf](https://www.serf.io/)
-- [Doozerd](https://github.com/ha/doozerd)
-- [Zookeeper](http://zookeeper.apache.org/)
-- [Etcd](https://etcd.io/)
-- [Istio](https://istio.io/)
-- [Kong](https://konghq.com/products/kong-gateway/kong-proxy)
+- [Consul](https://www.hashicorp.com/products/consul/) - connect and secure any service.
+- [Serf](https://www.serf.io/) - decentralized cluster membership, failure detection, and orchestration.
+- [Doozerd](https://github.com/ha/doozerd) - a consistent distributed data store.
+- [Zookeeper](http://zookeeper.apache.org/) - centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
+- [Etcd](https://etcd.io/) - distributed, reliable key-value store for the most critical data of a distributed system.
+- [Istio](https://istio.io/) -cConnect, secure, control, and observe services.
+- [Kong](https://konghq.com/products/kong-gateway/kong-proxy) - deliver performance needed for microservices, service mesh, and cloud native deployments.
 
 ## API Gateway
 
@@ -292,14 +292,14 @@ A curated list of awesome DevOps tools, platforms and resources.
 
 *Chat and ChatOps.*
 
-- [Rocket](https://rocket.chat/)
-- [Mattermost](https://mattermost.com/)
-- [Zulip](https://zulipchat.com/)
-- [Riot](https://about.riot.im/)
+- [Rocket](https://rocket.chat/) - open source team communication.
+- [Mattermost](https://mattermost.com/) - messaging platform that enables secure team collaboration.
+- [Zulip](https://zulipchat.com/) - real-time chat with an email threading model.
+- [Riot](https://about.riot.im/) - a universal secure chat app entirely under your control.
 - ChatOps:
-  - [CloudBot](https://github.com/CloudBotIRC/CloudBot)
-  - [Hubot](https://hubot.github.com/)
-  - [Lita](https://www.lita.io/)
+  - [CloudBot](https://github.com/CloudBotIRC/CloudBot) - simple, fast, expandable, open-source Python IRC Bot.
+  - [Hubot](https://hubot.github.com/) - a customizable life embetterment robot.
+  - [Lita](https://www.lita.io/) - a robot companion for your company's chat room.
 
 ## Secret Management
 
