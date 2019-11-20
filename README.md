@@ -126,6 +126,7 @@ A curated list of awesome DevOps tools, platforms and resources.
 - [Foreman](https://theforeman.org/) - complete lifecycle management tool for physical and virtual servers.
 - [Nomad](https://learn.hashicorp.com/nomad) - deploy and Manage Any Containerized, Legacy, or Batch Application.
 - [Marathon](https://mesosphere.github.io/marathon/) - a production-grade container orchestration platform for DC/OS and Apache Mesos.
+- [Atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation.
 
 ## Continuous Integration & Delivery
 
@@ -137,10 +138,10 @@ A curated list of awesome DevOps tools, platforms and resources.
   - [Jenkins](http://jenkins-ci.org/) - automation server for building, deploying and automating any project.
   - [Drone](https://github.com/drone/drone) - a Container-Native, Continuous Delivery Platform.
   - [Concourse](https://concourse-ci.org/) - pipeline-based continuous thing-doer.
-  - [Spinnaker](https://www.spinnaker.io/) - Fast, safe, repeatable deployments for every Enterprise.
+  - [Spinnaker](https://www.spinnaker.io/) - fast, safe, repeatable deployments for every Enterprise.
   - [goCD](https://www.gocd.org/) - Delivery and Release Automation server.
   - [Teamcity](https://www.jetbrains.com/teamcity/) - enterprise-level CI and CD.
-  - [Bamboo](https://www.atlassian.com/software/bamboo) - Tie automated builds, tests, and releases together in a single workflow.
+  - [Bamboo](https://www.atlassian.com/software/bamboo) - tie automated builds, tests, and releases together in a single workflow.
   - [Integrity](http://integrity.github.io/) - Continuous Integration server.
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating.
   - [Argo](https://argoproj.github.io/) - open source Kubernetes native workflows, events, CI and CD.
@@ -167,70 +168,69 @@ A curated list of awesome DevOps tools, platforms and resources.
 
 *Web servers and reverse proxy.*
 
-- [Nginx](http://nginx.org/)
-- [Apache](http://httpd.apache.org/)
-- [Caddy](https://caddyserver.com/)
-- [Cherokee](http://cherokee-project.com/)
-- [Lighttpd](http://www.lighttpd.net/)
-- [Uwsgi](https://github.com/unbit/uwsgi/)
+- [Nginx](http://nginx.org/) - high performant load balancer, web server and reverse proxy.
+- [Apache](http://httpd.apache.org/) - web server and reverse proxy.
+- [Caddy](https://caddyserver.com/) - web server with automatic HTTPS.
+- [Cherokee](http://cherokee-project.com/) - highly concurrent secured web applications.
+- [Lighttpd](http://www.lighttpd.net/) - optimized for speed-critical environments while remaining standards-compliant, secure and flexible.
+- [Uwsgi](https://github.com/unbit/uwsgi/) - application server container.
 
 ## Databases
 
 *Rational (SQL) and non-rational (NO-SQL) databases.*
 
 - Rational (SQL)
-  - [PostgreSQL](https://www.postgresql.org/)
-  - [MySQL](https://www.mysql.com/)
-  - [MariaDB](https://mariadb.org/)
-  - [SQLite](https://sqlite.org/)
+  - [PostgreSQL](https://www.postgresql.org/) - powerful, open source object-relational database system.
+  - [MySQL](https://www.mysql.com/) - open-source relational database management system.
+  - [MariaDB](https://mariadb.org/) - fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
+  - [SQLite](https://sqlite.org/) - small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - Non-relational (No-SQL)
-  - [Casandra](http://cassandra.apache.org/)
-  - [Apache HBase](http://hbase.apache.org/)
-  - [Couchdb](https://couchdb.apache.org/)
-  - [Elasticsearch](https://www.elastic.co/products/elasticsearch)
-  - [MongoDB](https://www.mongodb.com/)
-  - [Ravendb](https://ravendb.net/)
-  - [Rethinkdb](https://rethinkdb.com/)
+  - [Casandra](http://cassandra.apache.org/) - manage massive amounts of data, fast, without losing sleep.
+  - [Apache HBase](http://hbase.apache.org/) - distributed, versioned, non-relational database.
+  - [Couchdb](https://couchdb.apache.org/) - database that completely embraces the web.
+  - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
+  - [MongoDB](https://www.mongodb.com/) - general purpose, document-based, distributed database built for modern application.
+  - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - open-source database for the realtime web.
   - Key-Value
-    - [Couchbase](https://www.couchbase.com/)
-    - [Leveldb](https://github.com/google/leveldb)
-    - [Redis](https://redis.io/)
-    - [RocksDB](https://rocksdb.org/)
-    - [Etcd](https://github.com/etcd-io/etcd)
+    - [Couchbase](https://www.couchbase.com/) - distributed (shared-nothing architecture) multi-model NoSQL document-oriented database that is optimized for interactive applications.
+    - [Leveldb](https://github.com/google/leveldb) - fast key-value storage library.
+    - [Redis](https://redis.io/) - in-memory data structure store, used as a database, cache and message broker.
+    - [RocksDB](https://rocksdb.org/) - a library that provides an embeddable, persistent key-value store for fast storage.
+    - [Etcd](https://github.com/etcd-io/etcd) - distributed reliable key-value store for the most critical data of a distributed system.
 
 ## Observability & Monitoring
 
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
-- [Sensu](https://sensu.io/)
-- [Alerta](https://github.com/alerta/alerta)
-- [Cabot](https://cabotapp.com/)
-- [Amon](https://github.com/amonapp/amon)
-- [Flapjack](https://flapjack.io/)
-- [Icinga](https://icinga.com/)
-- [Monit](https://mmonit.com/monit/#home)
-- [Naemon](http://www.naemon.org/)
-- [Nagios](https://www.nagios.org/)
-- [Sentry](https://sentry.io/welcome/)
-- [Shinken](http://www.shinken-monitoring.org/)
-- [Zabbix](https://www.zabbix.com/)
-- [Glances](https://github.com/nicolargo/glances)
+- [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring.
+- [Alerta](https://github.com/alerta/alerta) - scalable, minimal configuration and visualization monitoring system.
+- [Cabot](https://github.com/arachnys/cabot) - self-hosted, easily-deployable monitoring and alerts service.
+- [Amon](https://github.com/amonapp/amon) - modern server monitoring platform.
+- [Flapjack](https://flapjack.io/) - monitoring notification routing + event processing system.
+- [Icinga](https://icinga.com/) - monitors availability and performance, gives you simple access to relevant data and raises alerts.
+- [Monit](https://mmonit.com/monit/#home) - managing and monitoring Unix systems.
+- [Naemon](http://www.naemon.org/) - fast, stable and innovative while giving you a clear view of the state of your network and applications.
+- [Nagios](https://www.nagios.org/) - computer-software application that monitors systems, networks and infrastructure.
+- [Sentry](https://sentry.io/welcome/) - error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
+- [Shinken](http://www.shinken-monitoring.org/) - monitoring framework.
+- [Zabbix](https://www.zabbix.com/) - mature and effortless enterprise-class open source monitoring solution for network monitoring and application monitoring.
+- [Glances](https://github.com/nicolargo/glances) - cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface.
 - Metrics/Metrics collection
-  - [Prometheus](https://prometheus.io/)
-  - [Collectd](https://github.com/collectd/collectd)
-  - [Facette](https://github.com/facette/facette)
-  - [Grafana](https://grafana.com/)
-  - [Graphite](https://graphite.readthedocs.io/en/latest/)
-  - [Influxdata](https://www.influxdata.com/)
-  - [Netdata](https://www.netdata.cloud/)
+  - [Prometheus](https://prometheus.io/) - power your metrics and alerting with a leading open-source monitoring solution.
+  - [Collectd](https://github.com/collectd/collectd) - the system statistics collection daemon.
+  - [Facette](https://github.com/facette/facette) - time series data visualization software.
+  - [Grafana](https://grafana.com/) - analytics & monitoring solution for every database.
+  - [Graphite](https://graphite.readthedocs.io/en/latest/) - store numeric time-series data and render graphs of this data on demand.
+  - [Influxdata](https://www.influxdata.com/) - time series database.
+  - [Netdata](https://www.netdata.cloud/) - instantly diagnose slowdowns and anomalies in your infrastructure.
 - Logs Management
-  - [Anthracite](https://github.com/Dieterbe/anthracite)
-  - [Graylog](https://www.graylog.org/)
-  - [Logstash](https://www.elastic.co/products/logstash#)
-  - [Fluentd](https://www.fluentd.org/)
-  - [Flume](https://flume.apache.org/)
-  - [Heka](https://hekad.readthedocs.io/en/latest/#)
-  - [Kibana](https://www.elastic.co/products/kibana)
+  - [Anthracite](https://github.com/Dieterbe/anthracite) - an event/change logging/managament app.
+  - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
+  - [Logstash](https://www.elastic.co/products/logstash#) - collect, parse, transform logs.
+  - [Fluentd](https://www.fluentd.org/) - data collector for unified logging layer.
+  - [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+  - [Heka](https://hekad.readthedocs.io/en/latest/#) - stream processing software system.
+  - [Kibana](https://www.elastic.co/products/kibana) - explore, visualize, discover data.
 
 ## Service Discovery & Service Mesh
 
@@ -305,18 +305,18 @@ A curated list of awesome DevOps tools, platforms and resources.
 
 *Security as code, sensitive credentials and secrets need to be managed, security, maintained and rotated using automation.*
 
-- [Sops](https://github.com/mozilla/sops)
-- [Vault](https://www.hashicorp.com/products/vault/)
-- [Keybase](https://keybase.io/)
+- [Sops](https://github.com/mozilla/sops) - simple and flexible tool for managing secrets.
+- [Vault](https://www.hashicorp.com/products/vault/) - manage secrets and protect sensitive data.
+- [Keybase](https://keybase.io/) - end-to-end encrypted chat and cloud storage system.
 
 ## Sharing
 
 *A collection of tools to help with sharing knowledge and telling the story.*
 
-- [Gitbook](https://github.com/GitbookIO/gitbook)
-- [Docusaurus](https://github.com/facebook/docusaurus)
-- [Docsify](https://github.com/docsifyjs/docsify/)
-- [MkDocs](https://github.com/mkdocs/mkdocs/)
+- [Gitbook](https://github.com/GitbookIO/gitbook) - modern documentation format and toolchain using Git and Markdown.
+- [Docusaurus](https://github.com/facebook/docusaurus) - easy to maintain open source documentation websites.
+- [Docsify](https://github.com/docsifyjs/docsify/) - a magical documentation site generator.
+- [MkDocs](https://github.com/mkdocs/mkdocs/) - project documentation with Markdown.
 
 ## Resources
 
@@ -329,7 +329,7 @@ A curated list of awesome DevOps tools, platforms and resources.
 ### Conferences
 
 - [DevOpsCon](https://devopscon.io/)
-- [AWSre:Invent](https://reinvent.awsevents.com/)
+- [AWS re:Invent](https://reinvent.awsevents.com/)
 - [DevSecOps](https://www.devseccon.com/)
 - [ADDO](https://www.alldaydevops.com/)
 - [DevOpsConnect](https://www.devopsconnect.com/)
