@@ -192,7 +192,7 @@ A curated list of awesome DevOps tools, platforms and resources.
   - [MongoDB](https://www.mongodb.com/) - general purpose, document-based, distributed database built for modern application.
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - open-source database for the realtime web.
   - Key-Value
-    - [Couchbase](https://www.couchbase.com/) - distributed (shared-nothing architecture) multi-model NoSQL document-oriented database that is optimized for interactive applications.
+    - [Couchbase](https://www.couchbase.com/) - distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
     - [Leveldb](https://github.com/google/leveldb) - fast key-value storage library.
     - [Redis](https://redis.io/) - in-memory data structure store, used as a database, cache and message broker.
     - [RocksDB](https://rocksdb.org/) - a library that provides an embeddable, persistent key-value store for fast storage.
@@ -228,7 +228,7 @@ A curated list of awesome DevOps tools, platforms and resources.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - free and open source log management.
   - [Logstash](https://www.elastic.co/products/logstash#) - collect, parse, transform logs.
   - [Fluentd](https://www.fluentd.org/) - data collector for unified logging layer.
-  - [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data.
+  - [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving logs.
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - stream processing software system.
   - [Kibana](https://www.elastic.co/products/kibana) - explore, visualize, discover data.
 
@@ -239,46 +239,46 @@ A curated list of awesome DevOps tools, platforms and resources.
 - [Consul](https://www.hashicorp.com/products/consul/) - connect and secure any service.
 - [Serf](https://www.serf.io/) - decentralized cluster membership, failure detection, and orchestration.
 - [Doozerd](https://github.com/ha/doozerd) - a consistent distributed data store.
-- [Zookeeper](http://zookeeper.apache.org/) - centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services.
+- [Zookeeper](http://zookeeper.apache.org/) - centralized service for configuration, naming, providing distributed synchronization, and more.
 - [Etcd](https://etcd.io/) - distributed, reliable key-value store for the most critical data of a distributed system.
 - [Istio](https://istio.io/) -cConnect, secure, control, and observe services.
 - [Kong](https://konghq.com/products/kong-gateway/kong-proxy) - deliver performance needed for microservices, service mesh, and cloud native deployments.
+- [Linkerd](https://github.com/linkerd/linkerd2) - service mesh for Kubernetes and beyond.
 
 ## API Gateway
 
 *API Gateway, Service Proxy and Service Management tools.*
 
-- [API Umbrella](https://apiumbrella.io/#)
-- [Ambassador](https://www.getambassador.io/)
-- [Kong](https://konghq.com/)
-- [Tyk](https://tyk.io/)
-- [Cilium](https://github.com/cilium/cilium)
-- [Gloo](https://github.com/solo-io/gloo)
-- [Envoy](https://www.envoyproxy.io/)
-- [Traefik](https://traefik.io/)
-- [Nginx](https://nginx.org/)
-- [Linkerd](https://github.com/linkerd/linkerd2)
+- [API Umbrella](https://apiumbrella.io/#) - proxy that sits in front of your APIs.
+- [Ambassador](https://www.getambassador.io/) - Kubernetes-Native API Gateway built on the Envoy Proxy.
+- [Kong](https://konghq.com/) - connect all your microservices and APIs with the industry’s most performant, scalable and flexible API platform.
+- [Tyk](https://tyk.io/) - API and service management platform.
+- [Cilium](https://github.com/cilium/cilium) - API aware networking and security using BPF and XDP.
+- [Gloo](https://github.com/solo-io/gloo) - feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
+- [Envoy](https://www.envoyproxy.io/) - cloud-native high-performance edge/middle/service proxy.
+- [Traefik](https://traefik.io/) - reverse proxy and load balancer for HTTP and TCP-based applications.
+- [Nginx](https://nginx.org/) - high performant reverse proxy.
 
 ## Code review
 
 *Code review. In [Source Code Management](#source-code-management) section you can find few of them with Code review already as feature.*
 
-- [Gerrit](https://www.gerritcodereview.com/)
-- [Review Board](https://www.reviewboard.org/)
+- [Gerrit](https://www.gerritcodereview.com/) - web-based team code collaboration tool.
+- [Review Board](https://www.reviewboard.org/) - web-based collaborative code review tool.
 
 ## Distributed messaging
 
 *Distributed messaging platforms and Queues software.*
 
-- [Rabbitmq](https://www.rabbitmq.com/)
-- [Kafka](http://kafka.apache.org/)
-- [Activemq](http://activemq.apache.org/)
-- [Beanstalkd](https://beanstalkd.github.io/)
-- [NSQ](https://nsq.io/)
-- [Celery](http://www.celeryproject.org/)
-- [Faktory](https://github.com/contribsys/faktory)
-- [Nats](https://nats.io/)
-- [RestMQ](http://restmq.com/)
+- [Rabbitmq](https://www.rabbitmq.com/) - message broker.
+- [Kafka](http://kafka.apache.org/) - building real-time data pipelines and streaming apps.
+- [Activemq](http://activemq.apache.org/) - Multi-Protocol messaging.
+- [Beanstalkd](https://beanstalkd.github.io/) - simple, fast work queue.
+- [NSQ](https://nsq.io/) - realtime distributed messaging platform.
+- [Celery](http://www.celeryproject.org/) - asynchronous task queue/job queue based on distributed message passing.
+- [Faktory](https://github.com/contribsys/faktory) - repository for background jobs within your application.
+- [Nats](https://nats.io/) - simple, secure and high performance open source messaging system.
+- [RestMQ](http://restmq.com/) - message queue which uses HTTP as transport.
 
 ## Programming Languages
 
