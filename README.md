@@ -128,6 +128,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Nomad](https://learn.hashicorp.com/nomad) - deploy and Manage Any Containerized, Legacy, or Batch Application.
 - [Marathon](https://mesosphere.github.io/marathon/) - a production-grade container orchestration platform for DC/OS and Apache Mesos.
 - [Atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation.
+- [OctoDNS](https://github.com/github/octodns) - managing DNS across multiple providers. DNS as code.
 
 ## Continuous Integration & Delivery
 
@@ -334,7 +335,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 ### Books
 
-*Books focused on DevOps and DevSecOps.*
+*Books focused on DevOps, DevSecOps and Site Reliability Engineering.*
 
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
 - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
