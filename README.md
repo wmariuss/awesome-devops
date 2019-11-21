@@ -30,6 +30,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Resources](#resources)
     - [Books](#books)
     - [Conferences](#conferences)
+    - [DevOps Roadmap](#devops-roadmap)
   - [Contributing](#contributing)
   - [Authors](#authors)
 
@@ -83,7 +84,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 ## Applications Platforms
 
-*Applications management platforms, Containers management.*
+*Applications management platforms, Containers platform and Containers management.*
 
 - [Openshift](https://www.openshift.com/) - the Kubernetes platform for big ideas.
 - [Dokku](http://dokku.viewdocs.io/dokku/) - helps you build and manage the lifecycle of applications.
@@ -374,6 +375,10 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [DevOpsConnect](https://www.devopsconnect.com/)
 - [@Scale](https://atscaleconference.com/)
 
+## DevOps Roadmap
+
+Basic understanding and what you should know to become a *DevOps* Engineer, check the roadmap [here](https://roadmap.sh/devops).
+
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [Contribution Guidelines](CONTRIBUTING.md).
@@ -381,3 +386,7 @@ Your contributions are always welcome! Please take a look at the [Contribution G
 ## Authors
 
 Created by *DevOps* for *DevOps*.
+
+## License
+
+[![License: CC0 1.0 Universal](https://img.shields.io/badge/License-CC0%201.0%20Universal-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
