@@ -66,7 +66,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 - [Ubuntu](https://ubuntu.com/)
 - [CentOS](https://www.centos.org/)
-- [CoreOS](http://coreos.com/)
+- [CoreOS](http://coreos.com/) - the pioneering lightweight container host.
 - [OSv](http://osv.io/) - versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud.
 - [Rancher OS](https://rancher.com/rancher-os) - a lightweight, secure Linux distribution, built from containers to run containers well.
 - [Atomic](http://www.projectatomic.io/) - use immutable infrastructure to deploy and scale your containerized applications.
@@ -372,6 +372,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [DevSecOps](https://www.devseccon.com/)
 - [ADDO](https://www.alldaydevops.com/)
 - [DevOpsConnect](https://www.devopsconnect.com/)
+- [@Scale](https://atscaleconference.com/)
 
 ## Contributing
 
