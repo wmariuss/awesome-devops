@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-This is a compilation of *Free and Libre Open Source Software*.
+Your contributions are always welcome.
 
 ## Commits
 

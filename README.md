@@ -262,7 +262,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Doozerd](https://github.com/ha/doozerd) - a consistent distributed data store.
 - [Zookeeper](http://zookeeper.apache.org/) - centralized service for configuration, naming, providing distributed synchronization, and more.
 - [Etcd](https://etcd.io/) - distributed, reliable key-value store for the most critical data of a distributed system.
-- [Istio](https://istio.io/) -cConnect, secure, control, and observe services.
+- [Istio](https://istio.io/) - connect, secure, control, and observe services.
 - [Kong](https://konghq.com/products/kong-gateway/kong-proxy) - deliver performance needed for microservices, service mesh, and cloud native deployments.
 - [Linkerd](https://github.com/linkerd/linkerd2) - service mesh for Kubernetes and beyond.
 
@@ -308,7 +308,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 - [Pyhon](https://www.python.org/) - programming language that lets you work quickly and integrate systems more effectively.
 - [Ruby](https://www.ruby-lang.org/) - a dynamic, open source programming language with a focus on simplicity and productivity.
-- [Go](https://golang.org/) - is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+- [Go](https://golang.org/) - an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
 ## Chat and ChatOps
 
