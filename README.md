@@ -25,6 +25,7 @@ A curated list of awesome DevOps tools, platforms and resources.
   - [Chat and ChatOps](#chat-and-chatops)
   - [Secret Management](#secret-management)
   - [Sharing](#sharing)
+  - [VPN](#vpn)
   - [Resources](#resources)
     - [Books](#books)
     - [Conferences](#conferences)
@@ -317,6 +318,17 @@ A curated list of awesome DevOps tools, platforms and resources.
 - [Docusaurus](https://github.com/facebook/docusaurus) - easy to maintain open source documentation websites.
 - [Docsify](https://github.com/docsifyjs/docsify/) - a magical documentation site generator.
 - [MkDocs](https://github.com/mkdocs/mkdocs/) - project documentation with Markdown.
+
+## VPN
+
+*VPN, routing and firewall.*
+
+- [OpenVPN](https://openvpn.net/) - flexible VPN solutions to secure your data communications, whether it's for Internet privacy,
+- [Pritunl](https://pritunl.com/) - enterprise Distributed OpenVPN and IPsec Server.
+- [VyOS](https://vyos.io/) - open source network OS that runs on a wide range of hardware, virtual machines, and cloud providers.
+- [Algo](https://github.com/trailofbits/algo) - set up a personal VPN in the cloud.
+- [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN services nearly automatically.
+- [Freelan](https://github.com/freelan-developers/freelan) - a peer-to-peer, secure, easy-to-setup, multi-platform, open-source, highly-configurable VPN software.
 
 ## Resources
 
