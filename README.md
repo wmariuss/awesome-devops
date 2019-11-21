@@ -15,6 +15,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Continuous Integration & Delivery](#continuous-integration-&-delivery)
   - [Source Code Management](#source-code-management)
   - [Web Servers](#web-servers)
+  - [SSL](#ssl)
   - [Databases](#databases)
   - [Observability and Monitoring](#observability-&-monitoring)
   - [Service Discovery & Service Mesh](#service-discovery-&-service-mesh)
@@ -69,6 +70,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [OSv](http://osv.io/) - versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud.
 - [Rancher OS](https://rancher.com/rancher-os) - a lightweight, secure Linux distribution, built from containers to run containers well.
 - [Atomic](http://www.projectatomic.io/) - use immutable infrastructure to deploy and scale your containerized applications.
+- [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
 
 ## Distributed Filesystems
 
@@ -165,6 +167,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Phabricator](https://github.com/phacility/phabricator/) - a collection of web applications which help software companies build better software.
 - [Gogs](https://gogs.io/) - a painless self-hosted Git service.
 - [Gitea](https://gitea.io/) - a painless self-hosted Git service.
+- [Gitblit](https://github.com/gitblit/gitblit) - pure Java Git solution for managing, viewing, and serving Git repositories.
 
 ## Web Servers
 
@@ -176,6 +179,14 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Cherokee](http://cherokee-project.com/) - highly concurrent secured web applications.
 - [Lighttpd](http://www.lighttpd.net/) - optimized for speed-critical environments while remaining standards-compliant, secure and flexible.
 - [Uwsgi](https://github.com/unbit/uwsgi/) - application server container.
+
+## SSL
+
+*Tools for automate the management of SSL certificates.*
+
+- [Certbot](https://github.com/certbot/certbot) - automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
+- [Let’s Encrypt](https://letsencrypt.org/) - free, automated, and open Certificate Authority.
+- [Cert Manager](https://github.com/jetstack/cert-manager) - Kubernetes add-on to automate the management and issuance of TLS certificates from various issuing sources.
 
 ## Databases
 
@@ -217,6 +228,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Shinken](http://www.shinken-monitoring.org/) - monitoring framework.
 - [Zabbix](https://www.zabbix.com/) - mature and effortless monitoring solution for network monitoring and application monitoring.
 - [Glances](https://github.com/nicolargo/glances) - monitoring information through a curses or Web based interface.
+- [Healthchecks](https://github.com/healthchecks/healthchecks) - cron monitoring tool.
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - the system statistics collection daemon.
@@ -233,6 +245,8 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving logs.
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - stream processing software system.
   - [Kibana](https://www.elastic.co/products/kibana) - explore, visualize, discover data.
+- Status
+  - [Cachet](https://github.com/CachetHQ/Cachet) - beautiful and powerful open source status page system.
 
 ## Service Discovery & Service Mesh
 
@@ -281,6 +295,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Faktory](https://github.com/contribsys/faktory) - repository for background jobs within your application.
 - [Nats](https://nats.io/) - simple, secure and high performance open source messaging system.
 - [RestMQ](http://restmq.com/) - message queue which uses HTTP as transport.
+- [Dkron](https://github.com/distribworks/dkron) - distributed, fault tolerant job scheduling system.
 
 ## Programming Languages
 
