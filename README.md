@@ -159,7 +159,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 ## Source Code Management
 
-*Source Code management, Git-repository manager, Version Control. Some of them include Code review.*
+*Source Code management, Git-repository manager, Version Control. Some of them include [Code review](#code-review).*
 
 - [Github](https://github.com/) - helps developers store and manage their code, as well as track and control changes to their code.
 - [Gitlab](https://gitlab.com/) - entire DevOps lifecycle in one application.
@@ -186,7 +186,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 - [Certbot](https://github.com/certbot/certbot) - automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
 - [Let’s Encrypt](https://letsencrypt.org/) - free, automated, and open Certificate Authority.
-- [Cert Manager](https://github.com/jetstack/cert-manager) - Kubernetes add-on to automate the management and issuance of TLS certificates from various issuing sources.
+- [Cert Manager](https://github.com/jetstack/cert-manager) - K8S add-on to automate the management and issuance of TLS certificates from various issuing sources.
 
 ## Databases
 
@@ -229,6 +229,10 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Zabbix](https://www.zabbix.com/) - mature and effortless monitoring solution for network monitoring and application monitoring.
 - [Glances](https://github.com/nicolargo/glances) - monitoring information through a curses or Web based interface.
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - cron monitoring tool.
+- [Bolo](http://bolo.niftylogic.com/) - building distributed, scalable monitoring systems.
+- [cAdvisor](https://github.com/google/cadvisor) - analyzes resource usage and performance characteristics of running containers.
+- [ElastiFlow](https://github.com/robcowart/elastiflow) - network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack.
+- [Co-Pilot](https://pcp.io/) - system performance analysis toolkit.
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - the system statistics collection daemon.
@@ -237,6 +241,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Graphite](https://graphite.readthedocs.io/en/latest/) - store numeric time-series data and render graphs of this data on demand.
   - [Influxdata](https://www.influxdata.com/) - time series database.
   - [Netdata](https://www.netdata.cloud/) - instantly diagnose slowdowns and anomalies in your infrastructure.
+  - [Freeboard](https://github.com/Freeboard/freeboard) - real-time dashboard builder for IOT and other web mashups.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - an event/change logging/managament app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - free and open source log management.
@@ -345,6 +350,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Algo](https://github.com/trailofbits/algo) - set up a personal VPN in the cloud.
 - [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN services nearly automatically.
 - [Freelan](https://github.com/freelan-developers/freelan) - a peer-to-peer, secure, easy-to-setup, multi-platform, open-source, highly-configurable VPN software.
+- [Sshuttle](https://github.com/sshuttle/sshuttle) - transparent proxy server that works as a poor man's VPN.
 
 ## Resources
 
