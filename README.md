@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of awesome DevOps tools, platforms and resources.
+A curated list of awesome DevOps tools, technologies, platforms and resources. Things to help/grow you in *DevOps* or *SRE* area.
 
 - [Awesome DevOps](#awesome-devops)
   - [Cloud Platforms](#cloud-platforms)
@@ -336,7 +336,12 @@ A curated list of awesome DevOps tools, platforms and resources.
 
 *Books focused on DevOps and DevSecOps.*
 
+- [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
+- [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
 - [Hands-On Security in DevOpss](https://www.packtpub.com/networking-and-servers/hands-security-devops)
+- [Site Reliability Engineering](https://landing.google.com/sre/books/)
+- [The Site Reliability Workbook](https://landing.google.com/sre/books)
+- [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
 
 ### Conferences
 
