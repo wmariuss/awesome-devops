@@ -60,6 +60,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Eucalyptus](https://www.eucalyptus.cloud/) - building AWS-compatible private and hybrid clouds.
 - [DC/OS](https://dcos.io/) - distributed operating system based on the Apache Mesos distributed systems kernel.
 - [Apache Mesos](http://mesos.apache.org/) - program against your datacenter like it’s a single pool of resources.
+- [Localstack](https://github.com/localstack/localstack) - fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 
 ## Operating Systems
 
