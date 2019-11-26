@@ -4,7 +4,9 @@ python:
   - "3.6"
 
 script:
-  - invoke build
+  - cp README.md docs/index.md
+  - mkdocs build
+  # - invoke build
 
 deploy:
   provider: pages
