@@ -383,7 +383,7 @@ Basic understanding and what you should know to become a *DevOps* Engineer, chec
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the [Contribution Guidelines](CONTRIBUTING.md).
+Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/master/CONTRIBUTING.md).
 
 ## Authors
 
