@@ -1,0 +1,17 @@
+anguage: python
+
+python:
+  - "3.6"
+
+script:
+  - cp README.md docs/index.md
+  - mkdocs build
+
+deploy:
+  provider: pages
+  local-dir: site
+  skip-cleanup: true
+  keep-history: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master

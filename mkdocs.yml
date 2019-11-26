@@ -1,0 +1,23 @@
+site_name: Awesome DevOps
+site_url: https://awesome-devops.xyz
+site_description: A curated list of awesome DevOps tools, platforms and resources
+site_author: Marius Stanca
+repo_name: wmariuss/awesome-devops
+repo_url: https://github.com/wmariuss/awesome-devops
+theme:
+  name: material
+  palette:
+    primary: 'black'
+    accent: 'light blue'
+extra:
+  social:
+    - type: github
+      link: https://github.com/wmariuss
+    - type: twitter
+      link: https://twitter.com/wmariuss
+    - type: linkedin
+      link: https://www.linkedin.com/in/wmariuss
+extra_css:
+    - css/extra.css
+nav:
+  - "Life is short, you need Python.": "index.md"
