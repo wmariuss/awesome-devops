@@ -20,4 +20,4 @@ extra:
 extra_css:
     - css/extra.css
 nav:
-  - "Life is short, you need Python.": "index.md"
+  - "Improve your in DevOps skills.": "index.md"
