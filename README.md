@@ -78,7 +78,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 *Network distributed filesystems.*
 
-- [Chep](https://ceph.io/) - highly scalable object, block and file-based storage under one whole system.
+- [Ceph](https://ceph.io/) - highly scalable object, block and file-based storage under one whole system.
 - [Gluster](https://www.gluster.org/) - free and open source software scalable network filesystem.
 - [LINBIT](https://www.linbit.com/en/) - create, remove, and replicate block storage devices for datacenter scale environments.
 - [XtreemFS](http://www.xtreemfs.org/) - fault-tolerant distributed file system for all storage needs.
