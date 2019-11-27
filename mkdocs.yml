@@ -11,13 +11,13 @@ theme:
     accent: 'light blue'
 extra:
   social:
+    - type: globe
+      link: http://marius.xyz
     - type: github
       link: https://github.com/wmariuss
     - type: twitter
       link: https://twitter.com/wmariuss
     - type: linkedin
       link: https://www.linkedin.com/in/wmariuss
-extra_css:
-    - css/extra.css
 nav:
-  - "Improve your DevOps skills.": "index.md"
+  - "Improve your DevOps skills": "index.md"
