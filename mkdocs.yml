@@ -20,4 +20,4 @@ extra:
 extra_css:
     - css/extra.css
 nav:
-  - "Improve your in DevOps skills.": "index.md"
+  - "Improve your DevOps skills.": "index.md"

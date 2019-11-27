@@ -62,6 +62,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [DC/OS](https://dcos.io/) - distributed operating system based on the Apache Mesos distributed systems kernel.
 - [Apache Mesos](http://mesos.apache.org/) - program against your datacenter like it’s a single pool of resources.
 - [Localstack](https://github.com/localstack/localstack) - fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
+- [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 
 ## Operating Systems
 
