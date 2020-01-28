@@ -101,6 +101,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Singularity](https://sylabs.io/singularity/) - run the application from the local environment to the cloud.
 - [AppScale](https://github.com/AppScale/appscale) - easy-to-manage serverless platform for building and running scalable web and mobile applications.
 - [Kata Containers](https://katacontainers.io/) - building lightweight virtual machines that seamlessly plug into the containers ecosystem.
+- [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 
 ## Container Image Registry
 
