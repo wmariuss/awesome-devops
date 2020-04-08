@@ -17,7 +17,7 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/octicons/globe
+    - icon: fontawesome/solid/globe
       link: http://marius.xyz
     - type: fontawesome/brands/github-alt
       link: https://github.com/wmariuss
