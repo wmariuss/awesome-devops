@@ -1,7 +1,7 @@
 anguage: python
 
 python:
-  - "3.6"
+  - "3.7"
 
 script:
   - cp README.md docs/index.md
