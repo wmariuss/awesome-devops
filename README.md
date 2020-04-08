@@ -50,6 +50,9 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Scaleway](https://www.scaleway.com/) - single way to create, deploy and scale your infrastructure in the cloud.
 - [Vultr](https://www.vultr.com/) - easily deploy cloud servers, bare metal, and storage worldwide.
 - [VMware Cloud](https://cloud.vmware.com/) - run, manage, connect and protect all of your apps on any cloud.
+- [IBM Cloud](https://www.ibm.com/cloud) - tools, data & APIs to make AI real now.
+- [Stackpath](https://www.stackpath.com/) - platform of computing infrastructure and services built at the edge of the cloud.
+- [Linode](https://www.linode.com/) - accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 
 ## Open Source Cloud Platforms
 
