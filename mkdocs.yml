@@ -1,23 +1,37 @@
 site_name: Awesome DevOps
-site_url: https://awesome-devops.xyz
+site_url: http://awesome-devops.xyz
 site_description: A curated list of awesome DevOps tools, platforms and resources
 site_author: Marius Stanca
 repo_name: wmariuss/awesome-devops
-repo_url: https://github.com/wmariuss/awesome-devops
+repo_url: http://github.com/wmariuss/awesome-devops
+
 theme:
   name: material
+  language: en
   palette:
-    primary: 'black'
-    accent: 'light blue'
+    primary: "black"
+    accent: "light blue"
+  font:
+    text: Roboto
+    code: Roboto Mono
+
 extra:
   social:
-    - type: globe
+    - icon: globe
       link: http://marius.xyz
-    - type: github
+    - type: fontawesome/brands/github-alt
       link: https://github.com/wmariuss
-    - type: twitter
+    - type: fontawesome/brands/twitter
       link: https://twitter.com/wmariuss
-    - type: linkedin
+    - type: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wmariuss
 nav:
   - "Improve your DevOps skills": "index.md"
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
