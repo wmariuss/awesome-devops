@@ -20,6 +20,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Databases](#databases)
   - [Observability and Monitoring](#observability-&-monitoring)
   - [Service Discovery & Service Mesh](#service-discovery-&-service-mesh)
+  - [Chaos Engineering](#chaos-engineering)
   - [API Gateway](#api-gateway)
   - [Code review](#code-review)
   - [Distributed messaging](#distributed-messaging)
@@ -273,6 +274,15 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Istio](https://istio.io/) - connect, secure, control, and observe services.
 - [Kong](https://konghq.com/products/kong-gateway/kong-proxy) - deliver performance needed for microservices, service mesh, and cloud native deployments.
 - [Linkerd](https://github.com/linkerd/linkerd2) - service mesh for Kubernetes and beyond.
+
+## Chaos Engineering
+
+*The discipline of experimenting on a distributed system in order to build confidence in the system's capability to withstand turbulent conditions in production.*
+
+- [Chaos Toolkit](https://github.com/chaostoolkit) - the Open Source Platform for Chaos Engineering.
+- [Chaos Monkey](https://github.com/Netflix/chaosmonkey) - a resiliency tool that helps applications tolerate random instance failures.
+- [Toxiproxy](https://github.com/Shopify/toxiproxy) - simulate network and system conditions for chaos and resiliency testing.
+- [Pumba](https://github.com/alexei-led/pumba) - chaos testing, network emulation and stress testing tool for containers.
 
 ## API Gateway
 
