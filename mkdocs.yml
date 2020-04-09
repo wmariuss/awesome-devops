@@ -30,6 +30,7 @@ nav:
 
 # Extensions
 markdown_extensions:
+  - fontawesome_markdown
   - admonition
   - codehilite:
       guess_lang: false
