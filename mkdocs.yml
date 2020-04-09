@@ -19,14 +19,16 @@ theme:
     repo: fontawesome/brands/git-alt
 
 extra:
+  feature:
+    tabs: true
   social:
     - icon: fontawesome/solid/globe
       link: http://marius.xyz
-    - type: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github-alt
       link: https://github.com/wmariuss
-    - type: fontawesome/brands/twitter
+    - icon: fontawesome/brands/twitter
       link: https://twitter.com/wmariuss
-    - type: fontawesome/brands/linkedin
+    - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wmariuss
 nav:
   - "Improve your DevOps skills": "index.md"
