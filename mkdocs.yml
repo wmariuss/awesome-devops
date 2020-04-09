@@ -14,6 +14,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  icon:
+    logo: material/library
+    repo: fontawesome/brands/git-alt
 
 extra:
   social:
@@ -30,7 +33,6 @@ nav:
 
 # Extensions
 markdown_extensions:
-  - fontawesome_markdown
   - admonition
   - codehilite:
       guess_lang: false
