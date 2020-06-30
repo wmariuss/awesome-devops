@@ -391,6 +391,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [ADDO](https://www.alldaydevops.com/)
 - [DevOpsConnect](https://www.devopsconnect.com/)
 - [@Scale](https://atscaleconference.com/)
+- [devopsdays](https://devopsdays.org/)
 
 ## DevOps Roadmap
 
