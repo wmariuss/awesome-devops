@@ -12,14 +12,14 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Distributed Filesystems](#distributed-filesystems)
   - [Applications Platforms](#applications-platforms)
   - [Container Image Registry](#container-image-registry)
-  - [Automation & Orchestration](#automation-&-orchestration)
-  - [Continuous Integration & Delivery](#continuous-integration-&-delivery)
+  - [Automation & Orchestration](#automation--orchestration)
+  - [Continuous Integration & Delivery](#continuous-integration--delivery)
   - [Source Code Management](#source-code-management)
   - [Web Servers](#web-servers)
   - [SSL](#ssl)
   - [Databases](#databases)
-  - [Observability and Monitoring](#observability-&-monitoring)
-  - [Service Discovery & Service Mesh](#service-discovery-&-service-mesh)
+  - [Observability and Monitoring](#observability--monitoring)
+  - [Service Discovery & Service Mesh](#service-discovery--service-mesh)
   - [Chaos Engineering](#chaos-engineering)
   - [API Gateway](#api-gateway)
   - [Code review](#code-review)
@@ -166,6 +166,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications.
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
   - [Cirrus CI](https://cirrus-ci.org/) - cycle fast, efficient, and secure with modern cloud technologies.
+  - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
 
 ## Source Code Management
 
