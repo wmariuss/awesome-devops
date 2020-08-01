@@ -160,13 +160,14 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating.
   - [Argo](https://argoproj.github.io/) - open source Kubernetes native workflows, events, CI and CD.
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform.
-- Web service
+  - [Evergreen](https://github.com/evergreen-ci/evergreen) - A Distributed Continuous Integration System from MongoDB.
+  - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
+- Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications.
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
   - [Cirrus CI](https://cirrus-ci.org/) - cycle fast, efficient, and secure with modern cloud technologies.
-  - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
 
 ## Source Code Management
 
