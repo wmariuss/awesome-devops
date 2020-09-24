@@ -15,6 +15,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Automation & Orchestration](#automation--orchestration)
   - [Continuous Integration & Delivery](#continuous-integration--delivery)
   - [Source Code Management](#source-code-management)
+  - [GitOps](#gitops)
   - [Web Servers](#web-servers)
   - [SSL](#ssl)
   - [Databases](#databases)
@@ -141,10 +142,11 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation.
 - [OctoDNS](https://github.com/github/octodns) - managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
+- [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
 
 ## Continuous Integration & Delivery
 
-*Continuous Integration, Continuous Delivery and Continuous Delivery.*
+*Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps*
 
 - On premises
   - [Buildbot](http://buildbot.net/) - automate all aspects of the software development cycle.
@@ -158,10 +160,12 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Bamboo](https://www.atlassian.com/software/bamboo) - tie automated builds, tests, and releases together in a single workflow.
   - [Integrity](http://integrity.github.io/) - Continuous Integration server.
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating.
-  - [Argo](https://argoproj.github.io/) - open source Kubernetes native workflows, events, CI and CD.
+  - [Argo](https://argoproj.github.io/) - Open Source Kubernetes native workflows, events, CI and CD.
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform.
   - [Evergreen](https://github.com/evergreen-ci/evergreen) - A Distributed Continuous Integration System from MongoDB.
   - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
+  - [Flux](https://github.com/fluxcd/flux) - automatically ensures that the state of your Kubernetes cluster matches the configuration you’ve supplied in Git.
+  - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments).
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
@@ -351,6 +355,8 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Sops](https://github.com/mozilla/sops) - simple and flexible tool for managing secrets.
 - [Vault](https://www.hashicorp.com/products/vault/) - manage secrets and protect sensitive data.
 - [Keybase](https://keybase.io/) - end-to-end encrypted chat and cloud storage system.
+- [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - create Kubernetes secrets from Vault for a secure GitOps based workflow.
+- [Git Secret](https://github.com/sobolevn/git-secret) - a bash-tool to store your private data inside a git repository.
 
 ## Sharing
 
