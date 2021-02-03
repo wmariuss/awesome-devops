@@ -108,6 +108,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [AppScale](https://github.com/AppScale/appscale) - easy-to-manage serverless platform for building and running scalable web and mobile applications.
 - [Kata Containers](https://katacontainers.io/) - building lightweight virtual machines that seamlessly plug into the containers ecosystem.
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
+- [Podman](https://github.com/containers/podman) - a tool for managing OCI containers and pods.
 
 ## Container Image Registry
 
@@ -115,6 +116,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 - [Quay](https://www.projectquay.io/) - container image registry that enables you to build, organize, distribute, and deploy containers.
 - [Dockyard](https://github.com/Huawei/dockyard) - Container & Artifact Repository.
+- [Harbor](https://goharbor.io/) - an open source trusted cloud native registry project that stores, signs, and scans content.
 
 ## Automation & Orchestration
 
@@ -166,12 +168,15 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
   - [Flux](https://github.com/fluxcd/flux) - automatically ensures that the state of your Kubernetes cluster matches the configuration you’ve supplied in Git.
   - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments).
+  - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
+  - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications.
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
   - [Cirrus CI](https://cirrus-ci.org/) - cycle fast, efficient, and secure with modern cloud technologies.
+  - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
 
 ## Source Code Management
 
