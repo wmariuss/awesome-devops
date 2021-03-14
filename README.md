@@ -396,6 +396,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Site Reliability Engineering](https://landing.google.com/sre/books/)
 - [The Site Reliability Workbook](https://landing.google.com/sre/books)
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
+- [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
 ### Conferences
 
@@ -406,6 +407,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [DevOpsConnect](https://www.devopsconnect.com/)
 - [@Scale](https://atscaleconference.com/)
 - [devopsdays](https://devopsdays.org/)
+- [DevOps Enterprise Summit](https://events.itrevolution.com/)
 
 ## DevOps Roadmap
 
