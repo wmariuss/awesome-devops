@@ -336,7 +336,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 *Programming languages.*
 
-- [Pyhon](https://www.python.org/) - programming language that lets you work quickly and integrate systems more effectively.
+- [Python](https://www.python.org/) - programming language that lets you work quickly and integrate systems more effectively.
 - [Ruby](https://www.ruby-lang.org/) - a dynamic, open source programming language with a focus on simplicity and productivity.
 - [Go](https://golang.org/) - an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
