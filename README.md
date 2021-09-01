@@ -255,6 +255,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack.
 - [Co-Pilot](https://pcp.io/) - system performance analysis toolkit.
 - Metrics/Metrics collection
+  - [Thundra Foresight](https://www.thundra.io/foresight) - visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - the system statistics collection daemon.
   - [Facette](https://github.com/facette/facette) - time series data visualization software.
