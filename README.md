@@ -177,7 +177,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
   - [Cirrus CI](https://cirrus-ci.org/) - cycle fast, efficient, and secure with modern cloud technologies.
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
-  - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD
+  - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
 
 ## Source Code Management
 
