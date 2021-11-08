@@ -170,6 +170,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments).
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
+  - [Gitploy](https://www.gitploy.io/) - Build the deployment system around GitHub in minutes.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
