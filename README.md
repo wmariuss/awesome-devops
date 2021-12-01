@@ -126,7 +126,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Salt](https://www.saltstack.com/) - automate the management and configuration of any infrastructure or application at scale.
 - [Puppet](https://puppet.com/) - unparalleled infrastructure automation and delivery.
 - [Chef](https://www.chef.io/) - automate infrastructure and applications.
-- [Juju](https://jaas.ai/) - simplifies how you configure, scale and operate todays complex software.
+- [Juju](https://jaas.ai/) - simplifies how you configure, scale and operate today's complex software.
 - [Rundeck](https://www.rundeck.com/) - Runbook Automation For Modernizing Your Operations.
 - [StackStorm](https://stackstorm.com/) - connects all your apps, services, and workflows. Automate DevOps your way.
 - [Bosh](https://www.cloudfoundry.org/bosh/) - release engineering, deployment, and lifecycle management of complex distributed systems.
@@ -176,7 +176,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications.
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
-  - [Cirrus CI](https://cirrus-ci.org/) - cycle fast, efficient, and secure with modern cloud technologies.
+  - [Cirrus CI](https://cirrus-ci.org/) - continuous integration system built for the era of cloud computing.
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
 
@@ -196,7 +196,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 *Web servers and reverse proxy.*
 
-- [Nginx](http://nginx.org/) - high performant load balancer, web server and reverse proxy.
+- [Nginx](http://nginx.org/) - high performance load balancer, web server and reverse proxy.
 - [Apache](http://httpd.apache.org/) - web server and reverse proxy.
 - [Caddy](https://caddyserver.com/) - web server with automatic HTTPS.
 - [Cherokee](http://cherokee-project.com/) - highly concurrent secured web applications.
@@ -205,27 +205,27 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 ## SSL
 
-*Tools for automate the management of SSL certificates.*
+*Tools for automating the management of SSL certificates.*
 
-- [Certbot](https://github.com/certbot/certbot) - automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
+- [Certbot](https://github.com/certbot/certbot) - automate using Let’s Encrypt certificates on manually-managed websites to enable HTTPS.
 - [Let’s Encrypt](https://letsencrypt.org/) - free, automated, and open Certificate Authority.
 - [Cert Manager](https://github.com/jetstack/cert-manager) - K8S add-on to automate the management and issuance of TLS certificates from various issuing sources.
 
 ## Databases
 
-*Rational (SQL) and non-rational (NO-SQL) databases.*
+*Relational (SQL) and non-relational (NoSQL) databases.*
 
-- Rational (SQL)
+- Relational (SQL)
   - [PostgreSQL](https://www.postgresql.org/) - powerful, open source object-relational database system.
   - [MySQL](https://www.mysql.com/) - open-source relational database management system.
   - [MariaDB](https://mariadb.org/) - fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
   - [SQLite](https://sqlite.org/) - small, fast, self-contained, high-reliability, full-featured, SQL database engine.
-- Non-relational (No-SQL)
+- Non-relational (NoSQL)
   - [Casandra](http://cassandra.apache.org/) - manage massive amounts of data, fast, without losing sleep.
   - [Apache HBase](http://hbase.apache.org/) - distributed, versioned, non-relational database.
   - [Couchdb](https://couchdb.apache.org/) - database that completely embraces the web.
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
-  - [MongoDB](https://www.mongodb.com/) - general purpose, document-based, distributed database built for modern application.
+  - [MongoDB](https://www.mongodb.com/) - general purpose, document-based, distributed database built for modern applications.
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - open-source database for the realtime web.
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
@@ -267,7 +267,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Netdata](https://www.netdata.cloud/) - instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - real-time dashboard builder for IOT and other web mashups.
 - Logs Management
-  - [Anthracite](https://github.com/Dieterbe/anthracite) - an event/change logging/managament app.
+  - [Anthracite](https://github.com/Dieterbe/anthracite) - an event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - free and open source log management.
   - [Logstash](https://www.elastic.co/products/logstash#) - collect, parse, transform logs.
   - [Fluentd](https://www.fluentd.org/) - data collector for unified logging layer.
@@ -311,11 +311,11 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Gloo](https://github.com/solo-io/gloo) - feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
 - [Envoy](https://www.envoyproxy.io/) - cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - reverse proxy and load balancer for HTTP and TCP-based applications.
-- [Nginx](https://nginx.org/) - high performant reverse proxy.
+- [Nginx](https://nginx.org/) - high performance reverse proxy.
 
 ## Code review
 
-*Code review. In [Source Code Management](#source-code-management) section you can find few of them with Code review already as feature.*
+*Code review. A few of the [Source Code Management](#source-code-management) tools have built-in code review features.*
 
 - [Gerrit](https://www.gerritcodereview.com/) - web-based team code collaboration tool.
 - [Review Board](https://www.reviewboard.org/) - web-based collaborative code review tool.
@@ -383,7 +383,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Pritunl](https://pritunl.com/) - enterprise Distributed OpenVPN and IPsec Server.
 - [VyOS](https://vyos.io/) - open source network OS that runs on a wide range of hardware, virtual machines, and cloud providers.
 - [Algo](https://github.com/trailofbits/algo) - set up a personal VPN in the cloud.
-- [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN services nearly automatically.
+- [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN service nearly automatically.
 - [Freelan](https://github.com/freelan-developers/freelan) - a peer-to-peer, secure, easy-to-setup, multi-platform, open-source, highly-configurable VPN software.
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - transparent proxy server that works as a poor man's VPN.
 
