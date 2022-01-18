@@ -145,6 +145,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [OctoDNS](https://github.com/github/octodns) - managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
+- [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development
 
 ## Continuous Integration & Delivery
 
