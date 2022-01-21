@@ -2,7 +2,6 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
-[![pages-build-deployment](https://github.com/wmariuss/awesome-devops/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/pages/pages-build-deployment)
 
 A curated list of awesome DevOps tools, technologies, platforms and resources. Things to help/grow you in *DevOps* or *SRE* area.
 
