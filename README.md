@@ -135,6 +135,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
+- [Pulumi](https://www.pulumi.com/) - modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure.
 - [Packer](https://www.packer.io/) - build Automated Machine Images.
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
 - [Foreman](https://theforeman.org/) - complete lifecycle management tool for physical and virtual servers.
@@ -144,7 +145,8 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [OctoDNS](https://github.com/github/octodns) - managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
-- [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development
+- [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development.
+- [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation.
 
 ## Continuous Integration & Delivery
 
@@ -274,6 +276,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Flume](https://flume.apache.org/) - distributed, reliable, and available service for efficiently collecting, aggregating, and moving logs.
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - stream processing software system.
   - [Kibana](https://www.elastic.co/products/kibana) - explore, visualize, discover data.
+  - [Loki](https://github.com/grafana/loki) - horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 - Status
   - [Cachet](https://github.com/CachetHQ/Cachet) - beautiful and powerful open source status page system.
 
