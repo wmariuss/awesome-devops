@@ -15,7 +15,6 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Automation & Orchestration](#automation-orchestration)
   - [Continuous Integration & Delivery](#continuous-integration-delivery)
   - [Source Code Management](#source-code-management)
-  - [GitOps](#gitops)
   - [Web Servers](#web-servers)
   - [SSL](#ssl)
   - [Databases](#databases)
