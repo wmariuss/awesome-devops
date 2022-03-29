@@ -147,6 +147,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
 - [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development.
 - [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation.
+- [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 
 ## Continuous Integration & Delivery
 
