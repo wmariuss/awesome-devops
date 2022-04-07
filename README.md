@@ -338,6 +338,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Nats](https://nats.io/) - simple, secure and high performance open source messaging system.
 - [RestMQ](http://restmq.com/) - message queue which uses HTTP as transport.
 - [Dkron](https://github.com/distribworks/dkron) - distributed, fault tolerant job scheduling system.
+- [KubeMQ](https://kubemq.io/) - Kubernetes-native messaging platform.
 
 ## Programming Languages
 
@@ -399,7 +400,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
 - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
-- [Hands-On Security in DevOpss](https://www.packtpub.com/networking-and-servers/hands-security-devops)
+- [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
 - [Site Reliability Engineering](https://landing.google.com/sre/books/)
 - [The Site Reliability Workbook](https://landing.google.com/sre/books)
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
