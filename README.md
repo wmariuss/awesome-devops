@@ -392,6 +392,8 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN service nearly automatically.
 - [Freelan](https://github.com/freelan-developers/freelan) - a peer-to-peer, secure, easy-to-setup, multi-platform, open-source, highly-configurable VPN software.
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - transparent proxy server that works as a poor man's VPN.
+- [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program,
+as an academic project from University of Tsukuba, under the Apache License 2.0.
 
 ## Resources
 
