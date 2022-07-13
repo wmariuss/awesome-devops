@@ -183,6 +183,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
   - [Kraken CI](https://kraken.ci/) - modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
+  - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
 
 ## Source Code Management
 
