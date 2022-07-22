@@ -183,6 +183,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
   - [Kraken CI](https://kraken.ci/) - modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
+  - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
 
 ## Source Code Management
 
@@ -394,6 +395,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - transparent proxy server that works as a poor man's VPN.
 - [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program,
 as an academic project from University of Tsukuba, under the Apache License 2.0.
+- [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options.
 
 ## Resources
 
