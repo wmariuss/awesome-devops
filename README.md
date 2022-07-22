@@ -393,6 +393,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN service nearly automatically.
 - [Freelan](https://github.com/freelan-developers/freelan) - a peer-to-peer, secure, easy-to-setup, multi-platform, open-source, highly-configurable VPN software.
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - transparent proxy server that works as a poor man's VPN.
+- [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options.
 
 ## Resources
 
