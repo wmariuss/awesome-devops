@@ -12,3 +12,4 @@ jobs:
           dirs: ".,./docs"
           verbose: true
           whitelist_files: "./CONTRIBUTING.md"
+          whitelist_links: "https://ceph.io/,https://mattermost.com/,https://tyk.io/,https://konghq.com/,https://konghq.com/products/kong-gateway/kong-proxy,https://www.saltstack.com/,https://www.docker.com/,https://www.gluster.org/,https://cloud.vmware.com/,https://www.vultr.com/,https://www.linkedin.com/in/wmariuss"
