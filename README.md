@@ -304,6 +304,8 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Chaos Monkey](https://github.com/Netflix/chaosmonkey) - a resiliency tool that helps applications tolerate random instance failures.
 - [Toxiproxy](https://github.com/Shopify/toxiproxy) - simulate network and system conditions for chaos and resiliency testing.
 - [Pumba](https://github.com/alexei-led/pumba) - chaos testing, network emulation and stress testing tool for containers.
+- [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) - A Chaos Engineering Platform for Kubernetes.
+- [Litmus](https://github.com/litmuschaos/litmus) - Litmus enables teams to identify weaknesses in infrastructures.
 
 ## API Gateway
 
