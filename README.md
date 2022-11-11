@@ -101,6 +101,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Docker Swarm](https://github.com/docker/swarm) - Docker-native clustering system.
 - [Kubernetes](https://kubernetes.io/) - automating deployment, scaling, and management of containerized applications.
 - [LXC](https://linuxcontainers.org/) - lets Linux users easily create and manage system or application containers.
+- [Linx](https://linx.software) - general-purpose low-code platform for building and hosting backend solutions
 - [Rancher](https://rancher.com/) - lets you deliver Kubernetes-as-a-Service.
 - [OpenVz](https://openvz.org/) - container-based virtualization for Linux.
 - [Singularity](https://sylabs.io/singularity/) - run the application from the local environment to the cloud.
