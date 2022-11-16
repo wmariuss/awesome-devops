@@ -226,7 +226,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
   - [MariaDB](https://mariadb.org/) - fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
   - [SQLite](https://sqlite.org/) - small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - Non-relational (NoSQL)
-  - [Casandra](http://cassandra.apache.org/) - manage massive amounts of data, fast, without losing sleep.
+  - [Cassandra](http://cassandra.apache.org/) - manage massive amounts of data, fast, without losing sleep.
   - [Apache HBase](http://hbase.apache.org/) - distributed, versioned, non-relational database.
   - [Couchdb](https://couchdb.apache.org/) - database that completely embraces the web.
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
