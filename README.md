@@ -148,6 +148,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development.
 - [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation.
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
+- [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
 
 ## Continuous Integration & Delivery
 
