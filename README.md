@@ -54,6 +54,7 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [IBM Cloud](https://www.ibm.com/cloud) - tools, data & APIs to make AI real now.
 - [Stackpath](https://www.stackpath.com/) - platform of computing infrastructure and services built at the edge of the cloud.
 - [Linode](https://www.linode.com/) - accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
+- [Kinsta](https://kinsta.com/application-hosting/) - create and deploy web applications and databases in minutes.
 
 ## Open Source Cloud Platforms
 
