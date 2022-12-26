@@ -142,7 +142,6 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [Foreman](https://theforeman.org/) - complete lifecycle management tool for physical and virtual servers.
 - [Nomad](https://learn.hashicorp.com/nomad) - deploy and Manage Any Containerized, Legacy, or Batch Application.
 - [Marathon](https://mesosphere.github.io/marathon/) - a production-grade container orchestration platform for DC/OS and Apache Mesos.
-- [Atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation.
 - [OctoDNS](https://github.com/github/octodns) - managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
