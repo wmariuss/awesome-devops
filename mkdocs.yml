@@ -18,7 +18,7 @@ theme:
     accent: blue
   icon:
     logo: assets/logo.png
-    favicon: assets/favicon.png
+    favicon: assets/favicon.ico
   features:
     - search.suggest
     - search.highlight
