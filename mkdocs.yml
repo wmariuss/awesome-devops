@@ -17,8 +17,8 @@ theme:
     primary: black
     accent: blue
   icon:
-    logo: material/library
-    repo: fontawesome/brands/git-alt
+    logo: assets/logo.png
+    favicon: assets/favicon.png
   features:
     - search.suggest
     - search.highlight
