@@ -16,9 +16,8 @@ theme:
   palette:
     primary: black
     accent: blue
-  icon:
-    logo: assets/logo.png
-    favicon: assets/favicon.ico
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   features:
     - search.suggest
     - search.highlight
