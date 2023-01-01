@@ -1,26 +1,34 @@
 site_name: Awesome DevOps
 site_url: http://awesome-devops.xyz
-site_description: A curated list of awesome DevOps tools, platforms and resources
+site_description: A curated list of awesome DevOps platforms, tools, practices and resources
 site_author: Marius Stanca
-repo_name: wmariuss/awesome-devops
+repo_name: Awesome-DevOps Github
 repo_url: http://github.com/wmariuss/awesome-devops
+edit_uri: https://github.com/wmariuss/awesome-devops/blob/master/README.md
+
+# Copyright
+copyright: "Copyright &copy; Awesome DevOps Community"
 
 theme:
   name: material
   language: en
+  locale: en
   palette:
-    primary: "black"
-    accent: "light blue"
-  font:
-    text: Roboto
-    code: Roboto Mono
+    primary: black
+    accent: blue
   icon:
     logo: material/library
     repo: fontawesome/brands/git-alt
+  features:
+    - search.suggest
+    - search.highlight
 
 extra:
   feature:
     tabs: true
+  font:
+    text: Roboto Slab
+    code: Source Code Pro
   social:
     - icon: fontawesome/solid/globe
       link: http://marius.xyz
@@ -30,8 +38,22 @@ extra:
       link: https://twitter.com/wmariuss
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/wmariuss
+
+extra_css:
+  - stylesheets/syntax.css
+  - stylesheets/fonts.css
+
+extra_javascript:
+  - javascripts/syntax.js
+
+plugins:
+  - search:
+      lang: en
+
 nav:
-  - "Improve your DevOps skills": "index.md"
+  - Welcome: "index.md"
+  - List: "list.md"
+  - Contribution: "contribution.md"
 
 # Extensions
 markdown_extensions:

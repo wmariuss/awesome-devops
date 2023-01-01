@@ -1,9 +1,9 @@
-# Awesome DevOps
+# List
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
 
-A curated list of awesome DevOps tools, technologies, platforms and resources. Things to help/grow you in *DevOps* or *SRE* area.
+A curated list of awesome DevOps platforms, tools, practices and resources.
 
 - [Awesome DevOps](#awesome-devops)
   - [Cloud Platforms](#cloud-platforms)
@@ -422,7 +422,7 @@ Basic understanding and what you should know to become a *DevOps* Engineer, chec
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/master/CONTRIBUTING.md).
+Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/master/docs/contribution.md).
 
 ## Authors
 
