@@ -12,14 +12,14 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
   - [Distributed Filesystems](#distributed-filesystems)
   - [Applications Platforms](#applications-platforms)
   - [Container Image Registry](#container-image-registry)
-  - [Automation & Orchestration](#automation-orchestration)
-  - [Continuous Integration & Delivery](#continuous-integration-delivery)
+  - [Automation & Orchestration](#automation--orchestration)
+  - [Continuous Integration & Delivery](#continuous-integration--delivery)
   - [Source Code Management](#source-code-management)
   - [Web Servers](#web-servers)
   - [SSL](#ssl)
   - [Databases](#databases)
-  - [Observability and Monitoring](#observability-monitoring)
-  - [Service Discovery & Service Mesh](#service-discovery-service-mesh)
+  - [Observability and Monitoring](#observability--monitoring)
+  - [Service Discovery & Service Mesh](#service-discovery--service-mesh)
   - [Chaos Engineering](#chaos-engineering)
   - [API Gateway](#api-gateway)
   - [Code review](#code-review)
@@ -54,6 +54,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [IBM Cloud](https://www.ibm.com/cloud) - tools, data & APIs to make AI real now.
 - [Stackpath](https://www.stackpath.com/) - platform of computing infrastructure and services built at the edge of the cloud.
 - [Linode](https://www.linode.com/) - accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
+- [Kinsta](https://kinsta.com/application-hosting/) - create and deploy web applications and databases in minutes.
 
 ## Open Source Cloud Platforms
 
@@ -141,13 +142,14 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [Foreman](https://theforeman.org/) - complete lifecycle management tool for physical and virtual servers.
 - [Nomad](https://learn.hashicorp.com/nomad) - deploy and Manage Any Containerized, Legacy, or Batch Application.
 - [Marathon](https://mesosphere.github.io/marathon/) - a production-grade container orchestration platform for DC/OS and Apache Mesos.
-- [Atlantis](https://github.com/runatlantis/atlantis) - Terraform Pull Request Automation.
 - [OctoDNS](https://github.com/github/octodns) - managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
 - [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development.
-- [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation.
+- [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation
 - [KubeVela](https://kubevela.io/) - Modern application delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
+- [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
+- [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
 
 ## Continuous Integration & Delivery
 
@@ -182,6 +184,8 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
   - [Cirrus CI](https://cirrus-ci.org/) - continuous integration system built for the era of cloud computing.
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
+  - [Kraken CI](https://kraken.ci/) - modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
+  - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
 
 ## Source Code Management
 
@@ -224,7 +228,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
   - [MariaDB](https://mariadb.org/) - fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
   - [SQLite](https://sqlite.org/) - small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - Non-relational (NoSQL)
-  - [Casandra](http://cassandra.apache.org/) - manage massive amounts of data, fast, without losing sleep.
+  - [Cassandra](http://cassandra.apache.org/) - manage massive amounts of data, fast, without losing sleep.
   - [Apache HBase](http://hbase.apache.org/) - distributed, versioned, non-relational database.
   - [Couchdb](https://couchdb.apache.org/) - database that completely embraces the web.
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
@@ -302,6 +306,8 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [Chaos Monkey](https://github.com/Netflix/chaosmonkey) - a resiliency tool that helps applications tolerate random instance failures.
 - [Toxiproxy](https://github.com/Shopify/toxiproxy) - simulate network and system conditions for chaos and resiliency testing.
 - [Pumba](https://github.com/alexei-led/pumba) - chaos testing, network emulation and stress testing tool for containers.
+- [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh) - A Chaos Engineering Platform for Kubernetes.
+- [Litmus](https://github.com/litmuschaos/litmus) - Litmus enables teams to identify weaknesses in infrastructures.
 
 ## API Gateway
 
@@ -338,6 +344,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [Nats](https://nats.io/) - simple, secure and high performance open source messaging system.
 - [RestMQ](http://restmq.com/) - message queue which uses HTTP as transport.
 - [Dkron](https://github.com/distribworks/dkron) - distributed, fault tolerant job scheduling system.
+- [KubeMQ](https://kubemq.io/) - Kubernetes-native messaging platform.
 
 ## Programming Languages
 
@@ -390,6 +397,9 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [Streisand](https://github.com/StreisandEffect/streisand) - sets up a new VPN service nearly automatically.
 - [Freelan](https://github.com/freelan-developers/freelan) - a peer-to-peer, secure, easy-to-setup, multi-platform, open-source, highly-configurable VPN software.
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - transparent proxy server that works as a poor man's VPN.
+- [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program,
+as an academic project from University of Tsukuba, under the Apache License 2.0.
+- [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options.
 
 ## Resources
 
@@ -399,7 +409,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
 - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
-- [Hands-On Security in DevOpss](https://www.packtpub.com/networking-and-servers/hands-security-devops)
+- [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
 - [Site Reliability Engineering](https://landing.google.com/sre/books/)
 - [The Site Reliability Workbook](https://landing.google.com/sre/books)
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
