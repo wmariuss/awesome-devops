@@ -1,4 +1,4 @@
-# List
+# Awesome DevOps
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
