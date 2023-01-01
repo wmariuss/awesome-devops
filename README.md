@@ -3,7 +3,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
 
-A curated list of awesome DevOps tools, technologies, platforms and resources. Things to help/grow you in *DevOps* or *SRE* area.
+A curated list of awesome DevOps platforms, tools, practices and resources.
 
 - [Awesome DevOps](#awesome-devops)
   - [Cloud Platforms](#cloud-platforms)
@@ -146,7 +146,8 @@ A curated list of awesome DevOps tools, technologies, platforms and resources. T
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
 - [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development.
-- [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation.
+- [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation
+- [KubeVela](https://kubevela.io/) - Modern application delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
 
@@ -431,7 +432,7 @@ Basic understanding and what you should know to become a *DevOps* Engineer, chec
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/master/CONTRIBUTING.md).
+Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/master/docs/contribution.md).
 
 ## Authors
 
