@@ -284,6 +284,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
   - [Loki](https://github.com/grafana/loki) - horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
 - Status
   - [Cachet](https://github.com/CachetHQ/Cachet) - beautiful and powerful open source status page system.
+  - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - communicate incidents and maintenance effectively with a beautiful hosted status page.
 
 ## Service Discovery & Service Mesh
 
