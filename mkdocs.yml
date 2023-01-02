@@ -14,9 +14,7 @@ theme:
   name: material
   language: en
   locale: en
-  font:
-    text: Roboto Slab
-    code: Source Code Pro
+  font: false
   palette:
     primary: black
     accent: blue
@@ -25,12 +23,13 @@ theme:
   features:
     - search.suggest
     - search.highlight
-    - content.code.annotate
-    - content.tooltips
-    - toc.follow
 
 # Extra
 extra:
+  # Font
+  font:
+    text: Roboto Slab
+    code: Source Code Pro
   feature:
     tabs: true
   social:
@@ -64,7 +63,7 @@ nav:
 # Extensions
 markdown_extensions:
   - admonition
+  - footnotes
+  - meta
   - toc:
       permalink: true
-  - codehilite:
-      guess_lang: false
