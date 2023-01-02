@@ -59,8 +59,8 @@ plugins:
       repository: wmariuss/awesome-devops
       branch: master
   - git-authors
-  - git-revision-date-localized:
-      enable_creation_date: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
 
 # Navigator
 nav:
