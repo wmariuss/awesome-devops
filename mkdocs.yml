@@ -9,6 +9,7 @@ edit_uri: https://github.com/wmariuss/awesome-devops/blob/master/README.md
 # Copyright
 copyright: "Copyright &copy; Awesome DevOps Community"
 
+# Theme
 theme:
   name: material
   language: en
@@ -23,6 +24,7 @@ theme:
     - search.suggest
     - search.highlight
 
+# Extra
 extra:
   feature:
     tabs: true
@@ -46,10 +48,12 @@ extra_css:
 extra_javascript:
   - javascripts/syntax.js
 
+# Plugins
 plugins:
   - search:
       lang: en
 
+# Navigator
 nav:
   - Welcome: "index.md"
   - List: "list.md"
