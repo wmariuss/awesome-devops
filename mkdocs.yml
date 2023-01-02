@@ -27,10 +27,6 @@ theme:
     - search.highlight
     - content.code.annotate
     - content.tooltips
-    - navigation.indexes
-    - navigation.sections
-    - navigation.tabs
-    - navigation.tracking
     - toc.follow
 
 # Extra
