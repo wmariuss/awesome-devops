@@ -2,7 +2,7 @@ site_name: Awesome DevOps
 site_url: http://awesome-devops.xyz
 site_description: A curated list of awesome DevOps platforms, tools, practices and resources
 site_author: Marius Stanca
-repo_name: Awesome-DevOps Github
+repo_name: awesome-devops Github
 repo_url: http://github.com/wmariuss/awesome-devops
 edit_uri: https://github.com/wmariuss/awesome-devops/blob/master/README.md
 
@@ -13,6 +13,7 @@ theme:
   name: material
   language: en
   locale: en
+  font: false
   palette:
     primary: black
     accent: blue
