@@ -30,7 +30,6 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.tabs
-    - navigation.top
     - navigation.tracking
     - toc.follow
 
@@ -68,12 +67,7 @@ nav:
 
 # Extensions
 markdown_extensions:
-  - abbr
   - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
   - toc:
       permalink: true
   - codehilite:
