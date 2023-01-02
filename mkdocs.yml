@@ -14,23 +14,30 @@ theme:
   name: material
   language: en
   locale: en
-  font: false
+  font:
+    text: Roboto Slab
+    code: Source Code Pro
   palette:
     primary: black
     accent: blue
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
+  icon:
+    logo: logo
   features:
     - search.suggest
     - search.highlight
+    - content.code.annotate
+    - content.tooltips
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
 
 # Extra
 extra:
   feature:
     tabs: true
-  font:
-    text: Roboto Slab
-    code: Source Code Pro
   social:
     - icon: fontawesome/solid/globe
       link: http://marius.xyz
@@ -61,8 +68,13 @@ nav:
 
 # Extensions
 markdown_extensions:
+  - abbr
   - admonition
-  - codehilite:
-      guess_lang: false
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
   - toc:
       permalink: true
+  - codehilite:
+      guess_lang: false
