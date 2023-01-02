@@ -18,13 +18,16 @@ theme:
   palette:
     primary: black
     accent: blue
+  icon:
+    edit: material/pencil-circle
+    view: material/eye
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
     - search.suggest
     - search.highlight
     - navigation.indexes
-    - toc.integrate
+    - code.action.view
 
 # Extra
 extra:
@@ -51,6 +54,12 @@ extra_javascript:
 plugins:
   - search:
       lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: wmariuss/awesome-devops
+      branch: master
+  - git-authors
 
 # Navigator
 nav:
