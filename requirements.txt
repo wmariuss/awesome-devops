@@ -1,5 +1,5 @@
 mkdocs>=1.4.2
-mkdocs-material==7.3.6
+mkdocs-material==9.0.0
 mkdocs-git-revision-date-localized-plugin
 mkdocs-git-committers-plugin-2
 mkdocs-git-authors-plugin

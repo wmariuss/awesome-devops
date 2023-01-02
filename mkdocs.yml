@@ -55,10 +55,7 @@ extra_javascript:
 plugins:
   - search:
       lang: en
-  - git-revision-date-localized:
-    type: date
   - git-committers:
-      enabled: true
       repository: wmariuss/awesome-devops
       branch: master
   - git-authors
