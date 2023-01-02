@@ -18,8 +18,8 @@ theme:
   palette:
     primary: black
     accent: blue
-  icon:
-    logo: logo
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
   features:
     - search.suggest
     - search.highlight
@@ -51,8 +51,6 @@ extra_javascript:
 plugins:
   - search:
       lang: en
-  - minify:
-      minify_html: true
 
 # Navigator
 nav:
