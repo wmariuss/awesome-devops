@@ -1,6 +1,6 @@
 # Welcome
 
-A curated list of awesome DevOps platforms, tools, practices and resources. A list which help you to adopt and grow *DevOps* culture in your company. Also this list can be easily used for your *SRE* (Site Reliability Engineering) team.
+A curated list of awesome DevOps platforms, tools, practices and resources. A list which help you to adopt and grow *DevOps* culture in your company. Also this list can be easily used for your *SRE*[^1] team.
 
 ## What is DevOps
 
@@ -17,14 +17,16 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Practices
 
-* Continuous Integration
-* Continuous Delivery
-* Continuous Deployment
+* Continuous Integration (CI)
+* Continuous Delivery (CD)
+* Continuous Deployment (CD)
 * Microservices
-* Infrastructure as Code
+* Infrastructure as Code (IaC)
 * Monitoring and Logging
 * Communication and Collaboration
 
 ## Tools
 
 For list of tools check [list](http://awesome-devops.xyz/list) page.
+
+[^1]: Site Reliability Engineering.

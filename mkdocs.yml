@@ -23,6 +23,8 @@ theme:
   features:
     - search.suggest
     - search.highlight
+    - navigation.indexes
+    - toc.integrate
 
 # Extra
 extra:
@@ -33,14 +35,10 @@ extra:
   feature:
     tabs: true
   social:
-    - icon: fontawesome/solid/globe
-      link: http://marius.xyz
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/wmariuss
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/wmariuss
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/wmariuss
 
 extra_css:
   - stylesheets/syntax.css
@@ -53,17 +51,25 @@ extra_javascript:
 plugins:
   - search:
       lang: en
+  - minify:
+      minify_html: true
 
 # Navigator
 nav:
   - Welcome: "index.md"
-  - List: "list.md"
+  - Awesome list: "list.md"
   - Contribution: "contribution.md"
 
 # Extensions
 markdown_extensions:
   - admonition
   - footnotes
-  - meta
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - toc:
       permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
