@@ -3,8 +3,8 @@ site_url: http://awesome-devops.xyz
 site_description: A curated list of awesome DevOps platforms, tools, practices and resources
 site_author: Marius Stanca
 repo_name: awesome-devops Github
-repo_url: http://github.com/wmariuss/awesome-devops
-edit_uri: https://github.com/wmariuss/awesome-devops/blob/master/README.md
+repo_url: https://github.com/wmariuss/awesome-devops
+edit_uri: https://github.com/wmariuss/awesome-devops/blob/master
 
 # Copyright
 copyright: "Copyright &copy; Awesome DevOps Community"
@@ -19,6 +19,7 @@ theme:
     primary: black
     accent: blue
   icon:
+    repo: fontawesome/brands/github
     edit: material/pencil-circle
     view: material/eye
   logo: assets/logo.png
@@ -55,8 +56,9 @@ plugins:
   - search:
       lang: en
   - git-revision-date-localized:
-      enable_creation_date: true
+    type: date
   - git-committers:
+      enabled: true
       repository: wmariuss/awesome-devops
       branch: master
   - git-authors
