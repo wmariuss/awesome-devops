@@ -1,6 +1,8 @@
 name: Links validator
 
 on:
+  repository_dispatch:
+  workflow_dispatch:
   schedule:
     # At 09:00 on Monday: https://crontab.guru/#0_9_*_*_1
     - cron: "0 9 * * 1"
