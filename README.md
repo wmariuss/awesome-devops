@@ -1,6 +1,6 @@
 # Awesome DevOps
 
-![Image title](docs/assets/banner.png)
+[![Awesome DevOps](http://awesome-devops.xyz/assets/banner.png)](https://github.com/wmariuss/awesome-devops)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)

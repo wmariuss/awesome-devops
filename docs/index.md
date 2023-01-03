@@ -1,6 +1,6 @@
 # Welcome
 
-![Image title](./assets/banner.png)
+[![Awesome DevOps](./assets/banner.png)](https://github.com/wmariuss/awesome-devops)
 
 A curated list of awesome DevOps platforms, tools, practices and resources. A list which help you to adopt and grow *DevOps* culture in your company. Also this list can be easily used for your *SRE*[^1] team.
 
