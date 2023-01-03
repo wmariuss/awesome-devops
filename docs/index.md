@@ -1,5 +1,7 @@
 # Welcome
 
+![Image title](./assets/banner.png)
+
 A curated list of awesome DevOps platforms, tools, practices and resources. A list which help you to adopt and grow *DevOps* culture in your company. Also this list can be easily used for your *SRE*[^1] team.
 
 ## What is DevOps
