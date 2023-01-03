@@ -2,6 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
+[![Links validator](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml)
 
 A curated list of awesome DevOps platforms, tools, practices and resources.
 
@@ -76,7 +77,6 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [CentOS](https://www.centos.org/)
 - [CoreOS](http://coreos.com/) - the pioneering lightweight container host.
 - [OSv](http://osv.io/) - versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud.
-- [Rancher OS](https://rancher.com/rancher-os) - a lightweight, secure Linux distribution, built from containers to run containers well.
 - [Atomic](http://www.projectatomic.io/) - use immutable infrastructure to deploy and scale your containerized applications.
 - [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
 
@@ -84,7 +84,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 
 *Network distributed filesystems.*
 
-- [Ceph](https://ceph.io/) - highly scalable object, block and file-based storage under one whole system.
+- [Ceph](https://ceph.io/en/) - highly scalable object, block and file-based storage under one whole system.
 - [Gluster](https://www.gluster.org/) - free and open source software scalable network filesystem.
 - [LINBIT](https://www.linbit.com/en/) - create, remove, and replicate block storage devices for datacenter scale environments.
 - [XtreemFS](http://www.xtreemfs.org/) - fault-tolerant distributed file system for all storage needs.
@@ -95,7 +95,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 *Applications management platforms, Containers platform and Containers management.*
 
 - [Openshift](https://www.openshift.com/) - the Kubernetes platform for big ideas.
-- [Dokku](http://dokku.viewdocs.io/dokku/) - helps you build and manage the lifecycle of applications.
+- [Dokku](https://dokku.com/) - helps you build and manage the lifecycle of applications.
 - [Flynn](https://flynn.io/) - open source platform (PaaS) for running applications in production.
 - [Docker](https://www.docker.com/) - create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - define and run multi-container applications with Docker.
@@ -296,7 +296,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - [Zookeeper](http://zookeeper.apache.org/) - centralized service for configuration, naming, providing distributed synchronization, and more.
 - [Etcd](https://etcd.io/) - distributed, reliable key-value store for the most critical data of a distributed system.
 - [Istio](https://istio.io/) - connect, secure, control, and observe services.
-- [Kong](https://konghq.com/products/kong-gateway/kong-proxy) - deliver performance needed for microservices, service mesh, and cloud native deployments.
+- [Kong](https://konghq.com/) - deliver performance needed for microservices, service mesh, and cloud native deployments.
 - [Linkerd](https://github.com/linkerd/linkerd2) - service mesh for Kubernetes and beyond.
 
 ## Chaos Engineering
@@ -314,7 +314,7 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 
 *API Gateway, Service Proxy and Service Management tools.*
 
-- [API Umbrella](https://apiumbrella.io/#) - proxy that sits in front of your APIs.
+- [API Umbrella](https://github.com/NREL/api-umbrella) - proxy that sits in front of your APIs, API management platform.
 - [Ambassador](https://www.getambassador.io/) - Kubernetes-Native API Gateway built on the Envoy Proxy.
 - [Kong](https://konghq.com/) - connect all your microservices and APIs with the industry’s most performant, scalable and flexible API platform.
 - [Tyk](https://tyk.io/) - API and service management platform.
@@ -366,7 +366,6 @@ A curated list of awesome DevOps platforms, tools, practices and resources.
 - ChatOps:
   - [CloudBot](https://github.com/CloudBotIRC/CloudBot) - simple, fast, expandable, open-source Python IRC Bot.
   - [Hubot](https://hubot.github.com/) - a customizable life embetterment robot.
-  - [Lita](https://www.lita.io/) - a robot companion for your company's chat room.
 
 ## Secret Management
 
