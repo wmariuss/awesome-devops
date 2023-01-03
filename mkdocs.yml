@@ -29,6 +29,7 @@ theme:
     - search.highlight
     - navigation.indexes
     - code.action.view
+    - navigation.footer
 
 # Extra
 extra:
