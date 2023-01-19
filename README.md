@@ -101,13 +101,13 @@ A curated list of platforms, tools, practices and resources to create, improve D
 - [Docker](https://www.docker.com/) - Create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker.
 - [Docker Swarm](https://github.com/docker/swarm) - Docker-native clustering system.
-- [Kubernetes](https://kubernetes.io/) - automating deployment, scaling, and management of containerized applications.
-- [LXC](https://linuxcontainers.org/) - lets Linux users easily create and manage system or application containers.
-- [Rancher](https://rancher.com/) - lets you deliver Kubernetes-as-a-Service.
-- [OpenVz](https://openvz.org/) - container-based virtualization for Linux.
-- [Singularity](https://sylabs.io/singularity/) - run the application from the local environment to the cloud.
-- [AppScale](https://github.com/AppScale/appscale) - easy-to-manage serverless platform for building and running scalable web and mobile applications.
-- [Kata Containers](https://katacontainers.io/) - building lightweight virtual machines that seamlessly plug into the containers ecosystem.
+- [Kubernetes](https://kubernetes.io/) - Automating deployment, scaling, and management of containerized applications.
+- [LXC](https://linuxcontainers.org/) - Lets Linux users easily create and manage system or application containers.
+- [Rancher](https://rancher.com/) - Lets you deliver Kubernetes-as-a-Service.
+- [OpenVz](https://openvz.org/) - Container-based virtualization for Linux.
+- [Singularity](https://sylabs.io/singularity/) - Run the application from the local environment to the cloud.
+- [AppScale](https://github.com/AppScale/appscale) - Easy-to-manage serverless platform for building and running scalable web and mobile applications.
+- [Kata Containers](https://katacontainers.io/) - Building lightweight virtual machines that seamlessly plug into the containers ecosystem.
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
