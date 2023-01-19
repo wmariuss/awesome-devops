@@ -1,42 +1,86 @@
 site_name: Awesome DevOps
 site_url: http://awesome-devops.xyz
-site_description: A curated list of awesome DevOps tools, platforms and resources
+site_description: A curated list of awesome DevOps platforms, tools, practices and resources
 site_author: Marius Stanca
-repo_name: wmariuss/awesome-devops
-repo_url: http://github.com/wmariuss/awesome-devops
+repo_name: awesome-devops
+repo_url: https://github.com/wmariuss/awesome-devops
+edit_uri: https://github.com/wmariuss/awesome-devops/blob/master
 
+# Copyright
+copyright: "Copyright &copy; Awesome DevOps Community"
+
+# Theme
 theme:
   name: material
   language: en
+  locale: en
+  font: false
   palette:
-    primary: "black"
-    accent: "light blue"
-  font:
-    text: Roboto
-    code: Roboto Mono
+    primary: black
+    accent: blue
   icon:
-    logo: material/library
-    repo: fontawesome/brands/git-alt
+    repo: fontawesome/brands/github
+    edit: material/pencil-circle
+    view: material/eye
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.indexes
+    - code.action.view
+    - navigation.footer
 
+# Extra
 extra:
+  # Font
+  font:
+    text: Roboto Slab
+    code: Source Code Pro
   feature:
     tabs: true
   social:
-    - icon: fontawesome/solid/globe
-      link: http://marius.xyz
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/wmariuss
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/wmariuss
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/wmariuss
+
+extra_css:
+  - stylesheets/syntax.css
+  - stylesheets/fonts.css
+
+extra_javascript:
+  - javascripts/syntax.js
+
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - git-committers:
+      repository: wmariuss/awesome-devops
+      branch: master
+  - git-authors
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+
+# Navigator
 nav:
-  - "Improve your DevOps skills": "index.md"
+  - Welcome: "index.md"
+  - Awesome list: "list.md"
+  - Contribution: "contribution.md"
 
 # Extensions
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
-  - codehilite:
-      guess_lang: false
+  - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - toc:
       permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true

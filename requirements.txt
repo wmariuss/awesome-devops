@@ -1,3 +1,7 @@
-mkdocs>=1.2.3
-mkdocs-material==5.0.1
+mkdocs>=1.4.2
+mkdocs-material==9.0.0
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-committers-plugin-2
+mkdocs-git-authors-plugin
+lxml
 invoke
