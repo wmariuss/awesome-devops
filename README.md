@@ -160,6 +160,7 @@ A curated list of platforms, tools, practices and resources to create, improve D
 - On premises
   - [Buildbot](http://buildbot.net/) - automate all aspects of the software development cycle.
   - [Gitlab CI](https://about.gitlab.com/product/continuous-integration/) - pipelines build, test, deploy, and monitor your code as part of a single, integrated workflow.
+  - [Jaypore CI](https://www.jayporeci.in/) - automation system configured using python, offline first, for any language that runs using Docker.
   - [Jenkins](http://jenkins-ci.org/) - automation server for building, deploying and automating any project.
   - [Drone](https://github.com/drone/drone) - a Container-Native, Continuous Delivery Platform.
   - [Concourse](https://concourse-ci.org/) - pipeline-based continuous thing-doer.
