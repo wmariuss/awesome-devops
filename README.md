@@ -110,6 +110,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Kata Containers](https://katacontainers.io/) - Building lightweight virtual machines that seamlessly plug into the containers ecosystem.
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
+- [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
 
 ## Container Image Registry
 
