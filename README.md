@@ -6,7 +6,7 @@
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
 [![Links validator](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml)
 
-A curated list of platforms, tools, practices and resources to create, improve DevOps culture and SRE Team in the organization.
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market.
 
 ## Contents
 
@@ -192,7 +192,7 @@ A curated list of platforms, tools, practices and resources to create, improve D
 
 *Source Code management, Git-repository manager, Version Control. Some of them are included in Code review section.*
 
-- [Github](https://github.com/) - Helps developers store and manage their code, as well as track and control changes to their code.
+- [GitHub](https://github.com/) - Helps developers store and manage their code, as well as track and control changes to their code.
 - [Gitlab](https://gitlab.com/) - Entire DevOps lifecycle in one application.
 - [Bitbucket](https://bitbucket.org/product/) - Gives teams one place to plan projects, collaborate on code, test, and deploy
 - [Phabricator](https://github.com/phacility/phabricator/) - A collection of web applications which help software companies build better software.
@@ -323,7 +323,6 @@ A curated list of platforms, tools, practices and resources to create, improve D
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
-- [Nginx](https://nginx.org/) - High performance reverse proxy.
 
 ## Code review
 
@@ -411,8 +410,9 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
 - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
 - [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
-- [Site Reliability Engineering](https://landing.google.com/sre/books/)
-- [The Site Reliability Workbook](https://landing.google.com/sre/books)
+- [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/)
+- [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/)
+- [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/ro//static/pdf/building_secure_and_reliable_systems.pdf)
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
 - [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
@@ -434,11 +434,3 @@ Basic understanding and what you should know to become a *DevOps* Engineer, chec
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/main/docs/contribution.md).
-
-## Authors
-
-Created by *DevOps* for *DevOps*.
-
-## License
-
-[![License: CC0 1.0 Universal](https://img.shields.io/badge/License-CC0%201.0%20Universal-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
