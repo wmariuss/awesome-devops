@@ -249,6 +249,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
+- [Steampipe](https://steampipe.io/) - The universal SQL interface for any cloud API.
+- [Steampipe Mods](https://hub.steampipe.io/mods) - Cloud intelligence dashboards extensible with HCL + SQL.
 - [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring.
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
 - [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
