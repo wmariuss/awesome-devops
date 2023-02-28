@@ -233,6 +233,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [SQLite](https://sqlite.org/) - Small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - Non-relational (NoSQL)
   - [Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
+  - [ScyllaDB](https://www.scylladb.com/) - NoSQL data store using the seastar framework, compatible with Apache Cassandra
   - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database.
   - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
