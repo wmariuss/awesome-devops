@@ -269,6 +269,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - Network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack.
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
+- [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers.
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
 - Metrics/Metrics collection
   - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
