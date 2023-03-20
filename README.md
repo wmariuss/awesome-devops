@@ -382,6 +382,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Keybase](https://keybase.io/) - End-to-end encrypted chat and cloud storage system.
 - [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Create Kubernetes secrets from Vault for a secure GitOps based workflow.
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
+- [Selefra](https://github.com/selefra/selefra) - An open-source policy-as-code software that provides analytics for multi-cloud and SaaS.
 
 ## Sharing
 
