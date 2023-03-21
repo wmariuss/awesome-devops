@@ -121,6 +121,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Quay](https://www.projectquay.io/) - Container image registry that enables you to build, organize, distribute, and deploy containers.
 - [Dockyard](https://github.com/Huawei/dockyard) - Container & Artifact Repository.
 - [Harbor](https://goharbor.io/) - An open source trusted cloud native registry project that stores, signs, and scans content.
+- [GitHub Container Registry](https://github.blog/2020-09-01-introducing-github-container-registry/) - Container registry free for public images.
 
 ## Automation & Orchestration
 
