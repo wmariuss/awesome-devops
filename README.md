@@ -385,6 +385,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Keybase](https://keybase.io/) - End-to-end encrypted chat and cloud storage system.
 - [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Create Kubernetes secrets from Vault for a secure GitOps based workflow.
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
+- [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 
 ## Sharing
 
