@@ -204,6 +204,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gogs](https://gogs.io/) - A painless self-hosted Git service.
 - [Gitea](https://gitea.io/) - A painless self-hosted Git service.
 - [Gitblit](https://github.com/gitblit/gitblit) - Pure Java Git solution for managing, viewing, and serving Git repositories.
+- [RhodeCode](https://rhodecode.com/) - Centralized control for distributed repositories. Mercurial, Git, and Subversion under a single roof.
+- [Radicle](https://radicle.xyz/) - Radicle is a sovereign peer-to-peer network for code collaboration, built on top of Git.
 
 ## Web Servers
 

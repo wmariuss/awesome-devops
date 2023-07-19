@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   schedule:
     # At 09:00 on Monday: https://crontab.guru/#0_9_*_*_1
-    - cron: "0 9 * * 1"
+    - cron: "0 9 30 * 0"
 
 jobs:
   link_checker:
