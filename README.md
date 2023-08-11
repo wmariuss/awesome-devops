@@ -275,6 +275,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers.
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
+- [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
 - Metrics/Metrics collection
   - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
