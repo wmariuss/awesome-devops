@@ -100,6 +100,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas.
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications.
 - [Flynn](https://flynn.io/) - Open source platform (PaaS) for running applications in production.
+- [Cloud 66](https://www.cloud66.com/) - DevOps as a service that helps to build, deploy and manage any application on any cloud or server.
 - [Docker](https://www.docker.com/) - Create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker.
 - [Docker Swarm](https://github.com/docker/swarm) - Docker-native clustering system.
