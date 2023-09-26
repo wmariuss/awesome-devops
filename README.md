@@ -115,6 +115,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
 
+## Internal Developer Platforms
+
+*Internal Developer Platforms (or IDP) is a set of tools, services and processes that supports and accelerates your software development, while taking care of managing the underlying infrastructure.*
+
+- [Port](https://www.getport.io/) - A platform for building no-code, holistic, Internal Developer Portals.
+- [Backstage](https://backstage.io/) - An open platform for building developer portals.
+- [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
+
 ## Container Image Registry
 
 *Container Image registry.*
@@ -183,6 +191,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
   - [Gitploy](https://www.gitploy.io/) - Build the deployment system around GitHub in minutes.
+  - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
