@@ -17,6 +17,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Operating Systems](#operating-systems)
 - [Distributed Filesystems](#distributed-filesystems)
 - [Applications Platforms](#applications-platforms)
+- [Internal Developer Platforms](#internal-developer-platforms)
 - [Container Image Registry](#container-image-registry)
 - [Automation & Orchestration](#automation--orchestration)
 - [Continuous Integration & Delivery](#continuous-integration--delivery)
