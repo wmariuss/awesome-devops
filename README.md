@@ -299,6 +299,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Influxdata](https://www.influxdata.com/) - Time series database.
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups.
+  - [Autometrics](https://autometrics.dev/) - An open source micro framework for observability.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
@@ -312,7 +313,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
-  - [Autometrics](https://autometrics.dev/) - An open source micro framework for observability.
 
 ## Service Discovery & Service Mesh
 
