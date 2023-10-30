@@ -288,7 +288,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers.
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
-- [Canary Checker](https://canarychecker.io) - Open source health check platform 
+- [Canary Checker](https://canarychecker.io) - Open source health check platform.
 - Metrics/Metrics collection
   - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
@@ -312,6 +312,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
+  - [Autometrics](https://autometrics.dev/) - An open source micro framework for observability.
 
 ## Service Discovery & Service Mesh
 
