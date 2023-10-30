@@ -271,7 +271,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
 - [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
 - [Amon](https://github.com/amonapp/amon) - Modern server monitoring platform.
-- [Flapjack](https://flapjack.io/) - Monitoring notification routing + event processing system.
 - [Icinga](https://icinga.com/) - Monitors availability and performance, gives you simple access to relevant data and raises alerts.
 - [Monit](https://mmonit.com/monit/#home) - Managing and monitoring Unix systems.
 - [Naemon](http://www.naemon.org/) - Fast, stable and innovative while giving you a clear view of the state of your network and applications.
@@ -406,6 +405,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
 
+## Security
+
+*Validating, lint and best practice in term of Security on code or infrastructure.*
+
+- [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+
 ## Sharing
 
 *A collection of tools to help with sharing knowledge and telling the story.*
@@ -441,7 +446,7 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/)
 - [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/)
-- [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/ro//static/pdf/building_secure_and_reliable_systems.pdf)
+- [Building Secure & Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
 - [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
