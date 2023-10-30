@@ -34,6 +34,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Programming Languages](#programming-languages)
 - [Chat and ChatOps](#chat-and-chatops)
 - [Secret Management](#secret-management)
+- [Security](#security)
 - [Sharing](#sharing)
 - [VPN](#vpn)
 - [Resources](#resources)
