@@ -167,6 +167,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [KubeVela](https://kubevela.io/) - Modern application delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
+- [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 
 ## Continuous Integration & Delivery
 
