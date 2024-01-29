@@ -451,6 +451,11 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
 - [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
+### DevOps Bootcamps (free)
+- [GeekforGeeks](https://www.geeksforgeeks.org/courses/devops-bootcamp) - beginner friendly bootcamp for those interested in DevOps
+- [RenoLeap](https://renoleap.io/en/) - 13-week immersive training program to help you build a deep DevOps foundation and AWS Cloud skills.
+- [RockStack](https://www.rockstack.de/tech-beginners) - Devops Bootcamp for Tech Beginners & Career Changers
+
 ### Conferences
 
 - [DevOpsCon](https://devopscon.io/)
