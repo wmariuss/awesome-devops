@@ -17,6 +17,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Operating Systems](#operating-systems)
 - [Distributed Filesystems](#distributed-filesystems)
 - [Applications Platforms](#applications-platforms)
+- [Internal Developer Platforms](#internal-developer-platforms)
 - [Container Image Registry](#container-image-registry)
 - [Automation & Orchestration](#automation--orchestration)
 - [Continuous Integration & Delivery](#continuous-integration--delivery)
@@ -33,6 +34,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Programming Languages](#programming-languages)
 - [Chat and ChatOps](#chat-and-chatops)
 - [Secret Management](#secret-management)
+- [Security](#security)
 - [Sharing](#sharing)
 - [VPN](#vpn)
 - [Resources](#resources)
@@ -100,6 +102,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas.
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications.
 - [Flynn](https://flynn.io/) - Open source platform (PaaS) for running applications in production.
+- [Cloud 66](https://www.cloud66.com/) - DevOps as a service that helps to build, deploy and manage any application on any cloud or server.
 - [Docker](https://www.docker.com/) - Create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker.
 - [Docker Swarm](https://github.com/docker/swarm) - Docker-native clustering system.
@@ -113,6 +116,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
+
+## Internal Developer Platforms
+
+*Internal Developer Platforms (or IDP) is a set of tools, services and processes that supports and accelerates your software development, while taking care of managing the underlying infrastructure.*
+
+- [Port](https://www.getport.io/) - A platform for building no-code, holistic, Internal Developer Portals.
+- [Backstage](https://backstage.io/) - An open platform for building developer portals.
+- [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
 
 ## Container Image Registry
 
@@ -157,6 +168,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
 - [Meshery](https://meshery.io/) - An open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
+- [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 
 ## Continuous Integration & Delivery
 
@@ -183,6 +195,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
   - [Gitploy](https://www.gitploy.io/) - Build the deployment system around GitHub in minutes.
+  - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
@@ -205,6 +218,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gogs](https://gogs.io/) - A painless self-hosted Git service.
 - [Gitea](https://gitea.io/) - A painless self-hosted Git service.
 - [Gitblit](https://github.com/gitblit/gitblit) - Pure Java Git solution for managing, viewing, and serving Git repositories.
+- [RhodeCode](https://rhodecode.com/) - Centralized control for distributed repositories. Mercurial, Git, and Subversion under a single roof.
+- [Radicle](https://radicle.xyz/) - Radicle is a sovereign peer-to-peer network for code collaboration, built on top of Git.
 
 ## Web Servers
 
@@ -258,13 +273,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
 - [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
 - [Amon](https://github.com/amonapp/amon) - Modern server monitoring platform.
-- [Flapjack](https://flapjack.io/) - Monitoring notification routing + event processing system.
 - [Icinga](https://icinga.com/) - Monitors availability and performance, gives you simple access to relevant data and raises alerts.
 - [Monit](https://mmonit.com/monit/#home) - Managing and monitoring Unix systems.
 - [Naemon](http://www.naemon.org/) - Fast, stable and innovative while giving you a clear view of the state of your network and applications.
 - [Nagios](https://www.nagios.org/) - Computer-software application that monitors systems, networks and infrastructure.
 - [Sentry](https://sentry.io/welcome/) - Error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
-- [Shinken](http://www.shinken-monitoring.org/) - Monitoring framework.
+- [Shinken](https://github.com/shinken-solutions/shinken) - Monitoring framework.
 - [Zabbix](https://www.zabbix.com/) - Mature and effortless monitoring solution for network monitoring and application monitoring.
 - [Glances](https://github.com/nicolargo/glances) - Monitoring information through a curses or Web based interface.
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool.
@@ -274,6 +288,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers.
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
+- [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
+- [Canary Checker](https://canarychecker.io) - Open source health check platform.
 - Metrics/Metrics collection
   - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
@@ -284,6 +300,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Influxdata](https://www.influxdata.com/) - Time series database.
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups.
+  - [Autometrics](https://autometrics.dev/) - An open source micro framework for observability.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
@@ -391,6 +408,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
 
+## Security
+
+*Validating, lint and best practice in term of Security on code or infrastructure.*
+
+- [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+
 ## Sharing
 
 *A collection of tools to help with sharing knowledge and telling the story.*
@@ -426,7 +449,7 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/)
 - [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/)
-- [Building Secure & Reliable Systems](https://static.googleusercontent.com/media/sre.google/ro//static/pdf/building_secure_and_reliable_systems.pdf)
+- [Building Secure & Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
 - [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
