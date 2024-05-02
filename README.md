@@ -466,6 +466,10 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [devopsdays](https://devopsdays.org/)
 - [DevOps Enterprise Summit](https://events.itrevolution.com/)
 
+### Blogs
+
+- [Medium](https://medium.com/?tag=devops)
+
 ### DevOps Roadmap
 
 Basic understanding and what you should know to become a *DevOps* Engineer, check the roadmap [here](https://roadmap.sh/devops).
