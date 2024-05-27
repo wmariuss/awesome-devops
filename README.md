@@ -469,6 +469,7 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 ### Blogs
 
 - [Medium](https://medium.com/?tag=devops)
+- [Scaler Blogs](https://www.scaler.com/blog/devops/)
 
 ### DevOps Roadmap
 
