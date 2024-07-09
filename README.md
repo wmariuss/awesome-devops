@@ -153,7 +153,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
-- [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
 - [Pulumi](https://www.pulumi.com/) - Modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure.
 - [Packer](https://www.packer.io/) - Build Automated Machine Images.
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
@@ -171,6 +170,10 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
 - [Meshery](https://meshery.io/) - An open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
+
+## Productivity Tools
+
+- [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
 
 ## Continuous Integration & Delivery
 
