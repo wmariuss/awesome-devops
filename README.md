@@ -20,6 +20,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Internal Developer Platforms](#internal-developer-platforms)
 - [Container Image Registry](#container-image-registry)
 - [Automation & Orchestration](#automation--orchestration)
+- [Productivity Tools](#productivity-tools)
 - [Continuous Integration & Delivery](#continuous-integration--delivery)
 - [Source Code Management](#source-code-management)
 - [Web Servers](#web-servers)
@@ -174,7 +175,11 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Productivity Tools
 
+*All the tools, services which increase productivity, developer velocity and developer experience.*
+
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
+- [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
+- [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
 
 ## Continuous Integration & Delivery
 
