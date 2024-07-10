@@ -40,6 +40,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Resources](#resources)
   - [Books](#books)
   - [Conferences](#conferences)
+  - [Blogs](#blogs)
   - [DevOps Roadmap](#devops-roadmap)
 
 ---
@@ -102,7 +103,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas.
 - [Cycle.io](https://cycle.io/) - DevOps platform for building platforms. Handle container orchestration, load-balancing, monitoring, and more from a single control plane.
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications.
-- [Flynn](https://flynn.io/) - Open source platform (PaaS) for running applications in production.
 - [Cloud 66](https://www.cloud66.com/) - DevOps as a service that helps to build, deploy and manage any application on any cloud or server.
 - [Docker](https://www.docker.com/) - Create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker.
@@ -117,6 +117,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
+- [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
 
 ## Internal Developer Platforms
 
