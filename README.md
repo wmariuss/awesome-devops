@@ -142,7 +142,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Tools for automation, orchestration, deployment, provisioning and configuration management.*
 
 - [Ansible](https://www.ansible.com/) - Simple IT automation platform that makes your applications and systems easier to deploy.
-- [Salt](https://www.saltstack.com/) - Automate the management and configuration of any infrastructure or application at scale.
+- [Salt](https://saltproject.io/) - Automate the management and configuration of any infrastructure or application at scale.
 - [Puppet](https://puppet.com/) - Unparalleled infrastructure automation and delivery.
 - [Chef](https://www.chef.io/) - Automate infrastructure and applications.
 - [Juju](https://jaas.ai/) - Simplifies how you configure, scale and operate today's complex software.
