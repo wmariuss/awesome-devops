@@ -363,6 +363,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
+- [Zuplo](https://zuplo.com) - Free Edge API Gateway that makes Security, Documentation, and Monetization easy.
+
 
 ## Code review
 
