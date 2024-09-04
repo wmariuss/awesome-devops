@@ -61,7 +61,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [VMware Cloud](https://cloud.vmware.com/) - Run, manage, connect and protect all of your apps on any cloud.
 - [IBM Cloud](https://www.ibm.com/cloud) - Tools, data & APIs to make AI real now.
 - [Stackpath](https://www.stackpath.com/) - Platform of computing infrastructure and services built at the edge of the cloud.
-- [Linode](https://www.linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
+- [Linode](https://linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
 
 ## Open Source Cloud Platforms
@@ -119,6 +119,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
 - [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+- [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 
 ## Internal Developer Platforms
 
@@ -205,7 +206,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments).
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
-  - [Gitploy](https://www.gitploy.io/) - Build the deployment system around GitHub in minutes.
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
@@ -303,7 +303,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
 - [Canary Checker](https://canarychecker.io) - Open source health check platform.
 - Metrics/Metrics collection
-  - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon.
   - [Facette](https://github.com/facette/facette) - Time series data visualization software.
