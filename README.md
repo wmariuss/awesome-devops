@@ -20,6 +20,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Internal Developer Platforms](#internal-developer-platforms)
 - [Container Image Registry](#container-image-registry)
 - [Automation & Orchestration](#automation--orchestration)
+- [Productivity Tools](#productivity-tools)
 - [Continuous Integration & Delivery](#continuous-integration--delivery)
 - [Source Code Management](#source-code-management)
 - [Web Servers](#web-servers)
@@ -40,6 +41,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Resources](#resources)
   - [Books](#books)
   - [Conferences](#conferences)
+  - [Blogs](#blogs)
   - [DevOps Roadmap](#devops-roadmap)
 
 ---
@@ -59,7 +61,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [VMware Cloud](https://cloud.vmware.com/) - Run, manage, connect and protect all of your apps on any cloud.
 - [IBM Cloud](https://www.ibm.com/cloud) - Tools, data & APIs to make AI real now.
 - [Stackpath](https://www.stackpath.com/) - Platform of computing infrastructure and services built at the edge of the cloud.
-- [Linode](https://www.linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
+- [Linode](https://linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
 
 ## Open Source Cloud Platforms
@@ -102,7 +104,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas.
 - [Cycle.io](https://cycle.io/) - DevOps platform for building platforms. Handle container orchestration, load-balancing, monitoring, and more from a single control plane.
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications.
-- [Flynn](https://flynn.io/) - Open source platform (PaaS) for running applications in production.
 - [Cloud 66](https://www.cloud66.com/) - DevOps as a service that helps to build, deploy and manage any application on any cloud or server.
 - [Docker](https://www.docker.com/) - Create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker.
@@ -117,6 +118,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
+- [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+- [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 
 ## Internal Developer Platforms
 
@@ -140,7 +143,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Tools for automation, orchestration, deployment, provisioning and configuration management.*
 
 - [Ansible](https://www.ansible.com/) - Simple IT automation platform that makes your applications and systems easier to deploy.
-- [Salt](https://www.saltstack.com/) - Automate the management and configuration of any infrastructure or application at scale.
+- [Salt](https://saltproject.io/) - Automate the management and configuration of any infrastructure or application at scale.
 - [Puppet](https://puppet.com/) - Unparalleled infrastructure automation and delivery.
 - [Chef](https://www.chef.io/) - Automate infrastructure and applications.
 - [Juju](https://jaas.ai/) - Simplifies how you configure, scale and operate today's complex software.
@@ -171,6 +174,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Meshery](https://meshery.io/) - An open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 
+## Productivity Tools
+
+*All the tools, services which increase productivity, developer velocity and developer experience.*
+
+- [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
+- [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
+- [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
+
 ## Continuous Integration & Delivery
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
@@ -195,7 +206,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments).
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
-  - [Gitploy](https://www.gitploy.io/) - Build the deployment system around GitHub in minutes.
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
@@ -293,8 +303,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
 - [Canary Checker](https://canarychecker.io) - Open source health check platform.
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
+- [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
 - Metrics/Metrics collection
-  - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon.
   - [Facette](https://github.com/facette/facette) - Time series data visualization software.
