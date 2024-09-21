@@ -341,6 +341,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Istio](https://istio.io/) - Connect, secure, control, and observe services.
 - [Kong](https://konghq.com/) - Deliver performance needed for microservices, service mesh, and cloud native deployments.
 - [Linkerd](https://github.com/linkerd/linkerd2) - Service mesh for Kubernetes and beyond.
+- [Meshery](https://meshery.io) - A cloud-native management plane that simplifies the design, deployment, and management of service meshes 
 
 ## Chaos Engineering
 
