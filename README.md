@@ -174,7 +174,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Meshery](https://meshery.io/) - An open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 - [Deployment.io](https://deployment.io) - DevOps co-pilot for developers to automate deployments to AWS.
-
+- [RapidForge.io](https://rapidforge.io/) - Create end points, forms and tasks using scripts. Automate your workflows.
 ## Productivity Tools
 
 *All the tools, services which increase productivity, developer velocity and developer experience.*
