@@ -374,6 +374,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gerrit](https://www.gerritcodereview.com/) - Web-based team code collaboration tool.
 - [Review Board](https://www.reviewboard.org/) - Web-based collaborative code review tool.
 - [MeshMap](https://layer5.io/cloud-native-management/meshmap) - World’s only visual designer for Kubernetes and cloud native applications. Design, deploy, and manage your Kubernetes-based, cloud native deployments allowing you to speed up infrastructure configuration.
+- [Potpie](https://potpie.ai) - AI agent that understands your code changes and computes the blast radius of your changes. 
 
 ## Distributed messaging
 
