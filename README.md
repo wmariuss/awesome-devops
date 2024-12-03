@@ -58,11 +58,11 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [DigitalOcean](https://www.digitalocean.com/) - Helping developers easily build, test, manage, and scale applications of any size.
 - [Scaleway](https://www.scaleway.com/) - Single way to create, deploy and scale your infrastructure in the cloud.
 - [Vultr](https://www.vultr.com/) - Easily deploy cloud servers, bare metal, and storage worldwide.
-- [VMware Cloud](https://cloud.vmware.com/) - Run, manage, connect and protect all of your apps on any cloud.
 - [IBM Cloud](https://www.ibm.com/cloud) - Tools, data & APIs to make AI real now.
 - [Stackpath](https://www.stackpath.com/) - Platform of computing infrastructure and services built at the edge of the cloud.
 - [Linode](https://linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
+- [Equinix](https://www.equinix.com/) - Global data center and colocation provider for enterprise network and cloud computing.
 
 ## Open Source Cloud Platforms
 
@@ -161,7 +161,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
 - [Foreman](https://theforeman.org/) - Complete lifecycle management tool for physical and virtual servers.
 - [Nomad](https://learn.hashicorp.com/nomad) - Deploy and Manage Any Containerized, Legacy, or Batch Application.
-- [Marathon](https://mesosphere.github.io/marathon/) - A production-grade container orchestration platform for DC/OS and Apache Mesos.
 - [OctoDNS](https://github.com/github/octodns) - Managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
@@ -461,7 +460,6 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
 - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
-- [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/)
 - [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/)
 - [Building Secure & Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
