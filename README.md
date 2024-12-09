@@ -280,6 +280,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
+- [Pulse](https://pulse.support/) -  Automated cluster health monitoring and maintenence alerts for your Elasticsearch clusters.
 - [Steampipe](https://steampipe.io/) - The universal SQL interface for any cloud API, & cloud intelligence dashboards extensible w/ HCL+SQL.
 - [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring.
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
