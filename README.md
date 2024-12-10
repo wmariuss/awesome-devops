@@ -66,14 +66,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Open Source Cloud Platforms
 
-*Private, Public and Hybrid open source Cloud Platforms.*
+*Private, Public and Hybrid open-source Cloud Platforms.*
 
 - [Openstack](https://www.openstack.org/) - Open source software for creating private and public clouds.
 - [Apache CloudStack](https://cloudstack.apache.org/) - Designed to deploy and manage large networks of virtual machines.
 - [OpenNebula](https://opennebula.org/) - Build Private Clouds and manage Data Center virtualization based on KVM, LXD and VMware.
 - [Eucalyptus](https://www.eucalyptus.cloud/) - Building AWS-compatible private and hybrid clouds.
 - [DC/OS](https://dcos.io/) - Distributed operating system based on the Apache Mesos distributed systems kernel.
-- [Apache Mesos](http://mesos.apache.org/) - Program against your datacenter like it’s a single pool of resources.
+- [Apache Mesos](http://mesos.apache.org/) - Program against your data center like it’s a single pool of resources.
 - [Localstack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 
 ## Operating Systems
@@ -95,7 +95,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gluster](https://www.gluster.org/) - Free and open source software scalable network filesystem.
 - [LINBIT](https://www.linbit.com/en/) - Create, remove, and replicate block storage devices for datacenter scale environments.
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs.
-- [min.io](https://min.io/) - High performance, distributed object storage system.
+- [min.io](https://min.io/) - High-performance, distributed object storage system.
 
 ## Applications Platforms
 
@@ -152,7 +152,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems.
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices.
 - [Tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service software.
-- [Fabric](http://www.fabfile.org/) - High level Python library designed to execute shell commands remotely over SSH.
+- [Fabric](http://www.fabfile.org/) - High-level Python library designed to execute shell commands remotely over SSH.
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
@@ -170,7 +170,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [KubeVela](https://kubevela.io/) - Modern application delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
-- [Meshery](https://meshery.io/) - An open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
+- [Meshery](https://meshery.io/) - An open-source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 - [Deployment.io](https://deployment.io) - DevOps co-pilot for developers to automate deployments to AWS.
 
@@ -186,7 +186,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
 
-- On premises
+- On-premises
   - [Buildbot](http://buildbot.net/) - automate all aspects of the software development cycle.
   - [Gitlab CI](https://about.gitlab.com/product/continuous-integration/) - pipelines build, test, deploy, and monitor your code as part of a single, integrated workflow.
   - [Jenkins](http://jenkins-ci.org/) - automation server for building, deploying and automating any project.
@@ -257,18 +257,18 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Relational (SQL) and non-relational (NoSQL) databases.*
 
 - Relational (SQL)
-  - [PostgreSQL](https://www.postgresql.org/) - Powerful, open source object-relational database system.
-  - [MySQL](https://www.mysql.com/) - Open-source relational database management system.
-  - [MariaDB](https://mariadb.org/) - Fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
-  - [SQLite](https://sqlite.org/) - Small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+    - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system.
+    - [MySQL](https://www.mysql.com/) - Open-source relational database management system.
+    - [MariaDB](https://mariadb.org/) - Fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
+    - [SQLite](https://sqlite.org/) - Small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - Non-relational (NoSQL)
-  - [Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
-  - [ScyllaDB](https://www.scylladb.com/) - NoSQL data store using the seastar framework, compatible with Apache Cassandra
-  - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database.
-  - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
-  - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
-  - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
-  - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the realtime web.
+    - [Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
+    - [ScyllaDB](https://www.scylladb.com/) - NoSQL data store using the seastar framework, compatible with Apache Cassandra
+    - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database.
+    - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
+    - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
+    - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
+    - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - Distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
     - [Leveldb](https://github.com/google/leveldb) - Fast key-value storage library.
@@ -313,7 +313,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Influxdata](https://www.influxdata.com/) - Time series database.
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups.
-  - [Autometrics](https://autometrics.dev/) - An open source micro framework for observability.
+  - [Autometrics](https://autometrics.dev/) - An open-source micro framework for observability.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
@@ -322,9 +322,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Flume](https://flume.apache.org/) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving logs.
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - Stream processing software system.
   - [Kibana](https://www.elastic.co/products/kibana) - Explore, visualize, discover data.
-  - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+  - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly available, multi-tenant log aggregation system inspired by Prometheus.
 - Status
-  - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open source status page system.
+  - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
 
@@ -374,7 +374,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Review Board](https://www.reviewboard.org/) - Web-based collaborative code review tool.
 - [MeshMap](https://layer5.io/cloud-native-management/meshmap) - World’s only visual designer for Kubernetes and cloud native applications. Design, deploy, and manage your Kubernetes-based, cloud native deployments allowing you to speed up infrastructure configuration.
 
-## Distributed messaging
+## Distributed Messaging
 
 *Distributed messaging platforms and Queues software.*
 
@@ -395,8 +395,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Programming languages.*
 
 - [Python](https://www.python.org/) - Programming language that lets you work quickly and integrate systems more effectively.
-- [Ruby](https://www.ruby-lang.org/) - A dynamic, open source programming language with a focus on simplicity and productivity.
-- [Go](https://golang.org/) - An open source programming language that makes it easy to build simple, reliable, and efficient software.
+- [Ruby](https://www.ruby-lang.org/) - A dynamic, open-source programming language with a focus on simplicity and productivity.
+- [Go](https://golang.org/) - An open-source programming language that makes it easy to build simple, reliable, and efficient software.
 
 ## Chat and ChatOps
 
