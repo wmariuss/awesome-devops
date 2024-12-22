@@ -2,7 +2,6 @@
 
 [![Awesome DevOps](http://awesome-devops.xyz/assets/banner.png)](https://github.com/wmariuss/awesome-devops)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
 [![Links validator](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml)
 
@@ -15,6 +14,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Cloud Platforms](#cloud-platforms)
 - [Open Source Cloud Platforms](#open-source-cloud-platforms)
 - [Operating Systems](#operating-systems)
+- [Package Management](#package-management--system-configuration)
 - [Distributed Filesystems](#distributed-filesystems)
 - [Applications Platforms](#applications-platforms)
 - [Internal Developer Platforms](#internal-developer-platforms)
@@ -86,6 +86,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [OSv](http://osv.io/) - Versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud.
 - [Atomic](http://www.projectatomic.io/) - Use immutable infrastructure to deploy and scale your containerized applications.
 - [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
+
+## Package Management & System configuration
+
+*Builds packages in isolation from each other.*
+
+- [Nix/NixOS](https://nixos.org/) - A tool that takes a unique approach to package management and system configuration.
 
 ## Distributed Filesystems
 
@@ -257,18 +263,18 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Relational (SQL) and non-relational (NoSQL) databases.*
 
 - Relational (SQL)
-    - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system.
-    - [MySQL](https://www.mysql.com/) - Open-source relational database management system.
-    - [MariaDB](https://mariadb.org/) - Fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
-    - [SQLite](https://sqlite.org/) - Small, fast, self-contained, high-reliability, full-featured, SQL database engine.
+  - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system.
+  - [MySQL](https://www.mysql.com/) - Open-source relational database management system.
+  - [MariaDB](https://mariadb.org/) - Fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
+  - [SQLite](https://sqlite.org/) - Small, fast, self-contained, high-reliability, full-featured, SQL database engine.
 - Non-relational (NoSQL)
-    - [Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
-    - [ScyllaDB](https://www.scylladb.com/) - NoSQL data store using the seastar framework, compatible with Apache Cassandra
-    - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database.
-    - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
-    - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
-    - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
-    - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
+  - [Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
+  - [ScyllaDB](https://www.scylladb.com/) - NoSQL data store using the seastar framework, compatible with Apache Cassandra
+  - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database.
+  - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
+  - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
+  - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
+  - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - Distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
     - [Leveldb](https://github.com/google/leveldb) - Fast key-value storage library.
