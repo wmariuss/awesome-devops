@@ -14,7 +14,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Cloud Platforms](#cloud-platforms)
 - [Open Source Cloud Platforms](#open-source-cloud-platforms)
 - [Operating Systems](#operating-systems)
-- [Package Management](#package-management--system-configuration)
+- [Package Management & System Configuration](#package-management--system-configuration)
 - [Distributed Filesystems](#distributed-filesystems)
 - [Applications Platforms](#applications-platforms)
 - [Internal Developer Platforms](#internal-developer-platforms)
