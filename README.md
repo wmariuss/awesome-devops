@@ -189,6 +189,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
+- [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
+
 
 ## Continuous Integration & Delivery
 
