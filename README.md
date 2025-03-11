@@ -2,7 +2,6 @@
 
 [![Awesome DevOps](http://awesome-devops.xyz/assets/banner.png)](https://github.com/wmariuss/awesome-devops)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
 [![Links validator](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml)
 
@@ -15,11 +14,13 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Cloud Platforms](#cloud-platforms)
 - [Open Source Cloud Platforms](#open-source-cloud-platforms)
 - [Operating Systems](#operating-systems)
+- [Package Management & System Configuration](#package-management--system-configuration)
 - [Distributed Filesystems](#distributed-filesystems)
 - [Applications Platforms](#applications-platforms)
 - [Internal Developer Platforms](#internal-developer-platforms)
 - [Container Image Registry](#container-image-registry)
 - [Automation & Orchestration](#automation--orchestration)
+- [Productivity Tools](#productivity-tools)
 - [Continuous Integration & Delivery](#continuous-integration--delivery)
 - [Source Code Management](#source-code-management)
 - [Web Servers](#web-servers)
@@ -40,6 +41,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Resources](#resources)
   - [Books](#books)
   - [Conferences](#conferences)
+  - [Blogs](#blogs)
   - [DevOps Roadmap](#devops-roadmap)
 
 ---
@@ -56,22 +58,22 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [DigitalOcean](https://www.digitalocean.com/) - Helping developers easily build, test, manage, and scale applications of any size.
 - [Scaleway](https://www.scaleway.com/) - Single way to create, deploy and scale your infrastructure in the cloud.
 - [Vultr](https://www.vultr.com/) - Easily deploy cloud servers, bare metal, and storage worldwide.
-- [VMware Cloud](https://cloud.vmware.com/) - Run, manage, connect and protect all of your apps on any cloud.
 - [IBM Cloud](https://www.ibm.com/cloud) - Tools, data & APIs to make AI real now.
 - [Stackpath](https://www.stackpath.com/) - Platform of computing infrastructure and services built at the edge of the cloud.
-- [Linode](https://www.linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
+- [Linode](https://linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
+- [Equinix](https://www.equinix.com/) - Global data center and colocation provider for enterprise network and cloud computing.
 
 ## Open Source Cloud Platforms
 
-*Private, Public and Hybrid open source Cloud Platforms.*
+*Private, Public and Hybrid open-source Cloud Platforms.*
 
 - [Openstack](https://www.openstack.org/) - Open source software for creating private and public clouds.
 - [Apache CloudStack](https://cloudstack.apache.org/) - Designed to deploy and manage large networks of virtual machines.
 - [OpenNebula](https://opennebula.org/) - Build Private Clouds and manage Data Center virtualization based on KVM, LXD and VMware.
 - [Eucalyptus](https://www.eucalyptus.cloud/) - Building AWS-compatible private and hybrid clouds.
 - [DC/OS](https://dcos.io/) - Distributed operating system based on the Apache Mesos distributed systems kernel.
-- [Apache Mesos](http://mesos.apache.org/) - Program against your datacenter like it’s a single pool of resources.
+- [Apache Mesos](http://mesos.apache.org/) - Program against your data center like it’s a single pool of resources.
 - [Localstack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 
 ## Operating Systems
@@ -85,6 +87,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Atomic](http://www.projectatomic.io/) - Use immutable infrastructure to deploy and scale your containerized applications.
 - [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure.
 
+## Package Management & System configuration
+
+*Builds packages in isolation from each other.*
+
+- [Nix/NixOS](https://nixos.org/) - A tool that takes a unique approach to package management and system configuration.
+
 ## Distributed Filesystems
 
 *Network distributed filesystems.*
@@ -93,15 +101,15 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gluster](https://www.gluster.org/) - Free and open source software scalable network filesystem.
 - [LINBIT](https://www.linbit.com/en/) - Create, remove, and replicate block storage devices for datacenter scale environments.
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs.
-- [min.io](https://min.io/) - High performance, distributed object storage system.
+- [min.io](https://min.io/) - High-performance, distributed object storage system.
 
 ## Applications Platforms
 
 *Applications management platforms, Containers platform and Containers management.*
 
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas.
+- [Cycle.io](https://cycle.io/) - DevOps platform for building platforms. Handle container orchestration, load-balancing, monitoring, and more from a single control plane.
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications.
-- [Flynn](https://flynn.io/) - Open source platform (PaaS) for running applications in production.
 - [Cloud 66](https://www.cloud66.com/) - DevOps as a service that helps to build, deploy and manage any application on any cloud or server.
 - [Docker](https://www.docker.com/) - Create, deploy, and run applications by using containers.
 - [Docker Compose](https://github.com/docker/compose) - Define and run multi-container applications with Docker.
@@ -116,6 +124,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
+- [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+- [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
+- [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
 
 ## Internal Developer Platforms
 
@@ -139,7 +150,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Tools for automation, orchestration, deployment, provisioning and configuration management.*
 
 - [Ansible](https://www.ansible.com/) - Simple IT automation platform that makes your applications and systems easier to deploy.
-- [Salt](https://www.saltstack.com/) - Automate the management and configuration of any infrastructure or application at scale.
+- [Salt](https://saltproject.io/) - Automate the management and configuration of any infrastructure or application at scale.
 - [Puppet](https://puppet.com/) - Unparalleled infrastructure automation and delivery.
 - [Chef](https://www.chef.io/) - Automate infrastructure and applications.
 - [Juju](https://jaas.ai/) - Simplifies how you configure, scale and operate today's complex software.
@@ -148,7 +159,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems.
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices.
 - [Tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service software.
-- [Fabric](http://www.fabfile.org/) - High level Python library designed to execute shell commands remotely over SSH.
+- [Fabric](http://www.fabfile.org/) - High-level Python library designed to execute shell commands remotely over SSH.
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
@@ -157,7 +168,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
 - [Foreman](https://theforeman.org/) - Complete lifecycle management tool for physical and virtual servers.
 - [Nomad](https://learn.hashicorp.com/nomad) - Deploy and Manage Any Containerized, Legacy, or Batch Application.
-- [Marathon](https://mesosphere.github.io/marathon/) - A production-grade container orchestration platform for DC/OS and Apache Mesos.
 - [OctoDNS](https://github.com/github/octodns) - Managing DNS across multiple providers. DNS as code.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
@@ -167,13 +177,26 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [KubeVela](https://kubevela.io/) - Modern application delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
+- [Meshery](https://meshery.io/) - An open-source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
+- [Deployment.io](https://deployment.io) - DevOps co-pilot for developers to automate deployments to AWS.
+- [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
+
+## Productivity Tools
+
+*All the tools, services which increase productivity, developer velocity and developer experience.*
+
+- [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
+- [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
+- [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
+- [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
+
 
 ## Continuous Integration & Delivery
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
 
-- On premises
+- On-premises
   - [Buildbot](http://buildbot.net/) - automate all aspects of the software development cycle.
   - [Gitlab CI](https://about.gitlab.com/product/continuous-integration/) - pipelines build, test, deploy, and monitor your code as part of a single, integrated workflow.
   - [Jenkins](http://jenkins-ci.org/) - automation server for building, deploying and automating any project.
@@ -193,7 +216,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments).
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
-  - [Gitploy](https://www.gitploy.io/) - Build the deployment system around GitHub in minutes.
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
@@ -205,6 +227,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
+  - [GitLab Pipelines by puzl.cloud](https://gitlab-pipelines.puzl.cloud) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
 
 ## Source Code Management
 
@@ -244,7 +267,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Relational (SQL) and non-relational (NoSQL) databases.*
 
 - Relational (SQL)
-  - [PostgreSQL](https://www.postgresql.org/) - Powerful, open source object-relational database system.
+  - [PostgreSQL](https://www.postgresql.org/) - Powerful, open-source object-relational database system.
   - [MySQL](https://www.mysql.com/) - Open-source relational database management system.
   - [MariaDB](https://mariadb.org/) - Fast, scalable and robust, with a rich ecosystem of storage engines, plugins and many other tools.
   - [SQLite](https://sqlite.org/) - Small, fast, self-contained, high-reliability, full-featured, SQL database engine.
@@ -255,7 +278,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
   - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
-  - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the realtime web.
+  - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - Distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
     - [Leveldb](https://github.com/google/leveldb) - Fast key-value storage library.
@@ -289,8 +312,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
 - [Canary Checker](https://canarychecker.io) - Open source health check platform.
+- [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
+- [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
 - Metrics/Metrics collection
-  - [Thundra Foresight](https://www.thundra.io/foresight) - Visibility into CI pipeline by spotting test failures in no time.
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon.
   - [Facette](https://github.com/facette/facette) - Time series data visualization software.
@@ -299,7 +323,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Influxdata](https://www.influxdata.com/) - Time series database.
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups.
-  - [Autometrics](https://autometrics.dev/) - An open source micro framework for observability.
+  - [Autometrics](https://autometrics.dev/) - An open-source micro framework for observability.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
@@ -308,9 +332,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Flume](https://flume.apache.org/) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving logs.
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - Stream processing software system.
   - [Kibana](https://www.elastic.co/products/kibana) - Explore, visualize, discover data.
-  - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus.
+  - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly available, multi-tenant log aggregation system inspired by Prometheus.
 - Status
-  - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open source status page system.
+  - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
 
@@ -326,6 +350,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Istio](https://istio.io/) - Connect, secure, control, and observe services.
 - [Kong](https://konghq.com/) - Deliver performance needed for microservices, service mesh, and cloud native deployments.
 - [Linkerd](https://github.com/linkerd/linkerd2) - Service mesh for Kubernetes and beyond.
+- [Meshery](https://meshery.io) - A cloud-native management plane that simplifies the design, deployment, and management of cloud native infrastructure.
 
 ## Chaos Engineering
 
@@ -357,8 +382,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [Gerrit](https://www.gerritcodereview.com/) - Web-based team code collaboration tool.
 - [Review Board](https://www.reviewboard.org/) - Web-based collaborative code review tool.
+- [MeshMap](https://layer5.io/cloud-native-management/meshmap) - World’s only visual designer for Kubernetes and cloud native applications. Design, deploy, and manage your Kubernetes-based, cloud native deployments allowing you to speed up infrastructure configuration.
 
-## Distributed messaging
+## Distributed Messaging
 
 *Distributed messaging platforms and Queues software.*
 
@@ -379,8 +405,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Programming languages.*
 
 - [Python](https://www.python.org/) - Programming language that lets you work quickly and integrate systems more effectively.
-- [Ruby](https://www.ruby-lang.org/) - A dynamic, open source programming language with a focus on simplicity and productivity.
-- [Go](https://golang.org/) - An open source programming language that makes it easy to build simple, reliable, and efficient software.
+- [Ruby](https://www.ruby-lang.org/) - A dynamic, open-source programming language with a focus on simplicity and productivity.
+- [Go](https://golang.org/) - An open-source programming language that makes it easy to build simple, reliable, and efficient software.
 
 ## Chat and ChatOps
 
@@ -444,7 +470,6 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](http://shop.oreilly.com/product/0636920039846.do)
 - [Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation](https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
-- [Hands-On Security in DevOps](https://www.packtpub.com/networking-and-servers/hands-security-devops)
 - [Site Reliability Engineering](https://sre.google/sre-book/table-of-contents/)
 - [The Site Reliability Workbook](https://sre.google/workbook/table-of-contents/)
 - [Building Secure & Reliable Systems](https://google.github.io/building-secure-and-reliable-systems/raw/toc.html)
@@ -461,6 +486,10 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [@Scale](https://atscaleconference.com/)
 - [devopsdays](https://devopsdays.org/)
 - [DevOps Enterprise Summit](https://events.itrevolution.com/)
+
+### Blogs
+
+- [Medium](https://medium.com/?tag=devops)
 
 ### DevOps Roadmap
 
