@@ -1,4 +1,4 @@
-# Awesome DevOps
+# Awesome DevOps Welcome my class
 
 [![Awesome DevOps](http://awesome-devops.xyz/assets/banner.png)](https://github.com/wmariuss/awesome-devops)
 
