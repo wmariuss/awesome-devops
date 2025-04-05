@@ -59,7 +59,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Scaleway](https://www.scaleway.com/) - Single way to create, deploy and scale your infrastructure in the cloud.
 - [Vultr](https://www.vultr.com/) - Easily deploy cloud servers, bare metal, and storage worldwide.
 - [IBM Cloud](https://www.ibm.com/cloud) - Tools, data & APIs to make AI real now.
-- [Stackpath](https://www.stackpath.com/) - Platform of computing infrastructure and services built at the edge of the cloud.
 - [Linode](https://linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple.
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
 - [Equinix](https://www.equinix.com/) - Global data center and colocation provider for enterprise network and cloud computing.
