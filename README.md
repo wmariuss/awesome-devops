@@ -418,6 +418,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - ChatOps:
   - [CloudBot](https://github.com/CloudBotIRC/CloudBot) - Simple, fast, expandable, open-source Python IRC Bot.
   - [Hubot](https://hubot.github.com/) - A customizable life embetterment robot.
+  - [telegram-owl](https://github.com/beeyev/telegram-owl) - CLI tool to send messages and media to Telegram from scripts, CI/CD, or monitoring tools.
 
 ## Secret Management
 
