@@ -216,6 +216,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems.
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
+  - [gitlab-self-healing-pipeline](https://github.com/thirug/gitlab-self-healing-pipeline) – A self-healing GitLab CI/CD framework that auto-resumes from failed stages using progress tracking and cron-based recovery.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
