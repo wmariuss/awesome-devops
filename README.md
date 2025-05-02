@@ -431,6 +431,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
+- [VaultScan – Community Edition](https://github.com/vaultscan/vaultscan-community) - A lightweight, offline-first secrets and credential leak scanner built for DevOps. No agents, no cloud, 100% developer-first.
 
 ## Security
 
