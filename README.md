@@ -128,7 +128,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
 
-
 ## Internal Developer Platforms
 
 *Internal Developer Platforms (or IDP) is a set of tools, services and processes that supports and accelerates your software development, while taking care of managing the underlying infrastructure.*
