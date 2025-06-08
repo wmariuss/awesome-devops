@@ -126,6 +126,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
+- [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
+
 
 ## Internal Developer Platforms
 
@@ -180,7 +182,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 - [Deployment.io](https://deployment.io) - DevOps co-pilot for developers to automate deployments to AWS.
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
-- [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters
 
 ## Productivity Tools
 
