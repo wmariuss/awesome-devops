@@ -182,6 +182,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Deployment.io](https://deployment.io) - DevOps co-pilot for developers to automate deployments to AWS.
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
+- [CloudRay](https://cloudray.io) - Centralised agent-based platform for automating server scripts, managing infrastructure, and executing remote tasks with ease.
 
 ## Productivity Tools
 
