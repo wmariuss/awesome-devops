@@ -465,6 +465,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options.
 
+## AI SRE
+
+*AI-powered tools and platforms for Site Reliability Engineering.*
+
+- [Sherlocks.ai](https://www.sherlocks.ai) - AI-powered reliability platform for proactive incident detection and resolution.
+
 ## Resources
 
 ### Books
