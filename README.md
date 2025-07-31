@@ -205,6 +205,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Jenkins](http://jenkins-ci.org/) - automation server for building, deploying and automating any project.
   - [Drone](https://github.com/drone/drone) - a Container-Native, Continuous Delivery Platform.
   - [Concourse](https://concourse-ci.org/) - pipeline-based continuous thing-doer.
+  - [Semaphore Community Edition](https://github.com/semaphoreio/semaphore) - open-source (Apache-2) CI/CD for building, testing, and deploying any project.
   - [Spinnaker](https://www.spinnaker.io/) - fast, safe, repeatable deployments for every Enterprise.
   - [goCD](https://www.gocd.org/) - Delivery and Release Automation server.
   - [Teamcity](https://www.jetbrains.com/teamcity/) - enterprise-level CI and CD.
