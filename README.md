@@ -91,6 +91,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Builds packages in isolation from each other.*
 
 - [Nix/NixOS](https://nixos.org/) - A tool that takes a unique approach to package management and system configuration.
+- [gah](https://github.com/marverix/gah) - A tool that makes installing apps from GitHub Releases much faster and less monotonic.
 
 ## Distributed Filesystems
 
