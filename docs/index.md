@@ -31,4 +31,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 For list of tools check [list](http://awesome-devops.xyz/list) page.
 
+## Roadmaps
+
+- [Roadmap.sh DevOps](https://roadmap.sh/devops): Basic understanding and what you should know to become a *DevOps* Engineer.
+- [Dynamic DevOps Roadmap](https://devopsroadmap.io): A Progressive, Non-Linear, and T-Shaped roadmap that works as a master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style.
+
 [^1]: Site Reliability Engineering.
