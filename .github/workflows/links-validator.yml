@@ -14,12 +14,19 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
       - name: Check links
-        uses: lycheeverse/lychee-action@v2.0.2
+        uses: lycheeverse/lychee-action@v2.6.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: --verbose --no-progress --timeout 10 --max-concurrency 2 --exclude 'twitter.com' -- './**/*.md'
+          args: "--verbose --no-progress --timeout 10 --max-concurrency 2 -- './**/*.md' --cache --max-cache-age 1d ."
           output: ./lychee/out.md
 
       - name: Get current date
