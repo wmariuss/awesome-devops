@@ -306,6 +306,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Sentry](https://sentry.io/welcome/) - Error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
 - [Shinken](https://github.com/shinken-solutions/shinken) - Monitoring framework.
 - [Zabbix](https://www.zabbix.com/) - Mature and effortless monitoring solution for network monitoring and application monitoring.
+- [GitLab Merge Alert](https://github.com/Alfonsxh/gitlab-merge-alert-go) - Self-hosted GitLab merge request notification service with WeChat Work integration for real-time alerts.
 - [Glances](https://github.com/nicolargo/glances) - Monitoring information through a curses or Web based interface.
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool.
 - [Bolo](http://bolo.niftylogic.com/) - Building distributed, scalable monitoring systems.
