@@ -180,6 +180,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Meshery](https://meshery.io/) - An open-source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications.
 - [Digger](https://digger.dev) - Open Source Infrastructure as Code management tool that runs within your CI/CD system.
 - [Deployment.io](https://deployment.io) - DevOps co-pilot for developers to automate deployments to AWS.
+- [RapidForge.io](https://rapidforge.io/) - Create end points, forms and tasks using scripts. Automate your workflows.
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines.
@@ -205,6 +206,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Jenkins](http://jenkins-ci.org/) - automation server for building, deploying and automating any project.
   - [Drone](https://github.com/drone/drone) - a Container-Native, Continuous Delivery Platform.
   - [Concourse](https://concourse-ci.org/) - pipeline-based continuous thing-doer.
+  - [Semaphore Community Edition](https://github.com/semaphoreio/semaphore) - open-source (Apache-2) CI/CD for building, testing, and deploying any project.
   - [Spinnaker](https://www.spinnaker.io/) - fast, safe, repeatable deployments for every Enterprise.
   - [goCD](https://www.gocd.org/) - Delivery and Release Automation server.
   - [Teamcity](https://www.jetbrains.com/teamcity/) - enterprise-level CI and CD.
@@ -230,8 +232,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
-  - [GitLab Pipelines by puzl.cloud](https://gitlab-pipelines.puzl.cloud) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
   - [Shipfox](https://www.shipfox.io/) - Run your GitHub actions 2x faster at half the price.
+  - [GitLab Pipelines by puzl.cloud](https://puzl.cloud/products/run-my-job/) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
 
 ## Source Code Management
 
@@ -388,6 +390,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gerrit](https://www.gerritcodereview.com/) - Web-based team code collaboration tool.
 - [Review Board](https://www.reviewboard.org/) - Web-based collaborative code review tool.
 - [MeshMap](https://layer5.io/cloud-native-management/meshmap) - World’s only visual designer for Kubernetes and cloud native applications. Design, deploy, and manage your Kubernetes-based, cloud native deployments allowing you to speed up infrastructure configuration.
+- [Potpie](https://potpie.ai) - AI agent that understands your code changes and computes the blast radius of your changes. 
+- [CodeRabbit](https://coderabbit.ai) - AI-powered code review tool that integrates with GitHub. It automates routine checks, provides intelligent feedback, and helps maintain consistent code quality.
 
 ## Distributed Messaging
 
@@ -451,6 +455,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 - [Docsify](https://github.com/docsifyjs/docsify/) - A magical documentation site generator.
 - [MkDocs](https://github.com/mkdocs/mkdocs/) - Project documentation with Markdown.
+- [OneCompiler](https://onecompiler.com/) - Allow users to write, run, and share code online in over 70 programming languages and databases.
 
 ## VPN
 
