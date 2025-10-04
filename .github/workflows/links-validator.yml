@@ -15,11 +15,11 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1.5.4
+        uses: lycheeverse/lychee-action@v2.6.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: --verbose --no-progress --timeout 10 --max-concurrency 2 --exclude 'twitter.com' -- './**/*.md'
+          args: "--verbose --no-progress --timeout 10 --max-concurrency 2 -- './**/*.md'"
           output: ./lychee/out.md
 
       - name: Get current date
