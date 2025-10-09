@@ -503,7 +503,8 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 
 ### DevOps Roadmap
 
-Basic understanding and what you should know to become a *DevOps* Engineer, check the roadmap [here](https://roadmap.sh/devops).
+- [Roadmap.sh DevOps](https://roadmap.sh/devops): Basic understanding and what you should know to become a *DevOps* Engineer.
+- [Dynamic DevOps Roadmap](https://devopsroadmap.io): A Progressive, Non-Linear, and T-Shaped roadmap that works as a master plan to kickstart your DevOps Engineer career in the Cloud Native era following the Agile MVP style.
 
 ### Online Platforms
 
