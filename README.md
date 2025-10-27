@@ -266,6 +266,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Certbot](https://github.com/certbot/certbot) - Automate using Let’s Encrypt certificates on manually-managed websites to enable HTTPS.
 - [Let’s Encrypt](https://letsencrypt.org/) - Free, automated, and open Certificate Authority.
 - [Cert Manager](https://github.com/jetstack/cert-manager) - K8S add-on to automate the management and issuance of TLS certificates from various issuing sources.
+- [ElevenGuard](https://elevenguard.com) - An SSL checker to avoid red lights in production. Monitor TLS/SSL certificates and get notified before they expire. Free for five certificates.
 
 ## Databases
 
@@ -343,6 +344,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
+  - [Tulii](https://tulii.io) - Effectively communicate about outages. A status page to keep customers in the loop during downtime, build complete trust and reduce support tickets.
+
+.
 
 ## Service Discovery & Service Mesh
 
