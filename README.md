@@ -194,6 +194,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
 - [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
+- [sbsh](https://github.com/eminwux/sbsh) - Terminal-as-Code: reproducible, persistent, and shareable terminal environments.
 
 
 ## Continuous Integration & Delivery
