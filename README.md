@@ -127,6 +127,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
+- [devpod](https://https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
 
 ## Internal Developer Platforms
 
