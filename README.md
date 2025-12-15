@@ -447,6 +447,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Validating, lint and best practice in term of Security on code or infrastructure.*
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [TerraForce](https://terraforce.henrybravo.nl) - A policy enforcement tool for Terraform with seamless CI/CD integration for DevOps workflows, lifecycle policy checks, and built-in testing.
 
 ## Sharing
 
