@@ -195,6 +195,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
 - [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
+- [glnk.dev](https://glnk.dev) - Personal go-links service with free subdomains. Includes public shortcuts for [AWS](https://aws.glnk.dev) and [GCP](https://gcp.glnk.dev) consoles.
 
 
 ## Continuous Integration & Delivery
