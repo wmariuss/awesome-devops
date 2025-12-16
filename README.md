@@ -321,7 +321,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Canary Checker](https://canarychecker.io) - Open source health check platform.
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
 - [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
-- [Middleware](https://middleware.io) - A full-stack cloud observability platform. 
+- [Middleware](https://middleware.io) - A full-stack cloud observability platform.
+- [BitDive](https://bitdive.io) - APM for Java/Kotlin with distributed tracing, runtime profiling, and performance metrics.
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon.
