@@ -347,6 +347,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
+  - [Heartbeat.pm](https://heartbeat.pm) - external monitoring service with status pages
 
 ## Service Discovery & Service Mesh
 
