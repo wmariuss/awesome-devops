@@ -489,6 +489,7 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Infrastructure as Code: Managing Servers in the Cloud](http://shop.oreilly.com/product/0636920039297.do)
 - [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 - [Fundamentals of DevOps and Software Delivery: A Hands-On Guide to Deploying and Managing Software in Production](https://www.fundamentals-of-devops.com/)
+- [Latency: Reduce delay in software systems](https://www.manning.com/books/latency)
 
 ### Conferences
 
