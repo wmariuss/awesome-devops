@@ -159,6 +159,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [StackStorm](https://stackstorm.com/) - Connects all your apps, services, and workflows. Automate DevOps your way.
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems.
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices.
+- [Cordum](https://github.com/cordum-io/cordum) - AI agent orchestration platform with policy-before-dispatch, approval gates, and audit trails.
 - [Tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service software.
 - [Fabric](http://www.fabfile.org/) - High-level Python library designed to execute shell commands remotely over SSH.
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
