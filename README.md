@@ -30,6 +30,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Service Discovery & Service Mesh](#service-discovery--service-mesh)
 - [Chaos Engineering](#chaos-engineering)
 - [API Gateway](#api-gateway)
+- [AI](#ai)
 - [Code review](#code-review)
 - [Distributed messaging](#distributed-messaging)
 - [Programming Languages](#programming-languages)
@@ -385,6 +386,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
+
+## AI
+
+*AI Agents, Agent Skills and AI tools.*
+
+- [Chaterm](https://chaterm.ai/) - Open source AI terminal and SSH Client for EC2, Database and Kubernetes.
+- [Terminal Skills](https://github.com/chaterm/terminal-skills/) - Public Agent Skills for Terminal and Kubernetes.
+
 
 ## Code review
 
