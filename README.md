@@ -156,6 +156,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Chef](https://www.chef.io/) - Automate infrastructure and applications.
 - [Juju](https://jaas.ai/) - Simplifies how you configure, scale and operate today's complex software.
 - [Rundeck](https://www.rundeck.com/) - Runbook Automation For Modernizing Your Operations.
+- [RustChain](https://github.com/Michael-A-Kuykendall/rustchain-community) - Universal workflow transpilation framework with AI-powered orchestration.
 - [StackStorm](https://stackstorm.com/) - Connects all your apps, services, and workflows. Automate DevOps your way.
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems.
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices.
