@@ -449,6 +449,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Validating, lint and best practice in term of Security on code or infrastructure.*
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [NoID Privacy for Linux](https://github.com/NexusOne23/noid-privacy-linux) - Privacy & security audit for Linux desktops. 300+ checks, AI-powered fixes, zero dependencies.
 
 ## Sharing
 
