@@ -270,6 +270,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Certbot](https://github.com/certbot/certbot) - Automate using Let’s Encrypt certificates on manually-managed websites to enable HTTPS.
 - [Let’s Encrypt](https://letsencrypt.org/) - Free, automated, and open Certificate Authority.
 - [Cert Manager](https://github.com/jetstack/cert-manager) - K8S add-on to automate the management and issuance of TLS certificates from various issuing sources.
+- [SSL Certificate Monitor](https://github.com/brancogao/ssl-certificate-monitor) - Free SSL certificate expiry checker and monitoring tool with RESTful API.
 
 ## Databases
 
