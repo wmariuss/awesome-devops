@@ -302,6 +302,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Steampipe](https://steampipe.io/) - The universal SQL interface for any cloud API, & cloud intelligence dashboards extensible w/ HCL+SQL.
 - [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring.
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
+- [Agent-SRE](https://github.com/imran-siddique/agent-sre) - AI-native SRE framework with SLI/SLO tracking, chaos testing, canary deployments, and incident response for AI agent systems.
 - [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
 - [Amon](https://github.com/amonapp/amon) - Modern server monitoring platform.
 - [Icinga](https://icinga.com/) - Monitors availability and performance, gives you simple access to relevant data and raises alerts.
