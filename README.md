@@ -449,6 +449,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Validating, lint and best practice in term of Security on code or infrastructure.*
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [InfraScan](https://infrascan.soldevelo.com/) - Advanced Infrastructure Auditor by SolDevelo. Scan for infrastructure costs, security issues (open ports, unencrypted storage, risky IAM policies), and generate audit reports for Terraform, AWS, and Kubernetes deployments.
 
 ## Sharing
 
