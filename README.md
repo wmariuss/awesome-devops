@@ -197,6 +197,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
+- [Mantra](https://mantra.gonewx.com) - AI coding session management. Save, restore, and time-travel through your Claude Code, Cursor, and Windsurf sessions.
 
 
 ## Continuous Integration & Delivery
