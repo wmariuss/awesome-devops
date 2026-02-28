@@ -458,6 +458,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 - [Docsify](https://github.com/docsifyjs/docsify/) - A magical documentation site generator.
 - [MkDocs](https://github.com/mkdocs/mkdocs/) - Project documentation with Markdown.
+- [DRF](https://github.com/reasoning-formats/reasoning-formats) - Vendor-neutral, machine-readable YAML/JSON format for documenting infrastructure and platform decisions with explicit reasoning, assumptions, and trade-offs.
 - [OneCompiler](https://onecompiler.com/) - Allow users to write, run, and share code online in over 70 programming languages and databases.
 
 ## VPN
