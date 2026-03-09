@@ -448,8 +448,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Validating, lint and best practice in term of Security on code or infrastructure.*
 
-- [BunkerWeb](https://www.bunkerweb.io) - Next-generation, open-source Web Application Firewall (WAF).
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [BunkerWeb](https://www.bunkerweb.io) - Next-generation, open-source Web Application Firewall (WAF).
 
 ## Sharing
 
