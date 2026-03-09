@@ -299,6 +299,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
+- [API Status Check](https://apistatuscheck.com) - Centralized database tracking status pages for 1,000+ APIs and services to monitor external dependencies.
 - [Steampipe](https://steampipe.io/) - The universal SQL interface for any cloud API, & cloud intelligence dashboards extensible w/ HCL+SQL.
 - [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring.
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
