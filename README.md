@@ -305,6 +305,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service.
 - [Amon](https://github.com/amonapp/amon) - Modern server monitoring platform.
 - [Icinga](https://icinga.com/) - Monitors availability and performance, gives you simple access to relevant data and raises alerts.
+- [Ingero](https://github.com/ingero-io/ingero) - eBPF-based GPU causal observability agent. Traces CUDA APIs and host kernel events to build causal chains explaining GPU latency.
 - [Monit](https://mmonit.com/monit/#home) - Managing and monitoring Unix systems.
 - [Naemon](http://www.naemon.org/) - Fast, stable and innovative while giving you a clear view of the state of your network and applications.
 - [Nagios](https://www.nagios.org/) - Computer-software application that monitors systems, networks and infrastructure.
