@@ -263,6 +263,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Cherokee](http://cherokee-project.com/) - Highly concurrent secured web applications.
 - [Lighttpd](http://www.lighttpd.net/) - Optimized for speed-critical environments while remaining standards-compliant, secure and flexible.
 - [Uwsgi](https://github.com/unbit/uwsgi/) - Application server container.
+- [OutboundGateway](https://outboundgateway.com/) - EU static ips / outbound proxy
 
 ## SSL
 
