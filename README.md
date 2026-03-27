@@ -450,6 +450,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Validating, lint and best practice in term of Security on code or infrastructure.*
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [cloud-audit](https://github.com/gebalamariusz/cloud-audit) - AWS security auditing CLI that runs 17 checks across IAM, S3, EC2, VPC, and RDS with remediation engine generating AWS CLI commands and Terraform snippets.
 
 ## Sharing
 
