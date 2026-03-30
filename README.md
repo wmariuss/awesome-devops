@@ -127,6 +127,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
+- [AZIN](https://azin.run/) - BYOC deployment platform. Deploy to your own GCP account with git-push, no Kubernetes config needed. GKE Autopilot under the hood.
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
 - [devpod](https://https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
 
