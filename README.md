@@ -254,6 +254,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gitblit](https://github.com/gitblit/gitblit) - Pure Java Git solution for managing, viewing, and serving Git repositories.
 - [RhodeCode](https://rhodecode.com/) - Centralized control for distributed repositories. Mercurial, Git, and Subversion under a single roof.
 - [Radicle](https://radicle.xyz/) - Radicle is a sovereign peer-to-peer network for code collaboration, built on top of Git.
+- [git-native-issue](https://github.com/remenoscodes/git-native-issue) - Distributed issue tracking embedded in Git. Track bugs and tasks as native Git objects, sync via push/pull, no server required.
 
 ## Web Servers
 
