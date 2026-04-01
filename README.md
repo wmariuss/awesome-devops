@@ -469,6 +469,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *VPN, routing and firewall.*
 
 - [OpenVPN](https://openvpn.net/) - Flexible VPN solutions to secure your data communications, whether it's for Internet privacy.
+- [Pipepie](https://github.com/pipepie/pipepie) - Self-hosted encrypted tunnel for exposing localhost with end-to-end Noise NK encryption, webhook inspection, and web dashboard.
 - [Pritunl](https://pritunl.com/) - Enterprise Distributed OpenVPN and IPsec Server.
 - [VyOS](https://vyos.io/) - Open source network OS that runs on a wide range of hardware, virtual machines, and cloud providers.
 - [Algo](https://github.com/trailofbits/algo) - Set up a personal VPN in the cloud.
