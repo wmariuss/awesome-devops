@@ -172,6 +172,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Foreman](https://theforeman.org/) - Complete lifecycle management tool for physical and virtual servers.
 - [Nomad](https://learn.hashicorp.com/nomad) - Deploy and Manage Any Containerized, Legacy, or Batch Application.
 - [OctoDNS](https://github.com/github/octodns) - Managing DNS across multiple providers. DNS as code.
+- [okd-metal-installer](https://github.com/tosin2013/okd-metal-installer) - Ansible-driven bare-metal provisioning for OKD using static ISOs and Bootstrap-in-Place architecture.
 - [ManageIQ](https://www.manageiq.org/) - Manage containers, virtual machines, networks, and storage from a single platform.
 - [Ignite](https://github.com/weaveworks/ignite) -  Open Source Virtual Machine (VM) manager with a container UX and built-in GitOps management.
 - [Selefra](https://github.com/selefra/selefra) - An open-source policy-as-code software that provides analytics for multi-cloud and SaaS.
