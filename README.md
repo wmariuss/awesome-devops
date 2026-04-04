@@ -102,6 +102,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [LINBIT](https://www.linbit.com/en/) - Create, remove, and replicate block storage devices for datacenter scale environments.
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs.
 - [min.io](https://min.io/) - High-performance, distributed object storage system.
+- [Awesome Object Storage](https://github.com/mixpeek/awesome-object-storage) - Curated comparison of 21 S3-compatible object storage providers with pricing, gotchas, and tools.
 
 ## Applications Platforms
 
