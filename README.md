@@ -177,6 +177,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Selefra](https://github.com/selefra/selefra) - An open-source policy-as-code software that provides analytics for multi-cloud and SaaS.
 - [Spacelift](https://spacelift.io/) - Flexible orchestration solution for IaC development.
 - [Atlantis](https://www.runatlantis.io/) - Terraform Pull Request Automation
+- [Kube Foundry](https://github.com/kube-foundry/kube-foundry) - Kubernetes operator that runs AI coding agents (Claude Code, Codex, Cursor, Gemini, OpenCode) in sandboxed pods.
 - [KubeVela](https://kubevela.io/) - Modern application delivery platform that makes deploying and operating applications across today's hybrid, multi-cloud environments easier, faster and more reliable.
 - [Stacktape](https://stacktape.com) - Developer-friendly Infrastructure as a Code framework built on top of AWS.
 - [Score](https://score.dev) - Open Source developer-centric and platform-agnostic workload specification.
