@@ -350,6 +350,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
+- [nxs](https://github.com/gauravtayade11/nxs) — AI-powered CLI that debugs Kubernetes, Docker, Terraform, and CI/CD errors. Pipe any log, get root cause + fix commands.
 
 ## Service Discovery & Service Mesh
 
