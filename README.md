@@ -383,6 +383,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [API Umbrella](https://github.com/NREL/api-umbrella) - Proxy that sits in front of your APIs, API management platform.
 - [Ambassador](https://www.getambassador.io/) - Kubernetes-Native API Gateway built on the Envoy Proxy.
 - [Kong](https://konghq.com/) - Connect all your microservices and APIs with the industry’s most performant, scalable and flexible API platform.
+- [SBproxy](https://github.com/soapbucket/sbproxy) - AI gateway and reverse proxy with LLM routing, rate limiting, and YAML config.
 - [Tyk](https://tyk.io/) - API and service management platform.
 - [Cilium](https://github.com/cilium/cilium) - API aware networking and security using BPF and XDP.
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
