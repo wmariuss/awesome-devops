@@ -201,6 +201,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
+- [AI Dev Tools Directory](https://github.com/dwylq/awesome-ai-dev-tools) - Comprehensive directory of AI-powered developer tools: coding models, IDEs, code review, testing, debugging, deployment and more.
 
 ## Continuous Integration & Delivery
 
