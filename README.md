@@ -74,6 +74,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Eucalyptus](https://www.eucalyptus.cloud/) - Building AWS-compatible private and hybrid clouds.
 - [DC/OS](https://dcos.io/) - Distributed operating system based on the Apache Mesos distributed systems kernel.
 - [Apache Mesos](http://mesos.apache.org/) - Program against your data center like it’s a single pool of resources.
+- [Fakecloud](https://github.com/faiscadev/fakecloud) - Free, open-source local AWS cloud emulator for development and testing.
 - [Localstack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
 
 ## Operating Systems
