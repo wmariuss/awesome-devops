@@ -138,6 +138,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Port](https://www.getport.io/) - A platform for building no-code, holistic, Internal Developer Portals.
 - [Backstage](https://backstage.io/) - An open platform for building developer portals.
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
+- [AgentsMesh](https://agentsmesh.ai) - AI-native developer platform. Provisions remote AI workstations (AgentPods) for autonomous coding agents with PTY sandbox + git worktree isolation, multi-agent collaboration via channels, built-in Kanban, per-pod MCP server, multi-Git provider (GitHub/GitLab/Gitee), multi-tenant (Org > Team > User), SSO/RBAC/audit, BYOK. Self-hostable.
 
 ## Container Image Registry
 
