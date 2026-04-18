@@ -194,6 +194,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *All the tools, services which increase productivity, developer velocity and developer experience.*
 
+- [changegen](https://github.com/creativengine-ai/changegen) - Generate clean, categorized changelogs from git commit history using Conventional Commits.
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc.
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
