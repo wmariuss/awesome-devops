@@ -430,6 +430,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [Rocket](https://rocket.chat/) - Open source team communication.
 - [Mattermost](https://mattermost.com/) - Messaging platform that enables secure team collaboration.
+- [Dawn](https://dawnhq.ai) - ChatOps assistant for answering questions about code, infrastructure, tickets, and docs from Slack, Microsoft Teams, Telegram, Discord, Web chat, or via Webhooks.
 - [Zulip](https://zulipchat.com/) - Real-time chat with an email threading model.
 - [Riot](https://about.riot.im/) - A universal secure chat app entirely under your control.
 - ChatOps:
