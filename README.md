@@ -238,6 +238,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cirrus CI](https://cirrus-ci.org/) - continuous integration system built for the era of cloud computing.
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
+  - [FailureMemory](https://github.com/UnguisAI/failurememory) - GitHub Action for recurring CI failure triage and history-backed debugging.
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
   - [GitLab Pipelines by puzl.cloud](https://puzl.cloud/products/run-my-job/) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
