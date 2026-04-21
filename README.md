@@ -325,6 +325,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
 - [Canary Checker](https://canarychecker.io) - Open source health check platform.
+- [watchurl](https://github.com/dwylq/watchurl) - Lightweight CLI tool to monitor URL changes with SHA-256 diff detection.
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
 - [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. 
