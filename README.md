@@ -202,6 +202,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
+- [AI Dev Tools Directory](https://github.com/dwylq/awesome-ai-dev-tools) - Comprehensive directory of AI-powered developer tools: coding models, IDEs, code review, testing, debugging, deployment and more.
 
 ## Continuous Integration & Delivery
 
@@ -325,6 +326,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations.
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI.
 - [Canary Checker](https://canarychecker.io) - Open source health check platform.
+- [watchurl](https://github.com/dwylq/watchurl) - Lightweight CLI tool to monitor URL changes with SHA-256 diff detection.
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
 - [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. 
