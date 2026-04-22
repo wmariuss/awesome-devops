@@ -148,6 +148,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Dockyard](https://github.com/Huawei/dockyard) - Container & Artifact Repository.
 - [Harbor](https://goharbor.io/) - An open source trusted cloud native registry project that stores, signs, and scans content.
 - [GitHub Container Registry](https://github.blog/2020-09-01-introducing-github-container-registry/) - Container registry free for public images.
+- [Zot](https://oneuptime.com/blog/post/2026-03-02-how-to-set-up-zot-container-registry-on-ubuntu/view) - A lightweight OCI-native container registry
 
 ## Automation & Orchestration
 
