@@ -189,6 +189,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines.
+- [Shep](https://github.com/shep-ai/cli) - AI-native SDLC platform that orchestrates coding agents (Claude Code, Cursor, Gemini) for autonomous feature development with approval gates and a web dashboard.
 
 ## Productivity Tools
 
