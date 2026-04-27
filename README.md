@@ -129,6 +129,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
 - [AZIN](https://azin.run/) - BYOC deployment platform. Deploy to your own GCP account with git-push, no Kubernetes config needed. GKE Autopilot under the hood.
+- [Ownkube](https://ownkube.io) - AI-enabled developer platform that runs in your own AWS account on k3s or EKS. Git-push deploys, managed Postgres, preview environments per PR, AI error detection. Free on single-node k3s.
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
 
