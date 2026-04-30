@@ -138,6 +138,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [Port](https://www.getport.io/) - A platform for building no-code, holistic, Internal Developer Portals.
 - [Backstage](https://backstage.io/) - An open platform for building developer portals.
+- [Fortem](https://fortem.dev) - Self-hosted AI-native Kubernetes Internal Developer Platform.
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
 
 ## Container Image Registry
