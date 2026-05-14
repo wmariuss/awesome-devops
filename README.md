@@ -139,6 +139,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Port](https://www.getport.io/) - A platform for building no-code, holistic, Internal Developer Portals.
 - [Backstage](https://backstage.io/) - An open platform for building developer portals.
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
+- [AgentTier](https://github.com/agenttier/agenttier) - Kubernetes-native sandboxes for developers and AI agents from a single CRD.
 
 ## Container Image Registry
 
