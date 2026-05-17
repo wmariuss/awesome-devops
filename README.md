@@ -242,6 +242,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
   - [GitLab Pipelines by puzl.cloud](https://puzl.cloud/products/run-my-job/) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
+  - [DeployDiff](https://github.com/Coding-Dev-Tools/deploydiff) - Compare deployments across environments to detect configuration drift and prevent inconsistencies.
 
 ## Source Code Management
 
@@ -299,6 +300,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
     - [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache and message broker.
     - [RocksDB](https://rocksdb.org/) - A library that provides an embeddable, persistent key-value store for fast storage.
     - [Etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
+- [Json2SQL](https://github.com/Coding-Dev-Tools/json2sql) - Convert JSON files and API responses to SQL schemas and INSERT statements for database migration and seeding.
+- [SchemaForge](https://github.com/Coding-Dev-Tools/schemaforge) - Validate and generate data schemas from JSON/YAML with automatic inference and linting.
 
 ## Observability & Monitoring
 
@@ -353,6 +356,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
 
+- [ConfigDrift](https://github.com/Coding-Dev-Tools/configdrift) - Detect and track configuration drift across infrastructure to maintain consistency and compliance.
 ## Service Discovery & Service Mesh
 
 *Service Discovery, Service Mesh and Failure detection tools.*
@@ -390,6 +394,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
+- [API Contract Guardian](https://github.com/Coding-Dev-Tools/api-contract-guardian) - Validate API contracts against OpenAPI specs in CI/CD to prevent breaking changes.
 
 ## Code review
 
@@ -400,6 +405,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [MeshMap](https://layer5.io/cloud-native-management/meshmap) - World’s only visual designer for Kubernetes and cloud native applications. Design, deploy, and manage your Kubernetes-based, cloud native deployments allowing you to speed up infrastructure configuration.
 - [Potpie](https://potpie.ai) - AI agent that understands your code changes and computes the blast radius of your changes. 
 - [CodeRabbit](https://coderabbit.ai) - AI-powered code review tool that integrates with GitHub. It automates routine checks, provides intelligent feedback, and helps maintain consistent code quality.
+- [Deadcode](https://github.com/Coding-Dev-Tools/deadcode) - Detect and remove dead code from Python projects to improve maintainability.
 
 ## Distributed Messaging
 
@@ -448,6 +454,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
+- [Envault](https://github.com/Coding-Dev-Tools/envault) - CLI tool for managing encrypted .env files with team sharing and version control.
 
 ## Security
 
