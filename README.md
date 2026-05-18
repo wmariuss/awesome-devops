@@ -448,6 +448,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
+- [envault](https://github.com/coding-dev-tools/envault) - CLI to sync, rotate, and manage .env files across environments securely.
 
 ## Security
 
