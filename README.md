@@ -140,6 +140,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Backstage](https://backstage.io/) - An open platform for building developer portals.
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
 - [Qovery](https://www.qovery.com/) - Enterprise Kubernetes management platform for deploying applications on AWS, GCP, Azure, and Scaleway. Includes Terraform provider, CLI, API, and an [AI Agent Skill](https://github.com/Qovery/qovery-skills) for deploying from AI coding tools like Claude Code, Cursor, and OpenCode.
+- [OpenChoreo](https://openchoreo.dev/) - A complete, modular, open-source developer platform.
 
 ## Container Image Registry
 
