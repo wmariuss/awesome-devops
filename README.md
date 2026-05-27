@@ -220,6 +220,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Teamcity](https://www.jetbrains.com/teamcity/) - enterprise-level CI and CD.
   - [Bamboo](https://www.atlassian.com/software/bamboo) - tie automated builds, tests, and releases together in a single workflow.
   - [Integrity](http://integrity.github.io/) - Continuous Integration server.
+  - [Jumpstarter](https://github.com/jumpstarter-dev/jumpstarter) - open source hardware-in-the-loop testing framework for automated testing on real and virtual hardware with CI/CD integration.
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating.
   - [Argo](https://argoproj.github.io/) - Open Source Kubernetes native workflows, events, CI and CD.
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform.
