@@ -242,7 +242,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
   - [GitLab Pipelines by puzl.cloud](https://puzl.cloud/products/run-my-job/) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
-  - [DeployLens](https://www.deploylens.dev/) - Real-time Kanban dashboard for GitHub deployment pipelines that turns PRs, workflow runs, and environments into a live kanban dashboard via webhooks with zero configuration.
 
 ## Source Code Management
 
@@ -305,6 +304,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
+- [DeployLens](https://www.deploylens.dev/) - Real-time Kanban dashboard for GitHub deployment pipelines that turns PRs, workflow runs, and environments into a live kanban dashboard via webhooks with zero configuration.
 - [Steampipe](https://steampipe.io/) - The universal SQL interface for any cloud API, & cloud intelligence dashboards extensible w/ HCL+SQL.
 - [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring.
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system.
