@@ -523,3 +523,4 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/main/docs/contribution.md).
+- [AI Tools Hub](https://cloud1-d4g787x2022795b0b-1435432994.tcloudbaseapp.com/hub.html) - 21 free AI tools with crypto payment, no subscriptions.
