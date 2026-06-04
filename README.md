@@ -31,6 +31,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Chaos Engineering](#chaos-engineering)
 - [API Gateway](#api-gateway)
 - [Code review](#code-review)
+- [BreakShield CI](https://breakshield-ci.vercel.app) - Breaking API change detection for PRs. AST-based TypeScript analysis with risk scoring and AI auto-fix.
 - [Distributed messaging](#distributed-messaging)
 - [Programming Languages](#programming-languages)
 - [Chat and ChatOps](#chat-and-chatops)
@@ -246,6 +247,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 ## Source Code Management
 
 *Source Code management, Git-repository manager, Version Control. Some of them are included in Code review section.*
+- [BreakShield CI](https://breakshield-ci.vercel.app) - Breaking API change detection for PRs. AST-based TypeScript analysis with risk scoring and AI auto-fix.
 
 - [GitHub](https://github.com/) - Helps developers store and manage their code, as well as track and control changes to their code.
 - [Gitlab](https://gitlab.com/) - Entire DevOps lifecycle in one application.
@@ -392,8 +394,10 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
 
 ## Code review
+- [BreakShield CI](https://breakshield-ci.vercel.app) - Breaking API change detection for PRs. AST-based TypeScript analysis with risk scoring and AI auto-fix.
 
 *Code review. A few of the Source Code Management tools have built-in code review features.*
+- [BreakShield CI](https://breakshield-ci.vercel.app) - Breaking API change detection for PRs. AST-based TypeScript analysis with risk scoring and AI auto-fix.
 
 - [Gerrit](https://www.gerritcodereview.com/) - Web-based team code collaboration tool.
 - [Review Board](https://www.reviewboard.org/) - Web-based collaborative code review tool.
