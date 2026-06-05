@@ -349,6 +349,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - Stream processing software system.
   - [Kibana](https://www.elastic.co/products/kibana) - Explore, visualize, discover data.
   - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly available, multi-tenant log aggregation system inspired by Prometheus.
+  - [LynxDB](https://github.com/lynxbase/lynxdb) - Lightweight log analytics database with SPL-inspired queries.
 - Status
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
