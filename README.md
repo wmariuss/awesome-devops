@@ -104,7 +104,10 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs.
 - [min.io](https://min.io/) - High-performance, distributed object storage system.
 
-## Applications Platforms
+## Applications
+
+- [PR Pilot](https://github.com/tcconnally/pr-pilot) - AI-native code quality service. 5 autonomous agents (Reviewer, Fixer, Tester, Verifier, Escalator) handle the entire PR review pipeline autonomously.
+ Platforms
 
 *Applications management platforms, Containers platform and Containers management.*
 
