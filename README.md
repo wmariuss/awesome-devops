@@ -206,6 +206,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
 
 ## Continuous Integration & Delivery
+- [SuperCLI](https://github.com/javimosch/supercli) - Universal CLI router with 7,000+ plugins. One command pattern (`sc <ns> <res> <action>`) for every DevOps tool. JSON-by-default output, AI-native discovery.
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
 
