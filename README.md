@@ -161,6 +161,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Chef](https://www.chef.io/) - Automate infrastructure and applications.
 - [Juju](https://jaas.ai/) - Simplifies how you configure, scale and operate today's complex software.
 - [Rundeck](https://www.rundeck.com/) - Runbook Automation For Modernizing Your Operations.
+- [agent-runbook](https://github.com/KnoxOps/agent-runbook) - Python CLI that compiles contract-based YAML runbooks into SKILL.md files for Claude Code and Codex agents — YAML-defined multi-step workflows with loops, branching, parallelism, and checkpoint-based resume. `pip install git+https://github.com/KnoxOps/agent-runbook.git`
 - [StackStorm](https://stackstorm.com/) - Connects all your apps, services, and workflows. Automate DevOps your way.
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems.
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices.
