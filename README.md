@@ -403,6 +403,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [MeshMap](https://layer5.io/cloud-native-management/meshmap) - World’s only visual designer for Kubernetes and cloud native applications. Design, deploy, and manage your Kubernetes-based, cloud native deployments allowing you to speed up infrastructure configuration.
 - [Potpie](https://potpie.ai) - AI agent that understands your code changes and computes the blast radius of your changes. 
 - [CodeRabbit](https://coderabbit.ai) - AI-powered code review tool that integrates with GitHub. It automates routine checks, provides intelligent feedback, and helps maintain consistent code quality.
+- [CXGRD](https://www.cxgrd.com) - Developer CLI that maps codebase dependencies, computes downstream blast radius before sweeping AI edits, and checks generated diffs for structural and logic risks before commit
 
 ## Distributed Messaging
 
