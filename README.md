@@ -133,6 +133,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
 - [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project.
 
+- [Laradock](https://github.com/laradock/laradock) - Full PHP development environment based on Docker.
+
 ## Internal Developer Platforms
 
 *Internal Developer Platforms (or IDP) is a set of tools, services and processes that supports and accelerates your software development, while taking care of managing the underlying infrastructure.*
