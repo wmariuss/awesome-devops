@@ -525,6 +525,10 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 
 - [Cloud Native Playground](https://play.meshery.io) - The Meshery CNCF Playground is an awesome and free resource featuring a live Kubernetes cluster where any CNCF project can be configured and deployed. It is a fantastic interactive learning platform for exploring cloud native technologies.
 
+### Podcasts
+
+- [Awesome Developer Podcasts](https://github.com/Infrasity-Labs/awesome-developer-podcasts) - A curated directory of developer podcasts for software engineering teams. It is an open-source collection of podcasts that covers DevOps, AI/ML, system architecture, cloud-native, B2B SaaS, and engineering leadership.
+
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/main/docs/contribution.md).
