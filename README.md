@@ -153,6 +153,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Automation & Orchestration
 
+- [AgentKit](https://github.com/Yacine-ai-tech/AgentKit) - A production-ready MCP server that exposes 6 AI workflow tools (LangGraph agents, CrewAI multi-agent pipelines, RAG chat, Claude Sonnet analysis, async task queuing) to Claude Desktop and any MCP-compatible client. Includes CI, Docker Compose, and self-hosting guide.
+
 *Tools for automation, orchestration, deployment, provisioning and configuration management.*
 
 - [Ansible](https://www.ansible.com/) - Simple IT automation platform that makes your applications and systems easier to deploy.
