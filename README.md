@@ -386,6 +386,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *API Gateway, Service Proxy and Service Management tools.*
 
 - [API Umbrella](https://github.com/NREL/api-umbrella) - Proxy that sits in front of your APIs, API management platform.
+- [Agent Gateway](https://agent-gateway-kappa.vercel.app) - Unified REST API gateway for 39+ AI agent services including crypto, storage, code execution, and more.
 - [Ambassador](https://www.getambassador.io/) - Kubernetes-Native API Gateway built on the Envoy Proxy.
 - [Kong](https://konghq.com/) - Connect all your microservices and APIs with the industry’s most performant, scalable and flexible API platform.
 - [SBproxy](https://github.com/soapbucket/sbproxy) - AI gateway and reverse proxy with LLM routing, rate limiting, and YAML config.
