@@ -510,10 +510,12 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [@Scale](https://atscaleconference.com/)
 - [devopsdays](https://devopsdays.org/)
 - [DevOps Enterprise Summit](https://events.itrevolution.com/)
+- [Awesome Developer Conferences](https://github.com/Infrasity-Labs/awesome-developer-conferences) - A daily updated directory of developer, DevOps, DevRel, cloud native, and platform engineering conferences taking place all over the world, separated by regions. 
 
 ### Blogs
 
 - [Medium](https://medium.com/?tag=devops)
+- [Awesome Tech Newsletters](https://github.com/Infrasity-Labs/awesome-tech-newsletter) - A curated, community-driven list of the best tech, software engineering, DevOps, AI and developer marketing newsletters. 
 
 ### DevOps Roadmap
 
@@ -523,6 +525,10 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 ### Online Platforms
 
 - [Cloud Native Playground](https://play.meshery.io) - The Meshery CNCF Playground is an awesome and free resource featuring a live Kubernetes cluster where any CNCF project can be configured and deployed. It is a fantastic interactive learning platform for exploring cloud native technologies.
+
+### Podcasts
+
+- [Awesome Developer Podcasts](https://github.com/Infrasity-Labs/awesome-developer-podcasts) - A curated directory of developer podcasts for software engineering teams. It is an open-source collection of podcasts that covers DevOps, AI/ML, system architecture, cloud-native, B2B SaaS, and engineering leadership.
 
 ## Contributing
 
