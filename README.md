@@ -445,13 +445,15 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Security as code, sensitive credentials and secrets need to be managed, security, maintained and rotated using automation.*
 
-- [Sops](https://github.com/mozilla/sops) - Simple and flexible tool for managing secrets.
-- [Vault](https://www.hashicorp.com/products/vault/) - Manage secrets and protect sensitive data.
-- [Keybase](https://keybase.io/) - End-to-end encrypted chat and cloud storage system.
-- [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Create Kubernetes secrets from Vault for a secure GitOps based workflow.
+- [External Secrets Operator](https://external-secrets.io/latest/) - Kubernetes operator that integrates external secret management systems.
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure.
+- [Keybase](https://keybase.io/) - End-to-end encrypted chat and cloud storage system.
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables.
+- [OpenBao](https://openbao.org) - open source, community-driven secrets manager and fork of Vault managed by the OpenSSF.
+- [SOPS](https://github.com/getsops/sops) - Simple and flexible tool for managing secrets.
+- [Vault](https://www.hashicorp.com/products/vault/) - Manage secrets and protect sensitive data.
+- [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Create Kubernetes secrets from Vault for a secure GitOps based workflow.
 
 ## Security
 
