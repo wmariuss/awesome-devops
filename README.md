@@ -76,6 +76,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Apache Mesos](http://mesos.apache.org/) - Program against your data center like it’s a single pool of resources.
 - [Fakecloud](https://github.com/faiscadev/fakecloud) - Free, open-source local AWS cloud emulator for development and testing.
 - [Localstack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline.
+- [Kubeara](https://github.com/kubeara/core) - Deploy and manage applications, databases, and AI models on your servers.
 
 ## Operating Systems
 
