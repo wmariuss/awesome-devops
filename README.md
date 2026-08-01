@@ -523,6 +523,7 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 ### Online Platforms
 
 - [Cloud Native Playground](https://play.meshery.io) - The Meshery CNCF Playground is an awesome and free resource featuring a live Kubernetes cluster where any CNCF project can be configured and deployed. It is a fantastic interactive learning platform for exploring cloud native technologies.
+- [Obelinf Toolkit](https://obelinf.com/toolkit/) - A free online toolkit for network and infrastructure engineers: IP and subnet calculators, planning templates and checklists, device naming conventions, and reference tables.
 
 ## Contributing
 
