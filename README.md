@@ -244,6 +244,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
   - [GitLab Pipelines by puzl.cloud](https://puzl.cloud/products/run-my-job/) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
+  - [ocihub](https://ocihub.com/) - Free anonymous Docker/OCI registry where the tag sets the image lifetime (`1h`, `2d`) — push, pull, and let it expire; ideal for passing images between CI jobs.
 
 ## Source Code Management
 
