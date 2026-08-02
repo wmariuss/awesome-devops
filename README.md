@@ -207,6 +207,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
 
 ## Continuous Integration & Delivery
+- [SuperCLI](https://github.com/javimosch/supercli) - Universal CLI router with 7,000+ plugins. One command pattern (`sc <ns> <res> <action>`) for every DevOps tool. JSON-by-default output, AI-native discovery.
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
 
