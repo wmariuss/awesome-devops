@@ -510,10 +510,12 @@ as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [@Scale](https://atscaleconference.com/)
 - [devopsdays](https://devopsdays.org/)
 - [DevOps Enterprise Summit](https://events.itrevolution.com/)
+- [Awesome Developer Conferences](https://github.com/Infrasity-Labs/awesome-developer-conferences) - A daily updated directory of developer, DevOps, DevRel, cloud native, and platform engineering conferences taking place all over the world, separated by regions. 
 
 ### Blogs
 
 - [Medium](https://medium.com/?tag=devops)
+- [Awesome Tech Newsletters](https://github.com/Infrasity-Labs/awesome-tech-newsletter) - A curated, community-driven list of the best tech, software engineering, DevOps, AI and developer marketing newsletters. 
 
 ### DevOps Roadmap
 
