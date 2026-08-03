@@ -63,6 +63,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes.
 - [Equinix](https://www.equinix.com/) - Global data center and colocation provider for enterprise network and cloud computing.
 - [Clever Cloud](https://clever.cloud/) - European Platform as a Service (PaaS) with managed databases and object storage.
+- [Dada Cloud](https://cloud.dada-tuda.ru) - Russia-based Platform as a Service (PaaS) with git push deploys, managed PostgreSQL, and HTTPS domains.
 
 ## Open Source Cloud Platforms
 
