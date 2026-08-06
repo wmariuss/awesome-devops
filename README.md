@@ -132,6 +132,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
 - [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project.
+- [Kind](https://kind.sigs.k8s.io/) - Run local Kubernetes clusters using Docker container nodes.
 
 ## Internal Developer Platforms
 
