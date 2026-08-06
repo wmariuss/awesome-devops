@@ -336,6 +336,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
 - [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. 
+- [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral framework for traces, metrics and logs.
+- [Jaeger](https://www.jaegertracing.io/) - Open source, end-to-end distributed tracing platform.
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon.
@@ -346,6 +348,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups.
   - [Autometrics](https://autometrics.dev/) - An open-source micro framework for observability.
+  - [Thanos](https://thanos.io/) - Highly available Prometheus setup with long-term storage.
+  - [VictoriaMetrics](https://victoriametrics.com/) - Fast, cost-effective time series database and monitoring.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
