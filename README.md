@@ -302,12 +302,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
   - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
+  - [ClickHouse](https://clickhouse.com/) - Column-oriented database for real-time analytical reports.
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - Distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
     - [Leveldb](https://github.com/google/leveldb) - Fast key-value storage library.
     - [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache and message broker.
     - [RocksDB](https://rocksdb.org/) - A library that provides an embeddable, persistent key-value store for fast storage.
     - [Etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
+    - [Valkey](https://valkey.io/) - High-performance key/value datastore forked from Redis.
 
 ## Observability & Monitoring
 
