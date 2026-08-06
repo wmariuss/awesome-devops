@@ -468,6 +468,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration.
+- [Trivy](https://trivy.dev/) - Scanner for vulnerabilities and misconfigurations in code and containers.
+- [Falco](https://falco.org/) - Cloud native runtime security and threat detection.
+- [Open Policy Agent](https://www.openpolicyagent.org/) - General-purpose policy engine for cloud native environments.
+- [Kyverno](https://kyverno.io/) - Policy engine designed for Kubernetes.
+- [Sigstore](https://www.sigstore.dev/) - Signing, verification and provenance for software artifacts.
+- [Gitleaks](https://github.com/gitleaks/gitleaks) - Detect and prevent hardcoded secrets in git repositories.
 
 ## Sharing
 
