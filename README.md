@@ -132,6 +132,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
 - [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project.
+- [Kind](https://kind.sigs.k8s.io/) - Run local Kubernetes clusters using Docker container nodes.
 
 ## Internal Developer Platforms
 
@@ -169,6 +170,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
+- [OpenTofu](https://opentofu.org/) - Open source, community-driven fork of Terraform.
 - [Pulumi](https://www.pulumi.com/) - Modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure.
 - [Packer](https://www.packer.io/) - Build Automated Machine Images.
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
@@ -191,6 +193,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines.
+- [Helm](https://helm.sh/) - The package manager for Kubernetes.
+- [Kustomize](https://kustomize.io/) - Template-free customization of Kubernetes configuration.
+- [Crossplane](https://www.crossplane.io/) - Build control planes to manage infrastructure with Kubernetes APIs.
 
 ## Productivity Tools
 
@@ -205,6 +210,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
+- [k9s](https://k9scli.io/) - Terminal UI to interact with your Kubernetes clusters.
 
 ## Continuous Integration & Delivery
 
@@ -224,6 +230,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Integrity](http://integrity.github.io/) - Continuous Integration server.
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating.
   - [Argo](https://argoproj.github.io/) - Open Source Kubernetes native workflows, events, CI and CD.
+  - [Argo CD](https://argo-cd.readthedocs.io/) - declarative GitOps continuous delivery for Kubernetes.
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform.
   - [Evergreen](https://github.com/evergreen-ci/evergreen) - A Distributed Continuous Integration System from MongoDB.
   - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
@@ -295,12 +302,14 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
   - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
+  - [ClickHouse](https://clickhouse.com/) - Column-oriented database for real-time analytical reports.
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - Distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications.
     - [Leveldb](https://github.com/google/leveldb) - Fast key-value storage library.
     - [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache and message broker.
     - [RocksDB](https://rocksdb.org/) - A library that provides an embeddable, persistent key-value store for fast storage.
     - [Etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system.
+    - [Valkey](https://valkey.io/) - High-performance key/value datastore forked from Redis.
 
 ## Observability & Monitoring
 
@@ -331,6 +340,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically.
 - [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer.
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. 
+- [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral framework for traces, metrics and logs.
+- [Jaeger](https://www.jaegertracing.io/) - Open source, end-to-end distributed tracing platform.
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon.
@@ -341,6 +352,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure.
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups.
   - [Autometrics](https://autometrics.dev/) - An open-source micro framework for observability.
+  - [Thanos](https://thanos.io/) - Highly available Prometheus setup with long-term storage.
+  - [VictoriaMetrics](https://victoriametrics.com/) - Fast, cost-effective time series database and monitoring.
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app.
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management.
@@ -459,6 +472,12 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration.
+- [Trivy](https://trivy.dev/) - Scanner for vulnerabilities and misconfigurations in code and containers.
+- [Falco](https://falco.org/) - Cloud native runtime security and threat detection.
+- [Open Policy Agent](https://www.openpolicyagent.org/) - General-purpose policy engine for cloud native environments.
+- [Kyverno](https://kyverno.io/) - Policy engine designed for Kubernetes.
+- [Sigstore](https://www.sigstore.dev/) - Signing, verification and provenance for software artifacts.
+- [Gitleaks](https://github.com/gitleaks/gitleaks) - Detect and prevent hardcoded secrets in git repositories.
 
 ## Sharing
 
@@ -484,6 +503,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program.
 as an academic project from University of Tsukuba, under the Apache License 2.0.
 - [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options.
+- [WireGuard](https://www.wireguard.com/) - Fast, modern and secure VPN tunnel.
 
 ## Resources
 
