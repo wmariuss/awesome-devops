@@ -228,6 +228,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Integrity](http://integrity.github.io/) - Continuous Integration server.
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating.
   - [Argo](https://argoproj.github.io/) - Open Source Kubernetes native workflows, events, CI and CD.
+  - [Argo CD](https://argo-cd.readthedocs.io/) - declarative GitOps continuous delivery for Kubernetes.
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform.
   - [Evergreen](https://github.com/evergreen-ci/evergreen) - A Distributed Continuous Integration System from MongoDB.
   - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach.
