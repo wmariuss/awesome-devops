@@ -169,6 +169,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
+- [OpenTofu](https://opentofu.org/) - Open source, community-driven fork of Terraform.
 - [Pulumi](https://www.pulumi.com/) - Modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure.
 - [Packer](https://www.packer.io/) - Build Automated Machine Images.
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
@@ -191,6 +192,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines.
+- [Helm](https://helm.sh/) - The package manager for Kubernetes.
+- [Kustomize](https://kustomize.io/) - Template-free customization of Kubernetes configuration.
+- [Crossplane](https://www.crossplane.io/) - Build control planes to manage infrastructure with Kubernetes APIs.
 
 ## Productivity Tools
 
