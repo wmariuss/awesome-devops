@@ -93,6 +93,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Builds packages in isolation from each other.*
 
 - [Nix/NixOS](https://nixos.org/) - A tool that takes a unique approach to package management and system configuration.
+- [RAMUP](https://github.com/Atum246/ramup) - Advanced VPS memory extension engine. Combines ZRAM, smart swap, and kernel tuning to extend RAM for free. Works on any Linux distro.
 
 ## Distributed Filesystems
 
