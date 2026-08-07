@@ -93,6 +93,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Builds packages in isolation from each other.*
 
 - [Nix/NixOS](https://nixos.org/) - A tool that takes a unique approach to package management and system configuration.
+- [Bindboss](https://github.com/grug-group420/Bindboss) - Self-extracting executable packer in Go with dependency checking, SHA-256 integrity hashing, and Ed25519 signing.
 
 ## Distributed Filesystems
 
