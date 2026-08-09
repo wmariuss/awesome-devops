@@ -204,6 +204,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
+- [Nexus Shell](https://nexusshell.app/) - Native macOS SSH client with SFTP, monitoring, and Docker tools.
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
 
 ## Continuous Integration & Delivery
