@@ -194,6 +194,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Productivity Tools
 
+- [ISMS Copilot](https://www.ismscopilot.com/) - Specialized AI assistant for ISO 27001, SOC 2, NIS 2, GDPR, DORA. Free tools: https://www.ismscopilot.com/resources
+
 *All the tools, services which increase productivity, developer velocity and developer experience.*
 
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
