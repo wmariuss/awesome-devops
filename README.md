@@ -208,6 +208,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Continuous Integration & Delivery
 
+- [heygrc](https://heygrc.com/) - GitHub App for compliance-control review on PRs. Free for public repositories. By ISMS Copilot.
+
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
 
 - On-premises
