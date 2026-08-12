@@ -322,6 +322,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool.
 - [Bolo](http://bolo.niftylogic.com/) - Building distributed, scalable monitoring systems.
 - [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
+- [n8n Uptime Ping Alert](https://github.com/DeusAcc/n8n-uptime-ping-alert) - Free, MIT-licensed n8n workflow: checks a site every 5 minutes and alerts on Telegram only on state change (up/down). Self-hosted, no external DB.
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - Network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack.
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers.
