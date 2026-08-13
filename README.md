@@ -356,6 +356,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
   - [Oxmgr](https://github.com/Vladimir-Urik/OxMgr) - Lightweight Rust process manager and PM2 alternative. 42x faster crash recovery, 19x lower memory usage. Manages Node.js, Python, Go, and any executable on Linux, macOS, and Windows.
 - [n8n Uptime Ping Alert](https://github.com/DeusAcc/n8n-uptime-ping-alert) - Free n8n workflow that checks a site every 5 minutes and alerts on Telegram only on state change.
+- [n8n Uptime Ping Alert](https://github.com/DeusAcc/n8n-uptime-ping-alert) - Free n8n workflow that checks a site every 5 minutes and alerts on Telegram only on state change.
 
 ## Service Discovery & Service Mesh
 
