@@ -190,6 +190,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [RapidForge.io](https://rapidforge.io/) - Create end points, forms and tasks using scripts. Automate your workflows.
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
+- [Zopnight](https://zop.dev/zopnight?utm_source=wmariuss-awesome-devops&utm_medium=listing&utm_campaign=mcp-directory) - Multi-cloud cost governance with resource scheduling and rightsizing.
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines.
 
 ## Productivity Tools
