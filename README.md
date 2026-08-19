@@ -68,6 +68,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Private, Public and Hybrid open-source Cloud Platforms.*
 
+- [Spinifex](https://github.com/mulgadc/spinifex) - AWS-compatible infrastructure platform (EC2, VPC, S3, EKS, ECS, RDS and more) for baremetal, edge, and on-premise deployments.
 - [Openstack](https://www.openstack.org/) - Open source software for creating private and public clouds.
 - [Apache CloudStack](https://cloudstack.apache.org/) - Designed to deploy and manage large networks of virtual machines.
 - [OpenNebula](https://opennebula.org/) - Build Private Clouds and manage Data Center virtualization based on KVM, LXD and VMware.
