@@ -459,6 +459,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration.
+- [Cubzi](https://cubzi.cloud) - Lints Kubernetes manifests for security/reliability issues and estimates their monthly cloud cost before you deploy. CLI, GitHub Action, and web app.
 
 ## Sharing
 
