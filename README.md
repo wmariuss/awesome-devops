@@ -205,6 +205,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
+- [envsetup.dev](https://envsetup.dev) - Generates a Dockerfile, docker-compose.yml and .env for 23+ languages.
 
 ## Continuous Integration & Delivery
 
