@@ -245,6 +245,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
   - [GitLab Pipelines by puzl.cloud](https://puzl.cloud/products/run-my-job/) - Blazing-fast, cost-effective execution layer for GitLab CI/CD pipeline jobs, offering per-second billing and k8s API for runner management.
 
+- [RepoDoctor CI](https://github.com/BLCCoreStudio/RepoDoctor) - Repository health scoring and configurable CI quality gates.
+
 ## Source Code Management
 
 *Source Code management, Git-repository manager, Version Control. Some of them are included in Code review section.*
