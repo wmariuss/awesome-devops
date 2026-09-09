@@ -355,6 +355,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
   - [Oxmgr](https://github.com/Vladimir-Urik/OxMgr) - Lightweight Rust process manager and PM2 alternative. 42x faster crash recovery, 19x lower memory usage. Manages Node.js, Python, Go, and any executable on Linux, macOS, and Windows.
+  - [RealUptime](https://realuptime.io) - Multi-region status pages, uptime monitoring, and error tracking on one flat bill.
 
 ## Service Discovery & Service Mesh
 
