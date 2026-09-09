@@ -200,6 +200,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc.
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
+- [tfmodcache](https://github.com/Rezarys/tfmodcache) - Local module cache for Terraform/OpenTofu; init stops re-downloading modules.
 - [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
