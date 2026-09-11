@@ -206,6 +206,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
 
+- [relnote](https://github.com/loki-inu/relnote) - Offline Python CLI/Action for GitHub release notes from Conventional Commits.
+
 ## Continuous Integration & Delivery
 
 *Continuous Integration, Continuous Delivery and Continuous Delivery. GitOps.*
