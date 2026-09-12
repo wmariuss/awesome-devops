@@ -131,6 +131,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [AZIN](https://azin.run/) - BYOC deployment platform. Deploy to your own GCP account with git-push, no Kubernetes config needed. GKE Autopilot under the hood.
 - [vCluster](https://vcluster.sh/)- A open source project that helps you create virtual clusters.
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.).
+- [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project.
 
 ## Internal Developer Platforms
 
@@ -139,6 +140,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Port](https://www.getport.io/) - A platform for building no-code, holistic, Internal Developer Portals.
 - [Backstage](https://backstage.io/) - An open platform for building developer portals.
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
+- [Qovery](https://www.qovery.com/) - Enterprise Kubernetes management platform for deploying applications on AWS, GCP, Azure, and Scaleway. Includes Terraform provider, CLI, API, and an [AI Agent Skill](https://github.com/Qovery/qovery-skills) for deploying from AI coding tools like Claude Code, Cursor, and OpenCode.
 
 ## Container Image Registry
 
@@ -203,6 +205,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster.
+- [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
+
 
 ## Continuous Integration & Delivery
 
@@ -352,6 +356,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system.
   - [StatusPal](https://statuspal.io/?utm_source=github.com&utm_medium=referral&utm_campaign=awesome-devops) - Communicate incidents and maintenance effectively with a beautiful hosted status page.
   - [Instatus](https://instatus.com) - Quick and beautiful status page.
+  - [Oxmgr](https://github.com/Vladimir-Urik/OxMgr) - Lightweight Rust process manager and PM2 alternative. 42x faster crash recovery, 19x lower memory usage. Manages Node.js, Python, Go, and any executable on Linux, macOS, and Windows.
 
 ## Service Discovery & Service Mesh
 
@@ -385,6 +390,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [API Umbrella](https://github.com/NREL/api-umbrella) - Proxy that sits in front of your APIs, API management platform.
 - [Ambassador](https://www.getambassador.io/) - Kubernetes-Native API Gateway built on the Envoy Proxy.
 - [Kong](https://konghq.com/) - Connect all your microservices and APIs with the industry’s most performant, scalable and flexible API platform.
+- [SBproxy](https://github.com/soapbucket/sbproxy) - AI gateway and reverse proxy with LLM routing, rate limiting, and YAML config.
 - [Tyk](https://tyk.io/) - API and service management platform.
 - [Cilium](https://github.com/cilium/cilium) - API aware networking and security using BPF and XDP.
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway.
