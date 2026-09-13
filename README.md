@@ -236,6 +236,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
   - [Unleash](https://www.getunleash.io) - Open-source feature management platform (feature flags, gradual rollouts, A/B testing) to decouple deploy from release.
+  - [Zoomies](https://github.com/eyupio/zoomies) - Free, open-source GitHub Actions runner autoscaling with a web UI.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
