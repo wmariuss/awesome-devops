@@ -141,6 +141,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Backstage](https://backstage.io/) - An open platform for building developer portals.
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation.
 - [Qovery](https://www.qovery.com/) - Enterprise Kubernetes management platform for deploying applications on AWS, GCP, Azure, and Scaleway. Includes Terraform provider, CLI, API, and an [AI Agent Skill](https://github.com/Qovery/qovery-skills) for deploying from AI coding tools like Claude Code, Cursor, and OpenCode.
+- [OpenChoreo](https://openchoreo.dev/) - A complete, modular, open-source developer platform.
 
 ## Container Image Registry
 
@@ -204,6 +205,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
+- [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster.
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
 
 - [relnote](https://github.com/loki-inu/relnote) - Offline Python CLI/Action for GitHub release notes from Conventional Commits.
