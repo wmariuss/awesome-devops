@@ -282,6 +282,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Certbot](https://github.com/certbot/certbot) - Automate using Let’s Encrypt certificates on manually-managed websites to enable HTTPS.
 - [Let’s Encrypt](https://letsencrypt.org/) - Free, automated, and open Certificate Authority.
 - [Cert Manager](https://github.com/jetstack/cert-manager) - K8S add-on to automate the management and issuance of TLS certificates from various issuing sources.
+- [tls-cert-watchdog](https://git.canutethegreat.com/CanuteTheGreat/tls-cert-watchdog) - Dependency-free Python script that checks TLS certificate expiry, weak protocol versions, and common misconfigurations across any number of hosts.
 
 ## Databases
 
@@ -464,6 +465,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration.
+- [sshd-hardening-auditor](https://git.canutethegreat.com/CanuteTheGreat/sshd-hardening-auditor) - Dependency-free Python script that audits sshd_config against CIS Benchmark / NIST-aligned SSH hardening recommendations.
+- [mail-security-auditor](https://git.canutethegreat.com/CanuteTheGreat/mail-security-auditor) - Zero-dependency Python tool that audits a domain's SPF, DKIM, DMARC, and MX record hygiene using a minimal built-in DNS client.
 
 ## Sharing
 
