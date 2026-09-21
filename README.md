@@ -298,6 +298,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database.
   - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web.
   - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases.
+  - [Qdrant ES Gateway](https://github.com/dstockton/qdrant-es-gateway) - Elasticsearch-compatible application search gateway in Rust.
   - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications.
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web.
   - Key-Value
