@@ -323,6 +323,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Sentry](https://sentry.io/welcome/) - Error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
 - [Shinken](https://github.com/shinken-solutions/shinken) - Monitoring framework.
 - [Zabbix](https://www.zabbix.com/) - Mature and effortless monitoring solution for network monitoring and application monitoring.
+- [Rustinion](https://rustinion.com/) - Cross-platform (Windows/macOS/Linux/BSD/OpenWRT) device management agent written in Rust, with optional infrastructure monitoring (host metrics, SNMP, log forwarding, OpenTelemetry tracing) built into the same agent -- no separate MDM + monitoring stack.
 - [Glances](https://github.com/nicolargo/glances) - Monitoring information through a curses or Web based interface.
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool.
 - [Bolo](http://bolo.niftylogic.com/) - Building distributed, scalable monitoring systems.
