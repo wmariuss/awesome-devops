@@ -208,6 +208,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster.
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
+- [go-exec-format-doctor](https://github.com/soul-sol/go-exec-format-doctor) - Diagnose binary format and architecture mismatches without execution.
 
 
 ## Continuous Integration & Delivery
