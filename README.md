@@ -127,6 +127,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
 - [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
 - [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
+- [Peon](https://peon.sh/) - Open-source self-hostable Docker PaaS. Deploy Git apps, Docker Compose, databases, and static sites to your own servers (alternative to Vercel/Heroku).
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
 - [AZIN](https://azin.run/) - BYOC deployment platform. Deploy to your own GCP account with git-push, no Kubernetes config needed. GKE Autopilot under the hood.
