@@ -29,6 +29,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 ## Tools
 
-For list of tools check [list](http://awesome-devops.xyz/list) page.
+For list of tools check [list](https://awesome-devops.xyz/list) page.
 
 [^1]: Site Reliability Engineering.
