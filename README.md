@@ -249,6 +249,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere.
   - [RunMyJob](https://runmyjob.io/) - Cloud runners for GitHub Actions and GitLab CI with KVM-isolated VMs and load-based billing.
+  - [CRACI](https://craci.com/features/ci-cd) - Managed GitHub Actions runners that record an SBOM for each job.
 
 ## Source Code Management
 
