@@ -470,6 +470,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *A collection of tools to help with sharing knowledge and telling the story.*
 
+- [Cortex](https://github.com/cortex-docs/cortex) - Generate API docs, typed SDKs, and MCP servers from API specs.
 - [Gitbook](https://github.com/GitbookIO/gitbook) - Modern documentation format and toolchain using Git and Markdown.
 - [Docusaurus](https://github.com/facebook/docusaurus) - Easy to maintain open source documentation websites.
 - [Docsify](https://github.com/docsifyjs/docsify/) - A magical documentation site generator.
