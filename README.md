@@ -321,6 +321,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Naemon](http://www.naemon.org/) - Fast, stable and innovative while giving you a clear view of the state of your network and applications.
 - [Nagios](https://www.nagios.org/) - Computer-software application that monitors systems, networks and infrastructure.
 - [Sentry](https://sentry.io/welcome/) - Error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
+- [Epure](https://github.com/epure-sh/epure) - Self-hosted exception-only error monitoring. Sentry SDK compatible.
 - [Shinken](https://github.com/shinken-solutions/shinken) - Monitoring framework.
 - [Zabbix](https://www.zabbix.com/) - Mature and effortless monitoring solution for network monitoring and application monitoring.
 - [Glances](https://github.com/nicolargo/glances) - Monitoring information through a curses or Web based interface.
