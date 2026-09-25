@@ -30,6 +30,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Service Discovery & Service Mesh](#service-discovery--service-mesh)
 - [Chaos Engineering](#chaos-engineering)
 - [API Gateway](#api-gateway)
+- [API Development & Testing](#api-development--testing)
 - [Code review](#code-review)
 - [Distributed messaging](#distributed-messaging)
 - [Programming Languages](#programming-languages)
@@ -83,6 +84,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Operating Systems - Server Platform.*
 
 - [Ubuntu](https://ubuntu.com/) - Enterprise Open Source and Linux.
+- [Debian](https://www.debian.org/) - Stable, community-driven GNU/Linux distribution used widely as a server base.
+- [Alpine Linux](https://alpinelinux.org/) - Security-oriented, lightweight Linux used heavily for containers.
 - [Rocky Linux](https://rockylinux.org/) - Open-source enterprise operating system designed to be 100% bug-for-bug compatible with Red Hat Enterprise Linux.
 - [CoreOS](http://coreos.com/) - The pioneering lightweight container host.
 - [OSv](http://osv.io/) - Versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud.
@@ -171,6 +174,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool.
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool.
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.
+- [OpenTofu](https://opentofu.org/) - Open-source Terraform-compatible IaC tool under the Linux Foundation.
+- [Helm](https://helm.sh/) - The package manager for Kubernetes.
+- [Kustomize](https://kustomize.io/) - Kubernetes native configuration management with overlays, no templates.
 - [Pulumi](https://www.pulumi.com/) - Modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure.
 - [Packer](https://www.packer.io/) - Build Automated Machine Images.
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy.
@@ -198,6 +204,9 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *All the tools, services which increase productivity, developer velocity and developer experience.*
 
+- [k9s](https://k9scli.io/) - Terminal UI to manage and observe Kubernetes clusters.
+- [GitHub CLI](https://cli.github.com/) - Official GitHub command-line tool for PRs, issues, and workflows.
+- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git commands.
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc.
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
@@ -255,11 +264,13 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Source Code management, Git-repository manager, Version Control. Some of them are included in Code review section.*
 
 - [GitHub](https://github.com/) - Helps developers store and manage their code, as well as track and control changes to their code.
+- [Fork](https://git-fork.com/) - Fast and friendly Git client for Mac and Windows.
 - [Gitlab](https://gitlab.com/) - Entire DevOps lifecycle in one application.
 - [Bitbucket](https://bitbucket.org/product/) - Gives teams one place to plan projects, collaborate on code, test, and deploy
 - [Phabricator](https://github.com/phacility/phabricator/) - A collection of web applications which help software companies build better software.
 - [Gogs](https://gogs.io/) - A painless self-hosted Git service.
 - [Gitea](https://gitea.io/) - A painless self-hosted Git service.
+- [Forgejo](https://forgejo.org/) - Self-hosted, community-driven Git forge, forked from Gitea.
 - [Gitblit](https://github.com/gitblit/gitblit) - Pure Java Git solution for managing, viewing, and serving Git repositories.
 - [RhodeCode](https://rhodecode.com/) - Centralized control for distributed repositories. Mercurial, Git, and Subversion under a single roof.
 - [Radicle](https://radicle.xyz/) - Radicle is a sovereign peer-to-peer network for code collaboration, built on top of Git.
@@ -269,6 +280,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Web servers and reverse proxy.*
 
 - [Nginx](http://nginx.org/) - High performance load balancer, web server and reverse proxy.
+- [HAProxy](https://www.haproxy.org/) - Reliable high-performance TCP/HTTP load balancer.
 - [Apache](http://httpd.apache.org/) - Web server and reverse proxy.
 - [Caddy](https://caddyserver.com/) - Web server with automatic HTTPS.
 - [Cherokee](http://cherokee-project.com/) - Highly concurrent secured web applications.
@@ -321,6 +333,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Naemon](http://www.naemon.org/) - Fast, stable and innovative while giving you a clear view of the state of your network and applications.
 - [Nagios](https://www.nagios.org/) - Computer-software application that monitors systems, networks and infrastructure.
 - [Sentry](https://sentry.io/welcome/) - Error monitoring that helps all software teams discover, triage, and prioritize errors in real-time.
+- [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral APIs, SDKs, and tools to generate and export telemetry.
+- [Jaeger](https://www.jaegertracing.io/) - Open-source distributed tracing platform for microservices.
 - [Shinken](https://github.com/shinken-solutions/shinken) - Monitoring framework.
 - [Zabbix](https://www.zabbix.com/) - Mature and effortless monitoring solution for network monitoring and application monitoring.
 - [Glances](https://github.com/nicolargo/glances) - Monitoring information through a curses or Web based interface.
@@ -400,6 +414,15 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy.
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications.
 
+## API Development & Testing
+
+*Tools for designing, mocking, testing, and documenting APIs.*
+
+- [Postman](https://www.postman.com/) - API platform for designing, testing, documenting, and sharing APIs.
+- [Insomnia](https://insomnia.rest/) - Collaborative API client for REST, GraphQL, and gRPC.
+- [Bruno](https://www.usebruno.com/) - Open-source, Git-friendly API client that stores collections as files.
+- [Hoppscotch](https://hoppscotch.io/) - Open-source API development ecosystem, formerly Postwoman.
+
 ## Code review
 
 *Code review. A few of the Source Code Management tools have built-in code review features.*
@@ -438,6 +461,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *Chat and ChatOps.*
 
+- [Slack](https://slack.com/) - Team messaging platform widely used for ChatOps and incident response.
 - [Rocket](https://rocket.chat/) - Open source team communication.
 - [Mattermost](https://mattermost.com/) - Messaging platform that enables secure team collaboration.
 - [Zulip](https://zulipchat.com/) - Real-time chat with an email threading model.
@@ -463,6 +487,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 *Validating, lint and best practice in term of Security on code or infrastructure.*
 
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [Trivy](https://trivy.dev/) - Scanner for container images, filesystems, Git repos, and IaC.
+- [Falco](https://falco.org/) - Cloud-native runtime security for detecting unexpected behavior.
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks with a proof trail per finding.
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration.
 
@@ -480,6 +506,8 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 
 *VPN, routing and firewall.*
 
+- [WireGuard](https://www.wireguard.com/) - Fast, modern, and simple VPN protocol and implementation.
+- [Tailscale](https://tailscale.com/) - Zero-config mesh VPN built on WireGuard for teams and devices.
 - [OpenVPN](https://openvpn.net/) - Flexible VPN solutions to secure your data communications, whether it's for Internet privacy.
 - [Pritunl](https://pritunl.com/) - Enterprise Distributed OpenVPN and IPsec Server.
 - [VyOS](https://vyos.io/) - Open source network OS that runs on a wide range of hardware, virtual machines, and cloud providers.
