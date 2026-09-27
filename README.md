@@ -238,7 +238,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications.
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
-  - [Cirrus CI](https://cirrus-ci.com/) - continuous integration system built for the era of cloud computing.
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing.
