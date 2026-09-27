@@ -125,7 +125,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Kata Containers](https://katacontainers.io/) - Building lightweight virtual machines that seamlessly plug into the containers ecosystem.
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing.
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods.
-- [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions.
+- [Docker Cannot Connect to Daemon — Fix Guide](https://thecodeforge.io/devops/docker-cannot-connect-daemon/) - Diagnose and fix the Docker daemon connection error on Linux, Mac and Windows.
 - [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers.
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS.
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku
@@ -165,6 +165,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Rundeck](https://www.rundeck.com/) - Runbook Automation For Modernizing Your Operations.
 - [StackStorm](https://stackstorm.com/) - Connects all your apps, services, and workflows. Automate DevOps your way.
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems.
+- [Airflow 3.x Tutorial Series](https://thecodeforge.io/devops/airflow-introduction/) - 37-part series from installation to production pipelines.
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices.
 - [Tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service software.
 - [Fabric](http://www.fabfile.org/) - High-level Python library designed to execute shell commands remotely over SSH.
@@ -202,7 +203,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc.
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
-- [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
@@ -242,7 +242,6 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications.
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure.
-  - [Cirrus CI](https://cirrus-ci.org/) - continuous integration system built for the era of cloud computing.
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps.
   - [DeployHQ](https://www.deployhq.com/) - Git-based deployment automation to servers via SSH/SFTP/S3.
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD.
