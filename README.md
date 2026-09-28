@@ -193,6 +193,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability.
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency.
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines.
+- [opentofu-updater-action](https://github.com/drumandbytes/opentofu-updater-action) - Keeps OpenTofu/Terraform providers, modules and images updated via PRs.
 
 ## Productivity Tools
 
@@ -237,6 +238,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications.
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere.
   - [Unleash](https://www.getunleash.io) - Open-source feature management platform (feature flags, gradual rollouts, A/B testing) to decouple deploy from release.
+  - [argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action) - opens PRs bumping Helm chart and image versions in Argo CD GitOps repos.
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes.
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving.
