@@ -212,7 +212,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 *Tools and services which increase productivity, developer velocity and developer experience.*
 
-
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go. `oss`
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management. `oss`
