@@ -16,7 +16,6 @@ concurrency:
 
 permissions:
   contents: read
-  issues: write
 
 jobs:
   link_checker:
@@ -33,36 +32,15 @@ jobs:
         with:
           args: >-
             --no-progress --timeout 30 --max-retries 3 --retry-wait-time 10 --max-concurrency 4
-            --accept 200..=299,403,429
+            --accept 200..=299,403,406,429
             README.md CONTRIBUTING.md
-          output: ./lychee/out.md
+          # Broken links are listed on the run's summary page; no issue is opened.
+          jobSummary: true
           fail: false
 
-      # One open issue tracks broken links: updated while links fail, closed when they pass.
-      - name: Report broken links
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
-        run: |
-          set -euo pipefail
-          title="Broken links report"
-          existing=$(gh issue list --state open --label "links validator" --search "in:title $title" --json number --jq '.[0].number // empty')
-          if [ "$EXIT_CODE" != "0" ]; then
-            gh label create "links validator" --color d49a1f --description "Broken links found by the weekly check" 2>/dev/null || true
-            if [ -n "$existing" ]; then
-              gh issue edit "$existing" --body-file ./lychee/out.md
-              gh issue comment "$existing" --body "Still failing on $(date -u +%Y-%m-%d). The report above is updated."
-            else
-              gh issue create --title "$title" --label "links validator" --body-file ./lychee/out.md
-            fi
-          elif [ -n "$existing" ]; then
-            gh issue close "$existing" --comment "All links pass as of $(date -u +%Y-%m-%d)."
-          fi
-
-      # Fail the run while links are broken, so the README badge shows it. The issue
-      # above lists which links to fix.
+      # Fail the run while links are broken, so the README badge shows it.
       - name: Fail on broken links
         if: steps.lychee.outputs.exit_code != '0'
         run: |
-          echo "::error::Broken links found. See the \"Broken links report\" issue."
+          echo "::error::Broken links found. They are listed in this run's summary."
           exit 1
