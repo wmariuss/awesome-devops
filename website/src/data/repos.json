@@ -155,6 +155,7 @@
   "https://www.rundeck.com/": "rundeck/rundeck",
   "https://www.scylladb.com/": "scylladb/scylladb",
   "https://www.serf.io/": "hashicorp/serf",
+  "https://www.siderolabs.com/talos-linux": "siderolabs/talos",
   "https://www.softether.org/": "SoftEtherVPN/SoftEtherVPN",
   "https://www.spinnaker.io/": "spinnaker/spinnaker",
   "https://www.terraform.io/": "hashicorp/terraform",

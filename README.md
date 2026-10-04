@@ -98,6 +98,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [CoreOS](http://coreos.com/) - The pioneering lightweight container host. `oss`
 - [OSv](http://osv.io/) - Versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. `oss`
 - [Atomic](http://www.projectatomic.io/) - Use immutable infrastructure to deploy and scale your containerized applications. `oss`
+- [Talos Linux](https://www.siderolabs.com/talos-linux) - Minimal, immutable Linux distribution for running Kubernetes, managed through an API. `oss` `paid`
 - [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure. `oss`
 
 ## Package Management & System Configuration
