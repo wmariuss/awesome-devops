@@ -212,17 +212,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 *Tools and services which increase productivity, developer velocity and developer experience.*
 
-- [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go.
-- [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc.
-- [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management.
-- [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager.
-- [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure.
-- [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development.
-- [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation.
-- [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers.
-- [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster.
-- [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more.
-- [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) - Run local multi-service stacks as Docker containers with Tilt.
+
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go. `oss`
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management. `oss`
@@ -233,7 +223,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
-
+- [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) - Run local multi-service stacks as Docker containers with Tilt.
 
 ## Continuous Integration & Delivery
 
