@@ -23,9 +23,9 @@ jobs:
       run:
         working-directory: website
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: npm
@@ -37,7 +37,7 @@ jobs:
       # Keep GitHub data and auto-detected repos between runs, so each daily run
       # only looks up new entries. The committed files are the fallback.
       - name: Restore GitHub data cache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: |
             website/src/data/github.json
