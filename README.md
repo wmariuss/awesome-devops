@@ -9,8 +9,13 @@
   </a>
 </p>
 
-[![Deploy](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/deploy.yml)
-[![Links validator](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml/badge.svg)](https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml)
+<p align="center">
+  <a href="https://awesome-devops.xyz"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fawesome-devops.xyz&label=awesome-devops.xyz&up_message=online&down_message=offline&labelColor=141518"></a>
+  <a href="https://awesome-devops.xyz"><img alt="Tools in the list" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-devops.xyz%2Fbadge%2Ftools.json"></a>
+  <a href="https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml"><img alt="Links" src="https://img.shields.io/github/actions/workflow/status/wmariuss/awesome-devops/links-validator.yml?branch=main&label=links&labelColor=141518"></a>
+  <a href="https://github.com/wmariuss/awesome-devops/commits/main"><img alt="Last updated" src="https://img.shields.io/github/last-commit/wmariuss/awesome-devops?label=updated&labelColor=141518&color=3f6fc0"></a>
+  <a href="CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-e0b84a?labelColor=141518"></a>
+</p>
 
 > A curated list of platforms, tools, practices and resources to create, improve DevOps culture and SRE Team in the organization.
 
@@ -131,13 +136,11 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Kubernetes](https://kubernetes.io/) - Automating deployment, scaling, and management of containerized applications. `oss`
 - [LXC](https://linuxcontainers.org/) - Lets Linux users easily create and manage system or application containers. `oss`
 - [Rancher](https://rancher.com/) - Lets you deliver Kubernetes-as-a-Service. `oss` `paid`
-- [OpenVz](https://openvz.org/) - Container-based virtualization for Linux. `oss`
 - [Singularity](https://sylabs.io/singularity/) - Run the application from the local environment to the cloud. `oss` `paid`
 - [AppScale](https://github.com/AppScale/appscale) - Easy-to-manage serverless platform for building and running scalable web and mobile applications. `oss`
 - [Kata Containers](https://katacontainers.io/) - Building lightweight virtual machines that seamlessly plug into the containers ecosystem. `oss`
 - [K3S](https://k3s.io/) - The certified Kubernetes distribution built for IoT and Edge computing. `oss`
 - [Podman](https://github.com/containers/podman) - A tool for managing OCI containers and pods. `oss`
-- [Linx](https://linx.software) - General-purpose low-code platform for building and hosting backend solutions. `free` `paid` `self-hosted`
 - [Piku](https://github.com/piku/piku) - The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers. `oss`
 - [OrbStack](https://orbstack.dev/) - fast, light, and easy way to run Docker containers and Linux on MacOS. `free` `paid`
 - [Canine](https://canine.sh/) - Deploy applications to Kubernetes as easily as deploying to Heroku. `oss` `paid`
@@ -214,7 +217,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management. `oss`
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager. `oss`
-- [Kanvas](https://kanvas.new) - a collaborative tool with visual interface for designing and operating infrastructure. `free` `paid` `self-hosted`
+- [Kanvas](https://layer5.io/kanvas/) - a collaborative tool with visual interface for designing and operating infrastructure. `free` `paid` `self-hosted`
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development. `oss`
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation. `oss`
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
@@ -255,7 +258,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving. `free` `paid`
   - [Bitrise](https://www.bitrise.io/) - CI/CD for mobile applications. `free` `paid`
   - [Buildkite](https://buildkite.com/) - run fast, secure, and scalable continuous integration pipelines on your own infrastructure. `free` `paid`
-  - [Cirrus CI](https://cirrus-ci.org/) - continuous integration system built for the era of cloud computing. `free` `paid`
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps. `free` `paid`
   - [DeployHQ](https://www.deployhq.com/) - Git-based deployment automation to servers via SSH/SFTP/S3. `free` `paid`
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. `free` `paid`
@@ -347,7 +349,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI. `oss`
 - [Canary Checker](https://canarychecker.io) - Open source health check platform. `oss` `paid`
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically. `oss`
-- [Merlinn](https://github.com/merlinn-co/merlinn) - Open-source AI on-call developer. `oss`
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. `free` `paid`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
@@ -522,7 +523,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 - [DevOpsCon](https://devopscon.io/) `paid`
 - [AWS re:Invent](https://reinvent.awsevents.com/) - Las Vegas · December. `paid`
-- [DevSecCon](https://www.devseccon.com/) `paid`
 - [All Day DevOps](https://www.alldaydevops.com/) - Online. `free`
 - [DevOpsConnect](https://www.devopsconnect.com/) `paid`
 - [@Scale](https://atscaleconference.com/) - Meta. `free`
