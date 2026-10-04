@@ -33,7 +33,7 @@ jobs:
         with:
           args: >-
             --no-progress --timeout 30 --max-retries 3 --retry-wait-time 10 --max-concurrency 4
-            --accept 200,206,403,429
+            --accept 200..=299,403,429
             README.md CONTRIBUTING.md
           output: ./lychee/out.md
           fail: false
