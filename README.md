@@ -237,6 +237,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Teamcity](https://www.jetbrains.com/teamcity/) - enterprise-level CI and CD. `free` `paid` `self-hosted`
   - [Bamboo](https://www.atlassian.com/software/bamboo) - tie automated builds, tests, and releases together in a single workflow. `paid` `self-hosted`
   - [Integrity](http://integrity.github.io/) - Continuous Integration server. `oss`
+  - [Hydra](https://github.com/NixOS/hydra) - Continuous integration server for Nix-based projects. `oss`
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating. `oss`
   - [Argo](https://argoproj.github.io/) - Open Source Kubernetes native workflows, events, CI and CD. `oss`
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform. `oss`
