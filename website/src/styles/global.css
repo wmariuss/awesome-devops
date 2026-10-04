@@ -61,9 +61,20 @@ button, input, select { font-family: inherit; }
 .gh-btn { display: flex; align-items: center; gap: 8px; padding: 5px 5px 5px 10px; border: 1px solid #dddcd6; border-radius: 7px; background: #fff; color: var(--ink); }
 .gh-btn:hover { border-color: #b9b8b2; color: var(--ink); }
 .gh-btn .count { white-space: nowrap; font-family: var(--mono); font-size: 12px; padding: 2px 6px; border-radius: 4px; background: var(--chip); color: var(--text-2); }
+/* Phones: the site links and GitHub button move into a menu. */
+.mobile-menu { display: none; position: relative; }
+.mobile-menu summary { list-style: none; cursor: pointer; width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid #dddcd6; border-radius: 8px; background: #fff; color: var(--ink); }
+.mobile-menu summary::-webkit-details-marker { display: none; }
+.mobile-menu[open] summary { border-color: #b9b8b2; }
+.mobile-menu-panel { position: absolute; right: 0; top: calc(100% + 8px); width: 220px; padding: 6px; display: flex; flex-direction: column; gap: 2px; background: #fff; border: 1px solid var(--border-card); border-radius: 12px; box-shadow: 0 8px 24px rgba(20, 21, 24, 0.12); }
+.mobile-menu-panel a { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 10px 12px; border-radius: 8px; font-size: 14.5px; color: var(--text-2); }
+.mobile-menu-panel a:hover { background: var(--subtle); color: var(--ink); }
+.mobile-menu-panel a[aria-current='page'] { background: var(--nav-active); color: var(--ink); font-weight: 500; }
+.mobile-menu-panel .count { font-family: var(--mono); font-size: 12px; padding: 2px 6px; border-radius: 4px; background: var(--chip); color: var(--text-2); }
 @media (max-width: 639px) {
-  .site-header .wrap { gap: 12px; }
-  .site-nav .link { display: none; }
+  .site-header .wrap { gap: 10px; }
+  .site-nav { display: none; }
+  .mobile-menu { display: block; }
   .brand span { display: none; }
 }
 
