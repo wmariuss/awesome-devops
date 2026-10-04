@@ -60,10 +60,6 @@
   "https://reinvent.awsevents.com/": [
     "cloud"
   ],
-  "https://www.devseccon.com/": [
-    "security",
-    "secrets"
-  ],
   "https://www.alldaydevops.com/": [
     "cicd",
     "security",
