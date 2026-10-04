@@ -17,3 +17,8 @@ updates:
     groups:
       website:
         patterns: ["*"]
+    ignore:
+      # @astrojs/preact supports Preact 10 only (peer dependency ^10). Remove this
+      # once a release of @astrojs/preact accepts Preact 11.
+      - dependency-name: preact
+        update-types: ["version-update:semver-major"]
