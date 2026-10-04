@@ -327,6 +327,7 @@ DevOps is the combination of cultural philosophies, practices, and tools that in
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool.
 - [Bolo](http://bolo.niftylogic.com/) - Building distributed, scalable monitoring systems.
 - [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers.
+- [costgrep](https://github.com/Paraphern/costgrep) - GitHub Actions cost observability: spend breakdown by who triggered each run (humans, AI agents, bots).
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - Network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack.
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit.
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers.
