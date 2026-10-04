@@ -1,0 +1,77 @@
+---
+import '../styles/global.css';
+import { getSite, fmtStars } from '../lib/site.mjs';
+
+interface Props {
+  title: string;
+  description?: string;
+  section?: 'tools' | 'learn' | null;
+}
+const { title, description = 'A curated list of awesome DevOps platforms, tools, practices and resources.', section = null } = Astro.props;
+const site = getSite();
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const og = new URL('/social-preview-1280x640.png', Astro.site);
+const repoStars = site.repoStars != null ? fmtStars(site.repoStars) : null;
+const here = (path: string) => (Astro.url.pathname.startsWith(path) ? 'page' : undefined);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <link rel="canonical" href={canonical}>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="sitemap" href="/sitemap-index.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Awesome DevOps">
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:url" content={canonical}>
+  <meta property="og:image" content={og}>
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#f6f6f3">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap">
+  <slot name="head" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="Awesome DevOps home">
+        <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h5l1.5-2H21v14H3z" fill="oklch(0.84 0.13 85)"></path><path d="M3 12h7l1.5-2H21v11H3z" fill="oklch(0.64 0.15 255)"></path><path d="M3 15h9l1.5-2H21v8H3z" fill="#141518"></path><rect x="5.5" y="17" width="6" height="1.8" rx="0.9" fill="oklch(0.84 0.13 85)"></rect></svg>
+        <span>awesome-devops</span>
+      </a>
+      <nav class="tabs" aria-label="Sections">
+        <a class="tab" href="/" aria-current={section === 'tools' ? 'page' : undefined}>Tools<span class="n">{site.stats.tools}</span></a>
+        <a class="tab" href="/learn/" aria-current={section === 'learn' ? 'page' : undefined}>Learn<span class="n">{site.learn.length}</span></a>
+      </nav>
+      <div class="spacer"></div>
+      <nav class="site-nav" aria-label="Site">
+        <a class="link" href="/what-is-devops/" aria-current={here('/what-is-devops')}>What is DevOps?</a>
+        <a class="link" href="/contribution/" aria-current={here('/contribution')}>Contribute</a>
+        <a class="gh-btn" href="https://github.com/wmariuss/awesome-devops">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          <span>GitHub</span>
+          {repoStars && <span class="count">★ {repoStars}</span>}
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <slot />
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>Copyright © Awesome DevOps Community</span>
+      <div class="spacer"></div>
+      <a href="/contribution/">Submit a tool</a>
+      <a href="https://github.com/wmariuss/awesome-devops">GitHub</a>
+      {section && <span class="kbd-hint">Press <span>/</span> to search</span>}
+    </div>
+  </footer>
+</body>
+</html>

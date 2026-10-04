@@ -4,19 +4,63 @@ on:
   push:
     branches:
       - main
+  schedule:
+    # Refresh GitHub stars and activity every day at 06:00 UTC.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: website
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.13
+      - uses: actions/checkout@v4
 
-      - name: Build and deploy
-        run: |
-          cp README.md docs/list.md
-          pip install -r requirements.txt
-          mkdocs build
-          mkdocs gh-deploy --force
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Keep GitHub data and auto-detected repos between runs, so each daily run
+      # only looks up new entries. The committed files are the fallback.
+      - name: Restore GitHub data cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            website/src/data/github.json
+            website/src/data/repos-auto.json
+          key: github-data-${{ github.run_id }}
+          restore-keys: github-data-
+
+      - name: Fetch GitHub data
+        run: npm run fetch:github
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch favicons
+        run: npm run fetch:icons
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: website/dist
+          cname: awesome-devops.xyz
+          force_orphan: true
+          commit_message: "Deploy ${{ github.sha }}"

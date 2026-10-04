@@ -1,35 +1,52 @@
 name: Links validator
 
 on:
-  repository_dispatch:
   workflow_dispatch:
   schedule:
-    # At 09:00 on Monday: https://crontab.guru/#0_9_*_*_1
-    - cron: "0 9 30 * 0"
+    # Every Monday at 09:00 UTC.
+    - cron: "0 9 * * 1"
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   link_checker:
-    name: Link Checker
+    name: Link checker
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v2.6.1
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: "--verbose --no-progress --timeout 10 --max-concurrency 2 -- './**/*.md'"
+          args: >-
+            --no-progress --timeout 20 --max-retries 2 --max-concurrency 4
+            --accept 200,206,403,429
+            README.md CONTRIBUTING.md
           output: ./lychee/out.md
+          fail: false
 
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=now::$(date +'%d-%m-%Y')"
-
-      - name: Create issue when fail
-        if: ${{ steps.lychee.outputs.exit_code }} != 0
-        uses: peter-evans/create-issue-from-file@v4
-        with:
-          title: Automated Links Checker Report for ${{ steps.date.outputs.now }}
-          content-filepath: ./lychee/out.md
-          labels: links validator
+      # One open issue tracks broken links: updated while links fail, closed when they pass.
+      - name: Report broken links
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
+        run: |
+          set -euo pipefail
+          title="Broken links report"
+          existing=$(gh issue list --state open --label "links validator" --search "in:title $title" --json number --jq '.[0].number // empty')
+          if [ "$EXIT_CODE" != "0" ]; then
+            gh label create "links validator" --color d49a1f --description "Broken links found by the weekly check" 2>/dev/null || true
+            if [ -n "$existing" ]; then
+              gh issue edit "$existing" --body-file ./lychee/out.md
+              gh issue comment "$existing" --body "Still failing on $(date -u +%Y-%m-%d). The report above is updated."
+            else
+              gh issue create --title "$title" --label "links validator" --body-file ./lychee/out.md
+            fi
+          elif [ -n "$existing" ]; then
+            gh issue close "$existing" --comment "All links pass as of $(date -u +%Y-%m-%d)."
+          fi
