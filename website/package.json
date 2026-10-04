@@ -15,7 +15,7 @@
     "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.3.5",
     "marked": "^18.0.14",
-    "preact": "^10.29.8"
+    "preact": "^11.0.0"
   },
   "devDependencies": {
     "@anthropic-ai/sdk": "^0.131.0",
