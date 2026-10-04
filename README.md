@@ -311,7 +311,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [ScyllaDB](https://www.scylladb.com/) - NoSQL data store using the seastar framework, compatible with Apache Cassandra. `free` `paid` `self-hosted`
   - [Apache HBase](http://hbase.apache.org/) - Distributed, versioned, non-relational database. `oss`
   - [Couchdb](https://couchdb.apache.org/) - Database that completely embraces the web. `oss`
-  - [Elasticsearch](https://www.elastic.co/products/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. `oss` `paid`
+  - [Elasticsearch](https://www.elastic.co/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. `oss` `paid`
   - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications. `free` `paid` `self-hosted`
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web. `oss`
   - Key-Value
@@ -362,11 +362,11 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app. `oss`
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management. `oss` `paid`
-  - [Logstash](https://www.elastic.co/products/logstash#) - Collect, parse, transform logs. `oss` `paid`
+  - [Logstash](https://www.elastic.co/logstash) - Collect, parse, transform logs. `oss` `paid`
   - [Fluentd](https://www.fluentd.org/) - Data collector for unified logging layer. `oss`
   - [Flume](https://flume.apache.org/) - Distributed, reliable, and available service for efficiently collecting, aggregating, and moving logs. `oss`
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - Stream processing software system. `oss`
-  - [Kibana](https://www.elastic.co/products/kibana) - Explore, visualize, discover data. `oss` `paid`
+  - [Kibana](https://www.elastic.co/kibana) - Explore, visualize, discover data. `oss` `paid`
   - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. `oss` `paid`
 - Status
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system. `oss`
