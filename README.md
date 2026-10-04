@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://awesome-devops.xyz"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fawesome-devops.xyz&label=website&up_message=online&up_color=2f9e5b&down_message=offline&style=flat-square&labelColor=141518"></a>
-  <a href="https://awesome-devops.xyz"><img alt="Tools in the list" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-devops.xyz%2Fbadge%2Ftools.json&style=flat-square"></a>
+  <a href="https://awesome-devops.xyz"><img alt="Tools in the list" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fawesome-devops.xyz%2Fbadge%2Ftools.json&style=flat-square&cacheSeconds=3600"></a>
   <a href="https://github.com/wmariuss/awesome-devops/actions/workflows/links-validator.yml"><img alt="Links" src="https://img.shields.io/github/actions/workflow/status/wmariuss/awesome-devops/links-validator.yml?branch=main&label=links&style=flat-square&labelColor=141518"></a>
   <a href="CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-e0b84a?style=flat-square&labelColor=141518"></a>
 </p>
