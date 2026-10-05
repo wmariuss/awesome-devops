@@ -522,6 +522,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [The DevOps Handbook](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/) - Gene Kim, Jez Humble, Patrick Debois, John Willis · IT Revolution · 2016. `paid`
 - [Fundamentals of DevOps and Software Delivery: A Hands-On Guide to Deploying and Managing Software in Production](https://www.fundamentals-of-devops.com/) - Yevgeniy Brikman · O'Reilly · 2025. `paid`
 - [Effective Platform Engineering](https://www.manning.com/books/effective-platform-engineering) - Ajay Chankramath, Nic Cheneweth, Bryan Oliver, Sean Alvarez · Manning · 2025. `paid`
+- [Latency: Reduce delay in software systems](https://www.manning.com/books/latency) - Pekka Enberg · Manning · 2025. `paid`
 
 ### Conferences
 
