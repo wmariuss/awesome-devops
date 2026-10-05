@@ -265,6 +265,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. `oss`
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere. `oss`
   - [RunMyJob](https://runmyjob.io/) - Cloud runners for GitHub Actions and GitLab CI with KVM-isolated VMs and load-based billing. `free` `paid`
+  - [Buildstash](https://buildstash.com/) - Stores build binaries, distributes them to testers and publishes releases to app stores and distribution platforms. `free` `paid`
 
 ## Source Code Management
 
