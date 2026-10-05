@@ -1,7 +1,7 @@
 // Builds the site's data model from README.md + GitHub metadata + small enrichment files.
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, statSync } from 'node:fs';
 import path from 'node:path';
-import { parseReadme, resolveRepo, WEBSITE_DIR } from './readme.mjs';
+import { parseReadme, resolveRepo, ROOT_DIR, WEBSITE_DIR } from './readme.mjs';
 import { MONTHS, TIER_LABEL, slug } from './format.mjs';
 
 export * from './format.mjs';
@@ -12,9 +12,21 @@ const readJson = (f, fallback) => { try { return JSON.parse(readFileSync(path.jo
 
 const cap = (s) => s ? s[0].toUpperCase() + s.slice(1) : s;
 
+// The site model is built once and reused for every page. The cache is keyed on the
+// modification times of its source files, so the dev server picks up README.md
+// changes (for example after a git pull) instead of serving the old data.
+const SOURCES = [
+  path.join(ROOT_DIR, 'README.md'),
+  ...['repos.json', 'repos-auto.json', 'learn-topics.json', 'github.json'].map((f) => path.join(DATA, f)),
+];
+const stamp = () => SOURCES.map((f) => { try { return statSync(f).mtimeMs; } catch { return 0; } }).join(':');
+
 let cache;
+let cacheStamp;
 export function getSite() {
-  if (cache) return cache;
+  const now = stamp();
+  if (cache && cacheStamp === now) return cache;
+  cacheStamp = now;
   const { categories, tools: rawTools, learn: rawLearn, errors } = parseReadme();
   if (errors.length) throw new Error('README.md problems:\n' + errors.join('\n'));
 
