@@ -17,6 +17,73 @@ type Sort = 'stars' | 'active' | 'name' | 'category';
 type View = 'rows' | 'grid';
 
 const SORTS: Sort[] = ['stars', 'active', 'name', 'category'];
+const SORT_OPTIONS: { id: Sort; label: string; hint: string }[] = [
+  { id: 'stars', label: 'Most stars', hint: 'Most popular on GitHub first' },
+  { id: 'active', label: 'Recently active', hint: 'Latest commits first' },
+  { id: 'name', label: 'Name A–Z', hint: 'Alphabetical' },
+  { id: 'category', label: 'Category', hint: 'Grouped under headings' },
+];
+
+// Sort dropdown styled like the other toolbar controls (a native <select> opens an
+// OS-styled list). Keyboard: arrows move, Enter or Space picks, Escape closes.
+function SortMenu({ value, onChange }: { value: Sort; onChange: (s: Sort) => void }) {
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(0);
+  const root = useRef<HTMLDivElement>(null);
+  const button = useRef<HTMLButtonElement>(null);
+  const list = useRef<HTMLUListElement>(null);
+  const current = SORT_OPTIONS.find((o) => o.id === value) ?? SORT_OPTIONS[0];
+
+  useEffect(() => {
+    if (!open) return;
+    setActive(Math.max(0, SORT_OPTIONS.findIndex((o) => o.id === value)));
+    list.current?.focus();
+    const away = (e: MouseEvent) => { if (!root.current?.contains(e.target as Node)) setOpen(false); };
+    document.addEventListener('mousedown', away);
+    return () => document.removeEventListener('mousedown', away);
+  }, [open]);
+
+  const pick = (s: Sort) => { onChange(s); setOpen(false); button.current?.focus(); };
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); setActive((i) => (i + 1) % SORT_OPTIONS.length); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setActive((i) => (i - 1 + SORT_OPTIONS.length) % SORT_OPTIONS.length); }
+    else if (e.key === 'Home') { e.preventDefault(); setActive(0); }
+    else if (e.key === 'End') { e.preventDefault(); setActive(SORT_OPTIONS.length - 1); }
+    else if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(SORT_OPTIONS[active].id); }
+    else if (e.key === 'Escape' || e.key === 'Tab') { setOpen(false); if (e.key === 'Escape') button.current?.focus(); }
+  };
+
+  return (
+    <div class="sort" ref={root}>
+      <button
+        ref={button} type="button" class="sort-btn" aria-haspopup="listbox" aria-expanded={open}
+        onClick={() => setOpen(!open)}
+        onKeyDown={(e) => { if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); setOpen(true); } }}
+      >
+        <span class="sort-label">Sort</span>
+        <span class="sort-value">{current.label}</span>
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6l4 4 4-4" /></svg>
+      </button>
+      {open && (
+        <ul
+          ref={list} class="sort-menu" role="listbox" tabIndex={-1} aria-label="Sort tools"
+          aria-activedescendant={`sort-opt-${SORT_OPTIONS[active].id}`} onKeyDown={onKey}
+        >
+          {SORT_OPTIONS.map((o, i) => (
+            <li
+              id={`sort-opt-${o.id}`} role="option" aria-selected={o.id === value}
+              class={i === active ? 'active' : undefined}
+              onMouseEnter={() => setActive(i)} onClick={() => pick(o.id)}
+            >
+              <span class="txt"><b>{o.label}</b><span>{o.hint}</span></span>
+              {o.id === value && <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8.5l3 3 7-7" /></svg>}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 const TIERS: [Tier, string][] = [['all', 'All'], ['oss', 'Open source'], ['freemium', 'Freemium'], ['paid', 'Paid']];
 const ALL_SUB = 'Every platform and tool from the awesome-devops README. Books, roadmaps and conferences live in Learn.';
 
@@ -288,15 +355,7 @@ export default function Directory({ tools, categories, initialCat, stats, fetche
               <span class="box">{inactive ? '✓' : ''}</span><span>Hide inactive</span>
             </button>
             <div class="spacer" />
-            <label class="sort">
-              <span>Sort</span>
-              <select value={sort} onChange={(e) => setSort(e.currentTarget.value as Sort)}>
-                <option value="stars">Most stars</option>
-                <option value="active">Recently active</option>
-                <option value="name">Name A–Z</option>
-                <option value="category">Category</option>
-              </select>
-            </label>
+            <SortMenu value={sort} onChange={setSort} />
             <div class="view-toggle" role="group" aria-label="Layout">
               <button type="button" title="List view" aria-label="List view" aria-pressed={view === 'rows'} onClick={() => setView('rows')}>
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" /></svg>
