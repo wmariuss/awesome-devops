@@ -121,7 +121,12 @@ button, input, select { font-family: inherit; }
 .content { flex: 1 1 0; min-width: 0; }
 .cat-select { display: none; align-items: center; gap: 10px; margin-bottom: 18px; }
 .cat-select span { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
-.cat-select select { flex: 1; min-width: 0; font-size: 14px; font-weight: 500; color: var(--ink); padding: 9px 10px; border: 1px solid var(--border-control); border-radius: 8px; background: #fff; outline: none; }
+/* Native select (phones get their own picker) with the same chevron as the sort button. */
+.cat-select select { flex: 1; min-width: 0; font-size: 14px; font-weight: 500; color: var(--ink); padding: 9px 34px 9px 12px; border: 1px solid var(--border-control); border-radius: 9px; outline: none; cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16' fill='none' stroke='%236b6d72' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center; }
+.cat-select select:hover { border-color: #b9b8b2; }
+.cat-select select:focus-visible { border-color: var(--ink); }
 @media (max-width: 859px) {
   .sidebar { display: none; }
   .cat-select { display: flex; }
