@@ -121,7 +121,12 @@ button, input, select { font-family: inherit; }
 .content { flex: 1 1 0; min-width: 0; }
 .cat-select { display: none; align-items: center; gap: 10px; margin-bottom: 18px; }
 .cat-select span { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
-.cat-select select { flex: 1; min-width: 0; font-size: 14px; font-weight: 500; color: var(--ink); padding: 9px 10px; border: 1px solid var(--border-control); border-radius: 8px; background: #fff; outline: none; }
+/* Native select (phones get their own picker) with the same chevron as the sort button. */
+.cat-select select { flex: 1; min-width: 0; font-size: 14px; font-weight: 500; color: var(--ink); padding: 9px 34px 9px 12px; border: 1px solid var(--border-control); border-radius: 9px; outline: none; cursor: pointer;
+  -webkit-appearance: none; appearance: none;
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16' fill='none' stroke='%236b6d72' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 6l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center; }
+.cat-select select:hover { border-color: #b9b8b2; }
+.cat-select select:focus-visible { border-color: var(--ink); }
 @media (max-width: 859px) {
   .sidebar { display: none; }
   .cat-select { display: flex; }
@@ -133,18 +138,59 @@ button, input, select { font-family: inherit; }
 .list-sub { margin: 0 0 18px; font-size: 14px; color: var(--muted); line-height: 1.5; max-width: 720px; text-wrap: pretty; }
 
 /* Toolbar */
-.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 14px; }
-.seg { display: flex; flex-wrap: wrap; gap: 2px; padding: 3px; background: #fff; border: 1px solid var(--border-control); border-radius: 9px; }
-.seg button { display: flex; align-items: center; gap: 7px; border: none; cursor: pointer; padding: 6px 11px; border-radius: 6px; font-size: 13px; font-weight: 500; background: transparent; color: var(--text-nav); }
-.seg button .n { font-family: var(--mono); font-size: 11px; opacity: 0.6; }
-.seg button[aria-pressed='true'] { background: var(--ink); color: #fff; }
-.toggle { display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 8px 12px; border-radius: 9px; font-size: 13px; font-weight: 500; background: #fff; border: 1px solid var(--border-control); color: var(--ink); }
-.toggle .box { width: 14px; height: 14px; box-sizing: border-box; border-radius: 4px; display: grid; place-items: center; border: 1.5px solid var(--border-control); background: #fff; color: #fff; font-size: 10px; line-height: 1; }
-.toggle[aria-pressed='true'] { border-color: var(--ink); }
-.toggle[aria-pressed='true'] .box { border-color: var(--ink); background: var(--ink); }
-.sort { display: flex; align-items: center; gap: 8px; }
-.sort span { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
-.sort select { font-size: 13px; font-weight: 500; color: var(--ink); padding: 7px 10px; border: 1px solid var(--border-control); border-radius: 8px; background: #fff; cursor: pointer; outline: none; }
+.sort { position: relative; }
+.sort-btn { display: flex; align-items: center; gap: 8px; cursor: pointer; padding: 8px 10px 8px 12px; border-radius: 9px; font-size: 13px; font-weight: 500; background: #fff; border: 1px solid var(--border-control); color: var(--ink); }
+.sort-btn:hover, .sort-btn[aria-expanded='true'] { border-color: #b9b8b2; }
+.sort-btn .sort-label { font-family: var(--mono); font-size: 11.5px; font-weight: 400; color: var(--muted); }
+.sort-btn svg { color: var(--muted); transition: transform 0.15s; }
+.sort-btn[aria-expanded='true'] svg { transform: rotate(180deg); }
+.sort-menu { position: absolute; right: 0; top: calc(100% + 6px); z-index: 20; width: 248px; margin: 0; padding: 6px; list-style: none; background: #fff; border: 1px solid var(--border-card); border-radius: 12px; box-shadow: 0 8px 24px rgba(20, 21, 24, 0.12); outline: none; }
+.sort-menu li { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 10px; border-radius: 8px; cursor: pointer; color: var(--ink); }
+.sort-menu li.active { background: var(--subtle); }
+.sort-menu li[aria-selected='true'] { background: var(--nav-active); }
+.sort-menu .txt { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.sort-menu b { font-size: 13.5px; font-weight: 500; }
+.sort-menu .txt span { font-size: 12px; color: var(--muted); }
+/* Filters: one row of chips (pricing picks one, the others switch on and off),
+   with sort and the layout switch on the right. */
+.filters { margin-bottom: 16px; }
+.results-bar { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.results-bar .count { font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
+.results-bar .sort-btn { padding: 6px 10px 6px 12px; }
+.results-bar .view-toggle { padding: 2px; }
+.results-bar .view-toggle button { width: 28px; height: 26px; }
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 7px; height: 32px; padding: 0 12px; box-sizing: border-box; border-radius: 999px; border: 1px solid var(--border-control); background: #fff; color: var(--text-2); font-size: 13px; font-weight: 500; white-space: nowrap; cursor: pointer; transition: background-color 0.12s, border-color 0.12s, color 0.12s; }
+.chip:hover { border-color: #b9b8b2; color: var(--ink); }
+.chip .n { font-family: var(--mono); font-size: 11px; color: var(--faint); }
+.chip[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.chip[aria-pressed='true'] .n { color: rgba(255, 255, 255, 0.6); }
+.chip .dot { width: 7px; height: 7px; border-radius: 50%; background: #c9c8c2; }
+.chip.tier-oss .dot { background: oklch(0.6 0.15 258); }
+.chip.tier-freemium .dot { background: oklch(0.75 0.13 80); }
+.chip.tier-paid .dot { background: var(--ink); }
+.chip[aria-pressed='true'] .dot { box-shadow: 0 0 0 1.5px rgba(255, 255, 255, 0.85); }
+.chip .check-box { width: 14px; height: 14px; box-sizing: border-box; border-radius: 4px; display: grid; place-items: center; border: 1.5px solid var(--border-control); background: #fff; color: var(--ink); }
+.chip.check[aria-pressed='true'] .check-box { border-color: #fff; }
+.chip.clear { border-style: dashed; color: var(--muted); padding: 0 12px; }
+.chip.clear:hover { color: var(--ink); border-style: solid; }
+.chip-sep { width: 1px; height: 18px; margin: 0 4px; background: var(--border-control); }
+.toolbar-end { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+.sort-backdrop { display: none; }
+@media (prefers-reduced-motion: reduce) { .chip, .sort-btn svg { transition: none; } }
+
+/* Phones: chips scroll sideways in one row; sort opens as a bottom sheet. */
+@media (max-width: 639px) {
+  .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -24px; padding: 0 24px; width: calc(100% + 48px); box-sizing: border-box;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 24px, #000 calc(100% - 32px), transparent 100%); mask-image: linear-gradient(90deg, transparent 0, #000 24px, #000 calc(100% - 32px), transparent 100%); }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { height: 36px; flex: none; }
+  .toolbar-end .view-toggle { display: none; }
+  .sort-backdrop { display: block; position: fixed; inset: 0; z-index: 40; background: rgba(20, 21, 24, 0.35); }
+  .sort-menu { position: fixed; left: 0; right: 0; top: auto; bottom: 0; z-index: 41; width: auto; padding: 10px 10px calc(14px + env(safe-area-inset-bottom)); border-radius: 16px 16px 0 0; border-bottom: 0; }
+  .sort-menu::before { content: ''; display: block; width: 36px; height: 4px; margin: 2px auto 10px; border-radius: 2px; background: var(--border-control); }
+  .sort-menu li { padding: 12px; }
+}
 .view-toggle { display: flex; gap: 2px; padding: 3px; background: #fff; border: 1px solid var(--border-control); border-radius: 9px; }
 .view-toggle button { border: none; cursor: pointer; width: 30px; height: 28px; border-radius: 6px; display: grid; place-items: center; background: transparent; color: var(--muted); }
 .view-toggle button[aria-pressed='true'] { background: var(--ink); color: #fff; }

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'preact/hooks';
 import { LANG_COLOR, TIER_LABEL, activity, fmtN, fmtStars } from '../lib/format.mjs';
 
 export type Tool = {
@@ -108,4 +109,28 @@ export function readSaved(): string[] {
 }
 export function writeSaved(ids: string[]) {
   try { localStorage.setItem(SAVED_KEY, JSON.stringify(ids)); } catch {}
+}
+
+// Check mark for filter chips that switch on and off.
+export function CheckIcon({ on }: { on: boolean }) {
+  return (
+    <span class="check-box" aria-hidden="true">
+      {on && <svg width="10" height="10" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M3 8.5l3 3 7-7" /></svg>}
+    </span>
+  );
+}
+
+// Right side of a search box: the focus shortcut (⌘K on Macs, Ctrl K elsewhere),
+// or a Clear button once something is typed. The page renders ⌘K first and
+// switches after load, so the server HTML and the first render match.
+export function SearchEnd({ q, onClear }: { q: string; onClear: () => void }) {
+  const [mac, setMac] = useState(true);
+  useEffect(() => { setMac(/Mac|iPhone|iPad/.test(navigator.platform || navigator.userAgent)); }, []);
+  return (
+    <div class="end">
+      {q
+        ? <button type="button" class="clear" onClick={onClear}>Clear</button>
+        : <span class="keycap" title={`Press ${mac ? '⌘K' : 'Ctrl+K'} or / to search`}>{mac ? '⌘K' : 'Ctrl K'}</span>}
+    </div>
+  );
 }

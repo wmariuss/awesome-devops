@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import {
-  BookmarkIcon, Facts, Ico, LiveLine, SearchIcon, Status, TIER_LABEL, TierBadge,
+  BookmarkIcon, CheckIcon, Facts, SearchEnd, Ico, LiveLine, SearchIcon, Status, TIER_LABEL, TierBadge,
   factsFor, langColor, readSaved, starsLabel, toolHref, writeSaved,
   type Category, type Tool,
 } from './ui';
@@ -17,6 +17,74 @@ type Sort = 'stars' | 'active' | 'name' | 'category';
 type View = 'rows' | 'grid';
 
 const SORTS: Sort[] = ['stars', 'active', 'name', 'category'];
+const SORT_OPTIONS: { id: Sort; label: string; hint: string }[] = [
+  { id: 'stars', label: 'Most stars', hint: 'Most popular on GitHub first' },
+  { id: 'active', label: 'Recently active', hint: 'Latest commits first' },
+  { id: 'name', label: 'Name A–Z', hint: 'Alphabetical' },
+  { id: 'category', label: 'Category', hint: 'Grouped under headings' },
+];
+
+// Sort dropdown styled like the other toolbar controls (a native <select> opens an
+// OS-styled list). Keyboard: arrows move, Enter or Space picks, Escape closes.
+function SortMenu({ value, onChange }: { value: Sort; onChange: (s: Sort) => void }) {
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(0);
+  const root = useRef<HTMLDivElement>(null);
+  const button = useRef<HTMLButtonElement>(null);
+  const list = useRef<HTMLUListElement>(null);
+  const current = SORT_OPTIONS.find((o) => o.id === value) ?? SORT_OPTIONS[0];
+
+  useEffect(() => {
+    if (!open) return;
+    setActive(Math.max(0, SORT_OPTIONS.findIndex((o) => o.id === value)));
+    list.current?.focus();
+    const away = (e: MouseEvent) => { if (!root.current?.contains(e.target as Node)) setOpen(false); };
+    document.addEventListener('mousedown', away);
+    return () => document.removeEventListener('mousedown', away);
+  }, [open]);
+
+  const pick = (s: Sort) => { onChange(s); setOpen(false); button.current?.focus(); };
+  const onKey = (e: KeyboardEvent) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); setActive((i) => (i + 1) % SORT_OPTIONS.length); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setActive((i) => (i - 1 + SORT_OPTIONS.length) % SORT_OPTIONS.length); }
+    else if (e.key === 'Home') { e.preventDefault(); setActive(0); }
+    else if (e.key === 'End') { e.preventDefault(); setActive(SORT_OPTIONS.length - 1); }
+    else if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pick(SORT_OPTIONS[active].id); }
+    else if (e.key === 'Escape' || e.key === 'Tab') { setOpen(false); if (e.key === 'Escape') button.current?.focus(); }
+  };
+
+  return (
+    <div class="sort" ref={root}>
+      <button
+        ref={button} type="button" class="sort-btn" aria-haspopup="listbox" aria-expanded={open}
+        onClick={() => setOpen(!open)}
+        onKeyDown={(e) => { if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); setOpen(true); } }}
+      >
+        <span class="sort-label">Sort</span>
+        <span class="sort-value">{current.label}</span>
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6l4 4 4-4" /></svg>
+      </button>
+      {open && <div class="sort-backdrop" onClick={() => setOpen(false)} />}
+      {open && (
+        <ul
+          ref={list} class="sort-menu" role="listbox" tabIndex={-1} aria-label="Sort tools"
+          aria-activedescendant={`sort-opt-${SORT_OPTIONS[active].id}`} onKeyDown={onKey}
+        >
+          {SORT_OPTIONS.map((o, i) => (
+            <li
+              id={`sort-opt-${o.id}`} role="option" aria-selected={o.id === value}
+              class={i === active ? 'active' : undefined}
+              onMouseEnter={() => setActive(i)} onClick={() => pick(o.id)}
+            >
+              <span class="txt"><b>{o.label}</b><span>{o.hint}</span></span>
+              {o.id === value && <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8.5l3 3 7-7" /></svg>}
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
 const TIERS: [Tier, string][] = [['all', 'All'], ['oss', 'Open source'], ['freemium', 'Freemium'], ['paid', 'Paid']];
 const ALL_SUB = 'Every platform and tool from the awesome-devops README. Books, roadmaps and conferences live in Learn.';
 
@@ -236,11 +304,7 @@ export default function Directory({ tools, categories, initialCat, stats, fetche
           <label class="sr-only" for="tool-search">Search tools</label>
           <input id="tool-search" ref={searchRef} type="search" value={q} onInput={(e) => setQ(e.currentTarget.value)}
             placeholder="Search tools, categories, languages, licenses…" spellcheck={false} autocomplete="off" />
-          <div class="end">
-            {q
-              ? <button type="button" class="clear" onClick={() => { setQ(''); focusSearch(); }}>Clear</button>
-              : <span class="keycap">⌘K</span>}
-          </div>
+          <SearchEnd q={q} onClear={() => { setQ(''); focusSearch(); }} />
         </div>
       </section>
 
@@ -268,42 +332,49 @@ export default function Directory({ tools, categories, initialCat, stats, fetche
 
           <div class="list-head">
             <h2>{heading}</h2>
-            <span class="count">{results.length} {results.length === 1 ? 'result' : 'results'}</span>
           </div>
           <p class="list-sub">{sub}</p>
 
-          <div class="toolbar">
-            <div class="seg" role="group" aria-label="Pricing">
-              {TIERS.map(([id, label]) => (
-                <button type="button" aria-pressed={tier === id} onClick={() => setTier(id)}>
+          <div class="filters">
+            <div class="chips" role="group" aria-label="Filter tools">
+              {TIERS.filter(([id]) => id !== 'all').map(([id, label]) => (
+                <button
+                  type="button" class={`chip tier-${id}`} aria-pressed={tier === id}
+                  title={tier === id ? `Show all pricing` : `Only ${label.toLowerCase()} tools`}
+                  onClick={() => setTier(tier === id ? 'all' : id)}
+                >
+                  <span class="dot" aria-hidden="true" />
                   <span>{label}</span>
-                  <span class="n">{id === 'all' ? tierBase.length : tierBase.filter((t) => t.tier === id).length}</span>
+                  <span class="n">{tierBase.filter((t) => t.tier === id).length}</span>
                 </button>
               ))}
+              <span class="chip-sep" aria-hidden="true" />
+              <button type="button" class="chip check" aria-pressed={self} onClick={() => setSelf(!self)}>
+                <CheckIcon on={self} /><span>Self-hostable</span>
+              </button>
+              <button type="button" class="chip check" aria-pressed={inactive} onClick={() => setInactive(!inactive)}>
+                <CheckIcon on={inactive} /><span>Active only</span>
+              </button>
+              {(tier !== 'all' || self || inactive) && (
+                <button type="button" class="chip clear" onClick={() => { setTier('all'); setSelf(false); setInactive(false); }}>
+                  Clear
+                </button>
+              )}
             </div>
-            <button type="button" class="toggle" aria-pressed={self} onClick={() => setSelf(!self)}>
-              <span class="box">{self ? '✓' : ''}</span><span>Self-hostable</span>
-            </button>
-            <button type="button" class="toggle" aria-pressed={inactive} onClick={() => setInactive(!inactive)}>
-              <span class="box">{inactive ? '✓' : ''}</span><span>Hide inactive</span>
-            </button>
-            <div class="spacer" />
-            <label class="sort">
-              <span>Sort</span>
-              <select value={sort} onChange={(e) => setSort(e.currentTarget.value as Sort)}>
-                <option value="stars">Most stars</option>
-                <option value="active">Recently active</option>
-                <option value="name">Name A–Z</option>
-                <option value="category">Category</option>
-              </select>
-            </label>
-            <div class="view-toggle" role="group" aria-label="Layout">
-              <button type="button" title="List view" aria-label="List view" aria-pressed={view === 'rows'} onClick={() => setView('rows')}>
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" /></svg>
-              </button>
-              <button type="button" title="Grid view" aria-label="Grid view" aria-pressed={view === 'grid'} onClick={() => setView('grid')}>
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1" /><rect x="9" y="2" width="5" height="5" rx="1" /><rect x="2" y="9" width="5" height="5" rx="1" /><rect x="9" y="9" width="5" height="5" rx="1" /></svg>
-              </button>
+          </div>
+
+          <div class="results-bar">
+            <span class="count" aria-live="polite">{results.length} {results.length === 1 ? 'result' : 'results'}</span>
+            <div class="toolbar-end">
+              <SortMenu value={sort} onChange={setSort} />
+              <div class="view-toggle" role="group" aria-label="Layout">
+                <button type="button" title="List view" aria-label="List view" aria-pressed={view === 'rows'} onClick={() => setView('rows')}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" /></svg>
+                </button>
+                <button type="button" title="Grid view" aria-label="Grid view" aria-pressed={view === 'grid'} onClick={() => setView('grid')}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1" /><rect x="9" y="2" width="5" height="5" rx="1" /><rect x="2" y="9" width="5" height="5" rx="1" /><rect x="9" y="9" width="5" height="5" rx="1" /></svg>
+                </button>
+              </div>
             </div>
           </div>
 
