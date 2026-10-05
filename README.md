@@ -250,6 +250,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Flagger](https://github.com/weaveworks/flagger) - progressive delivery Kubernetes operator (Canary, A/B Testing and Blue/Green deployments). `oss`
   - [Tekton](https://tekton.dev/) - powerful and flexible open-source framework for creating CI/CD systems. `oss`
   - [PipeCD](https://pipecd.dev/) - Continuous Delivery for Declarative Kubernetes, Serverless and Infrastructure Applications. `oss`
+  - [Ctrlplane](https://ctrlplane.dev/) - Release governance control plane that sequences promotions across environments, regions and clusters, on top of existing CI/CD and GitOps tools. `oss`
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere. `oss` `paid`
   - [Unleash](https://www.getunleash.io) - Open-source feature management platform (feature flags, gradual rollouts, A/B testing) to decouple deploy from release. `oss` `paid`
 - Public Services
