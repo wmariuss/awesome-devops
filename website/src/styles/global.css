@@ -118,7 +118,7 @@ button, input, select { font-family: inherit; }
 .nav-item.dim { opacity: 0.45; }
 .nav-item .n { font-family: var(--mono); font-size: 11.5px; color: var(--faint); font-weight: 400; }
 .nav-label { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--faint); padding: 22px 10px 8px; }
-.content { flex: 1 1 0; min-width: 0; }
+.content { flex: 1 1 0; min-width: 0; container: content / inline-size; }
 .cat-select { display: none; align-items: center; gap: 10px; margin-bottom: 18px; }
 .cat-select span { font-family: var(--mono); font-size: 11.5px; color: var(--muted); }
 .cat-select select { flex: 1; min-width: 0; font-size: 14px; font-weight: 500; color: var(--ink); padding: 9px 10px; border: 1px solid var(--border-control); border-radius: 8px; background: #fff; outline: none; }
@@ -155,6 +155,29 @@ button, input, select { font-family: inherit; }
 .sort-menu .txt { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .sort-menu b { font-size: 13.5px; font-weight: 500; }
 .sort-menu .txt span { font-size: 12px; color: var(--muted); }
+/* The toolbar wraps as three blocks that never split: pricing, toggles, and sort
+   with the layout switch (kept at the right). */
+.toolbar-toggles, .toolbar-end { display: flex; align-items: center; gap: 10px; }
+.toolbar-end { margin-left: auto; }
+/* When the toolbar does not fit on one line: pricing on its own row, then toggles
+   on the left and sort on the right. */
+@container content (max-width: 960px) {
+  .seg { width: 100%; box-sizing: border-box; }
+  .seg button { flex: 1; justify-content: center; }
+}
+@media (max-width: 639px) {
+  .toolbar { gap: 8px; }
+  .seg { flex-wrap: nowrap; }
+  .seg button { padding: 7px 4px; white-space: nowrap; font-size: 12.5px; }
+  .seg button .n { display: none; }
+  .toolbar-toggles { width: 100%; gap: 8px; }
+  .toolbar-toggles .toggle { flex: 1; justify-content: center; }
+  .toolbar-end { width: 100%; margin-left: 0; gap: 8px; }
+  .toolbar-end .sort { flex: 1; }
+  .sort-btn { width: 100%; }
+  .sort-btn .sort-value { flex: 1; text-align: left; }
+  .sort-menu { left: 0; right: auto; width: 100%; box-sizing: border-box; }
+}
 .view-toggle { display: flex; gap: 2px; padding: 3px; background: #fff; border: 1px solid var(--border-control); border-radius: 9px; }
 .view-toggle button { border: none; cursor: pointer; width: 30px; height: 28px; border-radius: 6px; display: grid; place-items: center; background: transparent; color: var(--muted); }
 .view-toggle button[aria-pressed='true'] { background: var(--ink); color: #fff; }
@@ -481,4 +504,3 @@ html { scroll-padding-top: 76px; }
 .steps-md ol { list-style: none; margin: 0; padding: 0; counter-reset: step; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
 .steps-md li { counter-increment: step; display: flex; align-items: center; gap: 14px; padding: 14px 16px; background: #fff; border: 1px solid var(--border-card); border-radius: 12px; font-size: 14.5px; line-height: 1.5; color: var(--ink-hover); }
 .steps-md li::before { content: counter(step); flex: 0 0 28px; height: 28px; border-radius: 7px; background: var(--nav-active); color: var(--ink); font-family: var(--mono); font-size: 13px; font-weight: 600; display: grid; place-items: center; }
-@media (max-width: 639px) { .sort-menu { right: auto; left: 0; } }

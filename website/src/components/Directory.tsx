@@ -348,21 +348,24 @@ export default function Directory({ tools, categories, initialCat, stats, fetche
                 </button>
               ))}
             </div>
-            <button type="button" class="toggle" aria-pressed={self} onClick={() => setSelf(!self)}>
-              <span class="box">{self ? '✓' : ''}</span><span>Self-hostable</span>
-            </button>
-            <button type="button" class="toggle" aria-pressed={inactive} onClick={() => setInactive(!inactive)}>
-              <span class="box">{inactive ? '✓' : ''}</span><span>Hide inactive</span>
-            </button>
-            <div class="spacer" />
-            <SortMenu value={sort} onChange={setSort} />
-            <div class="view-toggle" role="group" aria-label="Layout">
-              <button type="button" title="List view" aria-label="List view" aria-pressed={view === 'rows'} onClick={() => setView('rows')}>
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" /></svg>
+            <div class="toolbar-toggles">
+              <button type="button" class="toggle" aria-pressed={self} onClick={() => setSelf(!self)}>
+                <span class="box">{self ? '✓' : ''}</span><span>Self-hostable</span>
               </button>
-              <button type="button" title="Grid view" aria-label="Grid view" aria-pressed={view === 'grid'} onClick={() => setView('grid')}>
-                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1" /><rect x="9" y="2" width="5" height="5" rx="1" /><rect x="2" y="9" width="5" height="5" rx="1" /><rect x="9" y="9" width="5" height="5" rx="1" /></svg>
+              <button type="button" class="toggle" aria-pressed={inactive} onClick={() => setInactive(!inactive)}>
+                <span class="box">{inactive ? '✓' : ''}</span><span>Hide inactive</span>
               </button>
+            </div>
+            <div class="toolbar-end">
+              <SortMenu value={sort} onChange={setSort} />
+              <div class="view-toggle" role="group" aria-label="Layout">
+                <button type="button" title="List view" aria-label="List view" aria-pressed={view === 'rows'} onClick={() => setView('rows')}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" /></svg>
+                </button>
+                <button type="button" title="Grid view" aria-label="Grid view" aria-pressed={view === 'grid'} onClick={() => setView('grid')}>
+                  <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="2" y="2" width="5" height="5" rx="1" /><rect x="9" y="2" width="5" height="5" rx="1" /><rect x="2" y="9" width="5" height="5" rx="1" /><rect x="9" y="9" width="5" height="5" rx="1" /></svg>
+                </button>
+              </div>
             </div>
           </div>
 
