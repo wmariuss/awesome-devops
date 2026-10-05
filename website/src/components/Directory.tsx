@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import {
-  BookmarkIcon, Facts, Ico, LiveLine, SearchIcon, Status, TIER_LABEL, TierBadge,
+  BookmarkIcon, CheckIcon, Facts, Ico, LiveLine, SearchIcon, Status, TIER_LABEL, TierBadge,
   factsFor, langColor, readSaved, starsLabel, toolHref, writeSaved,
   type Category, type Tool,
 } from './ui';
@@ -64,6 +64,7 @@ function SortMenu({ value, onChange }: { value: Sort; onChange: (s: Sort) => voi
         <span class="sort-value">{current.label}</span>
         <svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 6l4 4 4-4" /></svg>
       </button>
+      {open && <div class="sort-backdrop" onClick={() => setOpen(false)} />}
       {open && (
         <ul
           ref={list} class="sort-menu" role="listbox" tabIndex={-1} aria-label="Sort tools"
@@ -335,27 +336,39 @@ export default function Directory({ tools, categories, initialCat, stats, fetche
 
           <div class="list-head">
             <h2>{heading}</h2>
-            <span class="count">{results.length} {results.length === 1 ? 'result' : 'results'}</span>
           </div>
           <p class="list-sub">{sub}</p>
 
-          <div class="toolbar">
-            <div class="seg" role="group" aria-label="Pricing">
-              {TIERS.map(([id, label]) => (
-                <button type="button" aria-pressed={tier === id} onClick={() => setTier(id)}>
+          <div class="filters">
+            <div class="chips" role="group" aria-label="Filter tools">
+              {TIERS.filter(([id]) => id !== 'all').map(([id, label]) => (
+                <button
+                  type="button" class={`chip tier-${id}`} aria-pressed={tier === id}
+                  title={tier === id ? `Show all pricing` : `Only ${label.toLowerCase()} tools`}
+                  onClick={() => setTier(tier === id ? 'all' : id)}
+                >
+                  <span class="dot" aria-hidden="true" />
                   <span>{label}</span>
-                  <span class="n">{id === 'all' ? tierBase.length : tierBase.filter((t) => t.tier === id).length}</span>
+                  <span class="n">{tierBase.filter((t) => t.tier === id).length}</span>
                 </button>
               ))}
-            </div>
-            <div class="toolbar-toggles">
-              <button type="button" class="toggle" aria-pressed={self} onClick={() => setSelf(!self)}>
-                <span class="box">{self ? '✓' : ''}</span><span>Self-hostable</span>
+              <span class="chip-sep" aria-hidden="true" />
+              <button type="button" class="chip check" aria-pressed={self} onClick={() => setSelf(!self)}>
+                <CheckIcon on={self} /><span>Self-hostable</span>
               </button>
-              <button type="button" class="toggle" aria-pressed={inactive} onClick={() => setInactive(!inactive)}>
-                <span class="box">{inactive ? '✓' : ''}</span><span>Hide inactive</span>
+              <button type="button" class="chip check" aria-pressed={inactive} onClick={() => setInactive(!inactive)}>
+                <CheckIcon on={inactive} /><span>Active only</span>
               </button>
+              {(tier !== 'all' || self || inactive) && (
+                <button type="button" class="chip clear" onClick={() => { setTier('all'); setSelf(false); setInactive(false); }}>
+                  Clear
+                </button>
+              )}
             </div>
+          </div>
+
+          <div class="results-bar">
+            <span class="count" aria-live="polite">{results.length} {results.length === 1 ? 'result' : 'results'}</span>
             <div class="toolbar-end">
               <SortMenu value={sort} onChange={setSort} />
               <div class="view-toggle" role="group" aria-label="Layout">

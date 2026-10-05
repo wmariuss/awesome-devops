@@ -109,3 +109,12 @@ export function readSaved(): string[] {
 export function writeSaved(ids: string[]) {
   try { localStorage.setItem(SAVED_KEY, JSON.stringify(ids)); } catch {}
 }
+
+// Check mark for filter chips that switch on and off.
+export function CheckIcon({ on }: { on: boolean }) {
+  return (
+    <span class="check-box" aria-hidden="true">
+      {on && <svg width="10" height="10" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M3 8.5l3 3 7-7" /></svg>}
+    </span>
+  );
+}

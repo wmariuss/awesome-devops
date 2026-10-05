@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { SearchIcon } from './ui';
+import { CheckIcon, SearchIcon } from './ui';
 
 export type LearnItem = { title: string; url: string; type: string; desc: string; meta: string; free: boolean; topics: string[] };
 
@@ -62,17 +62,21 @@ export default function Learn({ items }: { items: LearnItem[] }) {
         </div>
       </section>
       <main class="learn-body">
-        <div class="toolbar" style={{ margin: 0 }}>
-          <div class="seg" role="group" aria-label="Type">
-            {[['all', 'All'], ...ORDER.map((t) => [t, PLURAL[t]])].map(([id, label]) => (
-              <button type="button" aria-pressed={type === id} onClick={() => setType(id)}>
-                <span>{label}</span><span class="n">{id === 'all' ? base.length : base.filter((l) => l.type === id).length}</span>
+        <div class="filters">
+          <div class="chips" role="group" aria-label="Filter resources">
+            {ORDER.map((id) => (
+              <button type="button" class="chip" aria-pressed={type === id} onClick={() => setType(type === id ? 'all' : id)}>
+                <span>{PLURAL[id]}</span><span class="n">{base.filter((l) => l.type === id).length}</span>
               </button>
             ))}
+            <span class="chip-sep" aria-hidden="true" />
+            <button type="button" class="chip check" aria-pressed={free} onClick={() => setFree(!free)}>
+              <CheckIcon on={free} /><span>Free only</span>
+            </button>
+            {(type !== 'all' || free) && (
+              <button type="button" class="chip clear" onClick={() => { setType('all'); setFree(false); }}>Clear</button>
+            )}
           </div>
-          <button type="button" class="toggle" aria-pressed={free} onClick={() => setFree(!free)}>
-            <span class="box">{free ? '✓' : ''}</span><span>Free only</span>
-          </button>
         </div>
         {groups.map((g) => (
           <section class="learn-group">
