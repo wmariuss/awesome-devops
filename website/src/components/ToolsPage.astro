@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Directory from './Directory';
+import { getSite } from '../lib/site.mjs';
+
+interface Props { cat?: string }
+const { cat = 'all' } = Astro.props;
+const site = getSite();
+const category = site.categories.find((c) => c.id === cat);
+const title = category ? `${category.name} · Awesome DevOps` : 'Awesome DevOps';
+const description = category
+  ? `${category.name}: ${category.desc} Compare ${site.tools.filter((t) => t.cat === cat).length} tools by pricing, GitHub stars and activity.`
+  : `A curated list of ${site.stats.tools} DevOps platforms and tools. Search and filter by category, pricing and GitHub stars.`;
+---
+<Layout title={title} description={description} section="tools">
+  <div class="page">
+  <Directory
+    client:load
+    tools={site.tools}
+    categories={site.categories}
+    initialCat={cat}
+    stats={site.stats}
+    fetchedLabel={site.fetchedLabel}
+  />
+  </div>
+</Layout>

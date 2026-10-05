@@ -1,0 +1,82 @@
+name: PR review
+
+# Automated review for every pull request: repository checks plus an AI review with
+# Claude, posted as one comment with a verdict label:
+#   ready-to-merge      approve and merge
+#   needs-changes       the contributor must fix something (the check fails)
+#   needs-human-review  a maintainer should look before merging
+#
+# Security: pull_request_target runs this workflow and its scripts from the base
+# branch, with access to secrets, also for pull requests from forks. The pull
+# request's files are only ever read as data (README.md text and the diff); no code
+# from the pull request is checked out, installed or executed here. Building the
+# pull request's code happens in website-check.yml, without secrets.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: pr-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the base branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install review dependencies (from the base branch)
+        working-directory: website
+        run: npm ci --ignore-scripts
+
+      - name: Collect the pull request as data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -euo pipefail
+          dir="$RUNNER_TEMP/pr"
+          mkdir -p "$dir"
+          git fetch --no-tags --depth=50 origin "+refs/pull/$PR/head:refs/remotes/pr/head"
+          git show "$BASE_SHA:README.md" > "$dir/base-README.md"
+          git show "$HEAD_SHA:README.md" > "$dir/head-README.md" 2>/dev/null || cp "$dir/base-README.md" "$dir/head-README.md"
+          gh api --paginate "repos/$GITHUB_REPOSITORY/pulls/$PR/files" --jq '.[].filename' > "$dir/files.txt"
+          gh api "repos/$GITHUB_REPOSITORY/pulls/$PR" -H "Accept: application/vnd.github.diff" > "$dir/pr.diff"
+
+      - name: Review
+        id: review
+        working-directory: website
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
+          PR_BODY: ${{ github.event.pull_request.body }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_SHA: ${{ github.event.pull_request.head.sha }}
+        run: >
+          node scripts/review/index.mjs
+          --base-readme "$RUNNER_TEMP/pr/base-README.md"
+          --head-readme "$RUNNER_TEMP/pr/head-README.md"
+          --files "$RUNNER_TEMP/pr/files.txt"
+          --diff "$RUNNER_TEMP/pr/pr.diff"
