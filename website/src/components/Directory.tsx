@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import {
-  BookmarkIcon, CheckIcon, Facts, Ico, LiveLine, SearchIcon, Status, TIER_LABEL, TierBadge,
+  BookmarkIcon, CheckIcon, Facts, SearchEnd, Ico, LiveLine, SearchIcon, Status, TIER_LABEL, TierBadge,
   factsFor, langColor, readSaved, starsLabel, toolHref, writeSaved,
   type Category, type Tool,
 } from './ui';
@@ -304,11 +304,7 @@ export default function Directory({ tools, categories, initialCat, stats, fetche
           <label class="sr-only" for="tool-search">Search tools</label>
           <input id="tool-search" ref={searchRef} type="search" value={q} onInput={(e) => setQ(e.currentTarget.value)}
             placeholder="Search tools, categories, languages, licenses…" spellcheck={false} autocomplete="off" />
-          <div class="end">
-            {q
-              ? <button type="button" class="clear" onClick={() => { setQ(''); focusSearch(); }}>Clear</button>
-              : <span class="keycap">⌘K</span>}
-          </div>
+          <SearchEnd q={q} onClear={() => { setQ(''); focusSearch(); }} />
         </div>
       </section>
 

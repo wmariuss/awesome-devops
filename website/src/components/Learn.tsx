@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'preact/hooks';
-import { CheckIcon, SearchIcon } from './ui';
+import { CheckIcon, SearchEnd, SearchIcon } from './ui';
 
 export type LearnItem = { title: string; url: string; type: string; desc: string; meta: string; free: boolean; topics: string[] };
 
@@ -58,7 +58,8 @@ export default function Learn({ items }: { items: LearnItem[] }) {
           <SearchIcon />
           <label class="sr-only" for="learn-search">Search resources</label>
           <input id="learn-search" ref={searchRef} type="search" value={q} onInput={(e) => setQ(e.currentTarget.value)}
-            placeholder="Search books, authors, topics…" spellcheck={false} autocomplete="off" style={{ paddingRight: '20px' }} />
+            placeholder="Search books, authors, topics…" spellcheck={false} autocomplete="off" />
+          <SearchEnd q={q} onClear={() => { setQ(''); searchRef.current?.focus(); }} />
         </div>
       </section>
       <main class="learn-body">
