@@ -1,0 +1,92 @@
+{
+  "https://sre.google/sre-book/table-of-contents/": [
+    "obs",
+    "automation",
+    "chaos"
+  ],
+  "https://sre.google/workbook/table-of-contents/": [
+    "obs",
+    "cicd",
+    "automation"
+  ],
+  "https://google.github.io/building-secure-and-reliable-systems/raw/toc.html": [
+    "security",
+    "secrets"
+  ],
+  "https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/": [
+    "cicd",
+    "automation"
+  ],
+  "http://shop.oreilly.com/product/0636920039846.do": [
+    "chat",
+    "productivity"
+  ],
+  "https://www.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/": [
+    "cicd",
+    "scm"
+  ],
+  "http://shop.oreilly.com/product/0636920039297.do": [
+    "automation",
+    "cloud"
+  ],
+  "https://www.fundamentals-of-devops.com/": [
+    "automation",
+    "cicd",
+    "cloud",
+    "apps"
+  ],
+  "https://roadmap.sh/devops": [
+    "cloud",
+    "apps",
+    "cicd",
+    "obs",
+    "automation"
+  ],
+  "https://devopsroadmap.io": [
+    "apps",
+    "cicd",
+    "cloud"
+  ],
+  "https://play.meshery.io": [
+    "apps",
+    "mesh",
+    "obs"
+  ],
+  "https://devopscon.io/": [
+    "cicd",
+    "apps",
+    "cloud"
+  ],
+  "https://reinvent.awsevents.com/": [
+    "cloud"
+  ],
+  "https://www.alldaydevops.com/": [
+    "cicd",
+    "security",
+    "obs"
+  ],
+  "https://www.devopsconnect.com/": [
+    "security",
+    "cicd"
+  ],
+  "https://atscaleconference.com/": [
+    "db",
+    "msg",
+    "obs"
+  ],
+  "https://devopsdays.org/": [
+    "chat",
+    "cicd",
+    "automation"
+  ],
+  "https://events.itrevolution.com/": [
+    "cicd",
+    "automation"
+  ],
+  "https://medium.com/?tag=devops": [
+    "cicd",
+    "automation",
+    "cloud",
+    "obs"
+  ]
+}
