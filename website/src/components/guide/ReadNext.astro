@@ -1,0 +1,22 @@
+---
+// Cards for learning resources from README.md, looked up by title.
+import { getSite } from '../../lib/site.mjs';
+interface Props { titles: string[] }
+const site = getSite();
+const LT: Record<string, string> = { book: 'Book', roadmap: 'Roadmap', playground: 'Playground', conference: 'Conference', blog: 'Blog' };
+const items = Astro.props.titles.map((t) => site.learn.find((l) => l.title === t)).filter(Boolean);
+---
+{items.length > 0 && (
+  <section class="section read-next">
+    <div class="section-head"><h2>Read next</h2><a class="more-link" href="/learn/">All {site.learn.length} resources →</a></div>
+    <div class="read-grid">
+      {items.map((l) => (
+        <a class="read-card" href={l.url} target="_blank" rel="noopener">
+          <span class="type">{LT[l.type]} · {l.free ? 'Free' : 'Paid'}</span>
+          <span class="title">{l.title} <span class="arrow">↗</span></span>
+          {(l.meta || l.desc) && <span class="meta">{l.meta || l.desc}</span>}
+        </a>
+      ))}
+    </div>
+  </section>
+)}

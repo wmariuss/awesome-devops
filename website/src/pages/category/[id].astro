@@ -1,0 +1,10 @@
+---
+import ToolsPage from '../../components/ToolsPage.astro';
+import { getSite } from '../../lib/site.mjs';
+
+export function getStaticPaths() {
+  return getSite().categories.map((c) => ({ params: { id: c.id } }));
+}
+const { id } = Astro.params;
+---
+<ToolsPage cat={id} />
