@@ -1,35 +1,46 @@
 name: Links validator
 
 on:
-  repository_dispatch:
   workflow_dispatch:
   schedule:
-    # At 09:00 on Monday: https://crontab.guru/#0_9_*_*_1
-    - cron: "0 9 30 * 0"
+    # Every Monday at 09:00 UTC.
+    - cron: "0 9 * * 1"
+  # Also after the list changes, so the badge reflects the current README.
+  push:
+    branches: [main]
+    paths: [README.md, CONTRIBUTING.md]
+
+concurrency:
+  group: links-validator
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   link_checker:
-    name: Link Checker
+    name: Link checker
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - name: Check links
-        uses: lycheeverse/lychee-action@v1.5.4
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          args: --verbose --no-progress --timeout 10 --max-concurrency 2 --exclude 'twitter.com' -- './**/*.md'
-          output: ./lychee/out.md
+          args: >-
+            --no-progress --timeout 30 --max-retries 3 --retry-wait-time 10 --max-concurrency 4
+            --accept 200..=299,403,406,429
+            README.md CONTRIBUTING.md
+          # Broken links are listed on the run's summary page; no issue is opened.
+          jobSummary: true
+          fail: false
 
-      - name: Get current date
-        id: date
-        run: echo "::set-output name=now::$(date +'%d-%m-%Y')"
-
-      - name: Create issue when fail
-        if: ${{ steps.lychee.outputs.exit_code }} != 0
-        uses: peter-evans/create-issue-from-file@v4
-        with:
-          title: Automated Links Checker Report for ${{ steps.date.outputs.now }}
-          content-filepath: ./lychee/out.md
-          labels: links validator
+      # Fail the run while links are broken, so the README badge shows it.
+      - name: Fail on broken links
+        if: steps.lychee.outputs.exit_code != '0'
+        run: |
+          echo "::error::Broken links found. They are listed in this run's summary."
+          exit 1
