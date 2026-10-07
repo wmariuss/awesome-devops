@@ -230,6 +230,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation. `oss`
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
+- [Chaterm](https://chaterm.ai/) - Open-source AI terminal and SSH client for servers, databases and Kubernetes. `oss` `paid`
 
 ## Continuous Integration & Delivery
 
