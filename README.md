@@ -45,7 +45,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Service Discovery & Service Mesh](#service-discovery--service-mesh)
 - [Chaos Engineering](#chaos-engineering)
 - [API Gateway](#api-gateway)
-- [AI](#ai)
 - [Code review](#code-review)
 - [Distributed messaging](#distributed-messaging)
 - [Programming Languages](#programming-languages)
@@ -224,6 +223,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
+- [Chaterm](https://chaterm.ai/) - Open-source AI terminal and SSH client for servers, databases and Kubernetes. `oss` `paid`
 
 
 ## Continuous Integration & Delivery
@@ -417,14 +417,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway. `oss` `paid`
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy. `oss`
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications. `oss` `paid`
-
-## AI
-
-*AI Agents, Agent Skills and AI tools.*
-
-- [Chaterm](https://chaterm.ai/) - Open source AI terminal and SSH Client for EC2, Database and Kubernetes.
-- [Terminal Skills](https://github.com/chaterm/terminal-skills/) - Public Agent Skills for Terminal and Kubernetes.
-
 
 ## Code review
 
