@@ -36,6 +36,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Container Image Registry](#container-image-registry)
 - [Automation & Orchestration](#automation--orchestration)
 - [Productivity Tools](#productivity-tools)
+- [Terminal](#terminal)
 - [Continuous Integration & Delivery](#continuous-integration--delivery)
 - [Source Code Management](#source-code-management)
 - [Web Servers](#web-servers)
@@ -214,16 +215,21 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 *Tools and services which increase productivity, developer velocity and developer experience.*
 
 - [tenv](https://github.com/tofuutils/tenv) - streamline IaC version manager for OpenTofu, Terraform, Terragrunt and Atmos, written in Go. `oss`
-- [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
 - [pyenv](https://github.com/pyenv/pyenv) - Simple Python version management. `oss`
 - [tfenv](https://github.com/tfutils/tfenv) - Terraform version manager. `oss`
 - [Kanvas](https://layer5.io/kanvas/) - a collaborative tool with visual interface for designing and operating infrastructure. `free` `paid` `self-hosted`
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development. `oss`
-- [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation. `oss`
-- [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
 
+
+## Terminal
+
+*Terminals, SSH clients and terminal UIs for working with servers and cloud resources.*
+
+- [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
+- [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation. `oss`
+- [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
 
 ## Continuous Integration & Delivery
 
