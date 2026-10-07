@@ -221,7 +221,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development. `oss`
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
-- [Chaterm](https://chaterm.ai/) - Open-source AI terminal and SSH client for servers, databases and Kubernetes. `oss` `paid`
 
 
 ## Terminal
@@ -231,6 +230,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation. `oss`
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
+- [Chaterm](https://chaterm.ai/) - Open-source AI terminal and SSH client for servers, databases and Kubernetes. `oss` `paid`
 
 ## Continuous Integration & Delivery
 
