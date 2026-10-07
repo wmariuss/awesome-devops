@@ -224,6 +224,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
 
+- [relnote](https://github.com/loki-inu/relnote) - Offline Python CLI/Action for GitHub release notes from Conventional Commits.
 
 ## Terminal
 
