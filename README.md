@@ -148,6 +148,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [vCluster](https://vcluster.sh/) - A open source project that helps you create virtual clusters. `oss` `paid`
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.). `oss`
 - [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project. `oss`
+- [Kunobi](https://kunobi.ninja/) - Desktop app for managing Kubernetes clusters, FluxCD, ArgoCD and Helm, with a built-in MCP server for AI assistants. `free` `paid`
 
 ## Internal Developer Platforms
 
