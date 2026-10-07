@@ -31,6 +31,7 @@ export const CATEGORY_IDS = {
   'Container Image Registry': 'registry',
   'Automation & Orchestration': 'automation',
   'Productivity Tools': 'productivity',
+  'Terminal': 'terminal',
   'Continuous Integration & Delivery': 'cicd',
   'Source Code Management': 'scm',
   'Web Servers': 'web',
