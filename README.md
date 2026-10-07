@@ -180,6 +180,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Juju](https://jaas.ai/) - Simplifies how you configure, scale and operate today's complex software. `oss` `paid`
 - [Rundeck](https://www.rundeck.com/) - Runbook Automation For Modernizing Your Operations. `oss` `paid`
 - [StackStorm](https://stackstorm.com/) - Connects all your apps, services, and workflows. Automate DevOps your way. `oss`
+- [Vivacious Cloud](https://vivaciouscloud.com/) - Zero-code multi-cloud training orchestrator with preflight VRAM guards and spot GPU arbitrage. `oss` `freemium`
 - [Bosh](https://www.cloudfoundry.org/bosh/) - Release engineering, deployment, and lifecycle management of complex distributed systems. `oss`
 - [Cloudify](https://cloudify.co/) - Connect, Control, & Automate from core to edge: unlimited locations, clouds and devices. `oss` `paid`
 - [Tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service software. `oss`
