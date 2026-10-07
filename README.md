@@ -209,6 +209,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency. `free` `paid`
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines. `free` `paid`
 - [Servy](https://github.com/aelassas/servy) - Runs any application as a native Windows service, with logging, health checks and restart policies. `oss`
+- [SuperPlane](https://superplane.com/) - Control plane for event-based workflows across Git, CI/CD, observability, incident response and infrastructure tools. `oss` `paid`
 
 ## Productivity Tools
 
