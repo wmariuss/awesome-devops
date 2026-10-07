@@ -493,6 +493,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks with a proof trail per finding. `oss`
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration. `free`
 - [Cordum](https://github.com/cordum-io/cordum) - Self-hosted control plane that applies policy checks, approval gates and audit trails to actions taken by AI agents. `free` `self-hosted`
+- [BunkerWeb](https://www.bunkerweb.io/) - Open-source web application firewall built on NGINX, for Docker, Kubernetes and Linux. `oss` `paid`
 
 ## Sharing
 
