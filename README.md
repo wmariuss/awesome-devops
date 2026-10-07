@@ -126,6 +126,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 *Applications management platforms, Containers platform and Containers management.*
 
+- [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying applications and databases from Git repositories, Docker images, and Docker Compose projects. `free` `paid` `self-hosted`
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas. `paid` `self-hosted`
 - [Cycle.io](https://cycle.io/) - DevOps platform for building platforms. Handle container orchestration, load-balancing, monitoring, and more from a single control plane. `paid`
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications. `oss` `paid`
