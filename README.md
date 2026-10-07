@@ -223,7 +223,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [purple](https://github.com/erickochen/purple) - SSH client with AWS/GCP/Azure sync, Docker/Podman and SCP transfers. `oss`
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
-
+- [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core) - Run local multi-service stacks as Docker containers with Tilt.
 
 ## Continuous Integration & Delivery
 
