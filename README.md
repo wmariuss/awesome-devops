@@ -85,6 +85,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 *Private, Public and Hybrid open-source Cloud Platforms.*
 
+- [Spinifex] (https://github.com/mulgadc/spinifex) - Open source AWS compatible cloud that runs anywhere.
 - [Openstack](https://www.openstack.org/) - Open source software for creating private and public clouds. `oss`
 - [Apache CloudStack](https://cloudstack.apache.org/) - Designed to deploy and manage large networks of virtual machines. `oss`
 - [OpenNebula](https://opennebula.org/) - Build Private Clouds and manage Data Center virtualization based on KVM, LXD and VMware. `oss` `paid`
