@@ -263,6 +263,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Ctrlplane](https://ctrlplane.dev/) - Release governance control plane that sequences promotions across environments, regions and clusters, on top of existing CI/CD and GitOps tools. `oss`
   - [Dagger](https://dagger.io/) - CI/CD as Code that Runs Anywhere. `oss` `paid`
   - [Unleash](https://www.getunleash.io) - Open-source feature management platform (feature flags, gradual rollouts, A/B testing) to decouple deploy from release. `oss` `paid`
+  - [Keploy](https://keploy.io) - creates isolated production sandboxes for API, integration, and E2E testing from real traffic. `oss`
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes. `paid`
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving. `free` `paid`
