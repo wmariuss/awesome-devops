@@ -386,6 +386,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Instatus](https://instatus.com) - Quick and beautiful status page. `free` `paid`
   - [Oxmgr](https://github.com/Vladimir-Urik/OxMgr) - Lightweight Rust process manager and PM2 alternative. 42x faster crash recovery, 19x lower memory usage. Manages Node.js, Python, Go, and any executable on Linux, macOS, and Windows. `oss`
   - [Rootly](https://rootly.com/) - Incident management platform with on-call, status pages, retrospectives and an AI SRE, running incidents in Slack and Microsoft Teams. `paid`
+- [exit1.dev](https://exit1.dev/) - Uptime monitoring for websites, APIs and servers with SSL and domain expiry alerts and public status pages. `free` `paid`
 
 ## Service Discovery & Service Mesh
 
