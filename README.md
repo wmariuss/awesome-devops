@@ -559,6 +559,10 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 - [Cloud Native Playground](https://play.meshery.io) - The Meshery CNCF Playground is an awesome and free resource featuring a live Kubernetes cluster where any CNCF project can be configured and deployed. It is a fantastic interactive learning platform for exploring cloud native technologies. `free`
 
+### Calculators
+
+- [CoreTechX](https://www.jslet.com/) — 51 free client-side engineering calculators for DevOps & SRE. K8s pod density, container resource limits (JVM/V8/Go), database connection pool sizing (PostgreSQL formula), Docker image pull time, CI pipeline queue time, cron execution frequency, CDN cache hit ratio, VPN throughput (WireGuard/IPsec/OpenVPN), latency budget decomposition, SLA-to-downtime economics, password entropy estimation, and cloud egress cost modeling. All 100% client-side — no signup, no tracking.
+
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/main/CONTRIBUTING.md).
