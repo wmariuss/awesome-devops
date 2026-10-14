@@ -275,6 +275,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere. `oss`
   - [RunMyJob](https://runmyjob.io/) - Cloud runners for GitHub Actions and GitLab CI with KVM-isolated VMs and load-based billing. `free` `paid`
   - [Buildstash](https://buildstash.com/) - Stores build binaries, distributes them to testers and publishes releases to app stores and distribution platforms. `free` `paid`
+  - [Latchkey](https://latchkey.dev) - Self-healing GitHub Actions runners that coding agents can drive. `paid`
 
 ## Source Code Management
 
