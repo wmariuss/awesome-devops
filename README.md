@@ -223,7 +223,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [kubefwd](https://github.com/txn2/kubefwd) - Bulk port forwarding Kubernetes services for local development. `oss`
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
-- [Beekeeper Studio](https://www.beekeeperstudio.io/) - Cross-platform database manager for PostgreSQL, MySQL, SQLite, SQL Server and other databases. `oss` `paid`
+- [Beekeeper Studio](https://www.beekeeperstudio.io/) - Cross-platform database manager for PostgreSQL, MySQL, SQLite, SQL Server and other databases. `free` `paid`
 
 
 ## Terminal
