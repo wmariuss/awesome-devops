@@ -363,6 +363,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. `free` `paid`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
+- [WatchCron](https://watchcron.com) - Cron job monitoring service with heartbeat pings and failure alerts.
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
   - [Facette](https://github.com/facette/facette) - Time series data visualization software. `oss`
   - [Grafana](https://grafana.com/) - Analytics & monitoring solution for every database. `oss` `paid`
