@@ -549,6 +549,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 ### Blogs
 
 - [Medium](https://medium.com/?tag=devops) `free`
+- [progeofde.tech](https://progeofde.tech) - Editorial comparison of low-cost VPS deals and long-running flash sales, with monthly and yearly price breakdowns. `free`
 
 ### DevOps Roadmap
 
