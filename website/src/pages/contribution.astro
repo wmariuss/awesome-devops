@@ -1,0 +1,77 @@
+---
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import { marked } from 'marked';
+import Layout from '../layouts/Layout.astro';
+import GuideToc from '../components/GuideToc.astro';
+import { ROOT_DIR } from '../lib/readme.mjs';
+import { getSite, slug } from '../lib/site.mjs';
+
+// CONTRIBUTING.md is the source (it also reads well on GitHub). Its "# Contribute"
+// heading and intro are replaced by this page's own header; each "## " section becomes
+// a menu entry.
+const md = readFileSync(path.join(ROOT_DIR, 'CONTRIBUTING.md'), 'utf8');
+const body = md.slice(md.indexOf('\n## '));
+const sections = body.split(/\n(?=## )/).map((s) => s.trim()).filter(Boolean).map((chunk) => {
+  const title = chunk.split('\n')[0].replace(/^##\s+/, '');
+  return { id: slug(title), title, html: marked.parse(chunk.split('\n').slice(1).join('\n')) as string };
+});
+const toc: [string, string][] = [['quick-reference', 'Quick reference'], ...sections.map((s): [string, string] => [s.id, s.title])];
+const site = getSite();
+const EDIT = 'https://github.com/wmariuss/awesome-devops/edit/main/README.md';
+const ISSUE = 'https://github.com/wmariuss/awesome-devops/issues/new';
+---
+<Layout title="Contribute · Awesome DevOps" description="How to add a tool to the awesome-devops list: what qualifies, the entry format, pricing tags and how GitHub data is found." section={null}>
+  <main class="guide guide-wide">
+    <header class="guide-hero">
+      <div class="mini-label">Contribute</div>
+      <h1 class="page-h1">Add a tool to the list</h1>
+      <p class="guide-lede">Everything on this site comes from one file, README.md. Add a line there in a pull request and the tool appears here on the next deploy, with its GitHub stars and activity filled in automatically.</p>
+      <div class="actions" style="margin-top:22px">
+        <a class="btn-ink" href={EDIT} target="_blank" rel="noopener">Edit README.md on GitHub ↗</a>
+        <a class="btn-line" href={ISSUE} target="_blank" rel="noopener">Suggest a tool in an issue</a>
+      </div>
+    </header>
+
+    <div class="guide-cols">
+      <GuideToc items={toc} />
+
+      <div class="guide-body">
+        <section class="section" id="quick-reference">
+          <h2>Quick reference</h2>
+          <div class="ref-card">
+            <div class="anatomy" aria-label="Parts of a README entry">
+              <span class="part plain"><code>-</code></span>
+              <span class="part name"><code>[Grafana]</code><small>Name</small></span>
+              <span class="part link"><code>(https://grafana.com/)</code><small>Official link</small></span>
+              <span class="part plain"><code>-</code></span>
+              <span class="part desc"><code>Dashboards for metrics, logs and traces.</code><small>One neutral sentence</small></span>
+              <span class="part tags"><code>`oss`</code> <code>`paid`</code><small>Tags</small></span>
+            </div>
+            <table class="tag-table">
+              <thead><tr><th>You write</th><th>Site shows</th><th>Use when</th></tr></thead>
+              <tbody>
+                <tr><td><code>oss</code></td><td><span class="badge oss">Open source</span></td><td>Public source code under an open source license.</td></tr>
+                <tr><td><code>oss</code> <code>paid</code></td><td><span class="badge oss">Open source</span></td><td>Open source, plus a paid cloud, enterprise edition or support.</td></tr>
+                <tr><td><code>free</code> <code>paid</code></td><td><span class="badge freemium">Freemium</span></td><td>Not open source, with a free plan and paid plans.</td></tr>
+                <tr><td><code>paid</code></td><td><span class="badge paid">Paid</span></td><td>No free plan.</td></tr>
+                <tr><td><code>self-hosted</code></td><td><span class="badge plain">Self-hostable</span></td><td>Add it when a closed-source tool can run on your own servers.</td></tr>
+              </tbody>
+            </table>
+            <div class="ref-foot">
+              <span>One tool per pull request. The automated review checks the rest.</span>
+              <a class="btn-line" href={EDIT} target="_blank" rel="noopener">Edit README.md ↗</a>
+            </div>
+          </div>
+        </section>
+
+        {sections.map((s) => (
+          <section class="section" id={s.id}>
+            <h2>{s.title}</h2>
+            <div class="prose" set:html={s.html} />
+          </section>
+        ))}
+      </div>
+    </div>
+  </main>
+</Layout>
