@@ -365,6 +365,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Canary Checker](https://canarychecker.io) - Open source health check platform. `oss` `paid`
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically. `oss`
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. `free` `paid`
+- [Visual Sentinel](https://visualsentinel.com/) - Website monitoring that combines uptime, SSL, DNS history, performance and pixel-level visual checks in a real headless browser, with status pages and alerts. `paid`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
