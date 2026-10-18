@@ -302,6 +302,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Apache](http://httpd.apache.org/) - Web server and reverse proxy. `oss`
 - [Caddy](https://caddyserver.com/) - Web server with automatic HTTPS. `oss`
 - [Cherokee](http://cherokee-project.com/) - Highly concurrent secured web applications. `oss`
+- [Ferron](https://ferron.sh/) - A debuggable web server. `oss`
 - [Lighttpd](http://www.lighttpd.net/) - Optimized for speed-critical environments while remaining standards-compliant, secure and flexible. `oss`
 - [Uwsgi](https://github.com/unbit/uwsgi/) - Application server container. `oss`
 
