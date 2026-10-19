@@ -355,6 +355,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Zabbix](https://www.zabbix.com/) - Mature and effortless monitoring solution for network monitoring and application monitoring. `oss` `paid`
 - [Glances](https://github.com/nicolargo/glances) - Monitoring information through a curses or Web based interface. `oss`
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool. `oss` `paid`
+- [WatchCron](https://watchcron.com/) - Cron job and scheduled task monitoring with heartbeat pings, duration tracking, and multi-channel alerts. `paid`
 - [Bolo](http://bolo.niftylogic.com/) - Building distributed, scalable monitoring systems. `oss`
 - [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. `oss`
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - Network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack. `free` `paid` `self-hosted`
