@@ -499,6 +499,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration. `free`
 - [Cordum](https://github.com/cordum-io/cordum) - Self-hosted control plane that applies policy checks, approval gates and audit trails to actions taken by AI agents. `free` `self-hosted`
 - [BunkerWeb](https://www.bunkerweb.io/) - Open-source web application firewall built on NGINX, for Docker, Kubernetes and Linux. `oss` `paid`
+- [Greywall](https://github.com/GreyhavenHQ/greywall) - Deny-by-default sandbox that isolates the filesystem and network access of commands, CLI tools and AI coding agents on Linux and macOS. `oss`
 
 ## Sharing
 
