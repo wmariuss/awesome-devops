@@ -1,0 +1,179 @@
+---
+title: What is DevOps?
+description: A practical guide to DevOps. What it is and isn't, the CALMS principles, the four DORA metrics, and a phased plan to bring DevOps into your organization.
+lede: "DevOps is a way of building and running software in which the people who write the code and the people who operate it share responsibility for the whole lifecycle, from the first commit to running in production at three in the morning."
+intro: "This guide covers what DevOps is, how to tell whether it is working, and how to introduce it into an organization step by step, including the mistakes that make most transformations stall."
+---
+import { Cards, Card, Rows, Row, Metrics, Metric, Phases, Phase, Steps, ReadNext } from '../components/guide';
+
+{/*
+  The "What is DevOps?" guide. Write it as Markdown: every "## " heading becomes an
+  entry in the page menu. The components below are for the visual blocks:
+
+  <Cards> + <Card title>              grid of cards
+  <Rows> + <Row title letter category> list rows; category links to a tool category
+  <Metrics> + <Metric kind title>     metric tiles
+  <Phases> + <Phase n title when goal done categories>   plan with a list of actions
+  <Steps>                             wraps a numbered list, shown as numbered cards
+  <ReadNext titles>                   learning resources from README.md, by title
+*/}
+
+## What DevOps is
+
+For most of the history of software, developers were measured on how much they shipped and operations on how little broke. Those goals pull in opposite directions, so changes queued up, releases became large and risky, and every outage started with an argument about whose fault it was.
+
+DevOps removes that wall. One team owns a service end to end and is measured on outcomes both sides care about: how quickly a change reaches users and how reliably the service runs. To make that possible, teams automate the path to production, release in small batches, watch production closely, and learn from every failure.
+
+It is first a change in how people work together, then a set of practices, and only then a set of tools.
+
+## What DevOps is not
+
+<Cards>
+  <Card title="A job title or a new team">Renaming the ops team to "DevOps" or adding a DevOps team between developers and operations creates one more handoff. The goal is fewer handoffs.</Card>
+  <Card title="A tool you can buy">Tools make good habits cheap to repeat. They do not create the habits. A CI server nobody trusts, or a Kubernetes cluster only one person understands, changes nothing.</Card>
+  <Card title="Getting rid of operations">Operations knowledge becomes more important, not less. It moves into code, platforms and shared on-call instead of tickets.</Card>
+  <Card title="Speed at the cost of stability">Teams that deploy more often also tend to have fewer and shorter outages. Small, frequent, reversible changes are what make both possible.</Card>
+</Cards>
+
+## Principles
+
+A useful checklist is CALMS. If one of these is missing, the others stall.
+
+<Rows>
+  <Row title="Culture" letter>Shared ownership of the service, from commit to production. Developers carry the pager for what they build, and incidents are reviewed without blame.</Row>
+  <Row title="Automation" letter>Anything done twice by hand is a candidate: builds, tests, environments, deployments, rollbacks, access requests.</Row>
+  <Row title="Lean" letter>Small batches, limited work in progress, and removing waiting time between steps. Most lead time is waiting, not working.</Row>
+  <Row title="Measurement" letter>Decisions are based on data from the delivery pipeline and from production, not on opinions.</Row>
+  <Row title="Sharing" letter>Runbooks, dashboards, postmortems and pipeline code are open to every team, so lessons travel.</Row>
+</Rows>
+
+The DevOps Handbook frames the same ideas as three ways: optimize the flow of work from development to production, create fast feedback from production back to development, and build a culture of continual experimentation and learning.
+
+## How to measure it
+
+Research from the DORA program, published in the book Accelerate, found four measures that predict software delivery performance. Two measure speed and two measure stability, and the best teams improve both together.
+
+<Metrics>
+  <Metric kind="Speed" title="Deployment frequency">How often you ship to production.</Metric>
+  <Metric kind="Speed" title="Lead time for changes">Time from commit to running in production.</Metric>
+  <Metric kind="Stability" title="Change failure rate">Share of deployments that cause a failure in production.</Metric>
+  <Metric kind="Stability" title="Time to restore service">How long it takes to recover from a failed deployment or outage.</Metric>
+</Metrics>
+
+Measure per team and per service, and watch trends over months. Comparing teams against each other, or tying the numbers to bonuses, gets you gamed metrics instead of better software.
+
+## Core practices
+
+<Rows>
+  <Row title="Continuous integration" category="cicd">Every change is merged at least daily and verified by an automated build and test run.</Row>
+  <Row title="Continuous delivery and deployment" category="cicd">Every change that passes the pipeline can be released at any time, or is released automatically.</Row>
+  <Row title="Infrastructure as code" category="automation">Servers, networks and cloud resources are described in versioned files, reviewed like code and applied by tools.</Row>
+  <Row title="Containers and orchestration" category="apps">Applications ship as immutable images and run on a scheduler that handles placement, scaling and restarts.</Row>
+  <Row title="Monitoring and observability" category="obs">Metrics, logs and traces explain what the system is doing, and alerts fire on user-facing symptoms.</Row>
+  <Row title="Secret management" category="secrets">Credentials are stored, rotated and injected by automation instead of living in code or chat.</Row>
+  <Row title="Security in the pipeline" category="security">Dependency, image and configuration scanning run on every change, not in a review before release.</Row>
+  <Row title="Chaos engineering" category="chaos">Controlled failure experiments prove the system survives the outages you expect.</Row>
+  <Row title="Internal developer platforms" category="idp">Self-service golden paths let teams create, deploy and operate services without filing tickets.</Row>
+</Rows>
+
+## Bringing DevOps into your organization
+
+DevOps is adopted one team and one bottleneck at a time. The phases below are a typical path. Timings vary with the size of the organization, but the order matters: skipping the foundations to build a platform nobody is ready to use is the most expensive mistake on this page.
+
+<Phases>
+  <Phase n={1} title="Assess" when="Weeks 1–4" categories="scm"
+    goal="Understand where time goes today and pick one place to start."
+    done="You can show where the waiting happens and have a pilot team with time set aside for the work.">
+
+    - Map the value stream for one service: every step from an idea to running in production, with how long work waits at each step.
+    - Record a baseline of the four metrics above, even if you measure them roughly by hand.
+    - Choose one pilot team that owns a real, customer-facing service and wants to change. Avoid a greenfield toy project.
+    - Agree with leadership on the outcome you are after, in business terms: faster time to market, fewer outages, less overtime.
+
+  </Phase>
+  <Phase n={2} title="Foundations" when="First 90 days" categories="cicd, obs"
+    goal="Make changes small, safe and visible for the pilot team."
+    done="The pilot team deploys on demand without a release meeting, and knows within minutes when production breaks.">
+
+    - Put everything in version control: application, infrastructure, configuration, pipeline definitions and runbooks.
+    - Run CI on every pull request. Keep branches short-lived and merge to the main branch at least daily.
+    - Automate deployment to at least one environment, triggered from the pipeline, never from a laptop.
+    - Add basic monitoring and alerting on what users feel: errors, latency, availability.
+    - Hold a blameless postmortem for every significant incident and track the follow-up actions to completion.
+
+  </Phase>
+  <Phase n={3} title="Scale" when="Months 3–12" categories="automation, secrets, security"
+    goal="Make the practices repeatable and spread them to more teams."
+    done="Several teams deploy independently, and reliability is discussed with numbers from SLOs instead of opinions.">
+
+    - Provision environments with infrastructure as code. Treat a manual change in production as an incident.
+    - Deploy to production through the pipeline with progressive delivery: canary or blue-green releases and automated rollback.
+    - Define service level objectives (SLOs) for key services and use error budgets to balance features against reliability.
+    - Share on-call between developers and operators for the services they build together.
+    - Move security left: scan dependencies, images and infrastructure code in the pipeline, and manage secrets centrally.
+    - Let the pilot team teach the next teams. Pairing beats training slides.
+
+  </Phase>
+  <Phase n={4} title="Platform" when="Year 2 onwards" categories="idp, apps"
+    goal="Reduce the effort every team spends on the same plumbing."
+    done="A new service goes from idea to production in a day, and teams spend their time on product work, not plumbing.">
+
+    - Form a platform team that builds paved roads: a templated service, pipeline, observability and deployment that work out of the box.
+    - Offer the platform as a product with documentation, support and a roadmap driven by its users, the development teams.
+    - Keep the paved road optional but attractive, so teams choose it because it is easier.
+    - Measure developer experience alongside the four metrics: onboarding time, time to first deploy, how often people wait on others.
+
+  </Phase>
+</Phases>
+
+## How to organize teams
+
+Structure follows the work. The model described in the book Team Topologies fits DevOps well: a few team types with clear responsibilities, and as few handoffs between them as possible.
+
+<Cards>
+  <Card title="Stream-aligned teams">Own a product or service end to end: build it, ship it, run it. Most of your engineers should be here.</Card>
+  <Card title="Platform team">Builds and runs the internal platform that stream-aligned teams use through self-service, not tickets.</Card>
+  <Card title="Enabling team">Experts in an area such as CI/CD, observability or security, who coach teams for a few weeks and then move on.</Card>
+  <Card title="SRE">Engineers who apply software engineering to reliability. They can work embedded in teams, as a central team for critical services, or as consultants.</Card>
+</Cards>
+
+The anti-pattern to avoid is a separate DevOps team that sits between development and operations and takes tickets from both. It recreates the wall DevOps is meant to remove.
+
+## DevOps and SRE
+
+Site Reliability Engineering (SRE) is a concrete way to run DevOps, which started at Google, where operations work is treated as a software problem. Its core tools work in any organization:
+
+<Rows>
+  <Row title="Service level objectives">A target for how reliable a service must be, measured from the user's side, for example 99.9% of requests succeed within 300 ms over 28 days.</Row>
+  <Row title="Error budgets">The unreliability the SLO allows. While budget remains, ship features. When it runs out, reliability work comes first. This turns the dev versus ops argument into a shared, numeric rule.</Row>
+  <Row title="Toil limits">Manual, repetitive operational work is capped (Google uses 50% of an engineer's time) so there is always time to automate it away.</Row>
+  <Row title="Blameless postmortems">Every significant incident gets a written review focused on causes in the system, not on people, with tracked follow-up actions.</Row>
+</Rows>
+
+## Common mistakes
+
+<Rows>
+  <Row title="Renaming instead of changing">The ops team becomes the "DevOps team", tickets stay tickets, and nothing about how work flows has changed.</Row>
+  <Row title="Tools first">Buying a platform before agreeing on the problem it solves. Start with the value stream, then choose tools.</Row>
+  <Row title="Big-bang transformation">Reorganizing every team at once. Start with one team, prove results, and spread what worked.</Row>
+  <Row title="Metrics as targets">When deployment frequency becomes a target, teams split deploys to hit the number. Use the metrics to find problems, never to rank teams or people.</Row>
+  <Row title="Automating a broken process">Automating five approval steps gives you five fast approval steps. Remove the waste first.</Row>
+  <Row title="No time for improvement">If every sprint is 100% feature work, the toil never shrinks. Protect time for pipeline, reliability and tooling work.</Row>
+  <Row title="Leaving security and compliance out">Security brought in at the end blocks releases. Bring them in early and encode their rules in the pipeline.</Row>
+</Rows>
+
+## Start on Monday
+
+You don't need a transformation program to begin. Five things one team can do this week:
+
+<Steps>
+
+1. Pick one service and write down every step from commit to production, with how long each one takes.
+2. Measure how often that service deploys and how long a change takes to reach users.
+3. Find the longest wait in that flow and fix only that.
+4. Run your next incident review without blame, and ask "what made this possible?" instead of "who did this?".
+5. Book a recurring slot for improvement work and protect it.
+
+</Steps>
+
+<ReadNext titles={['The DevOps Handbook', 'Site Reliability Engineering', 'Roadmap.sh DevOps', 'Continuous Delivery']} />
