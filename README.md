@@ -227,6 +227,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
 - [Beekeeper Studio](https://www.beekeeperstudio.io/) - Cross-platform database manager for PostgreSQL, MySQL, SQLite, SQL Server and other databases. `free` `paid`
 - [Dorothy](https://github.com/Charlie85270/Dorothy) - Desktop app that runs and coordinates several AI coding agents (Claude Code, Codex, Gemini) with a kanban board and automations. `oss`
+- [Super Productivity](https://super-productivity.com/) - Task manager and time tracker that pulls issues from Jira, GitHub, GitLab and Linear. `oss`
 
 
 ## Terminal
