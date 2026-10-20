@@ -1,0 +1,151 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { Facts, Ico, LiveLine, Status, TierBadge, factsFor, starsLabel, toolHref } from '../../components/ui';
+import { getSite, sortByStars, fmtStars, fmtN } from '../../lib/site.mjs';
+
+export function getStaticPaths() {
+  return getSite().tools.map((t) => ({ params: { slug: t.id }, props: { id: t.id } }));
+}
+
+const site = getSite();
+const t = site.tools.find((x) => x.id === Astro.props.id)!;
+const sameCat = sortByStars(site.tools.filter((x) => x.cat === t.cat && x.id !== t.id));
+const altGroups = [
+  { title: 'Open source alternatives', items: sameCat.filter((x) => x.tier === 'oss').slice(0, 6) },
+  { title: 'Hosted & commercial alternatives', items: sameCat.filter((x) => x.tier !== 'oss').slice(0, 6) },
+].filter((g) => g.items.length);
+const reading = site.learn.filter((l) => l.topics.includes(t.cat) && l.type !== 'blog').slice(0, 4);
+const LT = { book: 'Book', roadmap: 'Roadmap', playground: 'Playground', conference: 'Conference', blog: 'Blog' };
+const stats = [
+  { k: 'Stars', v: fmtStars(t.stars) || '—' },
+  { k: 'Forks', v: fmtN(t.forks) },
+  { k: 'Open issues', v: fmtN(t.issues) },
+  { k: 'Last push', v: t.activeLabel || '—' },
+];
+const tierWord = { oss: 'open source', freemium: 'freemium', paid: 'paid' }[t.tier];
+const description = `${t.name}: ${t.desc} A ${tierWord} ${t.catName.toLowerCase()} tool${t.stars != null ? ` with ${fmtStars(t.stars)} GitHub stars` : ''}, and ${sameCat.length} alternatives.`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: t.name,
+  url: t.url,
+  description: t.desc,
+  applicationCategory: t.catName,
+  ...(t.tier !== 'paid' ? { offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' } } : {}),
+  ...(t.repo ? { codeRepository: `https://github.com/${t.repo}` } : {}),
+  ...(t.license ? { license: t.license } : {}),
+};
+---
+<Layout title={`${t.name} · ${t.catName} · Awesome DevOps`} description={description} section={null}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <main class="tool-page">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a class="back" href="/">← All tools</a>
+      <span>/</span><a class="cat" href={`/category/${t.cat}/`}>{t.catName}</a><span>/</span><span class="cur">{t.name}</span>
+    </nav>
+
+    <div class="page-hero">
+      <div class="page-main">
+        <div class="page-id">
+          <Ico t={t} size={68} />
+          <div style="min-width:0">
+            <h1>{t.name}</h1>
+            <a href={t.url} target="_blank" rel="noopener">{t.host} ↗</a>
+          </div>
+        </div>
+        <div class="badges">
+          <TierBadge tier={t.tier} size="xl" />
+          {t.selfHost && <span class="badge plain xl">Self-hostable</span>}
+          <Status t={t} size="xl" />
+        </div>
+        <p class="page-desc">{t.desc}</p>
+        <div class="actions">
+          <a class="btn-ink" href={t.url} target="_blank" rel="noopener">Visit website ↗</a>
+          {t.repo && <a class="btn-line" href={`https://github.com/${t.repo}`} target="_blank" rel="noopener">View on GitHub</a>}
+          <button type="button" class="btn-line" data-save={t.id}>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4.5L6 21z"></path></svg>
+            <span>Save</span>
+          </button>
+          <button type="button" class="btn-line quiet" data-copy>Copy link</button>
+        </div>
+      </div>
+      <div class="fact-card">
+        <Facts facts={factsFor(t, false)} />
+      </div>
+    </div>
+
+    {t.repo && (
+      <section class="section">
+        <div class="section-head">
+          <h2>Repository</h2>
+          <LiveLine t={t} fetchedLabel={site.fetchedLabel} />
+        </div>
+        <div class="stat-grid">
+          {stats.map((s) => <div><span class="k">{s.k}</span><span class="v">{s.v}</span></div>)}
+        </div>
+      </section>
+    )}
+
+    {reading.length > 0 && (
+      <section class="section">
+        <h2>Related reading</h2>
+        <div class="read-grid">
+          {reading.map((l) => (
+            <a class="read-card" href={l.url} target="_blank" rel="noopener">
+              <span class="type">{LT[l.type]} · {l.free ? 'Free' : 'Paid'}</span>
+              <span class="title">{l.title} <span class="arrow">↗</span></span>
+              {l.meta && <span class="meta">{l.meta}</span>}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {altGroups.length > 0 && (
+      <section class="alts">
+        <h2 style="margin:0;font-size:18px;font-weight:600;letter-spacing:-0.02em;">Alternatives to {t.name}</h2>
+        {altGroups.map((g) => (
+          <div class="alt-group">
+            <div class="mini-label" style="margin:0">{g.title}</div>
+            <div class="alt-grid">
+              {g.items.map((a) => (
+                <a class="alt-card" href={toolHref(a)}>
+                  <div class="top"><Ico t={a} size={28} /><span class="nm">{a.name}</span><span class="st">{starsLabel(a)}</span></div>
+                  <div class="d">{a.desc}</div>
+                  <div class="bs"><TierBadge tier={a.tier} /><Status t={a} /></div>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </section>
+    )}
+  </main>
+</Layout>
+
+<script>
+  const KEY = 'ad-saved';
+  const read = (): string[] => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } };
+  const btn = document.querySelector<HTMLButtonElement>('[data-save]');
+  if (btn) {
+    const id = btn.dataset.save!;
+    const paint = () => {
+      const on = read().includes(id);
+      btn.querySelector('svg')!.setAttribute('fill', on ? 'currentColor' : 'none');
+      btn.querySelector('span')!.textContent = on ? 'Saved' : 'Save';
+      btn.setAttribute('aria-pressed', String(on));
+    };
+    btn.addEventListener('click', () => {
+      const cur = read();
+      const next = cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id];
+      try { localStorage.setItem(KEY, JSON.stringify(next)); } catch {}
+      paint();
+    });
+    paint();
+  }
+  const copy = document.querySelector<HTMLButtonElement>('[data-copy]');
+  copy?.addEventListener('click', () => {
+    navigator.clipboard?.writeText(location.origin + location.pathname).catch(() => {});
+    copy.textContent = 'Copied';
+  });
+</script>
