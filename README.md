@@ -226,6 +226,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [mirrord](https://metalbear.com/mirrord/) - Run a local process as if it were a pod in a remote Kubernetes cluster. `oss` `paid`
 - [YAML Validator](https://yamlvalidator.dev) - Online YAML validator, formatter and viewer with JSON Schema support for Kubernetes, Docker Compose, GitHub Actions, and more. `free`
 - [Beekeeper Studio](https://www.beekeeperstudio.io/) - Cross-platform database manager for PostgreSQL, MySQL, SQLite, SQL Server and other databases. `free` `paid`
+- [Easy SSH](https://github.com/dhlptx00/EasySSH) - SSH client in a VS Code/Cursor terminal tab with Ctrl+click download and edit. `oss`
 
 
 ## Terminal
