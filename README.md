@@ -80,6 +80,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes. `free` `paid`
 - [Equinix](https://www.equinix.com/) - Global data center and colocation provider for enterprise network and cloud computing. `paid`
 - [Clever Cloud](https://clever.cloud/) - European Platform as a Service (PaaS) with managed databases and object storage. `paid`
+- [Prisma Compute](https://www.prisma.io/compute) - Managed hosting for TypeScript apps that runs next to Prisma Postgres, with scale to zero and a database for every preview branch. `free` `paid`
 
 ## Open Source Cloud Platforms
 
