@@ -151,6 +151,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project. `oss`
 - [Kunobi](https://kunobi.ninja/) - Desktop app for managing Kubernetes clusters, FluxCD, ArgoCD and Helm, with a built-in MCP server for AI assistants. `free` `paid`
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
+- [SnapDeploy](https://snapdeploy.dev) - Docker container hosting on AWS with a free tier and no credit card. `free` `paid`
 
 ## Internal Developer Platforms
 
