@@ -152,8 +152,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Kunobi](https://kunobi.ninja/) - Desktop app for managing Kubernetes clusters, FluxCD, ArgoCD and Helm, with a built-in MCP server for AI assistants. `free` `paid`
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
 
-- [Laradock](https://github.com/laradock/laradock) - Full PHP development environment based on Docker.
-
 ## Internal Developer Platforms
 
 *Tools, services and processes that support and accelerate software development.*
@@ -233,6 +231,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Beekeeper Studio](https://www.beekeeperstudio.io/) - Cross-platform database manager for PostgreSQL, MySQL, SQLite, SQL Server and other databases. `free` `paid`
 - [Dorothy](https://github.com/Charlie85270/Dorothy) - Desktop app that runs and coordinates several AI coding agents (Claude Code, Codex, Gemini) with a kanban board and automations. `oss`
 - [Super Productivity](https://super-productivity.com/) - Task manager and time tracker that pulls issues from Jira, GitHub, GitLab and Linear. `oss`
+- [Laradock](https://github.com/laradock/laradock) - Ready-made Docker environment for PHP development, with web servers, databases and queues. `oss`
 
 
 ## Terminal
