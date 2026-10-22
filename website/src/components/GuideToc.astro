@@ -1,0 +1,28 @@
+---
+// Sticky "On this page" menu that highlights the section in view.
+interface Props { items: [string, string][] }
+const { items } = Astro.props;
+---
+<nav class="guide-toc" aria-label="On this page">
+  <div class="nav-label" style="padding-top:0">On this page</div>
+  {items.map(([id, label]) => <a href={`#${id}`} data-toc={id}>{label}</a>)}
+</nav>
+
+<script>
+  const links = new Map(
+    [...document.querySelectorAll<HTMLAnchorElement>('[data-toc]')].map((a) => [a.dataset.toc!, a]),
+  );
+  const sections = [...links.keys()].map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+  const setActive = (id: string) => links.forEach((a, key) => a.toggleAttribute('aria-current', key === id));
+  const update = () => {
+    // The active section is the last one whose top has scrolled past the sticky header.
+    let current = sections[0]?.id;
+    for (const s of sections) if (s.getBoundingClientRect().top - 120 <= 0) current = s.id;
+    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) current = sections[sections.length - 1]?.id;
+    if (current) setActive(current);
+  };
+  let raf = 0;
+  window.addEventListener('scroll', () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(update); }, { passive: true });
+  window.addEventListener('hashchange', update);
+  update();
+</script>

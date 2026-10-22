@@ -1,0 +1,26 @@
+---
+// The guide is written in src/content/what-is-devops.mdx. Its "## " headings
+// make up the "On this page" menu.
+import Layout from '../layouts/Layout.astro';
+import GuideToc from '../components/GuideToc.astro';
+import { Content, frontmatter, getHeadings } from '../content/what-is-devops.mdx';
+
+const toc = getHeadings().filter((h) => h.depth === 2).map((h): [string, string] => [h.slug, h.text]);
+---
+<Layout title={`${frontmatter.title} · Awesome DevOps`} description={frontmatter.description} section={null}>
+  <main class="guide guide-wide">
+    <header class="guide-hero">
+      <div class="mini-label">Guide</div>
+      <h1 class="page-h1">{frontmatter.title}</h1>
+      <p class="guide-lede">{frontmatter.lede}</p>
+      {frontmatter.intro && <p class="guide-text">{frontmatter.intro}</p>}
+    </header>
+
+    <div class="guide-cols">
+      <GuideToc items={toc} />
+      <article class="guide-body guide-md">
+        <Content />
+      </article>
+    </div>
+  </main>
+</Layout>

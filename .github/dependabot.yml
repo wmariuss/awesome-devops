@@ -1,0 +1,24 @@
+version: 2
+updates:
+  # Keep workflow actions current.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+
+  # Website dependencies, grouped into one pull request a month.
+  - package-ecosystem: npm
+    directory: /website
+    schedule:
+      interval: monthly
+    groups:
+      website:
+        patterns: ["*"]
+    ignore:
+      # @astrojs/preact supports Preact 10 only (peer dependency ^10). Remove this
+      # once a release of @astrojs/preact accepts Preact 11.
+      - dependency-name: preact
+        update-types: ["version-update:semver-major"]

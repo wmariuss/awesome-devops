@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Learn from '../components/Learn';
+import { getSite } from '../lib/site.mjs';
+
+const site = getSite();
+---
+<Layout title="Learn DevOps · Awesome DevOps" description="DevOps and SRE books, roadmaps, conferences and learning platforms from the awesome-devops list." section="learn">
+  <div class="page"><Learn client:load items={site.learn} /></div>
+</Layout>
