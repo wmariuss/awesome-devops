@@ -532,6 +532,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server that works as a poor man's VPN. `oss`
 - [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program, developed as an academic project at the University of Tsukuba under the Apache License 2.0. `oss`
 - [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options. `oss` `paid`
+- [rustunnel](https://github.com/joaoh82/rustunnel) - Self-hosted tunnel server for exposing local HTTP, HTTPS, TCP and UDP services, with TLS and Prometheus metrics. `oss` `paid`
 
 ## Resources
 
