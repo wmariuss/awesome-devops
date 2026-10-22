@@ -93,6 +93,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Apache Mesos](http://mesos.apache.org/) - Program against your data center like it’s a single pool of resources. `oss`
 - [Fakecloud](https://github.com/faiscadev/fakecloud) - Local AWS cloud emulator for development and testing. `oss`
 - [Localstack](https://github.com/localstack/localstack) - Fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline. `oss` `paid`
+- [Spinifex](https://github.com/mulgadc/spinifex) - AWS-compatible infrastructure platform (EC2, VPC, S3, EKS, ECS, RDS and more) for bare-metal, edge and on-premises deployments. `oss`
 
 ## Operating Systems
 
