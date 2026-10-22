@@ -171,6 +171,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Dockyard](https://github.com/Huawei/dockyard) - Container & Artifact Repository. `oss`
 - [Harbor](https://goharbor.io/) - An open source trusted cloud native registry project that stores, signs, and scans content. `oss`
 - [GitHub Container Registry](https://github.blog/2020-09-01-introducing-github-container-registry/) - Container registry free for public images. `free` `paid`
+- [Zot](https://zotregistry.dev/) - Lightweight, OCI-native container image registry. `oss`
 
 ## Automation & Orchestration
 
