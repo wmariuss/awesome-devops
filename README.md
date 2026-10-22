@@ -389,6 +389,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Heka](https://hekad.readthedocs.io/en/latest/#) - Stream processing software system. `oss`
   - [Kibana](https://www.elastic.co/kibana) - Explore, visualize, discover data. `oss` `paid`
   - [Loki](https://github.com/grafana/loki) - Horizontally-scalable, highly available, multi-tenant log aggregation system inspired by Prometheus. `oss` `paid`
+  - [LynxDB](https://github.com/lynxbase/lynxdb) - Lightweight log analytics database with SPL-inspired queries. `oss`
 - Status
   - [Cachet](https://github.com/CachetHQ/Cachet) - Beautiful and powerful open-source status page system. `oss`
   - [StatusPal](https://statuspal.io/) - Communicate incidents and maintenance effectively with a beautiful hosted status page. `paid`
