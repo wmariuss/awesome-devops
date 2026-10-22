@@ -1,0 +1,5 @@
+---
+interface Props { kind: string; title: string }
+const { kind, title } = Astro.props;
+---
+<div><span class="k">{kind}</span><span class="v">{title}</span><span class="k"><slot /></span></div>
