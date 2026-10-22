@@ -1,0 +1,2102 @@
+{
+ "fetchedAt": "2026-10-04T19:41:58Z",
+ "repos": {
+  "ASCIT31/Dark-Moon": {
+   "archived": false,
+   "forks": 166,
+   "issues": 2,
+   "lang": null,
+   "license": "GPL-3.0",
+   "pushed": "2026-10-01T08:22:43Z",
+   "stars": 993
+  },
+  "AppScale/appscale": {
+   "stars": 2421,
+   "forks": 277,
+   "issues": 52,
+   "license": "Apache-2.0",
+   "lang": "Python",
+   "pushed": "2024-05-22T02:14:44Z",
+   "archived": false
+  },
+  "CloudBotIRC/CloudBot": {
+   "archived": false,
+   "forks": 247,
+   "issues": 60,
+   "lang": "Python",
+   "license": "GPL-3.0",
+   "pushed": "2026-02-27T09:11:39Z",
+   "stars": 291
+  },
+  "Dieterbe/anthracite": {
+   "archived": false,
+   "forks": 32,
+   "issues": 9,
+   "lang": null,
+   "license": "Apache-2.0",
+   "pushed": "2015-03-10T19:16:26Z",
+   "stars": 295
+  },
+  "Freeboard/freeboard": {
+   "archived": false,
+   "forks": 1173,
+   "issues": 146,
+   "lang": null,
+   "license": "MIT",
+   "pushed": "2018-03-07T17:34:26Z",
+   "stars": 6507
+  },
+  "GitbookIO/gitbook": {
+   "archived": false,
+   "forks": 4044,
+   "issues": 51,
+   "lang": "TypeScript",
+   "license": "GPL-3.0",
+   "pushed": "2026-10-02T17:38:56Z",
+   "stars": 29061
+  },
+  "Graylog2/graylog2-server": {
+   "archived": false,
+   "forks": 1131,
+   "issues": 1862,
+   "lang": "Java",
+   "license": null,
+   "pushed": "2026-10-02T16:56:33Z",
+   "stars": 8150
+  },
+  "Huawei/dockyard": {
+   "stars": 278,
+   "forks": 66,
+   "issues": 12,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2023-04-12T08:04:56Z",
+   "archived": false
+  },
+  "Icinga/icinga2": {
+   "archived": false,
+   "forks": 618,
+   "issues": 365,
+   "lang": "C++",
+   "license": "GPL-3.0",
+   "pushed": "2026-10-01T09:54:36Z",
+   "stars": 2239
+  },
+  "Infisical/infisical": {
+   "archived": false,
+   "forks": 2307,
+   "issues": 267,
+   "lang": "TypeScript",
+   "license": null,
+   "pushed": "2026-10-04T00:21:31Z",
+   "stars": 29599
+  },
+  "Kong/kong": {
+   "archived": false,
+   "forks": 5224,
+   "issues": 89,
+   "lang": "Lua",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-28T09:59:53Z",
+   "stars": 44239
+  },
+  "Kraken-CI/kraken": {
+   "archived": false,
+   "forks": 19,
+   "issues": 48,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2024-03-26T05:15:42Z",
+   "stars": 160
+  },
+  "LINBIT/drbd": {
+   "stars": 726,
+   "forks": 116,
+   "issues": 43,
+   "license": "GPL-2.0",
+   "lang": "C",
+   "pushed": "2026-10-02T13:54:54Z",
+   "archived": false
+  },
+  "ManageIQ/manageiq": {
+   "archived": false,
+   "forks": 940,
+   "issues": 295,
+   "lang": "Ruby",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T22:26:37Z",
+   "stars": 1403
+  },
+  "MariaDB/server": {
+   "archived": false,
+   "forks": 2119,
+   "issues": null,
+   "lang": "C++",
+   "license": "GPL-2.0",
+   "pushed": "2026-10-02T11:59:22Z",
+   "stars": 8312
+  },
+  "NREL/api-umbrella": {
+   "archived": false,
+   "forks": 373,
+   "issues": 229,
+   "lang": "Lua",
+   "license": "MIT",
+   "pushed": "2026-07-26T13:32:56Z",
+   "stars": 2199
+  },
+  "NagiosEnterprises/nagioscore": {
+   "archived": false,
+   "forks": 482,
+   "issues": 204,
+   "lang": null,
+   "license": "GPL-2.0",
+   "pushed": "2026-08-07T15:48:28Z",
+   "stars": 2047
+  },
+  "Netflix/chaosmonkey": {
+   "archived": false,
+   "forks": 1307,
+   "issues": 15,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2024-10-03T23:46:19Z",
+   "stars": 17165
+  },
+  "NixOS/nixpkgs": {
+   "stars": 26349,
+   "forks": 20290,
+   "issues": 21819,
+   "license": "MIT",
+   "lang": "Nix",
+   "pushed": "2026-10-04T19:39:09Z",
+   "archived": false
+  },
+  "OpenNebula/one": {
+   "stars": 1749,
+   "forks": 534,
+   "issues": 749,
+   "license": "Apache-2.0",
+   "lang": "JavaScript",
+   "pushed": "2026-09-25T07:18:50Z",
+   "archived": false
+  },
+  "OpenVPN/openvpn": {
+   "archived": false,
+   "forks": 3404,
+   "issues": 179,
+   "lang": "C",
+   "license": "GPL-2.0",
+   "pushed": "2026-10-04T10:24:25Z",
+   "stars": 14638
+  },
+  "Qovery/engine": {
+   "stars": 2466,
+   "forks": 84,
+   "issues": 0,
+   "license": "GPL-3.0",
+   "lang": "Rust",
+   "pushed": "2026-10-02T14:54:13Z",
+   "archived": false
+  },
+  "RocketChat/Rocket.Chat": {
+   "archived": false,
+   "forks": 13942,
+   "issues": 2557,
+   "lang": "TypeScript",
+   "license": null,
+   "pushed": "2026-10-03T02:28:09Z",
+   "stars": 46212
+  },
+  "Shopify/toxiproxy": {
+   "archived": false,
+   "forks": 513,
+   "issues": 78,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-08-25T19:40:02Z",
+   "stars": 12378
+  },
+  "SoftEtherVPN/SoftEtherVPN": {
+   "archived": false,
+   "forks": 2780,
+   "issues": 275,
+   "lang": "C",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-01T08:47:56Z",
+   "stars": 13611
+  },
+  "StackStorm/st2": {
+   "archived": false,
+   "forks": 790,
+   "issues": 555,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-02T12:30:43Z",
+   "stars": 6540
+  },
+  "StreisandEffect/streisand": {
+   "archived": true,
+   "forks": 1940,
+   "issues": 211,
+   "lang": "Shell",
+   "license": null,
+   "pushed": "2020-04-12T01:29:05Z",
+   "stars": 23440
+  },
+  "Strider-CD/strider": {
+   "archived": false,
+   "forks": 419,
+   "issues": 175,
+   "lang": "JavaScript",
+   "license": null,
+   "pushed": "2021-10-23T18:39:09Z",
+   "stars": 4565
+  },
+  "TykTechnologies/tyk": {
+   "archived": false,
+   "forks": 1166,
+   "issues": 188,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-01T12:57:30Z",
+   "stars": 10846
+  },
+  "Unleash/unleash": {
+   "archived": false,
+   "forks": 904,
+   "issues": 16,
+   "lang": "TypeScript",
+   "license": "AGPL-3.0",
+   "pushed": "2026-10-02T20:43:29Z",
+   "stars": 13856
+  },
+  "Vladimir-Urik/OxMgr": {
+   "archived": false,
+   "forks": 23,
+   "issues": 11,
+   "lang": null,
+   "license": "MIT",
+   "pushed": "2026-09-28T11:48:25Z",
+   "stars": 267
+  },
+  "alerta/alerta": {
+   "archived": false,
+   "forks": 376,
+   "issues": 24,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2026-03-30T16:26:12Z",
+   "stars": 2530
+  },
+  "alexei-led/pumba": {
+   "archived": false,
+   "forks": 222,
+   "issues": 1,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-08-27T08:37:29Z",
+   "stars": 3177
+  },
+  "amonapp/amon": {
+   "archived": false,
+   "forks": 104,
+   "issues": 37,
+   "lang": null,
+   "license": "AGPL-3.0",
+   "pushed": "2019-02-20T19:11:16Z",
+   "stars": 1324
+  },
+  "ansible/ansible": {
+   "stars": 70852,
+   "forks": 24340,
+   "issues": 866,
+   "license": "GPL-3.0",
+   "lang": "Python",
+   "pushed": "2026-10-02T21:01:26Z",
+   "archived": false
+  },
+  "apache/activemq": {
+   "archived": false,
+   "forks": 1502,
+   "issues": 58,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-01T17:09:30Z",
+   "stars": 2464
+  },
+  "apache/cassandra": {
+   "archived": false,
+   "forks": 4120,
+   "issues": null,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T19:16:38Z",
+   "stars": 10114
+  },
+  "apache/cloudstack": {
+   "stars": 3089,
+   "forks": 1388,
+   "issues": 1118,
+   "license": "Apache-2.0",
+   "lang": "Java",
+   "pushed": "2026-10-03T08:07:33Z",
+   "archived": false
+  },
+  "apache/couchdb": {
+   "archived": false,
+   "forks": 1081,
+   "issues": 303,
+   "lang": "Erlang",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T14:38:37Z",
+   "stars": 6968
+  },
+  "apache/flume": {
+   "archived": false,
+   "forks": 1538,
+   "issues": 3,
+   "lang": null,
+   "license": "Apache-2.0",
+   "pushed": "2026-09-17T17:37:12Z",
+   "stars": 2570
+  },
+  "apache/hbase": {
+   "archived": false,
+   "forks": 3400,
+   "issues": null,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T12:59:25Z",
+   "stars": 5560
+  },
+  "apache/httpd": {
+   "archived": false,
+   "forks": 1358,
+   "issues": null,
+   "lang": "C",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T09:05:43Z",
+   "stars": 4035
+  },
+  "apache/kafka": {
+   "archived": false,
+   "forks": 15553,
+   "issues": null,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T18:12:24Z",
+   "stars": 33904
+  },
+  "apache/mesos": {
+   "stars": 5365,
+   "forks": 1653,
+   "issues": 11,
+   "license": "Apache-2.0",
+   "lang": "C++",
+   "pushed": "2026-05-15T22:22:50Z",
+   "archived": false
+  },
+  "apache/zookeeper": {
+   "archived": false,
+   "forks": 7321,
+   "issues": null,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T19:41:24Z",
+   "stars": 12817
+  },
+  "arachnys/cabot": {
+   "archived": false,
+   "forks": 582,
+   "issues": 149,
+   "lang": "JavaScript",
+   "license": "MIT",
+   "pushed": "2021-01-05T10:40:20Z",
+   "stars": 5679
+  },
+  "argoproj/argo-cd": {
+   "archived": false,
+   "forks": 7911,
+   "issues": 3552,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T13:38:36Z",
+   "stars": 24324
+  },
+  "autometrics-dev/autometrics-rs": {
+   "archived": false,
+   "forks": 32,
+   "issues": 14,
+   "lang": "Rust",
+   "license": "Apache-2.0",
+   "pushed": "2025-09-18T14:49:35Z",
+   "stars": 834
+  },
+  "backstage/backstage": {
+   "stars": 34559,
+   "forks": 7660,
+   "issues": 420,
+   "license": "Apache-2.0",
+   "lang": "TypeScript",
+   "pushed": "2026-10-03T18:53:42Z",
+   "archived": false
+  },
+  "beanstalkd/beanstalkd": {
+   "archived": false,
+   "forks": 866,
+   "issues": 42,
+   "lang": "C",
+   "license": null,
+   "pushed": "2025-03-18T15:40:18Z",
+   "stars": 6706
+  },
+  "bridgecrewio/checkov": {
+   "archived": false,
+   "forks": 1427,
+   "issues": 75,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-01T09:01:40Z",
+   "stars": 9053
+  },
+  "buildbot/buildbot": {
+   "archived": false,
+   "forks": 1679,
+   "issues": 699,
+   "lang": "Python",
+   "license": "GPL-2.0",
+   "pushed": "2026-09-28T13:58:35Z",
+   "stars": 5478
+  },
+  "cachethq/cachet": {
+   "archived": false,
+   "forks": 1629,
+   "issues": 6,
+   "lang": "PHP",
+   "license": null,
+   "pushed": "2026-09-28T13:12:41Z",
+   "stars": 15256
+  },
+  "caddyserver/caddy": {
+   "archived": false,
+   "forks": 5041,
+   "issues": 197,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T16:46:34Z",
+   "stars": 76455
+  },
+  "capistrano/capistrano": {
+   "archived": false,
+   "forks": 1739,
+   "issues": 59,
+   "lang": "Ruby",
+   "license": "MIT",
+   "pushed": "2026-07-19T03:53:28Z",
+   "stars": 13007
+  },
+  "celery/celery": {
+   "archived": false,
+   "forks": 5203,
+   "issues": 599,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-10-04T15:01:03Z",
+   "stars": 28932
+  },
+  "ceph/ceph": {
+   "stars": 17092,
+   "forks": 6515,
+   "issues": 1643,
+   "license": null,
+   "lang": "C++",
+   "pushed": "2026-10-04T08:52:17Z",
+   "archived": false
+  },
+  "cert-manager/cert-manager": {
+   "archived": false,
+   "forks": 2460,
+   "issues": 160,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T11:32:48Z",
+   "stars": 14106
+  },
+  "certbot/certbot": {
+   "archived": false,
+   "forks": 3504,
+   "issues": 118,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-09-30T18:52:09Z",
+   "stars": 33256
+  },
+  "chaos-mesh/chaos-mesh": {
+   "archived": false,
+   "forks": 1035,
+   "issues": 447,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T20:22:54Z",
+   "stars": 7929
+  },
+  "chaostoolkit/chaostoolkit": {
+   "archived": false,
+   "forks": 207,
+   "issues": 1,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-28T12:45:25Z",
+   "stars": 2031
+  },
+  "chef/chef": {
+   "stars": 8245,
+   "forks": 2517,
+   "issues": 418,
+   "license": "Apache-2.0",
+   "lang": "Ruby",
+   "pushed": "2026-10-01T22:28:10Z",
+   "archived": false
+  },
+  "cherokee/webserver": {
+   "archived": false,
+   "forks": 106,
+   "issues": 425,
+   "lang": "C",
+   "license": "GPL-2.0",
+   "pushed": "2023-01-11T20:34:30Z",
+   "stars": 569
+  },
+  "cilium/cilium": {
+   "archived": false,
+   "forks": 4124,
+   "issues": 841,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T18:07:04Z",
+   "stars": 25601
+  },
+  "cirruslabs/cirrus-ci-docs": {
+   "archived": false,
+   "forks": 118,
+   "issues": 99,
+   "lang": "Markdown",
+   "license": "MIT",
+   "pushed": "2026-04-07T10:39:21Z",
+   "stars": 384
+  },
+  "clawscli/claws": {
+   "archived": false,
+   "forks": 14,
+   "issues": 7,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-07-25T00:41:53Z",
+   "stars": 160
+  },
+  "cloudfoundry/bosh": {
+   "archived": false,
+   "forks": 663,
+   "issues": 25,
+   "lang": "Ruby",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T12:17:26Z",
+   "stars": 2079
+  },
+  "cloudify-cosmo/cloudify-manager": {
+   "archived": false,
+   "forks": 79,
+   "issues": 5,
+   "lang": null,
+   "license": "Apache-2.0",
+   "pushed": "2024-08-12T13:16:13Z",
+   "stars": 154
+  },
+  "cloudius-systems/osv": {
+   "stars": 4263,
+   "forks": 609,
+   "issues": 387,
+   "license": null,
+   "lang": "C",
+   "pushed": "2026-08-17T16:19:20Z",
+   "archived": false
+  },
+  "collectd/collectd": {
+   "archived": false,
+   "forks": 1250,
+   "issues": 598,
+   "lang": "C",
+   "license": null,
+   "pushed": "2026-05-29T12:58:42Z",
+   "stars": 3368
+  },
+  "concourse/concourse": {
+   "archived": false,
+   "forks": 906,
+   "issues": 70,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T18:04:34Z",
+   "stars": 7913
+  },
+  "containers/podman": {
+   "stars": 32993,
+   "forks": 3396,
+   "issues": 1023,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-02T19:24:12Z",
+   "archived": false
+  },
+  "contribsys/faktory": {
+   "archived": false,
+   "forks": 241,
+   "issues": 22,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-09-03T21:24:24Z",
+   "stars": 6150
+  },
+  "couchbase/couchbase-lite-core": {
+   "archived": false,
+   "forks": 74,
+   "issues": null,
+   "lang": null,
+   "license": null,
+   "pushed": "2026-09-25T05:42:47Z",
+   "stars": 264
+  },
+  "czhu12/canine": {
+   "stars": 2938,
+   "forks": 123,
+   "issues": 50,
+   "license": "Apache-2.0",
+   "lang": "Ruby",
+   "pushed": "2026-10-02T18:05:45Z",
+   "archived": false
+  },
+  "dagger/dagger": {
+   "archived": false,
+   "forks": 933,
+   "issues": 120,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T22:36:48Z",
+   "stars": 16315
+  },
+  "dcos/dcos": {
+   "stars": 2359,
+   "forks": 480,
+   "issues": 17,
+   "license": "Apache-2.0",
+   "lang": "Python",
+   "pushed": "2023-07-27T04:13:49Z",
+   "archived": false
+  },
+  "diggerhq/digger": {
+   "archived": false,
+   "forks": 612,
+   "issues": 421,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-09-30T16:56:09Z",
+   "stars": 5045
+  },
+  "distribworks/dkron": {
+   "archived": false,
+   "forks": 419,
+   "issues": 31,
+   "lang": "Go",
+   "license": "LGPL-3.0",
+   "pushed": "2026-09-28T15:03:24Z",
+   "stars": 4736
+  },
+  "docker/compose": {
+   "stars": 38284,
+   "forks": 5845,
+   "issues": 90,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-02T15:37:02Z",
+   "archived": false
+  },
+  "docker/swarm": {
+   "stars": 5726,
+   "forks": 1063,
+   "issues": 0,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2020-06-11T09:36:02Z",
+   "archived": true
+  },
+  "docsifyjs/docsify": {
+   "archived": false,
+   "forks": 5788,
+   "issues": 63,
+   "lang": "JavaScript",
+   "license": null,
+   "pushed": "2026-10-02T05:28:50Z",
+   "stars": 31544
+  },
+  "dokku/dokku": {
+   "stars": 32167,
+   "forks": 2082,
+   "issues": 31,
+   "license": "MIT",
+   "lang": "Go",
+   "pushed": "2026-10-01T19:05:54Z",
+   "archived": false
+  },
+  "earthly/earthly": {
+   "archived": false,
+   "forks": 461,
+   "issues": 694,
+   "lang": "Go",
+   "license": "MPL-2.0",
+   "pushed": "2025-07-16T19:42:23Z",
+   "stars": 12053
+  },
+  "elastic/elasticsearch": {
+   "archived": false,
+   "forks": 26111,
+   "issues": 4764,
+   "lang": "Java",
+   "license": "Trial",
+   "pushed": "2026-10-04T15:02:33Z",
+   "stars": 78191
+  },
+  "elastic/kibana": {
+   "archived": false,
+   "forks": 8631,
+   "issues": null,
+   "lang": "TypeScript",
+   "license": null,
+   "pushed": "2026-10-04T18:47:49Z",
+   "stars": 21305
+  },
+  "elastic/logstash": {
+   "archived": false,
+   "forks": 3496,
+   "issues": 1997,
+   "lang": "Java",
+   "license": null,
+   "pushed": "2026-10-02T18:51:09Z",
+   "stars": 14959
+  },
+  "element-hq/element-web": {
+   "archived": false,
+   "forks": 2784,
+   "issues": 3611,
+   "lang": "TypeScript",
+   "license": "AGPL-3.0",
+   "pushed": "2026-10-03T10:37:32Z",
+   "stars": 13540
+  },
+  "emissary-ingress/emissary": {
+   "archived": false,
+   "forks": 710,
+   "issues": 363,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-01T18:49:58Z",
+   "stars": 4525
+  },
+  "envoyproxy/envoy": {
+   "archived": false,
+   "forks": 5642,
+   "issues": 1604,
+   "lang": "C++",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T18:58:16Z",
+   "stars": 29039
+  },
+  "erickochen/purple": {
+   "archived": false,
+   "forks": 36,
+   "issues": 4,
+   "lang": "Rust",
+   "license": "MIT",
+   "pushed": "2026-10-02T11:58:37Z",
+   "stars": 721
+  },
+  "etcd-io/etcd": {
+   "archived": false,
+   "forks": 10527,
+   "issues": 130,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T13:23:33Z",
+   "stars": 52323
+  },
+  "evergreen-ci/evergreen": {
+   "archived": false,
+   "forks": 161,
+   "issues": null,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-02T22:09:30Z",
+   "stars": 449
+  },
+  "fabric/fabric": {
+   "archived": false,
+   "forks": 1953,
+   "issues": 444,
+   "lang": "Python",
+   "license": "BSD-2-Clause",
+   "pushed": "2026-04-10T01:51:57Z",
+   "stars": 15510
+  },
+  "facebook/docusaurus": {
+   "archived": false,
+   "forks": 10051,
+   "issues": 288,
+   "lang": "TypeScript",
+   "license": "MIT",
+   "pushed": "2026-10-02T11:46:32Z",
+   "stars": 66396
+  },
+  "facebook/rocksdb": {
+   "archived": false,
+   "forks": 6946,
+   "issues": 950,
+   "lang": "C++",
+   "license": "GPL-2.0",
+   "pushed": "2026-10-03T03:17:30Z",
+   "stars": 32163
+  },
+  "facette/facette": {
+   "archived": false,
+   "forks": 69,
+   "issues": 40,
+   "lang": null,
+   "license": "BSD-3-Clause",
+   "pushed": "2020-06-11T07:45:09Z",
+   "stars": 1158
+  },
+  "faiscadev/fakecloud": {
+   "stars": 740,
+   "forks": 48,
+   "issues": 11,
+   "license": "AGPL-3.0",
+   "lang": "Rust",
+   "pushed": "2026-10-04T17:31:17Z",
+   "archived": false
+  },
+  "firezone/firezone": {
+   "archived": false,
+   "forks": 463,
+   "issues": 295,
+   "lang": "Elixir",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T14:57:19Z",
+   "stars": 9109
+  },
+  "flanksource/canary-checker": {
+   "archived": false,
+   "forks": 54,
+   "issues": 114,
+   "lang": null,
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T12:53:09Z",
+   "stars": 346
+  },
+  "fluent/fluentd": {
+   "archived": false,
+   "forks": 1402,
+   "issues": 126,
+   "lang": "Ruby",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T02:46:10Z",
+   "stars": 13597
+  },
+  "fluxcd/flagger": {
+   "archived": false,
+   "forks": 807,
+   "issues": 319,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-01T14:22:26Z",
+   "stars": 5417
+  },
+  "fluxcd/flux2": {
+   "archived": false,
+   "forks": 792,
+   "issues": 203,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T16:15:24Z",
+   "stars": 8436
+  },
+  "freelan-developers/freelan": {
+   "archived": false,
+   "forks": 209,
+   "issues": 47,
+   "lang": "C++",
+   "license": null,
+   "pushed": "2020-03-23T19:44:37Z",
+   "stars": 1378
+  },
+  "getsentry/sentry": {
+   "archived": false,
+   "forks": 4901,
+   "issues": 1764,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-10-03T20:50:50Z",
+   "stars": 45345
+  },
+  "getsops/sops": {
+   "archived": false,
+   "forks": 1089,
+   "issues": 377,
+   "lang": "Go",
+   "license": "MPL-2.0",
+   "pushed": "2026-09-21T20:03:16Z",
+   "stars": 23288
+  },
+  "gitblit-org/gitblit": {
+   "archived": false,
+   "forks": 670,
+   "issues": 237,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2025-06-14T17:21:24Z",
+   "stars": 2362
+  },
+  "gleicon/restmq": {
+   "archived": false,
+   "forks": 63,
+   "issues": 4,
+   "lang": null,
+   "license": null,
+   "pushed": "2015-05-25T15:48:03Z",
+   "stars": 558
+  },
+  "gluster/glusterfs": {
+   "stars": 5254,
+   "forks": 1106,
+   "issues": 326,
+   "license": "GPL-2.0",
+   "lang": "C",
+   "pushed": "2026-09-23T15:32:47Z",
+   "archived": false
+  },
+  "go-gitea/gitea": {
+   "archived": false,
+   "forks": 7218,
+   "issues": 2247,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-10-04T13:40:27Z",
+   "stars": 58295
+  },
+  "gocd/gocd": {
+   "archived": false,
+   "forks": 980,
+   "issues": 68,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T11:49:31Z",
+   "stars": 7432
+  },
+  "gogs/gogs": {
+   "archived": false,
+   "forks": 5074,
+   "issues": 945,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-09-12T20:27:31Z",
+   "stars": 47857
+  },
+  "goharbor/harbor": {
+   "stars": 29489,
+   "forks": 5371,
+   "issues": 933,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-04T19:08:09Z",
+   "archived": false
+  },
+  "golang/go": {
+   "archived": false,
+   "forks": 21295,
+   "issues": null,
+   "lang": "Go",
+   "license": "BSD-3-Clause",
+   "pushed": "2026-10-02T21:55:20Z",
+   "stars": 139237
+  },
+  "google/cadvisor": {
+   "archived": false,
+   "forks": 2493,
+   "issues": 41,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-02T15:20:25Z",
+   "stars": 19465
+  },
+  "google/leveldb": {
+   "archived": false,
+   "forks": 8227,
+   "issues": 264,
+   "lang": "C++",
+   "license": "BSD-3-Clause",
+   "pushed": "2026-03-11T04:06:29Z",
+   "stars": 39470
+  },
+  "grafana/grafana": {
+   "archived": false,
+   "forks": 14817,
+   "issues": 2676,
+   "lang": "TypeScript",
+   "license": "AGPL-3.0",
+   "pushed": "2026-10-04T06:34:42Z",
+   "stars": 77071
+  },
+  "grafana/loki": {
+   "archived": false,
+   "forks": 4126,
+   "issues": 639,
+   "lang": "Go",
+   "license": "AGPL-3.0",
+   "pushed": "2026-10-04T18:40:31Z",
+   "stars": 28987
+  },
+  "grai-io/grai-core": {
+   "archived": false,
+   "forks": 20,
+   "issues": 5,
+   "lang": null,
+   "license": "MIT-0",
+   "pushed": "2025-04-01T19:47:54Z",
+   "stars": 317
+  },
+  "graphite-project/graphite-web": {
+   "archived": false,
+   "forks": 1254,
+   "issues": 14,
+   "lang": "JavaScript",
+   "license": "Apache-2.0",
+   "pushed": "2026-07-19T12:05:59Z",
+   "stars": 6124
+  },
+  "ha/doozerd": {
+   "archived": false,
+   "forks": 264,
+   "issues": 24,
+   "lang": null,
+   "license": "MIT",
+   "pushed": "2013-12-28T19:22:24Z",
+   "stars": 3249
+  },
+  "harness/drone": {
+   "archived": false,
+   "forks": 3410,
+   "issues": 99,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T22:26:50Z",
+   "stars": 38484
+  },
+  "hashicorp/consul": {
+   "archived": false,
+   "forks": 4622,
+   "issues": 1316,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-01T14:29:43Z",
+   "stars": 30092
+  },
+  "hashicorp/nomad": {
+   "archived": false,
+   "forks": 2143,
+   "issues": 1507,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-01T16:31:03Z",
+   "stars": 16986
+  },
+  "hashicorp/packer": {
+   "archived": false,
+   "forks": 3340,
+   "issues": 299,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-09-18T10:01:37Z",
+   "stars": 15809
+  },
+  "hashicorp/serf": {
+   "archived": false,
+   "forks": 608,
+   "issues": 85,
+   "lang": "Go",
+   "license": "MPL-2.0",
+   "pushed": "2026-09-16T15:09:21Z",
+   "stars": 6077
+  },
+  "hashicorp/terraform": {
+   "archived": false,
+   "forks": 10640,
+   "issues": 1768,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-02T15:38:37Z",
+   "stars": 49831
+  },
+  "hashicorp/vagrant": {
+   "archived": false,
+   "forks": 4394,
+   "issues": 673,
+   "lang": "Ruby",
+   "license": null,
+   "pushed": "2026-09-03T04:25:15Z",
+   "stars": 27212
+  },
+  "hashicorp/vault": {
+   "archived": false,
+   "forks": 4776,
+   "issues": 1170,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-10-02T22:02:49Z",
+   "stars": 36340
+  },
+  "healthchecks/healthchecks": {
+   "archived": false,
+   "forks": 1017,
+   "issues": 54,
+   "lang": "Python",
+   "license": "BSD-3-Clause",
+   "pushed": "2026-10-02T14:13:35Z",
+   "stars": 10384
+  },
+  "hubotio/hubot": {
+   "archived": false,
+   "forks": 3707,
+   "issues": 4,
+   "lang": "JavaScript",
+   "license": "MIT",
+   "pushed": "2026-09-23T15:02:01Z",
+   "stars": 16794
+  },
+  "influxdata/influxdb": {
+   "archived": false,
+   "forks": 3717,
+   "issues": 2069,
+   "lang": "Rust",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-18T13:43:20Z",
+   "stars": 31760
+  },
+  "integrity/integrity": {
+   "archived": true,
+   "forks": 167,
+   "issues": 8,
+   "lang": "Ruby",
+   "license": "MIT",
+   "pushed": "2015-11-24T03:49:48Z",
+   "stars": 666
+  },
+  "istio/istio": {
+   "archived": false,
+   "forks": 8383,
+   "issues": 389,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T02:52:15Z",
+   "stars": 38429
+  },
+  "jenkinsci/jenkins": {
+   "archived": false,
+   "forks": 9835,
+   "issues": 3426,
+   "lang": "Java",
+   "license": "MIT",
+   "pushed": "2026-10-04T15:55:17Z",
+   "stars": 26620
+  },
+  "jsdelivr/globalping-cli": {
+   "archived": false,
+   "forks": 26,
+   "issues": 2,
+   "lang": null,
+   "license": "MPL-2.0",
+   "pushed": "2026-09-17T14:35:05Z",
+   "stars": 288
+  },
+  "juju/juju": {
+   "stars": 2674,
+   "forks": 610,
+   "issues": 412,
+   "license": null,
+   "lang": "Go",
+   "pushed": "2026-10-02T13:55:53Z",
+   "archived": false
+  },
+  "k3s-io/k3s": {
+   "stars": 34120,
+   "forks": 2749,
+   "issues": 76,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-02T18:28:08Z",
+   "archived": false
+  },
+  "kamranahmedse/developer-roadmap": {
+   "archived": false,
+   "forks": 45026,
+   "issues": 2,
+   "lang": "TypeScript",
+   "license": null,
+   "pushed": "2026-10-02T09:00:46Z",
+   "stars": 368852
+  },
+  "kata-containers/kata-containers": {
+   "stars": 8876,
+   "forks": 1495,
+   "issues": 1184,
+   "license": "Apache-2.0",
+   "lang": "Rust",
+   "pushed": "2026-10-04T01:23:25Z",
+   "archived": false
+  },
+  "keephq/keep": {
+   "archived": false,
+   "forks": 1526,
+   "issues": 451,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-09-28T07:11:17Z",
+   "stars": 12375
+  },
+  "keybase/client": {
+   "archived": false,
+   "forks": 1283,
+   "issues": 4044,
+   "lang": null,
+   "license": "BSD-3-Clause",
+   "pushed": "2026-10-02T19:11:06Z",
+   "stars": 9256
+  },
+  "kubernetes/kubernetes": {
+   "stars": 128282,
+   "forks": 46037,
+   "issues": 3168,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-04T11:42:22Z",
+   "archived": false
+  },
+  "kubestellar/kubestellar": {
+   "stars": 715,
+   "forks": 319,
+   "issues": 213,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-02T20:26:43Z",
+   "archived": false
+  },
+  "kubevela/kubevela": {
+   "archived": false,
+   "forks": 1070,
+   "issues": 164,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-29T16:21:42Z",
+   "stars": 7912
+  },
+  "linkerd/linkerd2": {
+   "archived": false,
+   "forks": 1380,
+   "issues": 186,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T16:24:26Z",
+   "stars": 11507
+  },
+  "litmuschaos/litmus": {
+   "archived": false,
+   "forks": 898,
+   "issues": 330,
+   "lang": "TypeScript",
+   "license": null,
+   "pushed": "2026-09-30T12:22:50Z",
+   "stars": 5728
+  },
+  "localstack/localstack": {
+   "stars": 65139,
+   "forks": 4806,
+   "issues": 0,
+   "license": null,
+   "lang": "Python",
+   "pushed": "2026-03-23T08:52:01Z",
+   "archived": true
+  },
+  "loft-sh/devpod": {
+   "stars": 15249,
+   "forks": 587,
+   "issues": 48,
+   "license": "MPL-2.0",
+   "lang": "Go",
+   "pushed": "2025-11-14T06:33:38Z",
+   "archived": false
+  },
+  "loft-sh/vcluster": {
+   "stars": 11330,
+   "forks": 611,
+   "issues": 170,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-04T02:45:22Z",
+   "archived": false
+  },
+  "lxc/lxc": {
+   "stars": 5266,
+   "forks": 1182,
+   "issues": 158,
+   "license": null,
+   "lang": "C",
+   "pushed": "2026-10-02T08:32:42Z",
+   "archived": false
+  },
+  "mattermost/mattermost": {
+   "archived": false,
+   "forks": 9035,
+   "issues": 614,
+   "lang": "TypeScript",
+   "license": null,
+   "pushed": "2026-10-04T09:01:13Z",
+   "stars": 39260
+  },
+  "meshery/meshery": {
+   "archived": false,
+   "forks": 3927,
+   "issues": 1219,
+   "lang": "JavaScript",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T07:10:49Z",
+   "stars": 11898
+  },
+  "metalbear-co/mirrord": {
+   "archived": false,
+   "forks": 219,
+   "issues": 48,
+   "lang": null,
+   "license": "MIT",
+   "pushed": "2026-10-03T12:39:39Z",
+   "stars": 5355
+  },
+  "mina-deploy/mina": {
+   "archived": false,
+   "forks": 478,
+   "issues": 32,
+   "lang": "Ruby",
+   "license": null,
+   "pushed": "2023-10-03T13:37:01Z",
+   "stars": 4353
+  },
+  "minio/minio": {
+   "stars": 61341,
+   "forks": 8097,
+   "issues": 80,
+   "license": "AGPL-3.0",
+   "lang": "Go",
+   "pushed": "2026-04-24T17:54:39Z",
+   "archived": true
+  },
+  "mkdocs/mkdocs": {
+   "archived": false,
+   "forks": 2654,
+   "issues": 120,
+   "lang": "Python",
+   "license": "BSD-2-Clause",
+   "pushed": "2025-10-20T13:17:06Z",
+   "stars": 22490
+  },
+  "moby/moby": {
+   "stars": 72146,
+   "forks": 19235,
+   "issues": 3923,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-03T16:25:36Z",
+   "archived": false
+  },
+  "mongodb/mongo": {
+   "archived": false,
+   "forks": 5817,
+   "issues": null,
+   "lang": "C++",
+   "license": null,
+   "pushed": "2026-10-02T21:34:39Z",
+   "stars": 28614
+  },
+  "mozilla-services/heka": {
+   "archived": true,
+   "forks": 514,
+   "issues": 219,
+   "lang": null,
+   "license": null,
+   "pushed": "2024-01-23T00:09:27Z",
+   "stars": 3389
+  },
+  "mysql/mysql-server": {
+   "archived": false,
+   "forks": 4364,
+   "issues": 33,
+   "lang": "C++",
+   "license": null,
+   "pushed": "2026-09-28T09:55:17Z",
+   "stars": 12441
+  },
+  "naemon/naemon-core": {
+   "archived": false,
+   "forks": 68,
+   "issues": 46,
+   "lang": null,
+   "license": "GPL-2.0",
+   "pushed": "2026-10-01T15:22:23Z",
+   "stars": 173
+  },
+  "nats-io/nats-server": {
+   "archived": false,
+   "forks": 1987,
+   "issues": 449,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T14:50:16Z",
+   "stars": 20835
+  },
+  "navig-me/telert": {
+   "archived": false,
+   "forks": 19,
+   "issues": 2,
+   "lang": "Python",
+   "license": "MIT",
+   "pushed": "2026-09-29T01:42:14Z",
+   "stars": 287
+  },
+  "netdata/netdata": {
+   "archived": false,
+   "forks": 6648,
+   "issues": 201,
+   "lang": "C",
+   "license": "GPL-3.0",
+   "pushed": "2026-10-04T18:44:07Z",
+   "stars": 80790
+  },
+  "nginx/nginx": {
+   "archived": false,
+   "forks": 8312,
+   "issues": 193,
+   "lang": "C",
+   "license": "BSD-2-Clause",
+   "pushed": "2026-09-30T16:17:54Z",
+   "stars": 31788
+  },
+  "nicolargo/glances": {
+   "archived": false,
+   "forks": 1822,
+   "issues": 91,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-10-03T19:38:53Z",
+   "stars": 33733
+  },
+  "nsqio/nsq": {
+   "archived": false,
+   "forks": 2885,
+   "issues": 54,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-08-11T18:19:49Z",
+   "stars": 25771
+  },
+  "octodns/octodns": {
+   "archived": false,
+   "forks": 444,
+   "issues": 3,
+   "lang": "Python",
+   "license": "MIT",
+   "pushed": "2026-09-26T17:14:26Z",
+   "stars": 3770
+  },
+  "openchoreo/openchoreo": {
+   "stars": 1624,
+   "forks": 259,
+   "issues": 246,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-03T06:07:53Z",
+   "archived": false
+  },
+  "openshift/origin": {
+   "stars": 8693,
+   "forks": 4804,
+   "issues": 329,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-02T03:13:41Z",
+   "archived": false
+  },
+  "openstack/openstack": {
+   "stars": 6050,
+   "forks": 1622,
+   "issues": 1,
+   "license": "Apache-2.0",
+   "lang": "Python",
+   "pushed": "2026-10-04T18:58:42Z",
+   "archived": false
+  },
+  "orbstack/orbstack": {
+   "stars": 9389,
+   "forks": 108,
+   "issues": 431,
+   "license": "MIT",
+   "lang": "Shell",
+   "pushed": "2025-08-15T13:03:07Z",
+   "archived": false
+  },
+  "performancecopilot/pcp": {
+   "archived": false,
+   "forks": 272,
+   "issues": 169,
+   "lang": null,
+   "license": null,
+   "pushed": "2026-10-04T02:15:48Z",
+   "stars": 1077
+  },
+  "phacility/phabricator": {
+   "archived": false,
+   "forks": 1630,
+   "issues": null,
+   "lang": "PHP",
+   "license": "Apache-2.0",
+   "pushed": "2023-11-13T19:04:04Z",
+   "stars": 12292
+  },
+  "piku/piku": {
+   "stars": 6604,
+   "forks": 158,
+   "issues": 6,
+   "license": "MIT",
+   "lang": "Python",
+   "pushed": "2026-09-04T06:40:06Z",
+   "archived": false
+  },
+  "pipe-cd/pipecd": {
+   "archived": false,
+   "forks": 368,
+   "issues": 155,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T08:11:59Z",
+   "stars": 1361
+  },
+  "postgres/postgres": {
+   "archived": false,
+   "forks": 5931,
+   "issues": null,
+   "lang": "C",
+   "license": null,
+   "pushed": "2026-10-04T14:46:08Z",
+   "stars": 22278
+  },
+  "potpie-ai/potpie": {
+   "archived": false,
+   "forks": 685,
+   "issues": 23,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-28T09:24:18Z",
+   "stars": 5735
+  },
+  "pritunl/pritunl": {
+   "archived": false,
+   "forks": 666,
+   "issues": null,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-09-29T22:06:36Z",
+   "stars": 5030
+  },
+  "prometheus/prometheus": {
+   "archived": false,
+   "forks": 10886,
+   "issues": 496,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T13:33:50Z",
+   "stars": 66359
+  },
+  "pulumi/pulumi": {
+   "archived": false,
+   "forks": 1444,
+   "issues": 2185,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T09:29:47Z",
+   "stars": 25761
+  },
+  "puppetlabs/puppet": {
+   "stars": 7945,
+   "forks": 2204,
+   "issues": 90,
+   "license": "Apache-2.0",
+   "lang": "Ruby",
+   "pushed": "2026-08-06T13:05:18Z",
+   "archived": false
+  },
+  "pyenv/pyenv": {
+   "archived": false,
+   "forks": 3273,
+   "issues": 47,
+   "lang": "Shell",
+   "license": "MIT",
+   "pushed": "2026-10-03T15:51:15Z",
+   "stars": 45124
+  },
+  "python/cpython": {
+   "archived": false,
+   "forks": 37340,
+   "issues": null,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-10-03T23:51:37Z",
+   "stars": 77487
+  },
+  "quay/quay": {
+   "stars": 2827,
+   "forks": 390,
+   "issues": 396,
+   "license": "Apache-2.0",
+   "lang": "Python",
+   "pushed": "2026-10-04T05:21:37Z",
+   "archived": false
+  },
+  "rabbitmq/rabbitmq-server": {
+   "archived": false,
+   "forks": 4026,
+   "issues": 205,
+   "lang": "Erlang",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T03:50:22Z",
+   "stars": 13900
+  },
+  "rancher/rancher": {
+   "stars": 25955,
+   "forks": 3222,
+   "issues": 3389,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-03T07:10:30Z",
+   "archived": false
+  },
+  "rapidforge-io/rapidforge": {
+   "archived": false,
+   "forks": 1,
+   "issues": 13,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-14T20:00:28Z",
+   "stars": 44
+  },
+  "redis/redis": {
+   "archived": false,
+   "forks": 24833,
+   "issues": 2276,
+   "lang": "C",
+   "license": null,
+   "pushed": "2026-09-30T12:02:11Z",
+   "stars": 76582
+  },
+  "rethinkdb/rethinkdb": {
+   "archived": false,
+   "forks": 1851,
+   "issues": 1342,
+   "lang": "C++",
+   "license": null,
+   "pushed": "2026-03-28T06:10:59Z",
+   "stars": 27007
+  },
+  "reviewboard/reviewboard": {
+   "archived": false,
+   "forks": 436,
+   "issues": null,
+   "lang": "Python",
+   "license": "MIT",
+   "pushed": "2026-10-02T23:12:28Z",
+   "stars": 1726
+  },
+  "ricoberger/vault-secrets-operator": {
+   "archived": false,
+   "forks": 109,
+   "issues": 16,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-08-13T04:42:43Z",
+   "stars": 687
+  },
+  "robcowart/elastiflow": {
+   "archived": true,
+   "forks": 598,
+   "issues": 1,
+   "lang": null,
+   "license": null,
+   "pushed": "2024-03-22T22:03:12Z",
+   "stars": 2510
+  },
+  "robusta-dev/holmesgpt": {
+   "archived": false,
+   "forks": 513,
+   "issues": 133,
+   "lang": "Python",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T15:52:55Z",
+   "stars": 3506
+  },
+  "ruby/ruby": {
+   "archived": false,
+   "forks": 5654,
+   "issues": null,
+   "lang": "Ruby",
+   "license": null,
+   "pushed": "2026-10-04T18:34:46Z",
+   "stars": 23771
+  },
+  "runatlantis/atlantis": {
+   "archived": false,
+   "forks": 1355,
+   "issues": 760,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-04T02:12:01Z",
+   "stars": 9308
+  },
+  "rundeck/rundeck": {
+   "stars": 6325,
+   "forks": 987,
+   "issues": 60,
+   "license": "Apache-2.0",
+   "lang": "Groovy",
+   "pushed": "2026-10-03T19:02:21Z",
+   "archived": false
+  },
+  "saltstack/salt": {
+   "stars": 15688,
+   "forks": 5607,
+   "issues": 1878,
+   "license": "Apache-2.0",
+   "lang": "Python",
+   "pushed": "2026-10-03T21:19:54Z",
+   "archived": false
+  },
+  "score-spec/spec": {
+   "archived": false,
+   "forks": 2141,
+   "issues": 11,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-07-20T01:53:53Z",
+   "stars": 8097
+  },
+  "scylladb/scylladb": {
+   "archived": false,
+   "forks": 1525,
+   "issues": 3068,
+   "lang": "C++",
+   "license": null,
+   "pushed": "2026-10-04T09:40:46Z",
+   "stars": 15782
+  },
+  "selefra/selefra": {
+   "archived": false,
+   "forks": 47,
+   "issues": 0,
+   "lang": "Go",
+   "license": "MPL-2.0",
+   "pushed": "2023-08-30T04:35:06Z",
+   "stars": 545
+  },
+  "semaphoreio/semaphore": {
+   "archived": false,
+   "forks": 94,
+   "issues": 114,
+   "lang": "Elixir",
+   "license": null,
+   "pushed": "2026-10-02T15:24:34Z",
+   "stars": 1612
+  },
+  "sensu/sensu-go": {
+   "archived": false,
+   "forks": 180,
+   "issues": 252,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2025-07-10T13:56:17Z",
+   "stars": 1113
+  },
+  "shinken-solutions/shinken": {
+   "archived": false,
+   "forks": 323,
+   "issues": 211,
+   "lang": null,
+   "license": "AGPL-3.0",
+   "pushed": "2024-04-26T08:16:18Z",
+   "stars": 1134
+  },
+  "soapbucket/sbproxy": {
+   "archived": false,
+   "forks": 1,
+   "issues": 1,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-11T16:55:09Z",
+   "stars": 53
+  },
+  "sobolevn/git-secret": {
+   "archived": false,
+   "forks": 213,
+   "issues": 137,
+   "lang": "Shell",
+   "license": "MIT",
+   "pushed": "2026-09-28T17:34:12Z",
+   "stars": 4048
+  },
+  "solo-io/gloo": {
+   "archived": false,
+   "forks": 12,
+   "issues": 1860,
+   "lang": "Go",
+   "license": null,
+   "pushed": "2026-09-19T04:26:03Z",
+   "stars": 170
+  },
+  "spinnaker/spinnaker": {
+   "archived": false,
+   "forks": 1273,
+   "issues": 73,
+   "lang": "Java",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T21:34:58Z",
+   "stars": 9799
+  },
+  "sqlite/sqlite": {
+   "archived": false,
+   "forks": 1680,
+   "issues": null,
+   "lang": "C",
+   "license": null,
+   "pushed": "2026-10-04T16:23:01Z",
+   "stars": 10596
+  },
+  "sshuttle/sshuttle": {
+   "archived": false,
+   "forks": 795,
+   "issues": 210,
+   "lang": "Python",
+   "license": "LGPL-2.1",
+   "pushed": "2026-09-28T22:38:03Z",
+   "stars": 13594
+  },
+  "sylabs/singularity": {
+   "stars": 995,
+   "forks": 121,
+   "issues": 42,
+   "license": null,
+   "lang": "Go",
+   "pushed": "2026-10-02T19:06:17Z",
+   "archived": false
+  },
+  "syntasso/kratix": {
+   "stars": 779,
+   "forks": 63,
+   "issues": 72,
+   "license": "Apache-2.0",
+   "lang": "Go",
+   "pushed": "2026-10-02T16:25:57Z",
+   "archived": false
+  },
+  "tektoncd/pipeline": {
+   "archived": false,
+   "forks": 1965,
+   "issues": 451,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T09:25:17Z",
+   "stars": 9075
+  },
+  "terrateamio/terrateam": {
+   "archived": false,
+   "forks": 81,
+   "issues": 110,
+   "lang": "OCaml",
+   "license": "MPL-2.0",
+   "pushed": "2026-10-04T13:28:44Z",
+   "stars": 1289
+  },
+  "tfutils/tfenv": {
+   "archived": false,
+   "forks": 469,
+   "issues": 26,
+   "lang": "Shell",
+   "license": null,
+   "pushed": "2026-04-28T18:24:13Z",
+   "stars": 4977
+  },
+  "theforeman/foreman": {
+   "archived": false,
+   "forks": 1051,
+   "issues": null,
+   "lang": "Ruby",
+   "license": "GPL-3.0",
+   "pushed": "2026-10-02T00:56:33Z",
+   "stars": 2958
+  },
+  "tofuutils/tenv": {
+   "archived": false,
+   "forks": 80,
+   "issues": 30,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-09-01T07:37:25Z",
+   "stars": 1446
+  },
+  "traefik/traefik": {
+   "archived": false,
+   "forks": 6222,
+   "issues": 687,
+   "lang": "Go",
+   "license": "MIT",
+   "pushed": "2026-09-29T14:23:55Z",
+   "stars": 65065
+  },
+  "trailofbits/algo": {
+   "archived": false,
+   "forks": 2366,
+   "issues": 74,
+   "lang": "Jinja",
+   "license": "AGPL-3.0",
+   "pushed": "2026-08-26T21:44:50Z",
+   "stars": 30408
+  },
+  "tsuru/tsuru": {
+   "archived": false,
+   "forks": 552,
+   "issues": 1,
+   "lang": "Go",
+   "license": "BSD-3-Clause",
+   "pushed": "2026-09-30T11:35:41Z",
+   "stars": 5313
+  },
+  "turbot/steampipe": {
+   "archived": false,
+   "forks": 342,
+   "issues": 13,
+   "lang": "Go",
+   "license": "AGPL-3.0",
+   "pushed": "2026-09-29T08:30:06Z",
+   "stars": 7972
+  },
+  "txn2/kubefwd": {
+   "archived": false,
+   "forks": 238,
+   "issues": 0,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-03T16:58:37Z",
+   "stars": 4172
+  },
+  "unbit/uwsgi": {
+   "archived": false,
+   "forks": 695,
+   "issues": 796,
+   "lang": "C",
+   "license": null,
+   "pushed": "2025-10-11T19:11:09Z",
+   "stars": 3547
+  },
+  "vmware/photon": {
+   "stars": 3178,
+   "forks": 692,
+   "issues": 248,
+   "license": null,
+   "lang": "C",
+   "pushed": "2026-10-01T06:26:39Z",
+   "archived": false
+  },
+  "vyos/vyos-1x": {
+   "archived": false,
+   "forks": 466,
+   "issues": null,
+   "lang": "Python",
+   "license": "LGPL-2.1",
+   "pushed": "2026-10-03T16:01:28Z",
+   "stars": 496
+  },
+  "weaveworks/ignite": {
+   "archived": true,
+   "forks": 235,
+   "issues": 142,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2023-12-07T17:28:47Z",
+   "stars": 3530
+  },
+  "werf/werf": {
+   "archived": false,
+   "forks": 240,
+   "issues": 18,
+   "lang": "Go",
+   "license": "Apache-2.0",
+   "pushed": "2026-10-02T08:41:25Z",
+   "stars": 4728
+  },
+  "wmariuss/awesome-devops": {
+   "archived": false,
+   "forks": 1024,
+   "issues": 13,
+   "lang": null,
+   "license": "CC0-1.0",
+   "pushed": "2026-09-20T21:04:15Z",
+   "stars": 4407
+  },
+  "xtreemfs/xtreemfs": {
+   "stars": 348,
+   "forks": 65,
+   "issues": 69,
+   "license": null,
+   "lang": "Java",
+   "pushed": "2024-10-07T15:46:16Z",
+   "archived": false
+  },
+  "zabbix/zabbix": {
+   "archived": false,
+   "forks": 1265,
+   "issues": null,
+   "lang": "C",
+   "license": "AGPL-3.0",
+   "pushed": "2026-10-04T05:52:40Z",
+   "stars": 6435
+  },
+  "zifeo/lade": {
+   "archived": false,
+   "forks": 6,
+   "issues": 0,
+   "lang": "Rust",
+   "license": "MPL-2.0",
+   "pushed": "2026-10-03T12:40:33Z",
+   "stars": 133
+  },
+  "zulip/zulip": {
+   "archived": false,
+   "forks": 10349,
+   "issues": 1172,
+   "lang": "Python",
+   "license": null,
+   "pushed": "2026-10-03T00:17:28Z",
+   "stars": 25994
+  }
+ }
+}
