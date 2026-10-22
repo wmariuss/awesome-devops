@@ -150,6 +150,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [vCluster](https://vcluster.sh/) - A open source project that helps you create virtual clusters. `oss` `paid`
 - [devpod](https://devpod.sh/) - Open-source, codebases-like tool that creates reproducible developer environments, supporting numerous providers (Kubernetes, AWS, GCP, etc.). `oss`
 - [KubeStellar Console](https://console.kubestellar.io/) - Open source AI-powered multi-cluster Kubernetes dashboard with real-time observability, AI-guided operations, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project. `oss`
+- [Kind](https://kind.sigs.k8s.io/) - Run local Kubernetes clusters using Docker container nodes. `oss`
 - [Kunobi](https://kunobi.ninja/) - Desktop app for managing Kubernetes clusters, FluxCD, ArgoCD and Helm, with a built-in MCP server for AI assistants. `free` `paid`
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
 - [Radar](https://radarhq.io/) - Kubernetes UI with live topology, event timeline, service traffic and Helm release history. `oss`
@@ -193,6 +194,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Capistrano](https://capistranorb.com/) - A remote server automation and deployment tool. `oss`
 - [Mina](http://nadarei.co/mina/) - Really fast deployer and server automation tool. `oss`
 - [Terraform](https://www.terraform.io/) - use Infrastructure as Code to provision and manage any cloud, infrastructure, or service. `free` `paid` `self-hosted`
+- [OpenTofu](https://opentofu.org/) - Open source, community-driven fork of Terraform. `oss`
 - [Pulumi](https://www.pulumi.com/) - Modern infrastructure as code platform that allows you to use familiar programming languages and tools to build, deploy, and manage cloud infrastructure. `oss` `paid`
 - [Packer](https://www.packer.io/) - Build Automated Machine Images. `free` `paid` `self-hosted`
 - [Vagrant](https://www.vagrantup.com/) - Development Environments Made Easy. `free` `self-hosted`
@@ -215,6 +217,9 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Terrateam](https://terrateam.io) - Open-source alternative to Terraform Cloud/Enterprise, GitOps-first with native GitHub integration and designed for scale, security, and reliability. `oss` `paid`
 - [Scalr](https://scalr.com/) - Drop-in Terraform Cloud alternative, usage-based pricing, unlimited concurrency. `free` `paid`
 - [CloudRay](https://cloudray.io) - Centralised platform for managing servers, organizing Bash scripts, and automating infrastructure tasks across cloud and virtual machines. `free` `paid`
+- [Helm](https://helm.sh/) - The package manager for Kubernetes. `oss`
+- [Kustomize](https://kustomize.io/) - Template-free customization of Kubernetes configuration. `oss`
+- [Crossplane](https://www.crossplane.io/) - Build control planes to manage infrastructure with Kubernetes APIs. `oss`
 - [Servy](https://github.com/aelassas/servy) - Runs any application as a native Windows service, with logging, health checks and restart policies. `oss`
 - [SuperPlane](https://superplane.com/) - Control plane for event-based workflows across Git, CI/CD, observability, incident response and infrastructure tools. `oss` `paid`
 - [Farmer](https://compositionalit.github.io/farmer/) - F# DSL that generates and deploys Azure Resource Manager templates for repeatable infrastructure. `oss`
@@ -244,6 +249,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [claws](https://github.com/clawscli/claws) - A terminal UI for managing AWS resources across multiple profiles and regions with vim-style navigation. `oss`
 - [Telert](https://github.com/navig-me/telert) - Get alerts when terminal commands finish via Telegram, Slack, Audio, etc. `oss`
 - [Chaterm](https://chaterm.ai/) - Open-source AI terminal and SSH client for servers, databases and Kubernetes. `oss` `paid`
+- [k9s](https://k9scli.io/) - Terminal UI to interact with your Kubernetes clusters. `oss`
 
 ## Continuous Integration & Delivery
 
@@ -264,6 +270,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Hydra](https://github.com/NixOS/hydra) - Continuous integration server for Nix-based projects. `oss`
   - [Zuul](https://zuul-ci.org/) - drives continuous integration, delivery, and deployment systems with a focus on project gating. `oss`
   - [Argo](https://argoproj.github.io/) - Open Source Kubernetes native workflows, events, CI and CD. `oss`
+  - [Argo CD](https://argo-cd.readthedocs.io/) - Declarative GitOps continuous delivery for Kubernetes. `oss`
   - [Strider](https://strider-cd.github.io/) - Continuous Deployment/Continuous Integration platform. `oss`
   - [Evergreen](https://github.com/evergreen-ci/evergreen) - A Distributed Continuous Integration System from MongoDB. `oss`
   - [werf](https://werf.io/) - Open Source CI/CD tool for building Docker images & deploying them to Kubernetes using a GitOps approach. `oss`
@@ -339,12 +346,14 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Elasticsearch](https://www.elastic.co/elasticsearch) - Distributed, RESTful search and analytics engine capable of addressing a growing number of use cases. `oss` `paid`
   - [MongoDB](https://www.mongodb.com/) - General purpose, document-based, distributed database built for modern applications. `free` `paid` `self-hosted`
   - [Rethinkdb](https://github.com/rethinkdb/rethinkdb) - Open-source database for the real-time web. `oss`
+  - [ClickHouse](https://clickhouse.com/) - Column-oriented database for real-time analytical reports. `oss` `paid`
   - Key-Value
     - [Couchbase](https://www.couchbase.com/) - Distributed  multi-model NoSQL document-oriented database that is optimized for interactive applications. `free` `paid` `self-hosted`
     - [Leveldb](https://github.com/google/leveldb) - Fast key-value storage library. `oss`
     - [Redis](https://redis.io/) - In-memory data structure store, used as a database, cache and message broker. `oss` `paid`
     - [RocksDB](https://rocksdb.org/) - A library that provides an embeddable, persistent key-value store for fast storage. `oss`
     - [Etcd](https://github.com/etcd-io/etcd) - Distributed reliable key-value store for the most critical data of a distributed system. `oss`
+    - [Valkey](https://valkey.io/) - High-performance key/value datastore forked from Redis. `oss`
 
 ## Observability & Monitoring
 
@@ -374,6 +383,8 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Canary Checker](https://canarychecker.io) - Open source health check platform. `oss` `paid`
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically. `oss`
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. `free` `paid`
+- [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral framework for traces, metrics and logs. `oss`
+- [Jaeger](https://www.jaegertracing.io/) - Open source, end-to-end distributed tracing platform. `oss`
 - [Regen](https://github.com/FluidifyAI/Regen) - Self-hosted incident management with alert ingestion, on-call scheduling, escalation policies and Slack and Teams integration. `oss`
 - [Sherlocks.ai](https://www.sherlocks.ai/) - AI SRE that investigates alerts and incidents across observability data to find the root cause. `paid`
 - [Hyperping](https://hyperping.com/) - Uptime and API monitoring with on-call scheduling, escalation policies and status pages. `paid`
@@ -387,6 +398,8 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Netdata](https://www.netdata.cloud/) - Instantly diagnose slowdowns and anomalies in your infrastructure. `oss` `paid`
   - [Freeboard](https://github.com/Freeboard/freeboard) - Real-time dashboard builder for IOT and other web mashups. `oss`
   - [Autometrics](https://autometrics.dev/) - An open-source micro framework for observability. `oss`
+  - [Thanos](https://thanos.io/) - Highly available Prometheus setup with long-term storage. `oss`
+  - [VictoriaMetrics](https://victoriametrics.com/) - Fast, cost-effective time series database and monitoring. `oss` `paid`
 - Logs Management
   - [Anthracite](https://github.com/Dieterbe/anthracite) - An event/change logging/management app. `oss`
   - [Graylog](https://github.com/Graylog2/graylog2-server) - Free and open source log management. `oss` `paid`
@@ -512,6 +525,12 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages. `oss`
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks with a proof trail per finding. `oss`
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration. `free`
+- [Trivy](https://trivy.dev/) - Scanner for vulnerabilities and misconfigurations in code and containers. `oss`
+- [Falco](https://falco.org/) - Cloud native runtime security and threat detection. `oss`
+- [Open Policy Agent](https://www.openpolicyagent.org/) - General-purpose policy engine for cloud native environments. `oss`
+- [Kyverno](https://kyverno.io/) - Policy engine designed for Kubernetes. `oss`
+- [Sigstore](https://www.sigstore.dev/) - Signing, verification and provenance for software artifacts. `oss`
+- [Gitleaks](https://github.com/gitleaks/gitleaks) - Detect and prevent hardcoded secrets in git repositories. `oss`
 - [Cordum](https://github.com/cordum-io/cordum) - Self-hosted control plane that applies policy checks, approval gates and audit trails to actions taken by AI agents. `free` `self-hosted`
 - [BunkerWeb](https://www.bunkerweb.io/) - Open-source web application firewall built on NGINX, for Docker, Kubernetes and Linux. `oss` `paid`
 - [Greywall](https://github.com/GreyhavenHQ/greywall) - Deny-by-default sandbox that isolates the filesystem and network access of commands, CLI tools and AI coding agents on Linux and macOS. `oss`
@@ -539,6 +558,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Sshuttle](https://github.com/sshuttle/sshuttle) - Transparent proxy server that works as a poor man's VPN. `oss`
 - [SoftEther](https://www.softether.org/) - An Open-Source Free Cross-platform Multi-protocol VPN Program, developed as an academic project at the University of Tsukuba under the Apache License 2.0. `oss`
 - [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options. `oss` `paid`
+- [WireGuard](https://www.wireguard.com/) - Fast, modern and secure VPN tunnel. `oss`
 - [rustunnel](https://github.com/joaoh82/rustunnel) - Self-hosted tunnel server for exposing local HTTP, HTTPS, TCP and UDP services, with TLS and Prometheus metrics. `oss` `paid`
 
 ## Resources
