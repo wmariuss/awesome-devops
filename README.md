@@ -161,6 +161,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Kratix](https://kratix.io/) - A framework used by platform teams to build the custom platforms tailored to their organisation. `oss` `paid`
 - [Qovery](https://www.qovery.com/) - Enterprise Kubernetes management platform for deploying applications on AWS, GCP, Azure, and Scaleway. Includes Terraform provider, CLI, API, and an [AI Agent Skill](https://github.com/Qovery/qovery-skills) for deploying from AI coding tools like Claude Code, Cursor, and OpenCode. `free` `paid`
 - [OpenChoreo](https://openchoreo.dev/) - A complete, modular, open-source developer platform. `oss`
+- [AgentsMesh](https://agentsmesh.ai/) - Self-hosted platform that gives AI coding agents isolated remote workspaces, with team management, SSO, RBAC and audit logs. `paid` `self-hosted`
 
 ## Container Image Registry
 
