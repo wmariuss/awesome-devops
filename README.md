@@ -492,7 +492,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 *Sensitive credentials and secrets managed, secured, maintained and rotated using automation.*
 
-- [Sops](https://github.com/mozilla/sops) - Simple and flexible tool for managing secrets. `oss`
+- [SOPS](https://github.com/getsops/sops) - Simple and flexible tool for managing secrets. `oss`
 - [Vault](https://www.hashicorp.com/products/vault/) - Manage secrets and protect sensitive data. `free` `paid` `self-hosted`
 - [Keybase](https://keybase.io/) - End-to-end encrypted chat and cloud storage system. `oss`
 - [Vault Secrets Operator](https://github.com/ricoberger/vault-secrets-operator) - Create Kubernetes secrets from Vault for a secure GitOps based workflow. `oss`
@@ -500,6 +500,8 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure. `oss` `paid`
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables. `oss`
 - [SigCLI](https://github.com/sigcli/sigcli) - Signs in once through a browser or OAuth2, then supplies fresh credentials to CLI tools and AI agents without exposing them. `oss`
+- [OpenBao](https://openbao.org/) - Community-driven, open-source fork of Vault for managing secrets, under the OpenSSF. `oss`
+- [External Secrets Operator](https://external-secrets.io/) - Kubernetes operator that syncs secrets from external secret managers into Kubernetes. `oss`
 
 ## Security
 
