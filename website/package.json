@@ -1,0 +1,24 @@
+{
+  "name": "awesome-devops-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch:github": "node scripts/fetch-github.mjs",
+    "fetch:icons": "node scripts/fetch-icons.mjs"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^8.0.2",
+    "@astrojs/preact": "^6.0.5",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.5",
+    "marked": "^18.0.14",
+    "preact": "^10.29.8"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "zod": "^4.6.5"
+  }
+}
