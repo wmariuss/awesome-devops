@@ -1,0 +1,58 @@
+{
+ "http://bolo.niftylogic.com/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "http://coreos.com/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "http://www.lighttpd.net/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "http://www.projectatomic.io/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://gitlab.com/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://letsencrypt.org/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://mmonit.com/monit/#home": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://openvz.org/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://radicle.xyz/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://rhodecode.com/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://ubuntu.com/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://www.eucalyptus.cloud/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://www.gerritcodereview.com/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ },
+ "https://zuul-ci.org/": {
+  "repo": null,
+  "checked": "2026-10-04"
+ }
+}
