@@ -121,6 +121,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [LINBIT](https://www.linbit.com/en/) - Create, remove, and replicate block storage devices for datacenter scale environments. `oss` `paid`
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs. `oss`
 - [min.io](https://min.io/) - High-performance, distributed object storage system. `oss` `paid`
+- [SeaweedFS](https://github.com/seaweedfs/seaweedfs) - Distributed storage with S3-compatible object storage, POSIX file system access and Kubernetes CSI support. `oss` `paid`
 
 ## Applications Platforms
 
