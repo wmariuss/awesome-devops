@@ -370,6 +370,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Canary Checker](https://canarychecker.io) - Open source health check platform. `oss` `paid`
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically. `oss`
 - [Middleware](https://middleware.io) - A full-stack cloud observability platform. `free` `paid`
+- [Regen](https://github.com/FluidifyAI/Regen) - Self-hosted incident management with alert ingestion, on-call scheduling, escalation policies and Slack and Teams integration. `oss`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
