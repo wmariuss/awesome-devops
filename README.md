@@ -361,6 +361,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 *Observability, Monitoring, Metrics/Metrics collection and Alerting tools.*
 
 - [Steampipe](https://steampipe.io/) - The universal SQL interface for any cloud API, & cloud intelligence dashboards extensible w/ HCL+SQL. `oss`
+- [stackql](https://github.com/stackql/stackql) - Query and manage AWS, GCP, Azure and dozens of other cloud APIs with SQL. `oss`
 - [Sensu](https://sensu.io/) - Simple. Scalable. Multi-cloud monitoring. `oss` `paid`
 - [Alerta](https://github.com/alerta/alerta) - Scalable, minimal configuration and visualization monitoring system. `oss`
 - [Cabot](https://github.com/arachnys/cabot) - Self-hosted, easily-deployable monitoring and alerts service. `oss`
