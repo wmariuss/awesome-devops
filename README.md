@@ -495,6 +495,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Git Secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository. `oss`
 - [Infisical](https://github.com/Infisical/infisical) - Open source end-to-end encrypted secrets sync for teams and infrastructure. `oss` `paid`
 - [Lade](https://github.com/zifeo/lade) - Automatically load secrets from your preferred vault as environment variables. `oss`
+- [SigCLI](https://github.com/sigcli/sigcli) - Signs in once through a browser or OAuth2, then supplies fresh credentials to CLI tools and AI agents without exposing them. `oss`
 
 ## Security
 
