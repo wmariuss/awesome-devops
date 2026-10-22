@@ -1,0 +1,23 @@
+---
+// One phase of a plan. The body is a Markdown list of actions. `categories` is a
+// comma-separated list of tool category ids to link to.
+import { getSite } from '../../lib/site.mjs';
+interface Props { n: number; title: string; when: string; goal: string; done: string; categories?: string }
+const { n, title, when, goal, done, categories = '' } = Astro.props;
+const site = getSite();
+const links = categories.split(',').map((s) => s.trim()).filter(Boolean).map((id) => {
+  const cat = site.categories.find((c) => c.id === id);
+  if (!cat) throw new Error(`<Phase categories="${categories}">: unknown category "${id}"`);
+  return { id, name: cat.name, count: site.tools.filter((t) => t.cat === id).length };
+});
+---
+<li class="phase">
+  <div class="phase-head">
+    <span class="step-n">{n}</span>
+    <div><b>{title}</b><span class="phase-when">{when}</span></div>
+  </div>
+  <p class="phase-goal">{goal}</p>
+  <div class="phase-actions"><slot /></div>
+  <div class="phase-done"><span class="mini-label" style="margin:0">Done when</span><span>{done}</span></div>
+  {links.length > 0 && <div class="step-links">{links.map((l) => <a href={`/category/${l.id}/`}>{l.name} · {l.count}</a>)}</div>}
+</li>
