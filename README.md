@@ -34,6 +34,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Applications Platforms](#applications-platforms)
 - [Internal Developer Platforms](#internal-developer-platforms)
 - [Container Image Registry](#container-image-registry)
+- [Artifact Repository](#artifact-repository)
 - [Automation & Orchestration](#automation--orchestration)
 - [Productivity Tools](#productivity-tools)
 - [Terminal](#terminal)
@@ -177,6 +178,16 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Harbor](https://goharbor.io/) - An open source trusted cloud native registry project that stores, signs, and scans content. `oss`
 - [GitHub Container Registry](https://github.blog/2020-09-01-introducing-github-container-registry/) - Container registry free for public images. `free` `paid`
 - [Zot](https://zotregistry.dev/) - Lightweight, OCI-native container image registry. `oss`
+
+## Artifact Repository
+
+*Repositories for storing and serving build artifacts and packages (Maven, npm, PyPI, NuGet and more).*
+
+- [JFrog Artifactory](https://jfrog.com/artifactory/) - Universal artifact repository for Maven, npm, PyPI, NuGet, Docker and other package formats. `free` `paid` `self-hosted`
+- [Sonatype Nexus Repository](https://www.sonatype.com/products/sonatype-nexus-repository) - Repository manager for Maven, npm, PyPI, Docker and other formats, with a free Community Edition. `oss` `paid`
+- [Cloudsmith](https://cloudsmith.com/) - Hosted package repository for many formats, with access control and distribution. `free` `paid`
+- [Pulp](https://pulpproject.org/) - Platform for hosting, mirroring and distributing package repositories. `oss`
+- [Reposilite](https://reposilite.com/) - Lightweight repository manager for Maven artifacts. `oss`
 
 ## Automation & Orchestration
 

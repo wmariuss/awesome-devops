@@ -29,6 +29,7 @@ export const CATEGORY_IDS = {
   'Applications Platforms': 'apps',
   'Internal Developer Platforms': 'idp',
   'Container Image Registry': 'registry',
+  'Artifact Repository': 'artifacts',
   'Automation & Orchestration': 'automation',
   'Productivity Tools': 'productivity',
   'Terminal': 'terminal',
