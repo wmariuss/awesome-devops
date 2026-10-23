@@ -52,6 +52,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Chat and ChatOps](#chat-and-chatops)
 - [Secret Management](#secret-management)
 - [Security](#security)
+- [Identity & Access Management](#identity--access-management)
 - [Sharing](#sharing)
 - [VPN](#vpn)
 - [Resources](#resources)
@@ -536,6 +537,17 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Cordum](https://github.com/cordum-io/cordum) - Self-hosted control plane that applies policy checks, approval gates and audit trails to actions taken by AI agents. `free` `self-hosted`
 - [BunkerWeb](https://www.bunkerweb.io/) - Open-source web application firewall built on NGINX, for Docker, Kubernetes and Linux. `oss` `paid`
 - [Greywall](https://github.com/GreyhavenHQ/greywall) - Deny-by-default sandbox that isolates the filesystem and network access of commands, CLI tools and AI coding agents on Linux and macOS. `oss`
+
+## Identity & Access Management
+
+*Single sign-on, identity providers and access management for people and services.*
+
+- [Keycloak](https://www.keycloak.org/) - Identity and access management with single sign-on, user federation and support for OIDC, OAuth 2.0 and SAML. `oss`
+- [Authelia](https://www.authelia.com/) - Authentication and authorization server that adds single sign-on and two-factor authentication in front of web apps through a reverse proxy. `oss`
+- [Authentik](https://goauthentik.io/) - Self-hosted identity provider with single sign-on, MFA and flows for OAuth 2.0, SAML, LDAP and proxy authentication. `oss` `paid`
+- [Zitadel](https://zitadel.com/) - Identity infrastructure with multi-tenancy, single sign-on, passkeys and audit trail, self-hosted or as a cloud service. `oss` `paid`
+- [Ory Kratos](https://github.com/ory/kratos) - Headless identity and user management API for login, registration, MFA and account recovery. `oss` `paid`
+- [Dex](https://dexidp.io/) - OpenID Connect identity provider that connects to LDAP, SAML and other identity sources, used widely with Kubernetes. `oss`
 
 ## Sharing
 

@@ -47,6 +47,7 @@ export const CATEGORY_IDS = {
   'Chat and ChatOps': 'chat',
   'Secret Management': 'secrets',
   'Security': 'security',
+  'Identity & Access Management': 'iam',
   'Sharing': 'sharing',
   'VPN': 'vpn',
 };
