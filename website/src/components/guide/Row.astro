@@ -1,0 +1,17 @@
+---
+// One row of a <Rows> list. `letter` shows a letter badge (CALMS); `category` links
+// the row to a tool category and shows how many tools it has.
+import { getSite } from '../../lib/site.mjs';
+interface Props { title: string; letter?: boolean; category?: string }
+const { title, letter, category } = Astro.props;
+const site = getSite();
+const cat = category ? site.categories.find((c) => c.id === category) : null;
+if (category && !cat) throw new Error(`<Row category="${category}">: unknown category`);
+const count = cat ? site.tools.filter((t) => t.cat === cat.id).length : 0;
+const Tag = cat ? 'a' : 'div';
+---
+<Tag class:list={['learn-row', { static: !cat }]} href={cat ? `/category/${cat.id}/` : undefined}>
+  {letter && <span class="calms-letter">{title[0]}</span>}
+  <div class="txt"><span class="title">{title}</span><span class="desc"><slot /></span></div>
+  {cat && <span class="practice-link">{count} tools in {cat.name} →</span>}
+</Tag>
