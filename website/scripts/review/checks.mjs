@@ -241,7 +241,16 @@ export async function runChecks({ baseReadme, headReadme, files, repoMaps = {}, 
   const base = parseReadme(baseReadme);
   const head = parseReadme(headReadme);
   const headLines = headReadme.split('\n');
-  for (const err of head.errors) blocking.push(err);
+  // The review runs main's parser, which doesn't know a section that this pull request
+  // registers in readme.mjs. Send those to a maintainer instead of blocking.
+  const registersSections = files.includes('website/src/lib/readme.mjs');
+  const isNewSection = (err) => registersSections && /unknown category/.test(err);
+  const parseErrors = head.errors.filter((err) => !isNewSection(err));
+  for (const err of head.errors) {
+    const m = isNewSection(err) && err.match(/^(README\.md:\d+) unknown category "([^"]+)"/);
+    if (m) human.push(`Adds a new section "${m[2]}" (${m[1]}).`);
+    else blocking.push(err);
+  }
 
   const baseCats = base.categories.map((c) => c.id).join(',');
   const headCats = head.categories.map((c) => c.id).join(',');
@@ -330,7 +339,7 @@ export async function runChecks({ baseReadme, headReadme, files, repoMaps = {}, 
   }));
 
   return {
-    readmeChanged, files, entries, parseErrors: head.errors, author: authorAccount,
+    readmeChanged, files, entries, parseErrors, author: authorAccount,
     removed: removed.map((e) => ({ name: e.name, url: e.url, line: e.line })),
     blocking, warnings, human,
   };
