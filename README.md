@@ -548,6 +548,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Zitadel](https://zitadel.com/) - Identity infrastructure with multi-tenancy, single sign-on, passkeys and audit trail, self-hosted or as a cloud service. `oss` `paid`
 - [Ory Kratos](https://github.com/ory/kratos) - Headless identity and user management API for login, registration, MFA and account recovery. `oss` `paid`
 - [Dex](https://dexidp.io/) - OpenID Connect identity provider that connects to LDAP, SAML and other identity sources, used widely with Kubernetes. `oss`
+- [Casdoor](https://github.com/casdoor/casdoor) - Self-hosted single sign-on and identity provider for OAuth 2.0, OIDC, SAML, CAS and LDAP. `oss`
 
 ## Sharing
 
