@@ -48,6 +48,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Chaos Engineering](#chaos-engineering)
 - [API Gateway](#api-gateway)
 - [Code review](#code-review)
+- [API Development & Testing](#api-development--testing)
 - [Distributed messaging](#distributed-messaging)
 - [Programming Languages](#programming-languages)
 - [Chat and ChatOps](#chat-and-chatops)
@@ -108,6 +109,8 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Atomic](http://www.projectatomic.io/) - Use immutable infrastructure to deploy and scale your containerized applications. `oss`
 - [Talos Linux](https://www.siderolabs.com/talos-linux) - Minimal, immutable Linux distribution for running Kubernetes, managed through an API. `oss` `paid`
 - [Photon](https://github.com/vmware/photon) - Linux container host optimized for cloud-native applications, cloud platforms, and VMware infrastructure. `oss`
+- [Debian](https://www.debian.org/) - Stable, community-driven GNU/Linux distribution used widely as a server base. `oss`
+- [Alpine Linux](https://alpinelinux.org/) - Security-oriented, lightweight Linux distribution used heavily for containers. `oss`
 
 ## Package Management & System Configuration
 
@@ -157,6 +160,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Kunobi](https://kunobi.ninja/) - Desktop app for managing Kubernetes clusters, FluxCD, ArgoCD and Helm, with a built-in MCP server for AI assistants. `free` `paid`
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
 - [Radar](https://radarhq.io/) - Kubernetes UI with live topology, event timeline, service traffic and Helm release history. `oss`
+- [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying apps and databases from Git, Docker images and Compose. `free` `paid` `self-hosted`
 
 ## Internal Developer Platforms
 
@@ -319,20 +323,26 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Phabricator](https://github.com/phacility/phabricator/) - A collection of web applications which help software companies build better software. `oss`
 - [Gogs](https://gogs.io/) - A painless self-hosted Git service. `oss`
 - [Gitea](https://gitea.io/) - A painless self-hosted Git service. `oss` `paid`
+- [Forgejo](https://forgejo.org/) - Self-hosted, community-driven Git forge, forked from Gitea. `oss`
 - [Gitblit](https://github.com/gitblit/gitblit) - Pure Java Git solution for managing, viewing, and serving Git repositories. `oss`
 - [RhodeCode](https://rhodecode.com/) - Centralized control for distributed repositories. Mercurial, Git, and Subversion under a single roof. `oss` `paid`
 - [Radicle](https://radicle.xyz/) - Radicle is a sovereign peer-to-peer network for code collaboration, built on top of Git. `oss`
+- [GitHub CLI](https://cli.github.com/) - Official GitHub command-line tool for pull requests, issues and workflows. `oss`
+- [lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for Git commands. `oss`
+- [Fork](https://git-fork.com/) - Fast and friendly Git client for macOS and Windows. `paid`
 
 ## Web Servers
 
 *Web servers and reverse proxy.*
 
 - [Nginx](http://nginx.org/) - High performance load balancer, web server and reverse proxy. `oss` `paid`
+- [HAProxy](https://www.haproxy.org/) - Reliable, high-performance TCP and HTTP load balancer and proxy. `oss` `paid`
 - [Apache](http://httpd.apache.org/) - Web server and reverse proxy. `oss`
 - [Caddy](https://caddyserver.com/) - Web server with automatic HTTPS. `oss`
 - [Cherokee](http://cherokee-project.com/) - Highly concurrent secured web applications. `oss`
 - [Lighttpd](http://www.lighttpd.net/) - Optimized for speed-critical environments while remaining standards-compliant, secure and flexible. `oss`
 - [Uwsgi](https://github.com/unbit/uwsgi/) - Application server container. `oss`
+- [Ferron](https://ferron.sh/) - Fast, modern web server written in Rust, with automatic TLS and built-in debugging. `oss`
 
 ## SSL
 
@@ -402,7 +412,9 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Regen](https://github.com/FluidifyAI/Regen) - Self-hosted incident management with alert ingestion, on-call scheduling, escalation policies and Slack and Teams integration. `oss`
 - [Sherlocks.ai](https://www.sherlocks.ai/) - AI SRE that investigates alerts and incidents across observability data to find the root cause. `paid`
 - [Hyperping](https://hyperping.com/) - Uptime and API monitoring with on-call scheduling, escalation policies and status pages. `paid`
-- [maintenant](https://maintenant.dev/) - Self-hosted monitoring for Docker, Swarm and Kubernetes covering container discovery, endpoint and TLS checks, cron heartbeats, logs, image updates and a status page, in a single Go binary. `oss` `paid`
+- [Fivenines](https://fivenines.io/) - Server, uptime, network and cron monitoring with an open-source agent, alerts and status pages. `paid`
+- [OpenSRE](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI agent that investigates production incidents and recalls similar past investigations. `oss`
+- [maintenant](https://github.com/kOlapsis/maintenant) - Self-hosted monitoring for Docker, Swarm and Kubernetes, with endpoint, TLS and cron checks and status pages. `oss`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
@@ -482,6 +494,15 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [CodeRabbit](https://coderabbit.ai) - AI-powered code review tool that integrates with GitHub. It automates routine checks, provides intelligent feedback, and helps maintain consistent code quality. `free` `paid`
 - [Kodus](https://kodus.io/) - Open-source AI agent that reviews pull requests and learns each team's conventions. `oss` `paid`
 
+## API Development & Testing
+
+*Tools for designing, testing, mocking and documenting APIs.*
+
+- [Postman](https://www.postman.com/) - API platform for designing, testing, documenting and sharing APIs. `free` `paid`
+- [Insomnia](https://insomnia.rest/) - Collaborative API client for REST, GraphQL and gRPC. `oss` `paid`
+- [Bruno](https://www.usebruno.com/) - Open-source, Git-friendly API client that stores collections as files. `oss` `paid`
+- [Hoppscotch](https://hoppscotch.io/) - Open-source API development ecosystem for testing REST, GraphQL and WebSocket APIs. `oss` `paid`
+
 ## Distributed Messaging
 
 *Distributed messaging platforms and Queues software.*
@@ -512,6 +533,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 - [Rocket](https://rocket.chat/) - Open source team communication. `oss` `paid`
 - [Mattermost](https://mattermost.com/) - Messaging platform that enables secure team collaboration. `oss` `paid`
+- [Slack](https://slack.com/) - Team messaging platform widely used for ChatOps and incident response. `free` `paid`
 - [Zulip](https://zulipchat.com/) - Real-time chat with an email threading model. `oss` `paid`
 - [Riot](https://about.riot.im/) - A universal secure chat app entirely under your control. `oss` `paid`
 - ChatOps:
@@ -587,6 +609,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Firezone](https://www.firezone.dev/) - Self-hosted VPN server using WireGuard. Supports MFA, SSO, and has easy deployment options. `oss` `paid`
 - [WireGuard](https://www.wireguard.com/) - Fast, modern and secure VPN tunnel. `oss`
 - [rustunnel](https://github.com/joaoh82/rustunnel) - Self-hosted tunnel server for exposing local HTTP, HTTPS, TCP and UDP services, with TLS and Prometheus metrics. `oss` `paid`
+- [Tailscale](https://tailscale.com/) - Mesh VPN built on WireGuard that connects devices and servers without configuration. `free` `paid`
 
 ## Resources
 
