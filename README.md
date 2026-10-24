@@ -133,7 +133,6 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 
 *Applications management platforms, Containers platform and Containers management.*
 
-- [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying applications and databases from Git repositories, Docker images, and Docker Compose projects. `free` `paid` `self-hosted`
 - [Openshift](https://www.openshift.com/) - The Kubernetes platform for big ideas. `paid` `self-hosted`
 - [Cycle.io](https://cycle.io/) - DevOps platform for building platforms. Handle container orchestration, load-balancing, monitoring, and more from a single control plane. `paid`
 - [Dokku](https://dokku.com/) - Helps you build and manage the lifecycle of applications. `oss` `paid`
@@ -161,6 +160,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Kunobi](https://kunobi.ninja/) - Desktop app for managing Kubernetes clusters, FluxCD, ArgoCD and Helm, with a built-in MCP server for AI assistants. `free` `paid`
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
 - [Radar](https://radarhq.io/) - Kubernetes UI with live topology, event timeline, service traffic and Helm release history. `oss`
+- [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying apps and databases from Git, Docker images and Compose. `free` `paid` `self-hosted`
 
 ## Internal Developer Platforms
 
