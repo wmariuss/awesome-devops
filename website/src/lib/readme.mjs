@@ -43,6 +43,7 @@ export const CATEGORY_IDS = {
   'Chaos Engineering': 'chaos',
   'API Gateway': 'gateway',
   'Code review': 'review',
+  'API Development & Testing': 'api',
   'Distributed Messaging': 'msg',
   'Programming Languages': 'lang',
   'Chat and ChatOps': 'chat',
