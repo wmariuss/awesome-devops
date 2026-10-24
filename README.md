@@ -413,6 +413,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Sherlocks.ai](https://www.sherlocks.ai/) - AI SRE that investigates alerts and incidents across observability data to find the root cause. `paid`
 - [Hyperping](https://hyperping.com/) - Uptime and API monitoring with on-call scheduling, escalation policies and status pages. `paid`
 - [Fivenines](https://fivenines.io/) - Server, uptime, network and cron monitoring with an open-source agent, alerts and status pages. `paid`
+- [OpenSRE](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI agent that investigates production incidents and recalls similar past investigations. `oss`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
