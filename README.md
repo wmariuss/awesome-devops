@@ -654,3 +654,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the [Contribution Guidelines](https://github.com/wmariuss/awesome-devops/blob/main/CONTRIBUTING.md).
+
+## License
+
+The list (this README) is dedicated to the public domain under [CC0 1.0](LICENSE). The website code in [`website/`](website/) is licensed under the [Apache License 2.0](website/LICENSE).

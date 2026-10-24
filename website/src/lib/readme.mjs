@@ -101,7 +101,7 @@ export function parseReadme(source = readFileSync(README_PATH, 'utf8')) {
       pendingDesc = !!CATEGORY_IDS[section];
       if (pendingDesc) {
         categories.push({ id: CATEGORY_IDS[section], name: CATEGORY_NAMES[section] || section, desc: '' });
-      } else if (!['Contents', 'Resources', 'Contributing'].includes(section)) {
+      } else if (!['Contents', 'Resources', 'Contributing', 'License'].includes(section)) {
         errors.push(`README.md:${line} unknown category "${section}" (add it to CATEGORY_IDS)`);
       }
       return;
