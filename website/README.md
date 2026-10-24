@@ -68,3 +68,7 @@ node scripts/review/index.mjs --base-readme base.md --head-readme head.md --file
 ## Deploy
 
 `.github/workflows/deploy.yml` runs on every push to `main` and daily at 06:00 UTC: it fetches GitHub data and favicons, builds, and publishes `dist/` to the `gh-pages` branch for awesome-devops.xyz.
+
+## License
+
+The website code is licensed under the [Apache License 2.0](LICENSE). The list content in the repository's README.md is CC0 1.0.
