@@ -342,6 +342,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Cherokee](http://cherokee-project.com/) - Highly concurrent secured web applications. `oss`
 - [Lighttpd](http://www.lighttpd.net/) - Optimized for speed-critical environments while remaining standards-compliant, secure and flexible. `oss`
 - [Uwsgi](https://github.com/unbit/uwsgi/) - Application server container. `oss`
+- [Ferron](https://ferron.sh/) - Fast, modern web server written in Rust, with automatic TLS and built-in debugging. `oss`
 
 ## SSL
 
