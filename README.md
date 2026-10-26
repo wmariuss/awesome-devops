@@ -241,6 +241,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [SuperPlane](https://superplane.com/) - Control plane for event-based workflows across Git, CI/CD, observability, incident response and infrastructure tools. `oss` `paid`
 - [Farmer](https://compositionalit.github.io/farmer/) - F# DSL that generates and deploys Azure Resource Manager templates for repeatable infrastructure. `oss`
 - [cronstable](https://github.com/ptweezy/cronstable) - Job scheduler with retries, alerts, saved run history, workflows, and dashboards for single machines and clusters. `oss`
+- [Control Cloud](https://controlcloud.dev/en) - Shows AWS, Azure, GCP, OCI, IONOS and on-prem resources as one live topology, checks changes against the live cloud state before apply and generates the Terraform. `free` `paid`
 
 ## Productivity Tools
 
