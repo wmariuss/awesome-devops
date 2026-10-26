@@ -240,6 +240,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Servy](https://github.com/aelassas/servy) - Runs any application as a native Windows service, with logging, health checks and restart policies. `oss`
 - [SuperPlane](https://superplane.com/) - Control plane for event-based workflows across Git, CI/CD, observability, incident response and infrastructure tools. `oss` `paid`
 - [Farmer](https://compositionalit.github.io/farmer/) - F# DSL that generates and deploys Azure Resource Manager templates for repeatable infrastructure. `oss`
+- [cronstable](https://github.com/ptweezy/cronstable) - Job scheduler with retries, alerts, saved run history, workflows, and dashboards for single machines and clusters. `oss`
 
 ## Productivity Tools
 
