@@ -116,6 +116,7 @@
   "https://vyos.io/": "vyos/vyos-1x",
   "https://werf.io/": "werf/werf",
   "https://www.ansible.com/": "ansible/ansible",
+  "https://www.aurorasre.ai/": "Arvo-AI/aurora",
   "https://www.chef.io/": "chef/chef",
   "https://www.cloudfoundry.org/bosh/": "cloudfoundry/bosh",
   "https://www.couchbase.com/": "couchbase/couchbase-lite-core",
