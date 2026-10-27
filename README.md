@@ -416,6 +416,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Fivenines](https://fivenines.io/) - Server, uptime, network and cron monitoring with an open-source agent, alerts and status pages. `paid`
 - [OpenSRE](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI agent that investigates production incidents and recalls similar past investigations. `oss`
 - [maintenant](https://github.com/kOlapsis/maintenant) - Self-hosted monitoring for Docker, Swarm and Kubernetes, with endpoint, TLS and cron checks and status pages. `oss`
+- [Checkmeup](https://checkmeup.net/) - Cron, uptime, SSL and domain expiry, TCP port and DNS monitoring with alerts and public status pages. `free` `paid`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
