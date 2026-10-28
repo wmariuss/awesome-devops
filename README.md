@@ -309,6 +309,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Codefresh](https://codefresh.io/) - GitOps automation platform for Kubernetes apps. `free` `paid`
   - [DeployHQ](https://www.deployhq.com/) - Git-based deployment automation to servers via SSH/SFTP/S3. `free` `paid`
   - [Github actions](https://github.com/features/actions) - GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. `free` `paid`
+  - [Buddy.Works](https://buddy.works) - CI/CD pipelines, sandbox VMs, app hosting and git repositories for developers and AI coding agents. `free` `paid`
   - [Kraken CI](https://kraken.ci/) - Modern CI/CD, open-source, on-premise system that is highly scalable and focused on testing. `oss`
   - [Earthly](https://earthly.dev/) - Develop CI/CD pipelines locally and run them anywhere. `oss`
   - [RunMyJob](https://runmyjob.io/) - Cloud runners for GitHub Actions and GitLab CI with KVM-isolated VMs and load-based billing. `free` `paid`
