@@ -541,6 +541,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - ChatOps:
   - [CloudBot](https://github.com/CloudBotIRC/CloudBot) - Simple, fast, expandable, open-source Python IRC Bot. `oss`
   - [Hubot](https://hubot.github.com/) - A customizable life embetterment robot. `oss`
+  - [Buddy.Works](https://buddy.works/) - CI/CD pipelines, sandbox VMs, app hosting and Git repositories for developers and AI coding agents. `free` `paid`
 
 ## Secret Management
 
