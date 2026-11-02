@@ -557,6 +557,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [SigCLI](https://github.com/sigcli/sigcli) - Signs in once through a browser or OAuth2, then supplies fresh credentials to CLI tools and AI agents without exposing them. `oss`
 - [OpenBao](https://openbao.org/) - Community-driven, open-source fork of Vault for managing secrets, under the OpenSSF. `oss`
 - [External Secrets Operator](https://external-secrets.io/) - Kubernetes operator that syncs secrets from external secret managers into Kubernetes. `oss`
+- [evnx](https://github.com/urwithajit9/evnx) - A comprehensive CLI tool for managing .env files — validation, secret scanning, and format conversion. `oss` `paid` `self-hosted`
 
 ## Security
 
