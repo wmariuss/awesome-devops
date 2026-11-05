@@ -172,6 +172,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Qovery](https://www.qovery.com/) - Enterprise Kubernetes management platform for deploying applications on AWS, GCP, Azure, and Scaleway. Includes Terraform provider, CLI, API, and an [AI Agent Skill](https://github.com/Qovery/qovery-skills) for deploying from AI coding tools like Claude Code, Cursor, and OpenCode. `free` `paid`
 - [OpenChoreo](https://openchoreo.dev/) - A complete, modular, open-source developer platform. `oss`
 - [AgentsMesh](https://agentsmesh.ai/) - Self-hosted platform that gives AI coding agents isolated remote workspaces, with team management, SSO, RBAC and audit logs. `paid` `self-hosted`
+- [SPIRITT](https://spiritt.ai/) - AI agent with its own cloud computer that writes, tests and deploys code, then hosts and monitors the apps it builds. `paid`
 
 ## Container Image Registry
 
