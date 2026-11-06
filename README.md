@@ -404,6 +404,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit. `oss`
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers. `oss` `paid`
 - [Globalping CLI](https://github.com/jsdelivr/globalping-cli) - Run network commands like ping, traceroute and mtr from hundreds of global locations. `oss`
+- [Denpex](https://denpex.com/) - GPU log diagnostics for training and inference failures across CUDA, PyTorch, NCCL and vLLM. `free` `paid`
 - [Grai](https://github.com/grai-io/grai-core) - Open source observability integrating data impact analysis into CI. `oss`
 - [Canary Checker](https://canarychecker.io) - Open source health check platform. `oss` `paid`
 - [HolmesGPT](https://github.com/robusta-dev/holmesgpt) - Open Source AI assistant that can investigate alerts and find root cause automatically. `oss`
