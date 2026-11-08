@@ -587,6 +587,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Ory Kratos](https://github.com/ory/kratos) - Headless identity and user management API for login, registration, MFA and account recovery. `oss` `paid`
 - [Dex](https://dexidp.io/) - OpenID Connect identity provider that connects to LDAP, SAML and other identity sources, used widely with Kubernetes. `oss`
 - [Casdoor](https://github.com/casdoor/casdoor) - Self-hosted single sign-on and identity provider for OAuth 2.0, OIDC, SAML, CAS and LDAP. `oss`
+- [SyncMyGroup](https://www.syncmygroup.com/) - Sync users and groups between Google Groups, Slack, GitHub, Jira, PagerDuty and more. `free` `paid`
 
 ## Sharing
 
