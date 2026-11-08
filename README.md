@@ -257,6 +257,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Dorothy](https://github.com/Charlie85270/Dorothy) - Desktop app that runs and coordinates several AI coding agents (Claude Code, Codex, Gemini) with a kanban board and automations. `oss`
 - [Super Productivity](https://super-productivity.com/) - Task manager and time tracker that pulls issues from Jira, GitHub, GitLab and Linear. `oss`
 - [Laradock](https://github.com/laradock/laradock) - Ready-made Docker environment for PHP development, with web servers, databases and queues. `oss`
+- [Cron Expression Builder](https://dailydebian.com/pages/cron-expression-builder) - Online builder and explainer for 5-field crontab schedules, with a plain English reading and the next five run times. `free`
 
 
 ## Terminal
