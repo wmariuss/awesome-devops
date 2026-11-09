@@ -419,6 +419,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [OpenSRE](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI agent that investigates production incidents and recalls similar past investigations. `oss`
 - [maintenant](https://github.com/kOlapsis/maintenant) - Self-hosted monitoring for Docker, Swarm and Kubernetes, with endpoint, TLS and cron checks and status pages. `oss`
 - [Aurora](https://github.com/Arvo-AI/aurora) - Self-hosted AI agent that investigates production incidents across AWS, Azure, GCP and Kubernetes and returns a root-cause analysis. `oss`
+- [Pagerly](https://www.pagerly.io/) - On-call schedules, rotations and incident response in Slack. `paid`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
