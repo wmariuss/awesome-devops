@@ -192,6 +192,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Cloudsmith](https://cloudsmith.com/) - Hosted package repository for many formats, with access control and distribution. `free` `paid`
 - [Pulp](https://pulpproject.org/) - Platform for hosting, mirroring and distributing package repositories. `oss`
 - [Reposilite](https://reposilite.com/) - Lightweight repository manager for Maven artifacts. `oss`
+- [CloudRepo](https://www.cloudrepo.io/) - Fully managed Maven, npm, PyPI and Docker repositories. `paid`
 
 ## Automation & Orchestration
 
@@ -257,6 +258,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Dorothy](https://github.com/Charlie85270/Dorothy) - Desktop app that runs and coordinates several AI coding agents (Claude Code, Codex, Gemini) with a kanban board and automations. `oss`
 - [Super Productivity](https://super-productivity.com/) - Task manager and time tracker that pulls issues from Jira, GitHub, GitLab and Linear. `oss`
 - [Laradock](https://github.com/laradock/laradock) - Ready-made Docker environment for PHP development, with web servers, databases and queues. `oss`
+- [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) - Desktop app that runs AI coding agents in parallel Git worktrees and feeds failed CI checks and review comments back to them. `oss`
 
 
 ## Terminal
