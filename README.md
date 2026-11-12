@@ -315,6 +315,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [RunMyJob](https://runmyjob.io/) - Cloud runners for GitHub Actions and GitLab CI with KVM-isolated VMs and load-based billing. `free` `paid`
   - [Buildstash](https://buildstash.com/) - Stores build binaries, distributes them to testers and publishes releases to app stores and distribution platforms. `free` `paid`
   - [TestMu AI](https://www.testmuai.com/) - Cloud for running automated web and mobile app tests on real browsers and devices from CI pipelines. `free` `paid`
+  - [runners.io](https://runners.io/) - Managed GitHub Actions runners for Linux x64, ARM64 and Windows, where each job runs in its own fresh virtual machine. `free` `paid`
 
 ## Source Code Management
 
