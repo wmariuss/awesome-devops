@@ -578,6 +578,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [BunkerWeb](https://www.bunkerweb.io/) - Open-source web application firewall built on NGINX, for Docker, Kubernetes and Linux. `oss` `paid`
 - [Greywall](https://github.com/GreyhavenHQ/greywall) - Deny-by-default sandbox that isolates the filesystem and network access of commands, CLI tools and AI coding agents on Linux and macOS. `oss`
 - [zanadir](https://github.com/MustacheCase/zanadir) - Reports which security and quality checks a repository's CI is missing, and which existing checks cannot fail the build. `oss`
+- [OffSeq Threat Radar](https://radar.offseq.com/) - Scans SBOMs and lockfiles for known vulnerabilities, ranks them with CISA KEV, EPSS and exploit data, and gates CI builds with SARIF output through a GitHub Action. `free` `paid`
 
 ## Identity & Access Management
 
