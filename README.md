@@ -498,6 +498,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Potpie](https://potpie.ai) - AI agent that understands your code changes and computes the blast radius of your changes. `oss` `paid`
 - [CodeRabbit](https://coderabbit.ai) - AI-powered code review tool that integrates with GitHub. It automates routine checks, provides intelligent feedback, and helps maintain consistent code quality. `free` `paid`
 - [Kodus](https://kodus.io/) - Open-source AI agent that reviews pull requests and learns each team's conventions. `oss` `paid`
+- [IonWarp](https://ionwarp.com/) - AI code reviewer for GitHub pull requests, built on open models, that posts its findings as review comments and publishes its benchmark scores. `free` `paid`
 
 ## API Development & Testing
 
