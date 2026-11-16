@@ -302,6 +302,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
   - [Unleash](https://www.getunleash.io) - Open-source feature management platform (feature flags, gradual rollouts, A/B testing) to decouple deploy from release. `oss` `paid`
   - [Keploy](https://keploy.io) - creates isolated production sandboxes for API, integration, and E2E testing from real traffic. `oss`
   - [Jumpstarter](https://github.com/jumpstarter-dev/jumpstarter) - Hardware-in-the-loop testing framework for real and virtual devices, with CI/CD integration and Kubernetes-native device management. `oss`
+  - [Codemany](https://codemany.com/) - Runs self-hosted GitHub Actions runners on your own Macs and Linux machines, with a fresh runner for every job. `paid` `self-hosted`
 - Public Services
   - [Travis CI](https://travis-ci.org/) - easily sync your projects, you’ll be testing your code in minutes. `paid`
   - [Circle CI](https://circleci.com/) - powerful CI/CD pipelines that keep code moving. `free` `paid`
