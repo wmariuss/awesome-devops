@@ -258,6 +258,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Super Productivity](https://super-productivity.com/) - Task manager and time tracker that pulls issues from Jira, GitHub, GitLab and Linear. `oss`
 - [Laradock](https://github.com/laradock/laradock) - Ready-made Docker environment for PHP development, with web servers, databases and queues. `oss`
 - [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) - Desktop app that runs AI coding agents in parallel Git worktrees and feeds failed CI checks and review comments back to them. `oss`
+- [Zelobiz DevTools](https://zelobiz.com/) - Free suite of client-side developer utilities and calculators for DevOps engineers including CIDR subnetting, cron schedule parsing, and data transfer modeling. `free`
 
 
 ## Terminal
