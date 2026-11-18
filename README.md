@@ -241,6 +241,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [SuperPlane](https://superplane.com/) - Control plane for event-based workflows across Git, CI/CD, observability, incident response and infrastructure tools. `oss` `paid`
 - [Farmer](https://compositionalit.github.io/farmer/) - F# DSL that generates and deploys Azure Resource Manager templates for repeatable infrastructure. `oss`
 - [cronstable](https://github.com/ptweezy/cronstable) - Job scheduler with retries, alerts, saved run history, workflows, and dashboards for single machines and clusters. `oss`
+- [Heym](https://heym.run/) - Runs agent workflows from webhooks or schedules, with approval steps and an execution history. `free` `paid` `self-hosted`
 
 ## Productivity Tools
 
