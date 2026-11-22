@@ -402,6 +402,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Healthchecks](https://github.com/healthchecks/healthchecks) - Cron monitoring tool. `oss` `paid`
 - [Bolo](http://bolo.niftylogic.com/) - Building distributed, scalable monitoring systems. `oss`
 - [cAdvisor](https://github.com/google/cadvisor) - Analyzes resource usage and performance characteristics of running containers. `oss`
+- [TrustComponent Monitoring](https://www.trustcomponent.com/en/products/monitoring) - Uptime monitoring for websites, APIs, SSL certificates, DNS and cron jobs, with escalating alerts and status pages on your own domain, hosted in the EU. `free` `paid`
 - [ElastiFlow](https://github.com/robcowart/elastiflow) - Network flow monitoring (Netflow, sFlow and IPFIX) with the Elastic Stack. `free` `paid` `self-hosted`
 - [Co-Pilot](https://pcp.io/) - System performance analysis toolkit. `oss`
 - [Keep](https://github.com/keephq/keep) - Open source alerting CLI for developers. `oss` `paid`
