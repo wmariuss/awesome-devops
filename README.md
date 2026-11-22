@@ -568,6 +568,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [checkov](https://github.com/bridgecrewio/checkov) - Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages. `oss`
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous AI penetration testing platform that orchestrates 80+ offensive tools via Markdown playbooks with a proof trail per finding. `oss`
 - [IntoDNS.ai](https://intodns.ai) - Free DNS and email security scanner. Checks SPF, DKIM, DMARC, DNSSEC with API for CI/CD integration. `free`
+- [TrustCaptcha](https://www.trustcomponent.com/en/products/captcha) - Invisible, cookie-free captcha that protects web forms from bots and spam with proof-of-work, a bot score and a honeypot, hosted in the EU. `free` `paid`
 - [Trivy](https://trivy.dev/) - Scanner for vulnerabilities and misconfigurations in code and containers. `oss`
 - [Falco](https://falco.org/) - Cloud native runtime security and threat detection. `oss`
 - [Open Policy Agent](https://www.openpolicyagent.org/) - General-purpose policy engine for cloud native environments. `oss`
