@@ -107,6 +107,7 @@
   "https://strider-cd.github.io/": "Strider-CD/strider",
   "https://sylabs.io/singularity/": "sylabs/singularity",
   "https://tekton.dev/": "tektoncd/pipeline",
+  "https://temps.sh/": "gotempsh/temps",
   "https://terrateam.io": "terrateamio/terrateam",
   "https://theforeman.org/": "theforeman/foreman",
   "https://traefik.io/": "traefik/traefik",
