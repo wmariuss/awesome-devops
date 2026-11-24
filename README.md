@@ -80,6 +80,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [IBM Cloud](https://www.ibm.com/cloud) - Tools, data & APIs to make AI real now. `free` `paid`
 - [Interserver](https://www.interserver.net/) - Cloud VPS, Linux VPS, Windows VPS, dedicated servers and web hosting services. `paid`
 - [Linode](https://linode.com/) - Accelerate innovation in the cloud, virtual computing must be more accessible, affordable, and simple. `paid`
+- [Apidly Cloud](https://apidly.com/) - Managed GPU servers and serverless GPU endpoints with an API, CLI and SDKs. `paid`
 - [Kinsta](https://kinsta.com/application-hosting/) - Create and deploy web applications and databases in minutes. `free` `paid`
 - [Equinix](https://www.equinix.com/) - Global data center and colocation provider for enterprise network and cloud computing. `paid`
 - [Clever Cloud](https://clever.cloud/) - European Platform as a Service (PaaS) with managed databases and object storage. `paid`
