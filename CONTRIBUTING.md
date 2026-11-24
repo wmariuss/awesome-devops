@@ -32,7 +32,7 @@ Within a few minutes an automated review comments on your pull request. It check
 ## Writing the entry
 
 - **Name**: the project's own spelling, for example `Kubernetes`, `GitLab`, `etcd`.
-- **Link**: the project's website, or its GitHub repository if it has no website.
+- **Link**: the project's official website or its public Git repository with the source code. Either is fine.
 - **Description**: one sentence that says what the tool does, ending with a period. Leave out marketing words like "best", "blazing fast" or "revolutionary".
 
 ## Pricing tags

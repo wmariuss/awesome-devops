@@ -20,7 +20,7 @@ Every entry is exactly one line:
 
 ## Link
 
-- The link **must** be the project's official website, or its GitHub repository if it has no website.
+- The link **must** be the project's official website or its public Git repository with the source code (GitHub, GitLab, Codeberg or similar). Both are fine; do not ask to change one to the other.
 - The link **must not** contain tracking parameters: `utm_*`, `ref=`, `source=`, `campaign=`, `fbclid`, `gclid`.
 - The link **should** use `https://`.
 - The link **must not** already appear elsewhere in README.md. The same tool may be listed in two sections only when it clearly serves both (for example an API gateway that is also a service mesh).
