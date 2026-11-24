@@ -127,7 +127,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [LINBIT](https://www.linbit.com/en/) - Create, remove, and replicate block storage devices for datacenter scale environments. `oss` `paid`
 - [XtreemFS](http://www.xtreemfs.org/) - Fault-tolerant distributed file system for all storage needs. `oss`
 - [min.io](https://min.io/) - High-performance, distributed object storage system. `oss` `paid`
-- [SeaweedFS](https://github.com/seaweedfs/seaweedfs) - Distributed storage with S3-compatible object storage, POSIX file system access and Kubernetes CSI support. `oss` `paid`
+- [SeaweedFS](https://seaweedfs.com/) - Distributed storage with S3-compatible object storage, POSIX file system access and Kubernetes CSI support. `oss` `paid`
 
 ## Applications Platforms
 
@@ -418,9 +418,9 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Sherlocks.ai](https://www.sherlocks.ai/) - AI SRE that investigates alerts and incidents across observability data to find the root cause. `paid`
 - [Hyperping](https://hyperping.com/) - Uptime and API monitoring with on-call scheduling, escalation policies and status pages. `paid`
 - [Fivenines](https://fivenines.io/) - Server, uptime, network and cron monitoring with an open-source agent, alerts and status pages. `paid`
-- [OpenSRE](https://github.com/swapnildahiphale/OpenSRE) - Self-hosted AI agent that investigates production incidents and recalls similar past investigations. `oss`
-- [maintenant](https://github.com/kOlapsis/maintenant) - Self-hosted monitoring for Docker, Swarm and Kubernetes, with endpoint, TLS and cron checks and status pages. `oss`
-- [Aurora](https://github.com/Arvo-AI/aurora) - Self-hosted AI agent that investigates production incidents across AWS, Azure, GCP and Kubernetes and returns a root-cause analysis. `oss`
+- [OpenSRE](https://opensre.in/) - Self-hosted AI agent that investigates production incidents and recalls similar past investigations. `oss`
+- [maintenant](https://maintenant.dev/) - Self-hosted monitoring for Docker, Swarm and Kubernetes, with endpoint, TLS and cron checks and status pages. `oss`
+- [Aurora](https://www.aurorasre.ai/) - Self-hosted AI agent that investigates production incidents across AWS, Azure, GCP and Kubernetes and returns a root-cause analysis. `oss`
 - [Pagerly](https://www.pagerly.io/) - On-call schedules, rotations and incident response in Slack. `paid`
 - [Nightingale](https://n9e.io/) - Self-hosted alerting for metrics, logs and databases, with a built-in AI agent. `oss`
 - [kwatch](https://kwatch.dev/) - Traces Kubernetes failures back to their root cause and sends one alert per incident to Slack, Discord, email and 50+ other channels. `free` `self-hosted`
