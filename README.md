@@ -161,6 +161,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
 - [Radar](https://radarhq.io/) - Kubernetes UI with live topology, event timeline, service traffic and Helm release history. `oss`
 - [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying apps and databases from Git, Docker images and Compose. `free` `paid` `self-hosted`
+- [Temps](https://temps.sh/) - Self-hosted deployment platform in a single binary that deploys apps from Git, Dockerfiles or Compose and includes databases, analytics, error tracking, logs and uptime monitoring. `oss` `paid`
 
 ## Internal Developer Platforms
 
