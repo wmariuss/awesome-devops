@@ -162,6 +162,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Radar](https://radarhq.io/) - Kubernetes UI with live topology, event timeline, service traffic and Helm release history. `oss`
 - [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying apps and databases from Git, Docker images and Compose. `free` `paid` `self-hosted`
 - [Temps](https://temps.sh/) - Self-hosted deployment platform in a single binary that deploys apps from Git, Dockerfiles or Compose and includes databases, analytics, error tracking, logs and uptime monitoring. `oss` `paid`
+- [Reliant Cloud](https://reliantlabs.io/products/cloud) - Hosting platform that deploys static sites, services, workers and managed Postgres built with Forge, with releases, preview environments and observability. `free` `paid`
 
 ## Internal Developer Platforms
 
