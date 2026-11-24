@@ -423,6 +423,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Aurora](https://github.com/Arvo-AI/aurora) - Self-hosted AI agent that investigates production incidents across AWS, Azure, GCP and Kubernetes and returns a root-cause analysis. `oss`
 - [Pagerly](https://www.pagerly.io/) - On-call schedules, rotations and incident response in Slack. `paid`
 - [Nightingale](https://n9e.io/) - Self-hosted alerting for metrics, logs and databases, with a built-in AI agent. `oss`
+- [kwatch](https://kwatch.dev/) - Traces Kubernetes failures back to their root cause and sends one alert per incident to Slack, Discord, email and 50+ other channels. `free` `self-hosted`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
