@@ -161,6 +161,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [JET Pilot](https://www.jet-pilot.app/) - Desktop client for Kubernetes that brings the clusters from kubeconfig files and cloud accounts into one place, with multi-cluster views, logs and a built-in kubectl terminal. `oss`
 - [Radar](https://radarhq.io/) - Kubernetes UI with live topology, event timeline, service traffic and Helm release history. `oss`
 - [Easypanel](https://easypanel.io/) - Self-hosted server control panel for deploying apps and databases from Git, Docker images and Compose. `free` `paid` `self-hosted`
+- [Temps](https://temps.sh/) - Self-hosted deployment platform in a single binary that deploys apps from Git, Dockerfiles or Compose and includes databases, analytics, error tracking, logs and uptime monitoring. `oss` `paid`
 
 ## Internal Developer Platforms
 
@@ -241,6 +242,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [SuperPlane](https://superplane.com/) - Control plane for event-based workflows across Git, CI/CD, observability, incident response and infrastructure tools. `oss` `paid`
 - [Farmer](https://compositionalit.github.io/farmer/) - F# DSL that generates and deploys Azure Resource Manager templates for repeatable infrastructure. `oss`
 - [cronstable](https://github.com/ptweezy/cronstable) - Job scheduler with retries, alerts, saved run history, workflows, and dashboards for single machines and clusters. `oss`
+- [Heym](https://heym.run/) - Runs agent workflows from webhooks or schedules, with approval steps and an execution history. `free` `paid` `self-hosted`
 
 ## Productivity Tools
 
@@ -420,6 +422,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [maintenant](https://github.com/kOlapsis/maintenant) - Self-hosted monitoring for Docker, Swarm and Kubernetes, with endpoint, TLS and cron checks and status pages. `oss`
 - [Aurora](https://github.com/Arvo-AI/aurora) - Self-hosted AI agent that investigates production incidents across AWS, Azure, GCP and Kubernetes and returns a root-cause analysis. `oss`
 - [Pagerly](https://www.pagerly.io/) - On-call schedules, rotations and incident response in Slack. `paid`
+- [Nightingale](https://n9e.io/) - Self-hosted alerting for metrics, logs and databases, with a built-in AI agent. `oss`
 - [kwatch](https://kwatch.dev/) - Traces Kubernetes failures back to their root cause and sends one alert per incident to Slack, Discord, email and 50+ other channels. `free` `self-hosted`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
@@ -561,6 +564,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [SigCLI](https://github.com/sigcli/sigcli) - Signs in once through a browser or OAuth2, then supplies fresh credentials to CLI tools and AI agents without exposing them. `oss`
 - [OpenBao](https://openbao.org/) - Community-driven, open-source fork of Vault for managing secrets, under the OpenSSF. `oss`
 - [External Secrets Operator](https://external-secrets.io/) - Kubernetes operator that syncs secrets from external secret managers into Kubernetes. `oss`
+- [Envilder](https://envilder.com) - One versioned map file shared by local dev, CI and runtime, resolving secrets from AWS SSM Parameter Store or Azure Key Vault. `oss`
 
 ## Security
 
