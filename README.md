@@ -490,6 +490,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Gloo](https://github.com/solo-io/gloo) - Feature-rich, Kubernetes-native ingress controller, and next-generation API gateway. `oss` `paid`
 - [Envoy](https://www.envoyproxy.io/) - Cloud-native high-performance edge/middle/service proxy. `oss`
 - [Traefik](https://traefik.io/) - Reverse proxy and load balancer for HTTP and TCP-based applications. `oss` `paid`
+- [Elchi](https://www.elchi.io/) - Application delivery platform that manages load balancing, TLS, WAF, GSLB and high-availability virtual IPs for fleets of Envoy-based edge nodes from one control plane. `free` `paid` `self-hosted`
 
 ## Code review
 
