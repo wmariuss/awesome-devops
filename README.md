@@ -243,6 +243,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Farmer](https://compositionalit.github.io/farmer/) - F# DSL that generates and deploys Azure Resource Manager templates for repeatable infrastructure. `oss`
 - [cronstable](https://github.com/ptweezy/cronstable) - Job scheduler with retries, alerts, saved run history, workflows, and dashboards for single machines and clusters. `oss`
 - [Heym](https://heym.run/) - Runs agent workflows from webhooks or schedules, with approval steps and an execution history. `free` `paid` `self-hosted`
+- [RunWisp](https://runwisp.com/) - Cron scheduler and process supervisor in a single binary that keeps the exit code, duration and output of every run, with retries, failure alerts, a web UI and a TUI. `oss`
 
 ## Productivity Tools
 
