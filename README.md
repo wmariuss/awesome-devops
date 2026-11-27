@@ -425,6 +425,7 @@ Each entry ends with tags: `oss` open source, `free` free plan or free to use, `
 - [Pagerly](https://www.pagerly.io/) - On-call schedules, rotations and incident response in Slack. `paid`
 - [Nightingale](https://n9e.io/) - Self-hosted alerting for metrics, logs and databases, with a built-in AI agent. `oss`
 - [kwatch](https://kwatch.dev/) - Traces Kubernetes failures back to their root cause and sends one alert per incident to Slack, Discord, email and 50+ other channels. `free` `self-hosted`
+- [WatchFor](https://watchfor.io/) - Uptime, API, SSL, DNS and cron job monitoring from 20 locations, with an agent for Linux servers, status pages and on-call. `free` `paid`
 - Metrics/Metrics collection
   - [Prometheus](https://prometheus.io/) - Power your metrics and alerting with a leading open-source monitoring solution. `oss`
   - [Collectd](https://github.com/collectd/collectd) - The system statistics collection daemon. `oss`
